@@ -1,0 +1,27 @@
+slide,title,communication_job,layout,supporting_material
+5,主动观察式检测：研究集群与证据边界,Show where work clusters and separate volume from maturity,Heatmap plus three evidence-stage callouts,Bibliometric task snapshot; inclusion caveat
+6,方向一：不确定性驱动的机器人超声,Explain how image quality and uncertainty choose the next probe action,Large loop graphic left plus thyroid/carotid evidence strip right,Thyroid and carotid primary studies; hardware stack
+7,方向二：主动光学与内镜扫描,Frame next-view rescan and stopping as the research opportunity,Clinical scene band plus gap-to-experiment roadmap,OCT/endoscopy task counts; dataset and hardware checklist
+8,响应式交互诊断：刺激使隐匿状态可观测,Define the response-generating loop,Stimulus-response loop with boundary examples,Original schematic
+9,响应式交互诊断：已有工作与成熟度,Show palpation dominates while other clusters are sparse,Task bars plus evidence-stage ladder,Curated bibliometric snapshot
+10,方向一：多模态机器人触诊与弹性测绘,Connect active palpation to lesion search and boundary mapping,Sequential-search visual plus evidence card,Bimodal tactile tomography primary study
+11,方向二：神经刺激—响应的主动映射,Show that response can select the next stimulus locus,TMS loop plus clinical/research readiness split,Automated hotspot hunting and GP active learning
+12,采样式交互诊断：动作产生离体证据,Define sampling loop and distinguish acquisition from diagnosis,Sampling-to-laboratory loop with adequacy gate,Original schematic
+13,采样式交互诊断：平台成熟不等于闭环成熟,Compare biopsy blood draw swab and capsule sampling,Landscape matrix with adequacy-feedback column,Curated bibliometric snapshot
+14,方向一：样本充分性感知的机器人活检,Make adequacy-driven resampling the central research gap,Target-to-sample-to-adequacy loop plus bronchoscopy evidence,TARGET trial; adequacy criteria roadmap
+15,方向二：闭环采血与感染性标本采集,Highlight near-term translational sampling tasks,Two-column evidence comparison,ADOPT and autonomous swab clinical studies
+16,实验室诊断：结果驱动的物理检测工作流,Introduce laboratory embodiment beyond fixed automation,Sample-instrument-result loop,Original schematic
+17,任务一：智能反射检测与异常恢复,Show how results can branch or repeat tests,Decision pathway with failure recovery,Reflex testing and laboratory automation literature
+18,任务二：可编程微流控与样本分流,Show physical programmability at droplet and sample level,Ferrobot/DMF schematic plus readiness comparison,Ferrobotic swarms and feedback-controlled DMF
+19,任务三：自驱动检测与分析方法开发,Explain experiment-selection loop for assay development,Goal-experiment-measure-learn loop,SAMPLE and self-driving laboratory literature
+20,实验室方向优先级：从固定自动化到价值驱动闭环,Compare feasibility clinical value and evidence gap,Three-axis priority plot,Slide evidence table
+21,日常具身监测：从连续感知到主动确认,Define monitoring loop and keep physical-action boundary explicit,Home sensing loop,Original schematic
+22,日常监测：已有证据与闭环缺口,Contrast large cohorts with limited autonomous confirmation,Three study trajectories,Apple Heart; Parkinson breathing; smartwatch COVID
+23,方向一：个体基线驱动的动态状态估计,Explain why within-person deviation matters,Personal trajectory visual plus confounder strip,Longitudinal sensing studies
+24,方向二：异常后的主动确认,Turn alerts into bounded confirmation sequences,Detect-confirm-escalate pathway,Apple Heart workflow and proposed multimodal confirmation
+25,方向三：检测—自适应支持生态,Show safe connection of detection action and reassessment,Ecosystem loop with safety envelope,Closed-loop control and connected-care principles
+26,跨领域比较：闭环价值取决于减少关键不确定性,Provide a common comparison across five directions,Matrix of action reversibility evidence latency and maturity,Synthesized evidence ledger
+27,优先研究切入点,Recommend projects that are testable with available data and hardware,Ranked portfolio with why-now signals,Synthesized feasibility assessment
+28,三阶段研究路线,Translate directions into near/mid/long-term work,Timeline with gates and endpoints,Original roadmap
+29,结论：从被动检测到适应性证据获取,Close on the review thesis,Single statement plus three takeaways,No new evidence
+30,谢谢,End slide,Template closing slide,None

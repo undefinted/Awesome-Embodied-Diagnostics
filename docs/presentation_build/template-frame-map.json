@@ -1,0 +1,12 @@
+{
+  "source": "author-owned group-meeting PPTX",
+  "outputSlideCount": 30,
+  "mappings": [
+    { "outputSlides": "1-4", "sourceSlides": "1-4", "mode": "preserve" },
+    { "outputSlides": "5-29", "sourceSlide": 10, "mode": "duplicate and author in bounded content zone" },
+    { "outputSlide": 30, "sourceSlide": 11, "mode": "preserve closing pattern" }
+  ],
+  "contentZone": { "left": 29, "top": 78, "width": 1168, "height": 572 },
+  "preserved": ["master", "layout", "logo", "header rule", "page marker"],
+  "qa": ["render all slides", "full-size visual review", "no out-of-bounds objects", "no unresolved placeholders", "speaker-note source blocks"]
+}

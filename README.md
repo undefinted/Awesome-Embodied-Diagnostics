@@ -1,8 +1,19 @@
 # Awesome Embodied Diagnostics
 
+[![Repository validation](https://github.com/undefinted/awesome-embodied-diagnostics/actions/workflows/validate.yml/badge.svg)](https://github.com/undefinted/awesome-embodied-diagnostics/actions/workflows/validate.yml)
+![Status](https://img.shields.io/badge/status-active%20curation-5B1A6E)
+![Scope](https://img.shields.io/badge/scope-medical%20detection-3569A8)
+![Evidence](https://img.shields.io/badge/evidence-stage%20aware-2E7D65)
+
 A curated, reproducible research repository for **embodied intelligence in medical detection**: diagnostic systems in which decisions change subsequent physical observation, interaction, sampling or testing, and the resulting evidence updates later decisions.
 
 > **Status:** private working repository. The literature map and quantitative results remain under active validation. Counts are research-workflow outputs, not claims of global coverage or clinical maturity.
+
+## Core thesis
+
+> Embodied intelligence extends medical detection from interpreting isolated measurements to **adaptive evidence acquisition** across patients, samples, instruments and care environments.
+
+The basic unit is a `sensing → decision → action → feedback` loop. A system is treated as fully embodied only when an inference changes a subsequent physical measurement or diagnostic action and the consequence updates later decisions.
 
 ## Contents
 
@@ -13,6 +24,26 @@ A curated, reproducible research repository for **embodied intelligence in medic
 - [Generated results and figures](outputs/)
 - [Review/manuscript research package](archive/imported_packages/)
 - [Releases and provenance](provenance/)
+- [Application presentation package](docs/APPLICATION_PRESENTATION.md)
+
+## Application map
+
+| Domain | How the action creates evidence | High-priority loop |
+|---|---|---|
+| Active observational sensing | Changes viewpoint, contact or scan trajectory | uncertainty-driven rescan and stopping |
+| Response-based interactive diagnosis | Applies a stimulus and measures response | sequential palpation or stimulation mapping |
+| Sample-based interactive diagnosis | Acquires tissue or fluid | adequacy-aware resampling and stopping |
+| Laboratory diagnostics | Routes samples, tests or experiments | result-driven reflex, recovery and protocol adaptation |
+| Everyday monitoring | Changes confirmation or escalation after anomaly | personal-baseline detection followed by bounded confirmation |
+
+## Featured evidence anchors
+
+- Autonomous thyroid and carotid ultrasound provide human workflow evidence, but not randomized outcome evidence.
+- Multicentre robotic phlebotomy includes analytical equivalence and a 1,633-participant routine-use cohort.
+- Ferrobotic and digital-microfluidic platforms demonstrate programmable physical laboratory loops; deployment evidence remains limited.
+- Large wearable cohorts show longitudinal sensing at scale, while most action loops remain human-mediated.
+
+See [`data/presentation/application_evidence.csv`](data/presentation/application_evidence.csv) for claim-level qualifiers and sources.
 
 ## Working taxonomy
 
