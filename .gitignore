@@ -18,3 +18,6 @@ credentials*.json
 # Temporary outputs
 work/
 tmp/
+node_modules/
+tmp-*.png
+*.inspect.ndjson

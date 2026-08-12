@@ -1,0 +1,37 @@
+domain,mechanism,task,status,candidate_corpus,primary_evidence_verified,main_boundary,priority_next_step
+Clinical,Active observation,Robotic ultrasound,已系统计量,yes,yes,人体可行性较强但临床结局证据有限,全文筛选并区分遥操作共享控制自主采集
+Clinical,Active observation,Flexible GI endoscopy inspection,已系统计量,yes,partial,多数工作为导航或视觉算法而非反馈驱动扫描,核对诊断输出是否改变下一视角
+Clinical,Active observation,Magnetically controlled capsule endoscopy,已系统计量,yes,yes,人体与随机质量控制证据存在但多为操作者执行动作,分开自动质量提示与自主运动
+Clinical,Active observation,Robotic bronchoscopy search/navigation,已系统计量,yes,yes,导航与采样不等于结果驱动复采,提取实时定位和采样充分性反馈
+Clinical,Active observation,Robotic ocular OCT,已系统计量,yes,yes,自主对准已到人体但分类结果通常不驱动复扫,检索质量驱动重采与停止规则
+Clinical,Active observation,Endoscopic or intravascular OCT,已系统计量,yes,partial,多为固定拉回或治疗辅助,筛选主动测点与自适应扫描
+Clinical,Active observation,Fundus slit-lamp and otoscopy robotics,待系统筛选,partial,partial,术语分散且常为自动对准或远程操作,建立器官与设备同义词检索
+Clinical,Active observation,Robotic auscultation,待系统筛选,partial,yes,概念验证多且病理人群有限,补充前瞻性诊断效能研究
+Clinical,Active observation,Skin wound oral and spectral scanning,待系统筛选,partial,partial,机器人扫描与静态光谱分类易混淆,只纳入动作改变后续光谱证据的研究
+Clinical,Active observation,Radiation nuclear and embodied vital-sign acquisition,待系统筛选,yes,partial,可能更像自动定位或常规采集,做边界敏感性分析
+Clinical,Response interaction,Robotic palpation and mass search,已系统计量,yes,yes,主动触点选择多停留在幻模或前临床,提取人体病灶定位和比较基准
+Clinical,Response interaction,Elastography and stiffness mapping,已系统计量,yes,partial,压缩成像与触诊标签重叠,按是否主动施加刺激重编码
+Clinical,Response interaction,Joint laxity and provocation,已系统计量,yes,yes,多为标准化测量而非自适应动作,寻找基于响应改变载荷或姿态的研究
+Clinical,Response interaction,Passive ROM tone and spasticity,已系统计量,yes,yes,常与康复训练混杂且样本小,限定诊断评估阶段
+Clinical,Response interaction,Reflex percussion and auscultatory response,已系统计量,yes,yes,健康人或模拟组织概念验证占主导,补病理人群和重复性证据
+Clinical,Response interaction,TMS and neural stimulus-response mapping,已系统计量,yes,yes,部分系统仅机器人定位而非主动采样,区分自动定位与在线信息增益采样
+Clinical,Response interaction,Vestibular balance and cardiopulmonary perturbation,待系统筛选,no,partial,边界可能扩展过宽,先做小规模边界检索
+Clinical,Sample interaction,Percutaneous and core-needle biopsy,已系统计量,yes,yes,机器人到靶不等于样本充分性闭环,重点检索快速病理或传感充分性复采
+Clinical,Sample interaction,Fine-needle aspiration,已系统计量,yes,partial,尚未形成清晰闭环研究群,补器官特异关键词
+Clinical,Sample interaction,Endoscopic and bronchoscopic biopsy,已系统计量,yes,yes,平台很多但自主采样和结果驱动复采少,区分导航采样和充分性反馈
+Clinical,Sample interaction,Capsule tissue fluid and microbiome sampling,已系统计量,yes,partial,多为装置可行性而非闭环,检索触发释放与样本确认
+Clinical,Sample interaction,Robotic venipuncture and phlebotomy,已系统计量,yes,yes,已有人体部署证据但诊断结果不回到采血动作,作为采集闭环而非完整诊断闭环
+Clinical,Sample interaction,Robotic swab collection,已系统计量,yes,yes,样本质量反馈仍有限,补采样充分性与患者耐受数据
+Clinical,Sample interaction,Marrow CNS and cavity-fluid sampling,已系统计量,yes,partial,常与治疗和导航混杂,做适应证级全文筛选
+Laboratory,Workflow loop,Preanalytics sorting aliquoting and specimen quality,待系统筛选,no,partial,自动化成熟但自适应异常恢复证据分散,建立前分析专门检索
+Laboratory,Workflow loop,Autoverification reflex retest and escalation,已核验代表性证据,no,yes,报告路由常无物理行动,补前瞻部署和自动复检研究
+Laboratory,Physical assay loop,Digital microfluidics and ferrobotics,已核验代表性证据,no,yes,设备纠错与临床决策闭环不是同一层级,系统检索 IVD assay 与故障恢复
+Laboratory,Experiment-selection loop,Self-driving assay development,已核验代表性证据,no,yes,大量证据来自材料药物和工艺开发,限定到诊断分析方法开发
+Laboratory,Observation loop,Active microscopy and cell-culture analytics,待系统筛选,no,partial,与生物发现和制造工艺重叠,按诊断用途分层
+Everyday,Longitudinal sensing,Wearable and implantable monitoring,已核验代表性证据,no,yes,多数只感知和报警,建立疾病与动作类型分层检索
+Everyday,Longitudinal sensing,Ambient and contactless monitoring,已核验代表性证据,no,yes,测量有效性和隐私风险并存且很少主动确认,系统检索家庭与病房队列
+Everyday,State estimation,Personal baselines and presymptomatic detection,已核验代表性证据,no,yes,回顾性预测多于前瞻决策改善,补 within-patient 前瞻验证
+Everyday,Adaptive acquisition,Sampling-rate and modality selection,待系统筛选,no,yes,多为活动识别或节能而非临床诊断,检索临床触发的自适应采样
+Everyday,Detect-to-confirm,Anomaly-triggered question test or clinician escalation,已核验代表性证据,no,yes,行动常由患者或临床人员执行,系统检索随机试验与依从性
+Everyday,Detection-intervention,Adaptive support and closed-loop therapy,已核验代表性证据,no,yes,治疗系统不应反向充当诊断证据,只保留检测重新评估对控制的贡献
+

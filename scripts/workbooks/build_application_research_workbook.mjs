@@ -30,6 +30,8 @@ const evidence = await readCsv("data/presentation/application_evidence.csv");
 const slides = await readCsv("data/presentation/slide_plan.csv");
 const tasks = await readCsv("outputs/application_landscape/clinical_task_candidate_counts.csv");
 const categories = await readCsv("outputs/application_landscape/clinical_category_candidate_counts.csv");
+const coverage = await readCsv("data/presentation/domain_coverage_audit.csv");
+const searches = await readCsv("data/presentation/search_strategy_registry.csv");
 
 const wb = Workbook.create();
 const purple = "#5B1A6E", purple2 = "#7A3E8E", pale = "#F4EDF7", grid = "#D9D2DC", ink = "#25212A", muted = "#6D6672", green = "#2E7D65", orange = "#B45F06";
@@ -70,6 +72,8 @@ writeSheet("Slide_Plan", slides.map(r=>[Number(r.slide),r.title,r.communication_
 writeSheet("Evidence_Ledger", evidence.map(r=>[Number(r.slide),r.domain,r.direction,r.representative_system,r.physical_action,r.feedback_or_evidence,r.evidence_stage,r.key_result,r.hardware_or_data,r.interpretation,r.source]), ["Slide","Domain","Direction","Representative system","Physical action","Feedback / evidence","Evidence stage","Paper-reported result","Hardware / data","Interpretation / non-extrapolation","Source URL"], [8,22,28,30,34,34,24,45,38,48,42]);
 const taskSheet=writeSheet("Clinical_Tasks", tasks.map(r=>[r.category,r.task,Number(r.unique_closed_loop_candidates),Number(r.candidates_since_2021),Number(r.recent_share),r.interpretation]), ["Category","Normalized task","Unique candidates","Since 2021","Recent share","Interpretation"], [32,34,15,15,14,50]); taskSheet.getRange(`E4:E${tasks.length+3}`).format.numberFormat="0.0%";
 writeSheet("Clinical_Categories", categories.map(r=>[r.category,Number(r.unique_candidate_papers),r.counting_unit]), ["Category","Unique papers","Counting unit"], [40,18,54]);
+writeSheet("Coverage_Audit", coverage.map(r=>[r.domain,r.mechanism,r.task,r.status,r.candidate_corpus,r.primary_evidence_verified,r.main_boundary,r.priority_next_step]), ["Domain","Mechanism","Task","Research status","Candidate corpus","Primary evidence verified","Main boundary","Priority next step"], [18,24,38,22,17,22,50,48]);
+writeSheet("Search_Registry", searches.map(r=>[r.search_id,r.domain,r.task,r.database,r.template_query,r.date_last_run,r.status,r.notes]), ["Search ID","Domain","Task","Database","Template query","Last run","Status","Notes"], [14,18,32,24,70,16,25,45]);
 
 await fs.mkdir(path.dirname(output), { recursive: true });
 const exported = await SpreadsheetFile.exportXlsx(wb); await exported.save(output);
@@ -77,7 +81,7 @@ const inspect = await wb.inspect({ kind: "table", range: "README!A1:F14", includ
 console.log(inspect.ndjson);
 const errors = await wb.inspect({ kind: "match", searchTerm: "#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A", options: { useRegex: true, maxResults: 100 }, summary: "final formula error scan" });
 console.log(errors.ndjson);
-for (const [sheetName, range] of [["README","A1:F14"],["Slide_Plan",`A1:E${Math.min(slides.length+3,14)}`],["Evidence_Ledger",`A1:K${Math.min(evidence.length+3,10)}`],["Clinical_Tasks",`A1:F${Math.min(tasks.length+3,15)}`],["Clinical_Categories",`A1:C${categories.length+3}`]]) {
+for (const [sheetName, range] of [["README","A1:F14"],["Slide_Plan",`A1:E${Math.min(slides.length+3,14)}`],["Evidence_Ledger",`A1:K${Math.min(evidence.length+3,10)}`],["Clinical_Tasks",`A1:F${Math.min(tasks.length+3,15)}`],["Clinical_Categories",`A1:C${categories.length+3}`],["Coverage_Audit",`A1:H${Math.min(coverage.length+3,14)}`],["Search_Registry",`A1:H${Math.min(searches.length+3,14)}`]]) {
   const png = await wb.render({ sheetName, range, scale: 1.4 });
   await fs.writeFile(path.join(root, `tmp-${sheetName}.png`), new Uint8Array(await png.arrayBuffer()));
 }

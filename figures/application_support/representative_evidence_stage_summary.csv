@@ -1,0 +1,33 @@
+﻿domain,evidence_stage,representative_rows
+Active observational sensing,Human feasibility,2
+Active observational sensing,Human validation,1
+Active observational sensing,Mostly phantom or preclinical,1
+Active observational sensing,External human validation,1
+Active observational sensing,Multicentre randomized trial,1
+Response-based interactive diagnosis,Phantom,1
+Response-based interactive diagnosis,Healthy volunteers,1
+Response-based interactive diagnosis,Retrospective real-data evaluation,1
+Response-based interactive diagnosis,Healthy-subject proof of concept,1
+Response-based interactive diagnosis,Phantom and animal tissue,1
+Response-based interactive diagnosis,Two-cadaver comparison,1
+Response-based interactive diagnosis,Five-patient pilot,1
+Sample-based interactive diagnosis,Prospective multicentre,1
+Sample-based interactive diagnosis,Multicentre clinical use,1
+Sample-based interactive diagnosis,Clinical feasibility,1
+Laboratory diagnostics,Device and clinical-sample demonstration,1
+Laboratory diagnostics,In-vitro system demonstration,1
+Laboratory diagnostics,Autonomous laboratory demonstration,1
+Laboratory diagnostics,Real-world implementation,1
+Laboratory diagnostics,Retrospective plus double-blind testing,1
+Laboratory diagnostics,Retrospective model development,1
+Laboratory diagnostics,Comparative process-development case study,1
+Laboratory diagnostics,Bench assay validation,1
+Everyday monitoring,Large pragmatic study,1
+Everyday monitoring,Retrospective observational,1
+Everyday monitoring,Multi-cohort validation,1
+Everyday monitoring,Longitudinal cohort/model validation,1
+Everyday monitoring,Benchmark datasets plus hardware latency,1
+Everyday monitoring,Expert and automated benchmark evaluation,1
+Everyday monitoring,Decentralized randomized trial,1
+Everyday monitoring,Randomized controlled trial,1
+Everyday monitoring,Prospective observational validation,1
