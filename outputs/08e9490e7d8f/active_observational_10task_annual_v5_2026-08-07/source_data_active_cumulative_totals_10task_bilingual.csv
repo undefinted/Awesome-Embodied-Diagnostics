@@ -1,0 +1,11 @@
+﻿task_code,task_en,task_zh,cumulative_records
+A1,Robotic ultrasound / sonography,机器人超声 / 超声扫查,276
+A2,Robotic endoscopic search / navigation,机器人内镜搜索 / 导航,137
+A3,Robotic OCT / ophthalmic scanning,机器人 OCT / 眼科扫描,13
+A4,Robotic dermoscopy / skin scanning,机器人皮肤镜 / 皮肤扫描,1
+A5,Robotic auscultation,机器人听诊,4
+A6,Robotic otoscopy / oral-ENT examination,机器人耳镜 / 口腔-耳鼻喉检查,0
+A7,Robotic optical / spectral / thermal scanning,机器人光学 / 光谱 / 热成像扫描,5
+A8,Robotic X-ray / CT / nuclear-image acquisition,机器人 X-ray / CT / 核医学成像采集,77
+A9,Robotic microscopy / confocal endomicroscopy,机器人显微 / 共聚焦内显微扫描,29
+A10,Embodied vital-sign acquisition,具身式生命体征采集,9

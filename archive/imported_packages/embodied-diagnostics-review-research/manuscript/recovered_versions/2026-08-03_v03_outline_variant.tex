@@ -1,0 +1,340 @@
+\documentclass[12pt,a4paper]{article}
+
+% =========================
+% Packages
+% =========================
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{authblk}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage{indentfirst}
+
+% =========================
+% Basic formatting
+% =========================
+\onehalfspacing
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+% =========================
+% Outline placeholder control
+% =========================
+% Keep this TRUE while drafting the outline.
+% Change to \showplaceholdersfalse after adding real body text.
+\newif\ifshowplaceholders
+\showplaceholderstrue
+
+\newcommand{\outlineplaceholder}{%
+\ifshowplaceholders
+\par\noindent\textit{[Content to be developed.]}\par\medskip
+\fi
+}
+
+% =========================
+% Title information
+% =========================
+\title{\textbf{Embodied Intelligence for Next-Generation Medical Detection Technologies: Toward Closed-Loop Diagnostic Agents}}
+
+\author[1]{Author One}
+\author[1,2]{Author Two}
+\author[1]{Corresponding Author\thanks{Corresponding author: \href{mailto:corresponding.author@email.com}{corresponding.author@email.com}}}
+
+\affil[1]{Department or Institute Name, University or Hospital Name, City, Country}
+\affil[2]{Department or Institute Name, University or Hospital Name, City, Country}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+% =========================
+% Abstract
+% =========================
+\begin{abstract}
+% Medical detection technologies are undergoing a transition from centralized, episodic and passive testing toward distributed, continuous, adaptive and context-aware diagnostic systems. At the same time, embodied intelligence is shifting artificial intelligence from disembodied data interpretation toward agents that can perceive, reason, remember, interact with environments and initiate clinically meaningful actions. This Review examines the convergence of embodied intelligence and next-generation medical detection technologies. Rather than treating medical detection hardware and embodied artificial intelligence as separate domains, we propose an integrated framework in which sensing, sampling, measurement, interpretation, memory, action and feedback are coupled into closed-loop diagnostic systems. We discuss how embodied artificial intelligence can augment point-of-care testing, wearable and implantable biosensors, lab-on-chip platforms, automated laboratories, robotic sampling systems and multimodal diagnostic infrastructures. We then examine focused application landscapes in acute and hospital-based detection, decentralized and near-patient testing, home-based continuous monitoring and autonomous detection laboratories. Finally, we analyze validation, clinical translation, regulation, ethics and safety challenges, and identify three grand challenges for the next decade: self-optimizing diagnostic workflows, patient-specific embodied diagnostic models and closed-loop detection--intervention ecosystems. We argue that the central opportunity of embodied intelligence in medical detection is not merely to improve test interpretation, but to transform diagnostic technologies from passive measurement tools into adaptive diagnostic agents.
+Abstract
+\end{abstract}
+
+\noindent\textbf{Keywords:} Embodied intelligence; Medical detection; Diagnostic agents; Wearable biosensors; Laboratory automation; Multimodal artificial intelligence
+
+\tableofcontents
+\newpage
+
+% =========================
+% Main text
+% =========================
+
+\section{Introduction: From Passive Testing to physical diagnostic agency}
+\label{sec:introduction}
+
+\subsection{The evolution of diagnostic paradigms and persistent gaps}
+\label{subsec:evolution_medical_detection}
+
+Diagnostic technologies underpin clinical decisions by transforming molecular, cellular, physiological and imaging signals into clinically interpretable evidence. Many diagnostic pathways are organized around discrete testing episodes: a patient or specimen is brought to a laboratory or specialist unit, measurements are obtained under controlled conditions, and the resulting report is interpreted within a wider care pathway. This model supports analytical rigour, standardization and quality control and remains indispensable for screening, diagnosis and therapeutic monitoring. Its output, however, is commonly a result associated with a particular patient or specimen, location and time.
+
+As clinical demands have expanded towards earlier detection, rapid triage, longitudinal monitoring and decentralized care, limitations in this episodic model have become apparent and have helped drive successive technological responses. Temporal and spatial gaps in conventional testing have encouraged the development of miniaturized, point-of-care and sample-to-answer platforms that move selected assays closer to patients and shorten the interval between sampling and interpretation. Improvements in analytical performance have also drawn attention to vulnerabilities elsewhere in the testing pathway, including test selection, patient preparation, specimen or signal acquisition, transport, communication and follow-up. Programmable microfluidics and laboratory automation increasingly connect and standardize operations that were previously separated. Meanwhile, as diagnostic evidence has become distributed across devices, settings and time, the interpretive problem has broadened from analysing isolated results to integrating molecular measurements, physiological time series, medical images, electronic health records, patient-reported information and wearable or ambient data. Multimodal artificial intelligence has emerged in response to this heterogeneity, enabling complementary evidence to be combined and current observations to be related to prior patient states.
+
+Collectively, these advances have made diagnostic workflows faster, more accessible and more information-rich by extending observation through time, standardizing multistep operations and integrating heterogeneous evidence. Yet these capabilities remain distributed across predefined tasks and disconnected stages. Software-based diagnostic agents reduce this fragmentation by maintaining context, reasoning over evolving evidence, planning multistep tasks and invoking digital tools with less continuous human oversight. Their agency, however, remains largely informational: they may identify the need for another measurement, but a clinician, technician or separately controlled instrument must still obtain it. Embodied diagnostic intelligence extends this architecture into the physical workflow by linking reasoning and planning to sensors and actuators. Decisions can thereby modify sampling, probe positioning or device operation, with their effects sensed and returned in real time. This perception--action loop extends automation from digital coordination to adaptive execution, allowing embodied diagnostic agents to regulate where, when and how evidence is acquired as biological states and diagnostic uncertainty evolve.
+
+
+\subsection{The emergence of embodied diagnostic intelligence}
+\label{subsec:emergence_embodied_medical_detection_intelligence}
+
+Embodied intelligence has advanced through the convergence of sensorimotor learning, multimodal foundation models and predictive modelling. Early learned policies mapped observations directly to actions, while sequence-based and generative policies improved the precision and temporal coherence of execution. Vision--language--action models subsequently introduced semantic grounding, instruction following and broader task transfer, whereas video-prediction and world-model approaches enabled agents to anticipate how actions would change future observations. Recent architectures increasingly integrate understanding, future-state prediction and action generation within a single or tightly coupled system. These overlapping directions collectively mark a shift from reactive, task-specific control towards agents that can interpret goals, anticipate consequences and adapt execution through feedback.Against the acquisition and workflow gaps outlined above, this shift offers a natural route for making diagnostic sensing adaptive: physical acquisition can be adjusted according to signal quality, anatomical variation, diagnostic uncertainty and safety constraints, with the resulting evidence guiding subsequent actions.
+
+Medical embodied intelligence has developed most visibly in surgical and interventional robotics. Autonomous laparoscopic anastomosis and image-guided needle steering have demonstrated perception-guided execution, replanning and recovery during interaction with deformable anatomy. Although primarily procedural, these systems establish capabilities directly relevant to diagnostic navigation, targeting and sampling. Their extension into medical detection is clearest in robotic ultrasound. Autonomous thyroid and carotid systems have integrated anatomical localization, probe and force control, image-quality assessment and disease-related interpretation within physical feedback loops. Related developments in robotic endoscopy, palpation and specimen acquisition suggest a wider transition from executing predefined medical actions towards actively regulating how diagnostic evidence is obtained. Most existing systems remain device- and task-specific, but collectively they provide the foundations for embodied agents that coordinate physical acquisition around evolving diagnostic needs.
+
+
+\subsection{Scope and thesis of this Review}
+\label{subsec:scope_thesis}
+
+Building on the diagnostic gaps and technological trajectory outlined above, this Review adopts the complete diagnostic system, rather than any individual sensor, instrument or algorithm, as its primary unit of analysis. Its scope encompasses embodied intelligence across clinical care, diagnostic laboratories and everyday environments, while drawing selectively on surgical robotics, autonomous experimentation and assistive technologies where they provide capabilities transferable to medical detection. We first establish a conceptual framework for embodied medical detection and then examine the physical, interface and cognitive foundations required to implement it. Applications are subsequently organized by operational setting: clinical detection and intervention, laboratory diagnostics and assay development, and everyday monitoring and adaptive support. We further consider multilevel validation, clinical translation, lifecycle monitoring, ethics, safety and governance, before outlining three grand challenges for the field. Our central thesis is that the clinical value of embodied diagnostic intelligence will depend less on the autonomy of any single component than on the system-level integration of sensing, physical interaction, reasoning and workflow execution to generate reliable evidence, adapt safely to changing conditions and support accountable clinical decisions.
+
+
+\section{Conceptual Framework: What Is Embodied Medical Detection?}
+\label{sec:conceptual_framework}
+
+\subsection{Defining embodied medical detection intelligence}
+\label{subsec:defining_embodied_medical_detection}
+Here, we define embodied medical detection as a system-level form of diagnostic intelligence in which sensing and interpretation are coupled to situated action within a patient, specimen, instrument or care environment. Three features are essential: the system must sense biologically or operationally relevant states; current evidence must influence an action that changes how further evidence is acquired, prepared, measured or verified; and the consequences of that action must inform what happens next. Such actions may include repositioning a probe, altering sampling or assay conditions, repeating a measurement or escalating an unresolved case. They may be executed by a device or mediated by a human, provided that they are causally integrated into the feedback process.
+
+This definition distinguishes embodiment from physical proximity, automation and AI-enabled interpretation. A wearable sensor that samples on a fixed schedule, a model that interprets a completed dataset and a robot that follows a predetermined protocol can all support diagnosis without constituting embodied diagnostic intelligence. Embodiment arises only when these components form a feedback relation in which interpretation changes subsequent interaction and the resulting observations update the system. It is therefore a property of the integrated diagnostic system rather than of any sensor, robot, assay platform or algorithm in isolation.
+
+Embodiment should also not be equated with unrestricted autonomy. Because diagnostic actions differ in risk and reversibility, authority may be distributed among automated control, operator confirmation and clinician oversight. A system may simply identify an inadequate signal and guide reacquisition, or it may coordinate multiple measurements and propose escalation when uncertainty remains. Across this continuum, the defining criterion is not independence from humans, but the capacity to adapt interaction with the environment in pursuit of diagnostically sufficient, reliable and safe evidence.
+
+\subsection{Medical detection as a workflow}
+\label{subsec:medical_detection_workflow}
+Medical detection is a process through which a clinical objective is translated into evidence that can support a decision, rather than an isolated act of measurement. Across diagnostic settings, this process comprises a common set of interdependent functions: establishing the clinical objective and relevant context, acquiring evidence through sensing or sampling, preparing and measuring that evidence, assessing its quality and uncertainty, interpreting the resulting findings, and communicating a result or initiating action. These functions define a conceptual architecture rather than a fixed chronology. They may overlap, recur or be distributed across different people, instruments and settings, while safety, provenance and clinical context must be maintained throughout. The same functions are realized through different physical and informational operations across diagnostic modalities. Laboratory testing transforms biospecimens through collection, transport, preparation and assay. Medical imaging couples protocol and view selection with patient or probe positioning, signal acquisition and reconstruction, whereas physiological monitoring relates sensor placement and signal integrity to changes in biological state over time. Point-of-care, wearable and automated laboratory platforms may consolidate several functions within a single system, but they do not eliminate the dependencies among them. The meaning of a diagnostic result therefore remains inseparable from the state examined, the conditions under which evidence was acquired and transformed, the criteria used to establish its adequacy and the decision it is intended to inform.
+
+Representing medical detection in this way provides a common basis for comparing otherwise heterogeneous technologies without reducing them to a particular device, assay or data modality. It directs attention to the interfaces through which biological material, signals, information and decision authority pass among patients, professionals and machines, as well as to the dependencies through which one function shapes the next. This functional architecture provides the scaffold for mapping perception, memory, reasoning and action onto medical detection in the following subsection.
+
+\subsection{The embodied diagnostic loop}
+\label{subsec}
+
+Within this functional architecture, perception, memory, reasoning and action describe interdependent capacities distributed across the diagnostic workflow rather than discrete modules arranged in a fixed sequence. Perception encompasses the acquisition of signals from patients, specimens, instruments and care environments, together with the conditions that determine their quality. Memory retains prior observations, patient-specific baselines, acquisition histories and the consequences of earlier interventions, providing the context in which new evidence is interpreted. Reasoning relates this evolving evidence to the clinical objective, evaluates uncertainty and determines whether the available information is sufficient or whether another operation is required. Action may reposition a sensor or probe, collect or manipulate a specimen, adjust acquisition or assay conditions, select a complementary measurement or escalate the case. Crucially, the consequences of these actions are fed back through subsequent observations. These observations may confirm, refine or overturn the previous interpretation and determine whether the diagnostic objective has been met or further action is needed.
+
+For this feedback to be diagnostically meaningful, the system must distinguish changes in the biological state under investigation from changes in the measurement process through which that state is observed. An altered signal may reflect genuine biological change, but may also arise from sensor displacement, specimen inadequacy, calibration drift or delayed data transmission. Repositioning the sensor, reacquiring the specimen or modifying the assay generates new evidence with which these possibilities can be resolved. Quality assessment therefore remains active throughout the diagnostic process, enabling successive observations and operations to reduce uncertainty and guide the workflow towards its clinical objective.
+
+
+\section{Technical Foundations of Embodied Diagnostic Agents}
+\label{sec:technical_enablers}
+
+% Paragraph group 1:
+% Physical and virtual embodiments
+
+% Paragraph group 2:
+% Sim-to-real translation, interfaces and connectivity
+
+% Paragraph group 3:
+% From teleoperation and predefined automation to adaptive agency
+
+% Paragraph group 4:
+% Capability continuum and transition to application domains
+
+
+
+\section{Application landscapes}
+\label{sec:application_landscapes}
+
+% Opening paragraph:
+% Introduce the application landscape according to the environments in
+% which diagnostic agents are embedded and where their
+% perception--reasoning--action loops are closed.
+%
+% The following applications are organized into three interconnected
+% settings: clinical care, diagnostic laboratories and everyday life.
+% These settings should not be viewed as isolated device categories,
+% but as successive and interacting components of a longitudinal
+% diagnostic pathway.
+
+
+\subsection{Clinical detection and intervention}
+\label{subsec:clinical_detection_intervention}
+
+% Paragraph 1: Patient-facing acquisition and assessment
+%
+% Begin with a clinical question or an initial diagnostic hypothesis,
+% which determines what evidence should be acquired from the patient.
+%
+% Discuss embodied systems that directly interact with patients through
+% robotic or image-guided sampling, bedside examination, continuous
+% physiological sensing and intra-procedural assessment.
+%
+% Focus on the clinical need for safe and reliable evidence acquisition
+% under patient movement, anatomical variability, time pressure and
+% uncertainty.
+%
+% Explain how these systems perceive patient anatomy, physiological state
+% or signal quality; select or adjust an acquisition strategy; perform the
+% measurement or sampling action; and verify whether diagnostically useful
+% evidence has been obtained.
+%
+% Representative examples may include robotic blood collection,
+% image-guided biopsy, AI-assisted point-of-care ultrasound,
+% robotic auscultation, continuous inpatient monitoring and
+% intra-procedural sensing.
+
+
+% Paragraph 2: Distributed testing and diagnostic continuity
+%
+% Explain that patient-facing acquisition can lead to two diagnostic routes.
+% In one route, bedside or point-of-care systems immediately process and
+% interpret the acquired information. In the other, physical specimens are
+% transferred to a centralized diagnostic laboratory.
+%
+% For point-of-care testing, discuss the integration of sample preparation,
+% measurement, quality assessment and machine-learning-assisted
+% interpretation close to the patient.
+%
+% For centralized testing, discuss patient--sample identification,
+% labelling, sample-quality assessment, chain-of-custody tracking and
+% autonomous specimen transport from wards, clinics or operating rooms
+% to the laboratory.
+%
+% Emphasize that embodied diagnostic logistics should preserve the identity,
+% integrity, context and clinical priority of the specimen, rather than
+% merely automate physical transportation.
+%
+% Define the clinical--laboratory boundary:
+% this paragraph ends at formal laboratory accessioning, whereas subsequent
+% specimen processing and analytical operations are discussed in the
+% laboratory subsection.
+
+
+% Paragraph 3: Detection-guided decision, action and reassessment
+%
+% Describe how patient observations, bedside measurements, imaging,
+% laboratory results and longitudinal records are integrated into a
+% clinically meaningful representation of the patient's state.
+%
+% Discuss sequential diagnostic reasoning, including the selection of
+% additional questions, examinations or tests when current evidence is
+% incomplete or uncertain.
+%
+% Present the clinical closed loop as:
+% clinical question
+% $\rightarrow$ targeted evidence acquisition
+% $\rightarrow$ multimodal interpretation
+% $\rightarrow$ selection of the next test or clinical action
+% $\rightarrow$ reassessment using newly acquired evidence.
+%
+% Distinguish between measurement actions, diagnostic workflow actions
+% and therapeutic interventions. Emphasize that higher-risk clinical
+% actions generally require explicit clinician supervision, clear
+% escalation criteria and the ability to override or stop the system.
+%
+% Clarify that a standalone diagnostic model is not necessarily embodied.
+% Embodied diagnostic agency emerges when perception and reasoning are
+% connected to physical diagnostic tools, workflow operations or
+% clinically consequential actions.
+
+\subsection{Laboratory diagnostics and assay development}
+\label{subsec:laboratory_diagnostics}
+
+% Paragraph 1: From manual manipulation to programmable execution
+% Repetitive physical operations, occupational burden, robotic liquid
+% handling and task-level automation.
+
+% Paragraph 2: From fixed workflows to adaptive laboratory operation
+% Integration of instruments, perception of sample and equipment states,
+% adaptation to variable conditions, error recovery and dynamic replanning.
+
+% Paragraph 3: From automated experimentation to closed-loop scientific agency
+% Scientific objectives, experiment selection, robotic execution,
+% measurement, reasoning, model updating and selection of the next experiment.
+
+
+\subsection{Everyday embodied monitoring and adaptive support}
+\label{subsec:everyday_monitoring}
+
+% Intelligent body-integrated monitoring
+% Wearable, implantable and ingestible systems
+
+% Ambient and home-embedded intelligence
+% Smart-home sensing and connected home diagnostic devices
+
+% Interactive care and functional assistance
+% Companion robots, rehabilitation robots and intelligent assistive devices
+
+
+\section{Evaluation, Validation and Clinical Translation}
+\label{sec:validation_clinical_translation}
+
+\subsection{Multilevel validation and benchmarking}
+\label{subsec:multilevel_validation_benchmarking}
+
+\subsection{Human-centred clinical evaluation}
+\label{subsec:human_centred_clinical_evaluation}
+
+\subsection{Deployment and lifecycle monitoring}
+\label{subsec:deployment_lifecycle_monitoring}
+
+
+\section{Ethics, Safety and Governance}
+\label{sec:ethics_safety_governance}
+
+\subsection{Privacy and autonomy in continuous detection}
+\label{subsec:privacy_autonomy}
+\outlineplaceholder
+
+\subsection{Safety and accountability in diagnostic action}
+\label{subsec:safety_accountability}
+\outlineplaceholder
+
+\subsection{Equity and resilience of connected systems}
+\label{subsec:equity_resilience}
+\outlineplaceholder
+
+
+\section{Outlook: Three Grand Challenges}
+\label{sec:future_outlook}
+
+\subsection{Self-optimizing diagnostic workflows}
+\label{subsec:self_optimizing_diagnostic_workflows}
+
+\subsection{Patient-specific diagnostic models}
+\label{subsec:patient_specific_embodied_models}
+
+\subsection{Detection--intervention ecosystems}
+\label{subsec:closed_loop_detection_intervention}
+
+
+\section{Conclusion}
+\label{sec:conclusion}
+\outlineplaceholder
+
+% =========================
+% Declarations
+% =========================
+
+\section*{Author Contributions}
+\outlineplaceholder
+
+\section*{Declaration of Competing Interest}
+\outlineplaceholder
+
+\section*{Acknowledgements}
+\outlineplaceholder
+
+\section*{Funding}
+\outlineplaceholder
+
+\section*{Data Availability}
+\outlineplaceholder
+
+% =========================
+% References
+% =========================
+% When you have a references.bib file and citations in the text, uncomment:
+%
+% \bibliographystyle{unsrtnat}
+% \bibliography{references}
+
+\end{document}

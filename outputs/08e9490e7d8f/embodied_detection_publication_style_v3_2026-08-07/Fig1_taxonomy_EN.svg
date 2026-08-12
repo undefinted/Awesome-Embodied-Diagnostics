@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="510.23622pt" height="263.622047pt" viewBox="0 0 510.23622 263.622047" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-07T15:40:47.609400</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Python/Matplotlib</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 263.622047 
+L 510.23622 263.622047 
+L 510.23622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 9.184252 48.031937 
+L 501.051969 48.031937 
+L 501.051969 14.077417 
+L 9.184252 14.077417 
+z
+" clip-path="url(#pc274321faf)" style="fill: #ececec"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 9.184252 113.515654 
+L 501.051969 113.515654 
+L 501.051969 48.031937 
+L 9.184252 48.031937 
+z
+" clip-path="url(#pc274321faf)" style="fill: #f2f8fb"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 9.184252 113.515654 
+L 13.119194 113.515654 
+L 13.119194 48.031937 
+L 9.184252 48.031937 
+z
+" clip-path="url(#pc274321faf)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 9.184252 178.99937 
+L 501.051969 178.99937 
+L 501.051969 113.515654 
+L 9.184252 113.515654 
+z
+" clip-path="url(#pc274321faf)" style="fill: #fdf7f2"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 9.184252 178.99937 
+L 13.119194 178.99937 
+L 13.119194 113.515654 
+L 9.184252 113.515654 
+z
+" clip-path="url(#pc274321faf)" style="fill: #d55e00"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 9.184252 244.483087 
+L 501.051969 244.483087 
+L 501.051969 178.99937 
+L 9.184252 178.99937 
+z
+" clip-path="url(#pc274321faf)" style="fill: #f2faf8"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 9.184252 244.483087 
+L 13.119194 244.483087 
+L 13.119194 178.99937 
+L 9.184252 178.99937 
+z
+" clip-path="url(#pc274321faf)" style="fill: #009e73"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 9.184252 113.515654 
+L 501.051969 113.515654 
+" clip-path="url(#pc274321faf)" style="fill: none; stroke: #bebebe; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 9.184252 178.99937 
+L 501.051969 178.99937 
+" clip-path="url(#pc274321faf)" style="fill: none; stroke: #bebebe; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 9.184252 244.483087 
+L 501.051969 244.483087 
+" clip-path="url(#pc274321faf)" style="fill: none; stroke: #bebebe; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 102.639118 244.483087 
+L 102.639118 14.077417 
+" clip-path="url(#pc274321faf)" style="fill: none; stroke: #c7c7c7; stroke-width: 0.45; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 245.280756 244.483087 
+L 245.280756 14.077417 
+" clip-path="url(#pc274321faf)" style="fill: none; stroke: #c7c7c7; stroke-width: 0.45; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 353.491654 244.483087 
+L 353.491654 14.077417 
+" clip-path="url(#pc274321faf)" style="fill: none; stroke: #c7c7c7; stroke-width: 0.45; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 9.184252 14.077417 
+L 501.051969 14.077417 
+" clip-path="url(#pc274321faf)" style="fill: none; stroke: #333333; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 9.184252 48.031937 
+L 501.051969 48.031937 
+" clip-path="url(#pc274321faf)" style="fill: none; stroke: #333333; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 7.2px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #222222" x="15.086665" y="32.948052" transform="rotate(-0 15.086665 32.948052)">Category</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 7.2px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #222222" x="108.541531" y="33.04199" transform="rotate(-0 108.541531 33.04199)">Agent action / action object</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 600; font-size: 7.2px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #222222" x="251.183169" y="33.034677" transform="rotate(-0 251.183169 33.034677)">Diagnostic evidence</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 600; font-size: 7.2px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #222222" x="359.394066" y="33.121302" transform="rotate(-0 359.394066 33.121302)">Representative tasks</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 600; font-size: 7.1px; font-family: 'Noto Sans CJK SC'; fill: #0072b2" transform="translate(16.0704 78.39793)">A  Active observational</text>
+    <text style="font-weight: 600; font-size: 7.1px; font-family: 'Noto Sans CJK SC'; fill: #0072b2" transform="translate(16.0704 87.054661)">sensing</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 74.401991)">Change sensor viewpoint, position,</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 82.742967)">orientation, contact state, or scan</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 90.943662)">path</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 74.261709)">New images, visual/acoustic</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 82.602686)">observations, or physiological</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 90.943662)">signals</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 74.385241)">Robotic ultrasound; endoscopic search; OCT;</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 82.585936)">dermoscopy; auscultation; otoscopy;</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 90.820131)">optical/spectral/thermal scanning</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 600; font-size: 7.1px; font-family: 'Noto Sans CJK SC'; fill: #d55e00" transform="translate(16.0704 143.881647)">R  Response-based</text>
+    <text style="font-weight: 600; font-size: 7.1px; font-family: 'Noto Sans CJK SC'; fill: #d55e00" transform="translate(16.0704 152.538377)">interactive diagnosis</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 139.868957)">Apply a controlled mechanical,</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 148.103152)">electromagnetic, or physiological</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 156.444129)">stimulus</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 143.931094)">Mechanical, physiological, or</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 152.381992)">functional response</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 139.690465)">Robotic palpation; elastography; joint</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 148.141363)">provocation; percussion; reflex testing; TMS;</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 156.48234)">nerve-response testing; tonometry</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 600; font-size: 7.1px; font-family: 'Noto Sans CJK SC'; fill: #009e73" transform="translate(16.0704 209.365363)">S  Sample-based</text>
+    <text style="font-weight: 600; font-size: 7.1px; font-family: 'Noto Sans CJK SC'; fill: #009e73" transform="translate(16.0704 218.022094)">interactive diagnosis</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 209.41481)">Puncture, aspirate, swab, or excise a</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 217.725428)">target tissue or body fluid</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 205.299283)">Ex vivo pathology, biochemical,</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 213.64026)">microbiological, or molecular</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 221.981236)">result</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 205.352674)">Venipuncture; swab collection; bronchoscopic</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 213.553369)">biopsy/TBNA; prostate biopsy; core-needle</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 221.787564)">biopsy; FNA; CSF or marrow sampling</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5.8px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #666666" x="9.184252" y="249.096394" transform="rotate(-0 9.184252 249.096394)">Classification rule: assign each work to the primary evidence-generating action.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc274321faf">
+   <rect x="9.184252" y="9.226772" width="491.867717" height="242.532283"/>
+  </clipPath>
+ </defs>
+</svg>

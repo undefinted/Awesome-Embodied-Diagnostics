@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this research package, please cite it using the metadata below."
+title: "Embodied diagnostics and therapeutics review: reproducible research package"
+type: software
+version: 0.1.0
+date-released: 2026-08-12
+license: MIT
+authors:
+  - name: "REPLACE WITH AUTHOR NAME"
+abstract: "Manuscript snapshots, literature registry, provenance records, and reproducibility utilities for a review of embodied intelligence in diagnostics and therapeutics."
+keywords:
+  - embodied intelligence
+  - diagnostics
+  - therapeutics
+  - medical robotics
+  - reproducible review
+

@@ -1,0 +1,13 @@
+{
+  "project": "embodied-diagnostics-review-research",
+  "snapshot_date": "2026-08-12",
+  "manuscript_globs": [
+    "manuscript/recovered_versions/*.tex",
+    "manuscript/drafted_sections/*.tex"
+  ],
+  "bibliography_csv": "literature/references.csv",
+  "bibliography_bib": "literature/references.bib",
+  "citation_aliases": "literature/citation_aliases.csv",
+  "results_directory": "results"
+}
+

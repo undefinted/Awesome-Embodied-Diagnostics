@@ -1,0 +1,106 @@
+{
+  "generated_at_utc": "2026-08-12T11:26:22+00:00",
+  "python": "3.12.13",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "git_commit": null,
+  "inputs": [
+    {
+      "path": "config/project.json",
+      "bytes": 395,
+      "sha256": "1bac721732a6152788b86f7c0a9c8f706cf31185918a17d272d00d6f4511de65"
+    },
+    {
+      "path": "literature/references.csv",
+      "bytes": 23422,
+      "sha256": "67e175bb723c965362a1bcda018a3cec0949a6eb08640e506856042ffc9f4508"
+    },
+    {
+      "path": "literature/citation_aliases.csv",
+      "bytes": 431,
+      "sha256": "e03e0ac1e50eee2e71e4d81700e793ca83526a5ef5dda20964e4d40257944b19"
+    },
+    {
+      "path": "manuscript/drafted_sections/conclusion.tex",
+      "bytes": 1221,
+      "sha256": "2f17c81e3bb816802cad1a36045d53826e9939cda28a266c0a56b0ecfd8a734e"
+    },
+    {
+      "path": "manuscript/drafted_sections/ethics_safety_governance.tex",
+      "bytes": 4227,
+      "sha256": "8c24ab6db66fea43605bd134cfa93a493ebf507bec4526b5d68bddc94ef5d127"
+    },
+    {
+      "path": "manuscript/drafted_sections/outlook_three_grand_challenges.tex",
+      "bytes": 4790,
+      "sha256": "d675a7b682ea976566773eea4e805cbeb30930ec3c5014a833862049138c7cdf"
+    },
+    {
+      "path": "manuscript/recovered_versions/2026-08-02_v01_initial_outline.tex",
+      "bytes": 31300,
+      "sha256": "bc71b1047c26e982076372f53bc66e09f0b17d3fb73ce35cd93461015d668634"
+    },
+    {
+      "path": "manuscript/recovered_versions/2026-08-02_v02_physical_agency.tex",
+      "bytes": 31091,
+      "sha256": "0815e6684c2b9becd8fcd65be5da0dc60385a0b471a17abcf419575fef543025"
+    },
+    {
+      "path": "manuscript/recovered_versions/2026-08-03_v03_outline_variant.tex",
+      "bytes": 25148,
+      "sha256": "d2a079988964917be680056650cf59d3c17e43e5336d0b4a20d21bb5a843ad6b"
+    },
+    {
+      "path": "manuscript/recovered_versions/2026-08-03_v04_application_landscapes.tex",
+      "bytes": 14043,
+      "sha256": "e16fb76bd7a8a3a7985f233a60b817dad212995df5c2bef544d00f0ad5cbd837"
+    },
+    {
+      "path": "manuscript/recovered_versions/2026-08-04_v05_full_draft_7684w.tex",
+      "bytes": 62707,
+      "sha256": "5d168c90a12f5b1be59922c0717ec7636547f225285b3332a2bfb7ec790eb93d"
+    },
+    {
+      "path": "manuscript/recovered_versions/2026-08-04_v06_full_draft_8869w.tex",
+      "bytes": 71816,
+      "sha256": "9d5f4973745f0991367c88ef5f70f0a5f2ed47835d53728eeaa69cc5fd9250f3"
+    },
+    {
+      "path": "manuscript/recovered_versions/everyday_monitoring.tex",
+      "bytes": 7853,
+      "sha256": "06dff708e1d752b48a82e3cd1c0d976ec7f6b9a740c94f906d436ba0c457ebcd"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "literature/references.bib",
+      "bytes": 31747,
+      "sha256": "4f4bbf4f93674a724e0b90448219f5b4561a4476d78c4ff94558f3d28fa82f1f"
+    },
+    {
+      "path": "results/manuscript_inventory.csv",
+      "bytes": 2255,
+      "sha256": "bd938252308cb66089f72a095faf054c2c93bf0ce33aab11f2e3d8ecdd2b3877"
+    },
+    {
+      "path": "results/citation_usage.csv",
+      "bytes": 8741,
+      "sha256": "cc7e04cab564a5bd7fe2c2c4786fc5db39109365dbe043ae0d0c33ffdc7fff7b"
+    },
+    {
+      "path": "results/missing_citations.csv",
+      "bytes": 45,
+      "sha256": "64f465edb6a08d39ee571aafe9c13ff83afad0647c204be4ea56f827f4571e9b"
+    },
+    {
+      "path": "results/section_word_counts.csv",
+      "bytes": 878,
+      "sha256": "7152f5b0edd45a7e9f7ccdb69a40f86588ec94e2933e97a7b09b1c742bce62ba"
+    }
+  ],
+  "summary": {
+    "reference_records": 80,
+    "citation_usage_records": 91,
+    "actionable_citation_records": 0,
+    "manuscript_files": 10
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "cutoff": "2026-08-06",
+  "start_date": "1900-01-01",
+  "retrieved_on": "2026-08-06",
+  "task_count": 24,
+  "raw_records": 4977,
+  "deduplicated_candidates": 3849,
+  "included_records": 1461,
+  "task_counts": {
+    "A1": 507,
+    "A2": 460,
+    "A3": 19,
+    "A4": 1,
+    "A5": 5,
+    "A7": 10,
+    "R1": 70,
+    "R2": 8,
+    "R3": 3,
+    "R4": 2,
+    "R6": 59,
+    "R8": 1,
+    "S1": 23,
+    "S2": 13,
+    "S3": 221,
+    "S4": 35,
+    "S5": 23,
+    "S8": 1
+  },
+  "core_task_counts": {
+    "A1": 270,
+    "A2": 134,
+    "A3": 13,
+    "A4": 1,
+    "A5": 4,
+    "A7": 5,
+    "R1": 48,
+    "R2": 4,
+    "R3": 3,
+    "R4": 2,
+    "R6": 40,
+    "R8": 1,
+    "S1": 20,
+    "S2": 11,
+    "S3": 187,
+    "S4": 35,
+    "S5": 23,
+    "S8": 1
+  },
+  "class_counts": {
+    "A": 1002,
+    "R": 143,
+    "S": 316
+  },
+  "core_class_counts": {
+    "A": 427,
+    "R": 98,
+    "S": 277
+  },
+  "method_note": "Union of OpenAlex and Europe PMC title/abstract searches (exact task phrases plus targeted broad combinations for low-count tasks); DOI then canonicalized-title deduplication; original research only; deterministic title/abstract inclusion rules; one primary task per work; high-precision core and expanded sensitivity tiers reported separately."
+}

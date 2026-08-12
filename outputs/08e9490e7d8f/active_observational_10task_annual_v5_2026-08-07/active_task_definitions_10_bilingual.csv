@@ -1,0 +1,11 @@
+﻿task_code,task_en,task_zh,definition_en,definition_zh
+A1,Robotic ultrasound / sonography,机器人超声 / 超声扫查,"Robot controls transducer pose, path, or contact to acquire diagnostic ultrasound.",机器人控制探头位姿、路径或接触以采集诊断超声。
+A2,Robotic endoscopic search / navigation,机器人内镜搜索 / 导航,Robot changes endoscope pose or route to inspect a lumen and search for lesions.,机器人改变内镜位姿或路径以检查腔道并搜索病灶。
+A3,Robotic OCT / ophthalmic scanning,机器人 OCT / 眼科扫描,Robot positions an OCT or ophthalmic sensor and executes an imaging scan.,机器人定位 OCT 或眼科传感器并执行成像扫描。
+A4,Robotic dermoscopy / skin scanning,机器人皮肤镜 / 皮肤扫描,Robot acquires standardized dermoscopic or whole-skin views.,机器人获取标准化皮肤镜或全身皮肤视图。
+A5,Robotic auscultation,机器人听诊,Robot selects and maintains auscultation sites and contact for acoustic signals.,机器人选择并保持听诊位置与接触以获取声学信号。
+A6,Robotic otoscopy / oral-ENT examination,机器人耳镜 / 口腔-耳鼻喉检查,"Robot positions a camera or scope for ear, oral, or ENT inspection.",机器人定位摄像头或镜体以检查耳、口腔或耳鼻喉区域。
+A7,Robotic optical / spectral / thermal scanning,机器人光学 / 光谱 / 热成像扫描,"Robot controls an optical, spectral, fluorescence, or thermal sensor scan.",机器人控制光学、光谱、荧光或热传感器扫描。
+A8,Robotic X-ray / CT / nuclear-image acquisition,机器人 X-ray / CT / 核医学成像采集,Robot controls source-detector or gamma-camera geometry and acquisition trajectory.,机器人控制射线源-探测器或 gamma 相机的几何关系与采集轨迹。
+A9,Robotic microscopy / confocal endomicroscopy,机器人显微 / 共聚焦内显微扫描,"Robot positions, focuses, or scans an in-vivo microscope/endomicroscope.",机器人定位、对焦或扫描在体显微镜 / 内显微探头。
+A10,Embodied vital-sign acquisition,具身式生命体征采集,A mobile robot or robot arm positions contact or non-contact sensors for vital signs.,移动机器人或机械臂定位接触式或非接触式生命体征传感器。

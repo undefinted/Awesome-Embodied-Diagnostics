@@ -1,0 +1,65 @@
+[
+  {
+    "database": "OpenAlex",
+    "task_code": "A8",
+    "raw_hit_count": 2781,
+    "retrieved_records": 2419,
+    "query": "[{\"query\": \"\\\"robotic X-ray imaging\\\" OR \\\"robotic X-ray system\\\" OR \\\"robotic X-ray device\\\" OR \\\"robot-assisted X-ray imaging\\\" OR \\\"robotic radiography\\\" OR \\\"robot-assisted radiography\\\" OR \\\"autonomous radiography\\\" OR \\\"robotic fluoroscopy\\\" OR \\\"robotic C-arm imaging\\\" OR \\\"robotic cone-beam CT\\\" OR \\\"robotic cone beam CT\\\" OR \\\"robotic computed tomography\\\" OR \\\"robotic CT imaging\\\" OR \\\"robotic SPECT\\\" OR \\\"robotic gamma imaging\\\" OR \\\"robot-mounted gamma camera\\\" OR \\\"robotic nuclear imaging\\\" OR \\\"robotic freehand SPECT\\\"\", \"hit_count\": 91, \"retrieved\": 91}, {\"query\": \"robot x-ray medical imaging\", \"hit_count\": 315, \"retrieved\": 315}, {\"query\": \"robot radiography patient\", \"hit_count\": 1042, \"retrieved\": 1042}, {\"query\": \"robot fluoroscopy imaging\", \"hit_count\": 523, \"retrieved\": 523}, {\"query\": \"robot c-arm imaging\", \"hit_count\": 421, \"retrieved\": 421}, {\"query\": \"robot cone beam computed tomography imaging\", \"hit_count\": 276, \"retrieved\": 276}, {\"query\": \"robot gamma camera medical imaging\", \"hit_count\": 14, \"retrieved\": 14}, {\"query\": \"robot SPECT imaging\", \"hit_count\": 99, \"retrieved\": 99}]"
+  },
+  {
+    "database": "Europe PMC",
+    "task_code": "A8",
+    "raw_hit_count": 112,
+    "retrieved_records": 112,
+    "query": "TITLE_ABS:\"robotic X-ray\" OR TITLE_ABS:\"robot-assisted X-ray\" OR TITLE_ABS:\"robotic radiography\" OR TITLE_ABS:\"robot-assisted radiography\" OR TITLE_ABS:\"autonomous radiography\" OR TITLE_ABS:\"robotic fluoroscopy\" OR TITLE_ABS:\"robotic C-arm\" OR TITLE_ABS:\"robotic cone-beam CT\" OR TITLE_ABS:\"robotic computed tomography\" OR TITLE_ABS:\"robotic SPECT\" OR TITLE_ABS:\"robotic gamma imaging\" OR TITLE_ABS:\"robot-mounted gamma camera\""
+  },
+  {
+    "database": "arXiv",
+    "task_code": "A8",
+    "raw_hit_count": 264,
+    "retrieved_records": 264,
+    "query": "((ti:robot* OR abs:robot* OR ti:autonom* OR abs:autonom*) AND (ti:\"x-ray\" OR abs:\"x-ray\" OR ti:radiograph* OR abs:radiograph* OR  ti:fluoroscop* OR abs:fluoroscop* OR ti:\"c-arm\" OR abs:\"c-arm\" OR  ti:\"cone beam ct\" OR abs:\"cone beam ct\" OR ti:spect OR abs:spect OR  ti:\"gamma camera\" OR abs:\"gamma camera\"))"
+  },
+  {
+    "database": "OpenAlex",
+    "task_code": "A9",
+    "raw_hit_count": 376,
+    "retrieved_records": 309,
+    "query": "[{\"query\": \"\\\"robotic endomicroscopy\\\" OR \\\"robot-assisted endomicroscopy\\\" OR \\\"robotic confocal endomicroscopy\\\" OR \\\"robotic confocal laser endomicroscopy\\\" OR \\\"robot-assisted confocal laser endomicroscopy\\\" OR \\\"robotic pCLE\\\" OR \\\"robot-assisted pCLE\\\" OR \\\"robotic microscopy scanning\\\" OR \\\"robot-assisted microscopy\\\" OR \\\"robotic microscopy\\\" OR \\\"robotic optical biopsy\\\" OR \\\"robotized operating microscope\\\" OR \\\"robotic operating microscope\\\" OR \\\"robotic surgical microscope\\\"\", \"hit_count\": 68, \"retrieved\": 68}, {\"query\": \"robot endomicroscopy\", \"hit_count\": 60, \"retrieved\": 60}, {\"query\": \"robot confocal laser endomicroscopy\", \"hit_count\": 34, \"retrieved\": 34}, {\"query\": \"robot pCLE\", \"hit_count\": 13, \"retrieved\": 13}, {\"query\": \"robot medical microscopy scanning\", \"hit_count\": 49, \"retrieved\": 49}, {\"query\": \"robot operating microscope imaging\", \"hit_count\": 152, \"retrieved\": 152}]"
+  },
+  {
+    "database": "Europe PMC",
+    "task_code": "A9",
+    "raw_hit_count": 114,
+    "retrieved_records": 114,
+    "query": "(TITLE_ABS:robot* OR TITLE_ABS:autonom*) AND (TITLE_ABS:endomicroscop* OR TITLE_ABS:\"confocal laser endomicroscopy\" OR  TITLE_ABS:pCLE OR TITLE_ABS:\"operating microscope\" OR TITLE_ABS:\"robotic microscopy\")"
+  },
+  {
+    "database": "arXiv",
+    "task_code": "A9",
+    "raw_hit_count": 5,
+    "retrieved_records": 5,
+    "query": "((ti:robot* OR abs:robot* OR ti:autonom* OR abs:autonom*) AND (ti:endomicroscop* OR abs:endomicroscop* OR ti:\"confocal laser endomicroscopy\" OR  abs:\"confocal laser endomicroscopy\" OR ti:pcle OR abs:pcle OR  ti:\"operating microscope\" OR abs:\"operating microscope\" OR  ti:\"robotic microscopy\" OR abs:\"robotic microscopy\"))"
+  },
+  {
+    "database": "OpenAlex",
+    "task_code": "A10",
+    "raw_hit_count": 283,
+    "retrieved_records": 259,
+    "query": "[{\"query\": \"\\\"robotic vital sign monitoring\\\" OR \\\"robotic vital signs monitoring\\\" OR \\\"robot vital sign monitoring\\\" OR \\\"robot vital signs monitoring\\\" OR \\\"mobile robot vital sign monitoring\\\" OR \\\"mobile robotic platform for contactless vital sign monitoring\\\" OR \\\"contactless vital sign monitoring robot\\\" OR \\\"robotic contactless vital signs\\\" OR \\\"robotic physiological monitoring\\\" OR \\\"robotic respiratory rate monitoring\\\" OR \\\"robotic heart rate monitoring\\\" OR \\\"robot-mounted radar vital signs\\\" OR \\\"embodied vital signs monitoring\\\" OR \\\"vital sign measurement robot\\\" OR \\\"autonomous vital sign measurement\\\" OR \\\"robotic patient monitoring vital signs\\\"\", \"hit_count\": 6, \"retrieved\": 6}, {\"query\": \"robot vital signs monitoring\", \"hit_count\": 231, \"retrieved\": 231}, {\"query\": \"robot contactless physiological monitoring\", \"hit_count\": 16, \"retrieved\": 16}, {\"query\": \"mobile robot heart respiratory rate monitoring\", \"hit_count\": 5, \"retrieved\": 5}, {\"query\": \"robot contactless patient monitoring\", \"hit_count\": 25, \"retrieved\": 25}]"
+  },
+  {
+    "database": "Europe PMC",
+    "task_code": "A10",
+    "raw_hit_count": 592,
+    "retrieved_records": 592,
+    "query": "(TITLE_ABS:robot* OR TITLE_ABS:embodied OR TITLE_ABS:\"mobile robotic\") AND (TITLE_ABS:\"vital sign\" OR TITLE_ABS:\"vital signs\" OR TITLE_ABS:\"heart rate\" OR  TITLE_ABS:\"respiratory rate\" OR TITLE_ABS:\"breathing rate\" OR TITLE_ABS:SpO2)"
+  },
+  {
+    "database": "arXiv",
+    "task_code": "A10",
+    "raw_hit_count": 42,
+    "retrieved_records": 42,
+    "query": "((ti:robot* OR abs:robot* OR ti:embodied OR abs:embodied OR  ti:\"mobile robotic\" OR abs:\"mobile robotic\") AND (ti:\"vital sign\" OR abs:\"vital sign\" OR ti:\"vital signs\" OR abs:\"vital signs\" OR  ti:\"heart rate\" OR abs:\"heart rate\" OR ti:\"respiratory rate\" OR abs:\"respiratory rate\" OR  ti:\"breathing rate\" OR abs:\"breathing rate\" OR ti:spo2 OR abs:spo2))"
+  }
+]

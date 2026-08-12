@@ -1,0 +1,48 @@
+Reference catalog validation
+records=58
+core_records=56
+errors=0
+warnings=38
+
+ERRORS
+none
+
+WARNINGS
+REF002: abbreviated author list; Crossref enrichment recommended
+REF004: abbreviated author list; Crossref enrichment recommended
+REF005: abbreviated author list; Crossref enrichment recommended
+REF007: abbreviated author list; Crossref enrichment recommended
+REF008: abbreviated author list; Crossref enrichment recommended
+REF010: abbreviated author list; Crossref enrichment recommended
+REF011: abbreviated author list; Crossref enrichment recommended
+REF012: abbreviated author list; Crossref enrichment recommended
+REF014: abbreviated author list; Crossref enrichment recommended
+REF015: abbreviated author list; Crossref enrichment recommended
+REF016: abbreviated author list; Crossref enrichment recommended
+REF021: abbreviated author list; Crossref enrichment recommended
+REF022: abbreviated author list; Crossref enrichment recommended
+REF025: abbreviated author list; Crossref enrichment recommended
+REF029: abbreviated author list; Crossref enrichment recommended
+REF031: abbreviated author list; Crossref enrichment recommended
+REF034: abbreviated author list; Crossref enrichment recommended
+REF036: abbreviated author list; Crossref enrichment recommended
+REF038: abbreviated author list; Crossref enrichment recommended
+REF039: abbreviated author list; Crossref enrichment recommended
+REF040: abbreviated author list; Crossref enrichment recommended
+REF041: abbreviated author list; Crossref enrichment recommended
+REF042: abbreviated author list; Crossref enrichment recommended
+REF043: abbreviated author list; Crossref enrichment recommended
+REF044: abbreviated author list; Crossref enrichment recommended
+REF045: abbreviated author list; Crossref enrichment recommended
+REF046: abbreviated author list; Crossref enrichment recommended
+REF047: abbreviated author list; Crossref enrichment recommended
+REF048: abbreviated author list; Crossref enrichment recommended
+REF049: abbreviated author list; Crossref enrichment recommended
+REF050: abbreviated author list; Crossref enrichment recommended
+REF051: abbreviated author list; Crossref enrichment recommended
+REF052: abbreviated author list; Crossref enrichment recommended
+REF053: abbreviated author list; Crossref enrichment recommended
+REF054: abbreviated author list; Crossref enrichment recommended
+REF055: abbreviated author list; Crossref enrichment recommended
+REF057: abbreviated author list; Crossref enrichment recommended
+REF058: abbreviated author list; Crossref enrichment recommended

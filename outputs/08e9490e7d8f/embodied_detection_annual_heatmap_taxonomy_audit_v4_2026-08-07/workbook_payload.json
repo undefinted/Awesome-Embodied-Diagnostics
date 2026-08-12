@@ -1,0 +1,2832 @@
+{
+  "generated_at": "2026-08-07",
+  "summary": [
+    {
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "current_task_families": 7,
+      "revised_task_families": 10,
+      "net_change": 3
+    },
+    {
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "current_task_families": 8,
+      "revised_task_families": 12,
+      "net_change": 4
+    },
+    {
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "current_task_families": 9,
+      "revised_task_families": 11,
+      "net_change": 2
+    },
+    {
+      "class_code": "Total",
+      "class_en": "Total",
+      "class_zh": "合计",
+      "current_task_families": 24,
+      "revised_task_families": 33,
+      "net_change": 9
+    }
+  ],
+  "revised_tasks": [
+    {
+      "code": "A1",
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声 / 超声扫查",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "A2",
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索 / 导航",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "A3",
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "task_en": "Robotic OCT / ophthalmic scanning",
+      "task_zh": "机器人 OCT / 眼科扫描",
+      "revision_status_en": "Narrowed after split",
+      "revision_status_zh": "拆分后收窄"
+    },
+    {
+      "code": "A4",
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜 / 皮肤扫描",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "A5",
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "A6",
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜 / 口腔-耳鼻喉检查",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "A7",
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光学 / 光谱 / 热成像扫描",
+      "revision_status_en": "Boundary refinement",
+      "revision_status_zh": "边界收紧"
+    },
+    {
+      "code": "A8",
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "task_en": "Robotic ionizing-radiation / nuclear imaging acquisition",
+      "task_zh": "机器人电离辐射 / 核医学成像采集",
+      "revision_status_en": "New family",
+      "revision_status_zh": "新增任务"
+    },
+    {
+      "code": "A9",
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "task_en": "Robotic microscopy / confocal endomicroscopy",
+      "task_zh": "机器人显微 / 共聚焦内显微扫描",
+      "revision_status_en": "Split from over-broad A3",
+      "revision_status_zh": "由过宽的 A3 拆出"
+    },
+    {
+      "code": "A10",
+      "class_code": "A",
+      "class_en": "Active observational sensing",
+      "class_zh": "主动观察式检测",
+      "task_en": "Embodied non-contact vital-sign monitoring",
+      "task_zh": "具身式非接触生命体征监测",
+      "revision_status_en": "New family",
+      "revision_status_zh": "新增任务"
+    },
+    {
+      "code": "R1",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robotic palpation",
+      "task_zh": "机器人触诊",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "R2",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robotic elastography / stiffness mapping",
+      "task_zh": "机器人弹性检测 / 刚度成像",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "R3",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robotic joint provocation / laxity testing",
+      "task_zh": "机器人关节激发 / 松弛度检测",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "R4",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robotic percussion",
+      "task_zh": "机器人叩诊",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "R5",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robotic deep-tendon reflex testing",
+      "task_zh": "机器人腱反射检测",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "R6",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robotic TMS motor-response testing",
+      "task_zh": "机器人 TMS 运动响应检测",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "R7",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robotic nerve-conduction / electrical-response testing",
+      "task_zh": "机器人神经传导 / 电刺激响应检测",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "R8",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robotic tonometry / indentation response",
+      "task_zh": "机器人眼压 / 压入响应检测",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "R9",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robotic tone, spasticity, ROM and strength assessment",
+      "task_zh": "机器人肌张力、痉挛、关节活动度与力量评估",
+      "revision_status_en": "New family",
+      "revision_status_zh": "新增任务"
+    },
+    {
+      "code": "R10",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robot-based sensorimotor / proprioceptive assessment",
+      "task_zh": "机器人感觉运动 / 本体感觉评估",
+      "revision_status_en": "New family",
+      "revision_status_zh": "新增任务"
+    },
+    {
+      "code": "R11",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Robot-supported balance / gait perturbation assessment",
+      "task_zh": "机器人平衡 / 步态扰动评估",
+      "revision_status_en": "New family",
+      "revision_status_zh": "新增任务"
+    },
+    {
+      "code": "R12",
+      "class_code": "R",
+      "class_en": "Response-based interactive diagnosis",
+      "class_zh": "响应式交互检测",
+      "task_en": "Automated vestibular / oculomotor provocation testing",
+      "task_zh": "自动化前庭 / 眼动激发检测",
+      "revision_status_en": "New family",
+      "revision_status_zh": "新增任务"
+    },
+    {
+      "code": "S1",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robotic vascular blood collection",
+      "task_zh": "机器人血管采血",
+      "revision_status_en": "Retained; broaden vocabulary",
+      "revision_status_zh": "保留并扩充检索词"
+    },
+    {
+      "code": "S2",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robotic swab / brush collection",
+      "task_zh": "机器人拭子 / 刷检采样",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "S3",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robotic bronchoscopic biopsy / TBNA",
+      "task_zh": "机器人支气管镜活检 / TBNA",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "S4",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robotic prostate biopsy",
+      "task_zh": "机器人前列腺活检",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "S5",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robotic percutaneous core-needle biopsy",
+      "task_zh": "机器人经皮粗针活检",
+      "revision_status_en": "Retained; exclude CNS stereotaxy",
+      "revision_status_zh": "保留；排除中枢立体定向"
+    },
+    {
+      "code": "S6",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robotic GI endoscopic / capsule tissue sampling",
+      "task_zh": "机器人消化内镜 / 胶囊组织采样",
+      "revision_status_en": "Retained; broaden vocabulary",
+      "revision_status_zh": "保留并扩充检索词"
+    },
+    {
+      "code": "S7",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robotic FNA / FNB including EUS-guided sampling",
+      "task_zh": "机器人 FNA / FNB（含 EUS 引导）",
+      "revision_status_en": "Retained; broaden vocabulary",
+      "revision_status_zh": "保留并扩充检索词"
+    },
+    {
+      "code": "S8",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robotic lumbar puncture / CSF sampling",
+      "task_zh": "机器人腰椎穿刺 / 脑脊液采样",
+      "revision_status_en": "Retained",
+      "revision_status_zh": "保留"
+    },
+    {
+      "code": "S9",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robotic bone-marrow biopsy / aspiration",
+      "task_zh": "机器人骨髓活检 / 抽吸",
+      "revision_status_en": "Narrowed after split",
+      "revision_status_zh": "拆分后收窄"
+    },
+    {
+      "code": "S10",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robotic body-cavity fluid aspiration",
+      "task_zh": "机器人体腔液体穿刺抽吸",
+      "revision_status_en": "Split from S9",
+      "revision_status_zh": "由 S9 拆出"
+    },
+    {
+      "code": "S11",
+      "class_code": "S",
+      "class_en": "Sample-based interactive diagnosis",
+      "class_zh": "采样式交互检测",
+      "task_en": "Robot-assisted stereotactic CNS biopsy",
+      "task_zh": "机器人辅助立体定向中枢神经系统活检",
+      "revision_status_en": "New family",
+      "revision_status_zh": "新增任务"
+    }
+  ],
+  "audit": [
+    {
+      "class_code": "A",
+      "gap_type_en": "Missing family",
+      "gap_type_zh": "漏项",
+      "decision_en": "Add A8",
+      "decision_zh": "新增 A8",
+      "task_or_issue_en": "Robotic X-ray/CT and gamma/SPECT acquisition",
+      "task_or_issue_zh": "机器人 X-ray/CT 与 gamma/SPECT 采集",
+      "assessment_en": "Confirmed; combine at the action-family level and separate by modality at the application level.",
+      "assessment_zh": "已证实；动作层合并，成像模态作为应用层细分。",
+      "evidence_en": "Robotic X-ray viewfinding/collimation achieved 84% end-to-end success in a cadaver study; robot-mounted gamma cameras also exist.",
+      "evidence_zh": "机器人 X-ray 视点搜索/准直在尸体实验中端到端成功率为 84%；亦已有机器人臂搭载 gamma 相机。",
+      "source_urls": "https://arxiv.org/abs/2412.08020 | https://pmc.ncbi.nlm.nih.gov/articles/PMC4209015/"
+    },
+    {
+      "class_code": "A",
+      "gap_type_en": "Mixed boundary",
+      "gap_type_zh": "边界混合",
+      "decision_en": "Split A3 → A3 + A9",
+      "decision_zh": "拆分 A3 → A3 + A9",
+      "task_or_issue_en": "Robotic microscopy / confocal endomicroscopy",
+      "task_or_issue_zh": "机器人显微 / 共聚焦内显微扫描",
+      "assessment_en": "Confirmed split: the present A3 label is ophthalmic/OCT-specific but its corpus already contains microscopy and non-ophthalmic work.",
+      "assessment_zh": "已证实需拆分：当前 A3 标签偏眼科/OCT，但语料已含显微及非眼科工作。",
+      "evidence_en": "Semi-autonomous pCLE retinal scanning uses image-based control to optimize focus and mosaic coverage.",
+      "evidence_zh": "半自主 pCLE 视网膜扫描利用图像控制优化对焦与拼接覆盖。",
+      "source_urls": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7906249/"
+    },
+    {
+      "class_code": "A",
+      "gap_type_en": "Missing family",
+      "gap_type_zh": "漏项",
+      "decision_en": "Add A10",
+      "decision_zh": "新增 A10",
+      "task_or_issue_en": "Embodied non-contact vital-sign monitoring",
+      "task_or_issue_zh": "具身式非接触生命体征监测",
+      "assessment_en": "Confirmed, with both mobile clinical prototypes and active geometry regulation.",
+      "assessment_zh": "已证实，已有移动临床原型和主动几何调节工作。",
+      "evidence_en": "A mobile robot measured contactless vital signs; ActiveVital actively aligns robot-mounted mmWave radar and markedly reduced respiration/heart-rate error.",
+      "evidence_zh": "移动机器人已实现非接触生命体征测量；ActiveVital 主动调整毫米波雷达几何并显著降低呼吸/心率误差。",
+      "source_urls": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9096356/ | https://arxiv.org/abs/2606.30275"
+    },
+    {
+      "class_code": "A",
+      "gap_type_en": "Search-boundary issue",
+      "gap_type_zh": "检索边界问题",
+      "decision_en": "Refine A7",
+      "decision_zh": "收紧 A7",
+      "task_or_issue_en": "Optical/spectral/thermal surface sensing",
+      "task_or_issue_zh": "光学/光谱/热成像表面感知",
+      "assessment_en": "Retain, but exclude fluorescence-guided treatment/navigation papers that do not actively seek diagnostic observations.",
+      "assessment_zh": "保留，但排除仅用于治疗/导航且不主动搜索诊断观察的荧光引导工作。",
+      "evidence_en": "Manual corpus audit found a substantial surgical-guidance component in the current A7 records.",
+      "evidence_zh": "人工语料审计发现当前 A7 中有较多手术引导工作。",
+      "source_urls": "Local screened corpus audit"
+    },
+    {
+      "class_code": "A",
+      "gap_type_en": "Scope-dependent candidate",
+      "gap_type_zh": "依口径候选",
+      "decision_en": "Hold",
+      "decision_zh": "暂缓独立成类",
+      "task_or_issue_en": "Automated ECG electrode placement",
+      "task_or_issue_zh": "自动化 ECG 电极放置",
+      "assessment_en": "Insufficient patient-side robotic literature to justify an independent family at present.",
+      "assessment_zh": "当前患者侧机器人文献不足以支持独立任务族。",
+      "evidence_en": "Reassess after defining whether actuated diagnostic devices without a robot platform are in scope.",
+      "evidence_zh": "需先界定无机器人平台的自动化诊断设备是否纳入，再复核。",
+      "source_urls": "No qualifying primary series identified in targeted search"
+    },
+    {
+      "class_code": "R",
+      "gap_type_en": "Missing family",
+      "gap_type_zh": "漏项",
+      "decision_en": "Add R9",
+      "decision_zh": "新增 R9",
+      "task_or_issue_en": "Tone, spasticity, ROM and strength assessment",
+      "task_or_issue_zh": "肌张力、痉挛、关节活动度与力量评估",
+      "assessment_en": "Confirmed and clinically distinct from joint laxity provocation.",
+      "assessment_zh": "已证实，且临床上不同于关节松弛度激发。",
+      "evidence_en": "Robot-based spasticity pilots and systematic technology reviews document controlled passive movement and objective resistance measurement.",
+      "evidence_zh": "机器人痉挛评估试验及技术综述已记录受控被动运动与客观阻力测量。",
+      "source_urls": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4667530/ | https://pmc.ncbi.nlm.nih.gov/articles/PMC7570987/"
+    },
+    {
+      "class_code": "R",
+      "gap_type_en": "Missing family",
+      "gap_type_zh": "漏项",
+      "decision_en": "Add R10",
+      "decision_zh": "新增 R10",
+      "task_or_issue_en": "Sensorimotor / proprioceptive robot assessment",
+      "task_or_issue_zh": "感觉运动 / 本体感觉机器人评估",
+      "assessment_en": "Confirmed; uses controlled target/force/position perturbations and quantitative responses.",
+      "assessment_zh": "已证实；通过受控目标、力或位置扰动并量化响应。",
+      "evidence_en": "KINARM-based tasks quantify corrective responses, sensory processing and proprioception.",
+      "evidence_zh": "KINARM 类任务可量化纠正响应、感觉处理与本体感觉。",
+      "source_urls": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6350318/"
+    },
+    {
+      "class_code": "R",
+      "gap_type_en": "Missing family",
+      "gap_type_zh": "漏项",
+      "decision_en": "Add R11",
+      "decision_zh": "新增 R11",
+      "task_or_issue_en": "Balance / gait perturbation assessment",
+      "task_or_issue_zh": "平衡 / 步态扰动评估",
+      "assessment_en": "Confirmed, with a dedicated device taxonomy and clinical assessment literature.",
+      "assessment_zh": "已证实，已有专门的设备分类和临床评估文献。",
+      "evidence_en": "A review classified nine robotic device types and described perturbation-based balance assessments during walking.",
+      "evidence_zh": "综述归纳了 9 类机器人设备，并描述步行中的扰动式平衡评估。",
+      "source_urls": "https://pubmed.ncbi.nlm.nih.gov/28806995/"
+    },
+    {
+      "class_code": "R",
+      "gap_type_en": "Missing family",
+      "gap_type_zh": "漏项",
+      "decision_en": "Add R12",
+      "decision_zh": "新增 R12",
+      "task_or_issue_en": "Vestibular / oculomotor provocation",
+      "task_or_issue_zh": "前庭 / 眼动激发检测",
+      "assessment_en": "Confirmed but niche; the defining action is controlled head motion followed by eye-response measurement.",
+      "assessment_zh": "已证实但较小众；核心动作为受控头部运动并测量眼动响应。",
+      "evidence_en": "An automated head-motion system improved reliability and reduced operator dependence for vestibular reflex testing.",
+      "evidence_zh": "自动头动系统提高前庭反射检测可靠性并降低操作者依赖。",
+      "source_urls": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136842/"
+    },
+    {
+      "class_code": "R",
+      "gap_type_en": "Scope-dependent candidate",
+      "gap_type_zh": "依口径候选",
+      "decision_en": "Hold",
+      "decision_zh": "暂缓独立成类",
+      "task_or_issue_en": "Quantitative sensory and pupillary stimulus-response testing",
+      "task_or_issue_zh": "定量感觉及瞳孔刺激-响应检测",
+      "assessment_en": "Conceptually fits response-based diagnosis, but robotic embodiment evidence is currently too sparse or device-only.",
+      "assessment_zh": "概念上属于响应式检测，但机器人具身证据目前过少或仅为设备自动化。",
+      "evidence_en": "Keep as a candidate until the inclusion rule for actuated diagnostic devices is fixed.",
+      "evidence_zh": "待明确自动化诊断设备纳入规则后再决定。",
+      "source_urls": "Scope decision required"
+    },
+    {
+      "class_code": "S",
+      "gap_type_en": "Missing family",
+      "gap_type_zh": "漏项",
+      "decision_en": "Add S11",
+      "decision_zh": "新增 S11",
+      "task_or_issue_en": "Stereotactic CNS biopsy",
+      "task_or_issue_zh": "立体定向中枢神经系统活检",
+      "assessment_en": "Confirmed and mature enough to require a separate family from generic percutaneous core biopsy.",
+      "assessment_zh": "已证实，且成熟到应与通用经皮粗针活检分开。",
+      "evidence_en": "A 2024 meta-analysis included 27 studies/2,605 patients and estimated 98% diagnostic yield; the 2018 review found 14 case series/reports plus one cohort.",
+      "evidence_zh": "2024 年荟萃分析纳入 27 项研究/2,605 例，估计诊断率 98%；2018 年综述已发现 14 个病例系列/报告和 1 个队列。",
+      "source_urls": "https://pubmed.ncbi.nlm.nih.gov/39627622/ | https://link.springer.com/article/10.1007/s00381-018-3821-y"
+    },
+    {
+      "class_code": "S",
+      "gap_type_en": "Mixed boundary",
+      "gap_type_zh": "边界混合",
+      "decision_en": "Split S9 → S9 + S10",
+      "decision_zh": "拆分 S9 → S9 + S10",
+      "task_or_issue_en": "Bone marrow versus body-cavity fluid aspiration",
+      "task_or_issue_zh": "骨髓采样与体腔液体穿刺抽吸",
+      "assessment_en": "Confirmed split: tissue/marrow acquisition and pleural/peritoneal/synovial fluid aspiration differ in target, access and evidence.",
+      "assessment_zh": "已证实需拆分：骨髓/组织获取与胸腹腔或关节液抽吸的目标、路径和证据不同。",
+      "evidence_en": "A 2025 system integrated ultrasound, robotic needle insertion and aspiration for autonomous thoracentesis in a pleural phantom.",
+      "evidence_zh": "2025 年系统在胸腔模型中整合超声、机器人进针与抽吸，实现自主胸腔穿刺。",
+      "source_urls": "https://researchportal.hw.ac.uk/en/publications/ultrasound-guided-robotic-aspirator-for-autonomous-thoracentesis-/"
+    },
+    {
+      "class_code": "S",
+      "gap_type_en": "Nested candidate",
+      "gap_type_zh": "可嵌套候选",
+      "decision_en": "Merge into S6/S7/S1",
+      "decision_zh": "并入 S6/S7/S1",
+      "task_or_issue_en": "Capsule liquid sampling, EUS-FNA/FNB, capillary blood",
+      "task_or_issue_zh": "胶囊液体采样、EUS-FNA/FNB、毛细血管采血",
+      "assessment_en": "Do not create separate action families yet; represent them as route/anatomy subtypes unless evidence volume and control architecture justify a split.",
+      "assessment_zh": "暂不设独立动作任务族；先作为进入路径/解剖亚型，待证据量和控制架构支持后再拆分。",
+      "evidence_en": "This preserves orthogonality and avoids duplicating the same evidence-generating action.",
+      "evidence_zh": "这样可保持正交性，避免重复计算同一种证据生成动作。",
+      "source_urls": "Taxonomic design decision"
+    }
+  ],
+  "annual_long": [
+    {
+      "year": 1995,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1995,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 1,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 1995,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1995,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1995,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1995,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1995,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1996,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1996,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1996,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1996,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1996,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1996,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1996,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1997,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1997,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1997,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1997,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1997,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1997,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1997,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1998,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1998,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1998,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1998,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1998,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1998,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1998,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1999,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1999,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 0,
+      "expanded_upper_records": 2
+    },
+    {
+      "year": 1999,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1999,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1999,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1999,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 1999,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2000,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2000,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2000,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2000,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2000,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2000,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2000,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2001,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2001,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 0,
+      "expanded_upper_records": 2
+    },
+    {
+      "year": 2001,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2001,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2001,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2001,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2001,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2002,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2002,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 2,
+      "expanded_upper_records": 4
+    },
+    {
+      "year": 2002,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2002,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2002,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2002,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2002,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2003,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2003,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 1,
+      "expanded_upper_records": 4
+    },
+    {
+      "year": 2003,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2003,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2003,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2003,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2003,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2004,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2004,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 1,
+      "expanded_upper_records": 5
+    },
+    {
+      "year": 2004,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2004,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2004,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2004,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2004,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2005,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 1,
+      "expanded_upper_records": 2
+    },
+    {
+      "year": 2005,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 0,
+      "expanded_upper_records": 2
+    },
+    {
+      "year": 2005,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2005,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2005,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2005,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2005,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2006,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2006,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 1,
+      "expanded_upper_records": 5
+    },
+    {
+      "year": 2006,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2006,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2006,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2006,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2006,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2007,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 2
+    },
+    {
+      "year": 2007,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2007,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2007,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2007,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2007,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2007,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2008,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2008,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 1,
+      "expanded_upper_records": 8
+    },
+    {
+      "year": 2008,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2008,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2008,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2008,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2008,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2009,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 3,
+      "expanded_upper_records": 5
+    },
+    {
+      "year": 2009,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 1,
+      "expanded_upper_records": 3
+    },
+    {
+      "year": 2009,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2009,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2009,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2009,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2009,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2010,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 1,
+      "expanded_upper_records": 5
+    },
+    {
+      "year": 2010,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 1,
+      "expanded_upper_records": 6
+    },
+    {
+      "year": 2010,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2010,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2010,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2010,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2010,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2011,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 4,
+      "expanded_upper_records": 10
+    },
+    {
+      "year": 2011,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 1,
+      "expanded_upper_records": 9
+    },
+    {
+      "year": 2011,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2011,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2011,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2011,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2011,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2012,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 2,
+      "expanded_upper_records": 5
+    },
+    {
+      "year": 2012,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 1,
+      "expanded_upper_records": 4
+    },
+    {
+      "year": 2012,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2012,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2012,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2012,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2012,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2013,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 9,
+      "expanded_upper_records": 16
+    },
+    {
+      "year": 2013,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 0,
+      "expanded_upper_records": 2
+    },
+    {
+      "year": 2013,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2013,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2013,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2013,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2013,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 1,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2014,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 4,
+      "expanded_upper_records": 7
+    },
+    {
+      "year": 2014,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 0,
+      "expanded_upper_records": 4
+    },
+    {
+      "year": 2014,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2014,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2014,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2014,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2014,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 1,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2015,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 4,
+      "expanded_upper_records": 11
+    },
+    {
+      "year": 2015,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 2,
+      "expanded_upper_records": 11
+    },
+    {
+      "year": 2015,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2015,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2015,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2015,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2015,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 1,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2016,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 8,
+      "expanded_upper_records": 14
+    },
+    {
+      "year": 2016,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 3,
+      "expanded_upper_records": 5
+    },
+    {
+      "year": 2016,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2016,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2016,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2016,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2016,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 1,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2017,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 7,
+      "expanded_upper_records": 14
+    },
+    {
+      "year": 2017,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 8,
+      "expanded_upper_records": 12
+    },
+    {
+      "year": 2017,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2017,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2017,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2017,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2017,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2018,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 7,
+      "expanded_upper_records": 18
+    },
+    {
+      "year": 2018,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 1,
+      "expanded_upper_records": 7
+    },
+    {
+      "year": 2018,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2018,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2018,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2018,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2018,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2019,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 10,
+      "expanded_upper_records": 19
+    },
+    {
+      "year": 2019,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 6,
+      "expanded_upper_records": 16
+    },
+    {
+      "year": 2019,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2019,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2019,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2019,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2019,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2020,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 18,
+      "expanded_upper_records": 31
+    },
+    {
+      "year": 2020,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 8,
+      "expanded_upper_records": 24
+    },
+    {
+      "year": 2020,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2020,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2020,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2020,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2020,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2021,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 20,
+      "expanded_upper_records": 35
+    },
+    {
+      "year": 2021,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 12,
+      "expanded_upper_records": 32
+    },
+    {
+      "year": 2021,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 1,
+      "expanded_upper_records": 2
+    },
+    {
+      "year": 2021,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2021,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2021,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2021,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2022,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 22,
+      "expanded_upper_records": 43
+    },
+    {
+      "year": 2022,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 13,
+      "expanded_upper_records": 37
+    },
+    {
+      "year": 2022,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 1,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2022,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2022,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 1,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2022,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2022,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2023,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 27,
+      "expanded_upper_records": 46
+    },
+    {
+      "year": 2023,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 17,
+      "expanded_upper_records": 46
+    },
+    {
+      "year": 2023,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 1,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2023,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2023,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 2,
+      "expanded_upper_records": 2
+    },
+    {
+      "year": 2023,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2023,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 1,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2024,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 45,
+      "expanded_upper_records": 67
+    },
+    {
+      "year": 2024,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 15,
+      "expanded_upper_records": 46
+    },
+    {
+      "year": 2024,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 6,
+      "expanded_upper_records": 6
+    },
+    {
+      "year": 2024,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 1,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2024,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2024,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2024,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 1
+    },
+    {
+      "year": 2025,
+      "year_status": "full year",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 51,
+      "expanded_upper_records": 100
+    },
+    {
+      "year": 2025,
+      "year_status": "full year",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 20,
+      "expanded_upper_records": 73
+    },
+    {
+      "year": 2025,
+      "year_status": "full year",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 3,
+      "expanded_upper_records": 4
+    },
+    {
+      "year": 2025,
+      "year_status": "full year",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2025,
+      "year_status": "full year",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 1,
+      "expanded_upper_records": 2
+    },
+    {
+      "year": 2025,
+      "year_status": "full year",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2025,
+      "year_status": "full year",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2026,
+      "year_status": "YTD through 2026-08-06",
+      "task_code": "A1",
+      "task_en": "Robotic ultrasound / sonography",
+      "task_zh": "机器人超声/超声扫查",
+      "core_records": 33,
+      "expanded_upper_records": 59
+    },
+    {
+      "year": 2026,
+      "year_status": "YTD through 2026-08-06",
+      "task_code": "A2",
+      "task_en": "Robotic endoscopic search / navigation",
+      "task_zh": "机器人内镜搜索/导航",
+      "core_records": 21,
+      "expanded_upper_records": 95
+    },
+    {
+      "year": 2026,
+      "year_status": "YTD through 2026-08-06",
+      "task_code": "A3",
+      "task_en": "Robotic OCT / ophthalmic imaging",
+      "task_zh": "机器人 OCT/眼科成像",
+      "core_records": 1,
+      "expanded_upper_records": 2
+    },
+    {
+      "year": 2026,
+      "year_status": "YTD through 2026-08-06",
+      "task_code": "A4",
+      "task_en": "Robotic dermoscopy / skin scanning",
+      "task_zh": "机器人皮肤镜/全身皮肤扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2026,
+      "year_status": "YTD through 2026-08-06",
+      "task_code": "A5",
+      "task_en": "Robotic auscultation",
+      "task_zh": "机器人听诊",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2026,
+      "year_status": "YTD through 2026-08-06",
+      "task_code": "A6",
+      "task_en": "Robotic otoscopy / oral-ENT examination",
+      "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    },
+    {
+      "year": 2026,
+      "year_status": "YTD through 2026-08-06",
+      "task_code": "A7",
+      "task_en": "Robotic optical / spectral / thermal scanning",
+      "task_zh": "机器人光谱/热成像/表面扫描",
+      "core_records": 0,
+      "expanded_upper_records": 0
+    }
+  ],
+  "annual_matrix": [
+    {
+      "task_code": "A1",
+      "task_en": "Ultrasound",
+      "task_zh": "超声",
+      "1995": 0,
+      "1996": 0,
+      "1997": 0,
+      "1998": 0,
+      "1999": 0,
+      "2000": 0,
+      "2001": 0,
+      "2002": 0,
+      "2003": 0,
+      "2004": 0,
+      "2005": 1,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 3,
+      "2010": 1,
+      "2011": 4,
+      "2012": 2,
+      "2013": 9,
+      "2014": 4,
+      "2015": 4,
+      "2016": 8,
+      "2017": 7,
+      "2018": 7,
+      "2019": 10,
+      "2020": 18,
+      "2021": 20,
+      "2022": 22,
+      "2023": 27,
+      "2024": 45,
+      "2025": 51,
+      "2026": 33
+    },
+    {
+      "task_code": "A2",
+      "task_en": "Endoscopy",
+      "task_zh": "内镜",
+      "1995": 1,
+      "1996": 0,
+      "1997": 0,
+      "1998": 0,
+      "1999": 0,
+      "2000": 0,
+      "2001": 0,
+      "2002": 2,
+      "2003": 1,
+      "2004": 1,
+      "2005": 0,
+      "2006": 1,
+      "2007": 0,
+      "2008": 1,
+      "2009": 1,
+      "2010": 1,
+      "2011": 1,
+      "2012": 1,
+      "2013": 0,
+      "2014": 0,
+      "2015": 2,
+      "2016": 3,
+      "2017": 8,
+      "2018": 1,
+      "2019": 6,
+      "2020": 8,
+      "2021": 12,
+      "2022": 13,
+      "2023": 17,
+      "2024": 15,
+      "2025": 20,
+      "2026": 21
+    },
+    {
+      "task_code": "A3",
+      "task_en": "OCT / ophthalmic",
+      "task_zh": "OCT / 眼科成像",
+      "1995": 0,
+      "1996": 0,
+      "1997": 0,
+      "1998": 0,
+      "1999": 0,
+      "2000": 0,
+      "2001": 0,
+      "2002": 0,
+      "2003": 0,
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 6,
+      "2025": 3,
+      "2026": 1
+    },
+    {
+      "task_code": "A4",
+      "task_en": "Dermoscopy",
+      "task_zh": "皮肤镜",
+      "1995": 0,
+      "1996": 0,
+      "1997": 0,
+      "1998": 0,
+      "1999": 0,
+      "2000": 0,
+      "2001": 0,
+      "2002": 0,
+      "2003": 0,
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1,
+      "2025": 0,
+      "2026": 0
+    },
+    {
+      "task_code": "A5",
+      "task_en": "Auscultation",
+      "task_zh": "听诊",
+      "1995": 0,
+      "1996": 0,
+      "1997": 0,
+      "1998": 0,
+      "1999": 0,
+      "2000": 0,
+      "2001": 0,
+      "2002": 0,
+      "2003": 0,
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 1,
+      "2023": 2,
+      "2024": 0,
+      "2025": 1,
+      "2026": 0
+    },
+    {
+      "task_code": "A6",
+      "task_en": "Otoscopy / ENT",
+      "task_zh": "耳镜 / 口腔-耳鼻喉",
+      "1995": 0,
+      "1996": 0,
+      "1997": 0,
+      "1998": 0,
+      "1999": 0,
+      "2000": 0,
+      "2001": 0,
+      "2002": 0,
+      "2003": 0,
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    },
+    {
+      "task_code": "A7",
+      "task_en": "Optical / spectral / thermal",
+      "task_zh": "光谱 / 热成像扫描",
+      "1995": 0,
+      "1996": 0,
+      "1997": 0,
+      "1998": 0,
+      "1999": 0,
+      "2000": 0,
+      "2001": 0,
+      "2002": 0,
+      "2003": 0,
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 0,
+      "2008": 0,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 1,
+      "2014": 1,
+      "2015": 1,
+      "2016": 1,
+      "2017": 0,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 0,
+      "2023": 1,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+    }
+  ]
+}

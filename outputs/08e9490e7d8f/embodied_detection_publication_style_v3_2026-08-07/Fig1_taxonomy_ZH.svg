@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="510.23622pt" height="263.622047pt" viewBox="0 0 510.23622 263.622047" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-07T15:40:56.001637</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Python/Matplotlib</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 263.622047 
+L 510.23622 263.622047 
+L 510.23622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 9.184252 48.031937 
+L 501.051969 48.031937 
+L 501.051969 14.077417 
+L 9.184252 14.077417 
+z
+" clip-path="url(#p173897d2ae)" style="fill: #ececec"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 9.184252 113.515654 
+L 501.051969 113.515654 
+L 501.051969 48.031937 
+L 9.184252 48.031937 
+z
+" clip-path="url(#p173897d2ae)" style="fill: #f2f8fb"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 9.184252 113.515654 
+L 13.119194 113.515654 
+L 13.119194 48.031937 
+L 9.184252 48.031937 
+z
+" clip-path="url(#p173897d2ae)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 9.184252 178.99937 
+L 501.051969 178.99937 
+L 501.051969 113.515654 
+L 9.184252 113.515654 
+z
+" clip-path="url(#p173897d2ae)" style="fill: #fdf7f2"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 9.184252 178.99937 
+L 13.119194 178.99937 
+L 13.119194 113.515654 
+L 9.184252 113.515654 
+z
+" clip-path="url(#p173897d2ae)" style="fill: #d55e00"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 9.184252 244.483087 
+L 501.051969 244.483087 
+L 501.051969 178.99937 
+L 9.184252 178.99937 
+z
+" clip-path="url(#p173897d2ae)" style="fill: #f2faf8"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 9.184252 244.483087 
+L 13.119194 244.483087 
+L 13.119194 178.99937 
+L 9.184252 178.99937 
+z
+" clip-path="url(#p173897d2ae)" style="fill: #009e73"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 9.184252 113.515654 
+L 501.051969 113.515654 
+" clip-path="url(#p173897d2ae)" style="fill: none; stroke: #bebebe; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 9.184252 178.99937 
+L 501.051969 178.99937 
+" clip-path="url(#p173897d2ae)" style="fill: none; stroke: #bebebe; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 9.184252 244.483087 
+L 501.051969 244.483087 
+" clip-path="url(#p173897d2ae)" style="fill: none; stroke: #bebebe; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 102.639118 244.483087 
+L 102.639118 14.077417 
+" clip-path="url(#p173897d2ae)" style="fill: none; stroke: #c7c7c7; stroke-width: 0.45; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 245.280756 244.483087 
+L 245.280756 14.077417 
+" clip-path="url(#p173897d2ae)" style="fill: none; stroke: #c7c7c7; stroke-width: 0.45; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 353.491654 244.483087 
+L 353.491654 14.077417 
+" clip-path="url(#p173897d2ae)" style="fill: none; stroke: #c7c7c7; stroke-width: 0.45; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 9.184252 14.077417 
+L 501.051969 14.077417 
+" clip-path="url(#p173897d2ae)" style="fill: none; stroke: #333333; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 9.184252 48.031937 
+L 501.051969 48.031937 
+" clip-path="url(#p173897d2ae)" style="fill: none; stroke: #333333; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 7.2px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #222222" x="15.086665" y="33.121302" transform="rotate(-0 15.086665 33.121302)">类别</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 7.2px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #222222" x="108.541531" y="33.153927" transform="rotate(-0 108.541531 33.153927)">智能体动作 / 动作对象</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 600; font-size: 7.2px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #222222" x="251.183169" y="33.121302" transform="rotate(-0 251.183169 33.121302)">诊断证据</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 600; font-size: 7.2px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #222222" x="359.394066" y="33.121302" transform="rotate(-0 359.394066 33.121302)">代表性任务</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 600; font-size: 7.1px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #0072b2" x="16.0704" y="82.811717" transform="rotate(-0 16.0704 82.811717)">A  主动观察式检测</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 78.572479)">改变传感器视点、位置、方向、接触状态</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 86.773174)">或扫描路径</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 78.582948)">新的影像、视觉/声学观察或生理</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 86.783643)">信号</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 78.572479)">机器人超声；内镜搜索；OCT；皮肤镜</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 86.773174)">；听诊；耳镜；光谱/热成像扫描</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 600; font-size: 7.1px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #d55e00" x="16.0704" y="148.295434" transform="rotate(-0 16.0704 148.295434)">R  响应式交互检测</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #222222" x="109.525266" y="148.156543" transform="rotate(-0 109.525266 148.156543)">施加可控的机械、电磁或生理刺激</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #222222" x="252.166904" y="148.156543" transform="rotate(-0 252.166904 148.156543)">力学、生理或功能响应</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 139.955848)">机器人触诊；弹性检测；关节激发；叩诊</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 148.156543)">；腱反射；TMS；神经刺激-响应；眼</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 156.357238)">压检测</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 600; font-size: 7.1px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #009e73" x="16.0704" y="213.77915" transform="rotate(-0 16.0704 213.77915)">S  采样式交互检测</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 209.539912)">对目标组织或体液实施穿刺、抽吸、拭子</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(109.525266 217.740607)">采集或切取</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 209.539912)">离体病理、生化、微生物或分子结</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(252.166904 217.740607)">果</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 205.443228)">机器人采血；拭子采样；支气管镜活检/</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 213.643924)">TBNA；前列腺活检；粗针活检；FN</text>
+    <text style="font-size: 6.7px; font-family: 'Noto Sans CJK SC'; fill: #222222" transform="translate(360.377802 221.844619)">A；脑脊液/骨髓采样</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5.8px; font-family: 'Noto Sans CJK SC'; text-anchor: start; fill: #666666" x="9.184252" y="249.217831" transform="rotate(-0 9.184252 249.217831)">分类规则：每项工作仅按主要证据生成动作归入一个任务。</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p173897d2ae">
+   <rect x="9.184252" y="9.226772" width="491.867717" height="242.532283"/>
+  </clipPath>
+ </defs>
+</svg>

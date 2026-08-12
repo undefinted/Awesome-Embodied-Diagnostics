@@ -1,0 +1,8 @@
+record_id,field,earlier_value,corrected_value,reason,verified_on
+REF008,venue_and_locator,"BMJ 377 e070904","Nature Medicine 28 924–933","Primary publisher citation for DECIDE-AI",2026-08-12
+REF020,issue_date,"2025 without month","August 2025","Current FDA final-guidance page",2026-08-12
+REF035,issue_and_supersession,"current guidance; 2026 update","issued 3 February 2026; supersedes 27 June 2025 guidance","Current FDA final-guidance page",2026-08-12
+REF002,correction_notice,"none recorded","REF057 / DOI 10.1038/s41591-026-04570-9","Formal Nature Medicine author correction",2026-08-12
+REF004,correction_notice,"none recorded","REF058 / DOI 10.1038/s41591-024-02836-8","Formal Nature Medicine author correction",2026-08-12
+REF014,locator,"e081554","r340; DOI 10.1136/bmj-2024-081554","Current BMJ citation information",2026-08-12
+

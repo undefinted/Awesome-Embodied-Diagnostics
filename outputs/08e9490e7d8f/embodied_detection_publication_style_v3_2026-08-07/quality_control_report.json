@@ -1,0 +1,216 @@
+{
+  "overall_passed": true,
+  "visual_review": "Nine PDF pages rendered at 170 dpi and inspected at final physical proportions.",
+  "checks": [
+    {
+      "check": "Task taxonomy",
+      "passed": true,
+      "detail": "24 tasks; A/R/S=7/8/9"
+    },
+    {
+      "check": "Corpus totals",
+      "passed": true,
+      "detail": "strict=812; broad=1475"
+    },
+    {
+      "check": "Active-observation totals",
+      "passed": true,
+      "detail": "strict=436; broad=1015"
+    },
+    {
+      "check": "Annual source rows",
+      "passed": true,
+      "detail": "rows=224"
+    },
+    {
+      "check": "Fig1_taxonomy_EN.png raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 2196); dpi=(599.9988, 599.9988); compression=n/a"
+    },
+    {
+      "check": "Fig1_taxonomy_EN.tiff raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 2196); dpi=(600.0, 600.0); compression=tiff_lzw"
+    },
+    {
+      "check": "Fig1_taxonomy_EN.pdf physical size",
+      "passed": true,
+      "detail": "180.00 × 93.00 mm"
+    },
+    {
+      "check": "Fig1_taxonomy_EN.svg XML parse",
+      "passed": true,
+      "detail": "valid SVG XML"
+    },
+    {
+      "check": "Fig1_taxonomy_ZH.png raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 2196); dpi=(599.9988, 599.9988); compression=n/a"
+    },
+    {
+      "check": "Fig1_taxonomy_ZH.tiff raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 2196); dpi=(600.0, 600.0); compression=tiff_lzw"
+    },
+    {
+      "check": "Fig1_taxonomy_ZH.pdf physical size",
+      "passed": true,
+      "detail": "180.00 × 93.00 mm"
+    },
+    {
+      "check": "Fig1_taxonomy_ZH.svg XML parse",
+      "passed": true,
+      "detail": "valid SVG XML"
+    },
+    {
+      "check": "Fig2_class_workload_EN.png raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 1937); dpi=(599.9988, 599.9988); compression=n/a"
+    },
+    {
+      "check": "Fig2_class_workload_EN.tiff raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 1937); dpi=(600.0, 600.0); compression=tiff_lzw"
+    },
+    {
+      "check": "Fig2_class_workload_EN.pdf physical size",
+      "passed": true,
+      "detail": "180.00 × 82.00 mm"
+    },
+    {
+      "check": "Fig2_class_workload_EN.svg XML parse",
+      "passed": true,
+      "detail": "valid SVG XML"
+    },
+    {
+      "check": "Fig2_class_workload_ZH.png raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 1937); dpi=(599.9988, 599.9988); compression=n/a"
+    },
+    {
+      "check": "Fig2_class_workload_ZH.tiff raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 1937); dpi=(600.0, 600.0); compression=tiff_lzw"
+    },
+    {
+      "check": "Fig2_class_workload_ZH.pdf physical size",
+      "passed": true,
+      "detail": "180.00 × 82.00 mm"
+    },
+    {
+      "check": "Fig2_class_workload_ZH.svg XML parse",
+      "passed": true,
+      "detail": "valid SVG XML"
+    },
+    {
+      "check": "Fig3_all_tasks_workload_EN.png raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 4440); dpi=(599.9988, 599.9988); compression=n/a"
+    },
+    {
+      "check": "Fig3_all_tasks_workload_EN.tiff raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 4440); dpi=(600.0, 600.0); compression=tiff_lzw"
+    },
+    {
+      "check": "Fig3_all_tasks_workload_EN.pdf physical size",
+      "passed": true,
+      "detail": "180.00 × 188.00 mm"
+    },
+    {
+      "check": "Fig3_all_tasks_workload_EN.svg XML parse",
+      "passed": true,
+      "detail": "valid SVG XML"
+    },
+    {
+      "check": "Fig3_all_tasks_workload_ZH.png raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 4440); dpi=(599.9988, 599.9988); compression=n/a"
+    },
+    {
+      "check": "Fig3_all_tasks_workload_ZH.tiff raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 4440); dpi=(600.0, 600.0); compression=tiff_lzw"
+    },
+    {
+      "check": "Fig3_all_tasks_workload_ZH.pdf physical size",
+      "passed": true,
+      "detail": "180.00 × 188.00 mm"
+    },
+    {
+      "check": "Fig3_all_tasks_workload_ZH.svg XML parse",
+      "passed": true,
+      "detail": "valid SVG XML"
+    },
+    {
+      "check": "Fig4_active_observational_closed_loop_EN.png raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 2551); dpi=(599.9988, 599.9988); compression=n/a"
+    },
+    {
+      "check": "Fig4_active_observational_closed_loop_EN.tiff raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 2551); dpi=(600.0, 600.0); compression=tiff_lzw"
+    },
+    {
+      "check": "Fig4_active_observational_closed_loop_EN.pdf physical size",
+      "passed": true,
+      "detail": "180.00 × 108.00 mm"
+    },
+    {
+      "check": "Fig4_active_observational_closed_loop_EN.svg XML parse",
+      "passed": true,
+      "detail": "valid SVG XML"
+    },
+    {
+      "check": "Fig5_active_observational_landscape_EN.png raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 4346); dpi=(599.9988, 599.9988); compression=n/a"
+    },
+    {
+      "check": "Fig5_active_observational_landscape_EN.tiff raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 4346); dpi=(600.0, 600.0); compression=tiff_lzw"
+    },
+    {
+      "check": "Fig5_active_observational_landscape_EN.pdf physical size",
+      "passed": true,
+      "detail": "180.00 × 184.00 mm"
+    },
+    {
+      "check": "Fig5_active_observational_landscape_EN.svg XML parse",
+      "passed": true,
+      "detail": "valid SVG XML"
+    },
+    {
+      "check": "Fig5_active_observational_landscape_ZH.png raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 4346); dpi=(599.9988, 599.9988); compression=n/a"
+    },
+    {
+      "check": "Fig5_active_observational_landscape_ZH.tiff raster specification",
+      "passed": true,
+      "detail": "pixels=(4251, 4346); dpi=(600.0, 600.0); compression=tiff_lzw"
+    },
+    {
+      "check": "Fig5_active_observational_landscape_ZH.pdf physical size",
+      "passed": true,
+      "detail": "180.00 × 184.00 mm"
+    },
+    {
+      "check": "Fig5_active_observational_landscape_ZH.svg XML parse",
+      "passed": true,
+      "detail": "valid SVG XML"
+    },
+    {
+      "check": "Combined PDF packet",
+      "passed": true,
+      "detail": "pages=9"
+    },
+    {
+      "check": "Temporary export files",
+      "passed": true,
+      "detail": "remaining=0"
+    }
+  ]
+}

@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="510.23622pt" height="286.299213pt" viewBox="0 0 510.23622 286.299213" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-07T19:16:26.107767</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Python/Matplotlib</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 286.299213 
+L 510.23622 286.299213 
+L 510.23622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 78.066142 190.388976 
+L 502.582677 190.388976 
+L 502.582677 37.218898 
+L 78.066142 37.218898 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p3a54b9c282)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAKCAYAAADVTVykAAAA5klEQVR4nMVUsQ6CMBB9GBPCYAIDg4EYRxcNu5/gd/iJfARxaWTREVNC0IFGB3SqA545OhgSEd/U9nJ3r+9ea2mtNTrgcnvAn9jvvTgpBJ6DvKoReA7itEAUuk1MqlbuLmv2ybEEABzEHgCwiFawzte75oXNpgR/Yr9J8HMep5y8qiGkwmY5RZwWLRIcybGE1VWBb8FJk1qB5wxHwCRDio2GbmyO8S8KcIz7KmQa85OxeayzAtTALEyu56DnSaBnucsUtus5hFSIQhdCqn5GYN6e/gYiEc3chsjr7+D4mQe41Kbx+PoJybqWQnhd3VMAAAAASUVORK5CYII=" id="image42a422c9e8" transform="matrix(13.266142 0 0 15.317008 78.066142 37.218898)" style="image-rendering:crisp-edges;image-rendering:pixelated" width="32" height="10"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(85.903822 201.823976) rotate(-90)">1995</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(99.169964 201.823976) rotate(-90)">1996</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(112.436105 201.823976) rotate(-90)">1997</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(125.702247 201.823976) rotate(-90)">1998</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(138.968389 201.823976) rotate(-90)">1999</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(152.234531 201.823976) rotate(-90)">2000</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(165.500672 201.823976) rotate(-90)">2001</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(178.766814 201.823976) rotate(-90)">2002</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(192.032956 201.823976) rotate(-90)">2003</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(205.299098 201.823976) rotate(-90)">2004</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+     <g id="text_11">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(218.565239 201.823976) rotate(-90)">2005</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+     <g id="text_12">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(231.831381 201.823976) rotate(-90)">2006</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(245.097523 201.823976) rotate(-90)">2007</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14"/>
+     <g id="text_14">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(258.363664 201.823976) rotate(-90)">2008</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15"/>
+     <g id="text_15">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(271.629806 201.823976) rotate(-90)">2009</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16"/>
+     <g id="text_16">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(284.895948 201.823976) rotate(-90)">2010</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17"/>
+     <g id="text_17">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(298.16209 201.823976) rotate(-90)">2011</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18"/>
+     <g id="text_18">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(311.428231 201.823976) rotate(-90)">2012</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19"/>
+     <g id="text_19">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(324.694373 201.823976) rotate(-90)">2013</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20"/>
+     <g id="text_20">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(337.960515 201.823976) rotate(-90)">2014</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21"/>
+     <g id="text_21">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(351.226657 201.823976) rotate(-90)">2015</text>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22"/>
+     <g id="text_22">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(364.492798 201.823976) rotate(-90)">2016</text>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23"/>
+     <g id="text_23">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(377.75894 201.823976) rotate(-90)">2017</text>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24"/>
+     <g id="text_24">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(391.025082 201.823976) rotate(-90)">2018</text>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_25"/>
+     <g id="text_25">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(404.291224 201.823976) rotate(-90)">2019</text>
+     </g>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_26"/>
+     <g id="text_26">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(417.557365 201.823976) rotate(-90)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_27"/>
+     <g id="text_27">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(430.823507 201.823976) rotate(-90)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_28"/>
+     <g id="text_28">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(444.089649 201.823976) rotate(-90)">2022</text>
+     </g>
+    </g>
+    <g id="xtick_29">
+     <g id="line2d_29"/>
+     <g id="text_29">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(457.35579 201.823976) rotate(-90)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_30">
+     <g id="line2d_30"/>
+     <g id="text_30">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(470.621932 201.823976) rotate(-90)">2024</text>
+     </g>
+    </g>
+    <g id="xtick_31">
+     <g id="line2d_31"/>
+     <g id="text_31">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(483.888074 201.823976) rotate(-90)">2025</text>
+     </g>
+    </g>
+    <g id="xtick_32">
+     <g id="line2d_32"/>
+     <g id="text_32">
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(494.637817 201.823976) rotate(-90)">2026</text>
+      <text style="font-size: 4.25px; font-family: 'Noto Sans SC'" transform="translate(499.670614 200.96966) rotate(-90)">YTD</text>
+     </g>
+    </g>
+    <g id="xtick_33">
+     <g id="line2d_33">
+      <path d="M 78.066142 190.388976 
+L 78.066142 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_34">
+     <g id="line2d_34">
+      <path d="M 91.332283 190.388976 
+L 91.332283 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_35">
+     <g id="line2d_35">
+      <path d="M 104.598425 190.388976 
+L 104.598425 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_36">
+     <g id="line2d_36">
+      <path d="M 117.864567 190.388976 
+L 117.864567 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_37">
+     <g id="line2d_37">
+      <path d="M 131.130709 190.388976 
+L 131.130709 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_38">
+     <g id="line2d_38">
+      <path d="M 144.39685 190.388976 
+L 144.39685 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_39">
+     <g id="line2d_39">
+      <path d="M 157.662992 190.388976 
+L 157.662992 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_40">
+     <g id="line2d_40">
+      <path d="M 170.929134 190.388976 
+L 170.929134 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_41">
+     <g id="line2d_41">
+      <path d="M 184.195276 190.388976 
+L 184.195276 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_42">
+     <g id="line2d_42">
+      <path d="M 197.461417 190.388976 
+L 197.461417 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_43">
+     <g id="line2d_43">
+      <path d="M 210.727559 190.388976 
+L 210.727559 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_44">
+     <g id="line2d_44">
+      <path d="M 223.993701 190.388976 
+L 223.993701 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_45">
+     <g id="line2d_45">
+      <path d="M 237.259843 190.388976 
+L 237.259843 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_46">
+     <g id="line2d_46">
+      <path d="M 250.525984 190.388976 
+L 250.525984 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_47">
+     <g id="line2d_47">
+      <path d="M 263.792126 190.388976 
+L 263.792126 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_48">
+     <g id="line2d_48">
+      <path d="M 277.058268 190.388976 
+L 277.058268 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_49">
+     <g id="line2d_49">
+      <path d="M 290.324409 190.388976 
+L 290.324409 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_50">
+     <g id="line2d_50">
+      <path d="M 303.590551 190.388976 
+L 303.590551 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_51">
+     <g id="line2d_51">
+      <path d="M 316.856693 190.388976 
+L 316.856693 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_52">
+     <g id="line2d_52">
+      <path d="M 330.122835 190.388976 
+L 330.122835 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_53">
+     <g id="line2d_53">
+      <path d="M 343.388976 190.388976 
+L 343.388976 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_54">
+     <g id="line2d_54">
+      <path d="M 356.655118 190.388976 
+L 356.655118 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_55">
+     <g id="line2d_55">
+      <path d="M 369.92126 190.388976 
+L 369.92126 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_56">
+     <g id="line2d_56">
+      <path d="M 383.187402 190.388976 
+L 383.187402 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_57">
+     <g id="line2d_57">
+      <path d="M 396.453543 190.388976 
+L 396.453543 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_58">
+     <g id="line2d_58">
+      <path d="M 409.719685 190.388976 
+L 409.719685 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_59">
+     <g id="line2d_59">
+      <path d="M 422.985827 190.388976 
+L 422.985827 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_60">
+     <g id="line2d_60">
+      <path d="M 436.251969 190.388976 
+L 436.251969 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_61">
+     <g id="line2d_61">
+      <path d="M 449.51811 190.388976 
+L 449.51811 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_62">
+     <g id="line2d_62">
+      <path d="M 462.784252 190.388976 
+L 462.784252 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_63">
+     <g id="line2d_63">
+      <path d="M 476.050394 190.388976 
+L 476.050394 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_64">
+     <g id="line2d_64">
+      <path d="M 489.316535 190.388976 
+L 489.316535 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="xtick_65">
+     <g id="line2d_65">
+      <path d="M 502.582677 190.388976 
+L 502.582677 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_66"/>
+     <g id="text_33">
+      <text style="font-size: 6.15px; font-family: 'Noto Sans SC'; text-anchor: end" x="71.066142" y="47.324909" transform="rotate(-0 71.066142 47.324909)">A1  超声</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_67"/>
+     <g id="text_34">
+      <text style="font-size: 6.15px; font-family: 'Noto Sans SC'; text-anchor: end" x="71.066142" y="62.641917" transform="rotate(-0 71.066142 62.641917)">A2  内镜</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_68"/>
+     <g id="text_35">
+      <text style="font-size: 6.15px; font-family: 'Noto Sans SC'; text-anchor: end" x="71.066142" y="77.958925" transform="rotate(-0 71.066142 77.958925)">A3  OCT / 眼科成像</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_69"/>
+     <g id="text_36">
+      <text style="font-size: 6.15px; font-family: 'Noto Sans SC'; text-anchor: end" x="71.066142" y="93.275933" transform="rotate(-0 71.066142 93.275933)">A4  皮肤镜</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_70"/>
+     <g id="text_37">
+      <text style="font-size: 6.15px; font-family: 'Noto Sans SC'; text-anchor: end" x="71.066142" y="108.592941" transform="rotate(-0 71.066142 108.592941)">A5  听诊</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_71"/>
+     <g id="text_38">
+      <text style="font-size: 6.15px; font-family: 'Noto Sans SC'; text-anchor: end" x="71.066142" y="123.909949" transform="rotate(-0 71.066142 123.909949)">A6  耳镜 / 口腔–耳鼻喉</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_72"/>
+     <g id="text_39">
+      <text style="font-size: 6.15px; font-family: 'Noto Sans SC'; text-anchor: end" x="71.066142" y="139.226957" transform="rotate(-0 71.066142 139.226957)">A7  光谱 / 热成像扫描</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_73"/>
+     <g id="text_40">
+      <text style="font-size: 6.15px; font-family: 'Noto Sans SC'; text-anchor: end" x="71.066142" y="154.707324" transform="rotate(-0 71.066142 154.707324)">A8  X-ray / CT / 核医学</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_74"/>
+     <g id="text_41">
+      <text style="font-size: 6.15px; font-family: 'Noto Sans SC'; text-anchor: end" x="71.066142" y="169.860972" transform="rotate(-0 71.066142 169.860972)">A9  显微 / 内显微</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_75"/>
+     <g id="text_42">
+      <text style="font-size: 6.15px; font-family: 'Noto Sans SC'; text-anchor: end" x="71.066142" y="185.17798" transform="rotate(-0 71.066142 185.17798)">A10  生命体征采集</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_76">
+      <path d="M 78.066142 37.218898 
+L 502.582677 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_77">
+      <path d="M 78.066142 52.535906 
+L 502.582677 52.535906 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_78">
+      <path d="M 78.066142 67.852913 
+L 502.582677 67.852913 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_79">
+      <path d="M 78.066142 83.169921 
+L 502.582677 83.169921 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_80">
+      <path d="M 78.066142 98.486929 
+L 502.582677 98.486929 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_81">
+      <path d="M 78.066142 113.803937 
+L 502.582677 113.803937 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_82">
+      <path d="M 78.066142 129.120945 
+L 502.582677 129.120945 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_83">
+      <path d="M 78.066142 144.437953 
+L 502.582677 144.437953 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_84">
+      <path d="M 78.066142 159.754961 
+L 502.582677 159.754961 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_85">
+      <path d="M 78.066142 175.071969 
+L 502.582677 175.071969 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_86">
+      <path d="M 78.066142 190.388976 
+L 502.582677 190.388976 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #ffffff; stroke-width: 0.65; stroke-linecap: square"/>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_87">
+    <path d="M 144.39685 190.388976 
+L 144.39685 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #71808a; stroke-opacity: 0.82; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_88">
+    <path d="M 210.727559 190.388976 
+L 210.727559 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #71808a; stroke-opacity: 0.82; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_89">
+    <path d="M 277.058268 190.388976 
+L 277.058268 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #71808a; stroke-opacity: 0.82; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_90">
+    <path d="M 343.388976 190.388976 
+L 343.388976 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #71808a; stroke-opacity: 0.82; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_91">
+    <path d="M 409.719685 190.388976 
+L 409.719685 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #71808a; stroke-opacity: 0.82; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_92">
+    <path d="M 476.050394 190.388976 
+L 476.050394 37.218898 
+" clip-path="url(#p3a54b9c282)" style="fill: none; stroke: #71808a; stroke-opacity: 0.82; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="84.699213" y="45.883605" transform="rotate(-0 84.699213 45.883605)">0</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="97.965354" y="45.883605" transform="rotate(-0 97.965354 45.883605)">0</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="111.231496" y="45.883605" transform="rotate(-0 111.231496 45.883605)">0</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="124.497638" y="45.883605" transform="rotate(-0 124.497638 45.883605)">0</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="137.76378" y="45.883605" transform="rotate(-0 137.76378 45.883605)">0</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="151.029921" y="45.883605" transform="rotate(-0 151.029921 45.883605)">0</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="164.296063" y="45.883605" transform="rotate(-0 164.296063 45.883605)">0</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="177.562205" y="45.883605" transform="rotate(-0 177.562205 45.883605)">0</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="190.828346" y="45.883605" transform="rotate(-0 190.828346 45.883605)">0</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="204.094488" y="45.883605" transform="rotate(-0 204.094488 45.883605)">0</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="217.36063" y="45.940292" transform="rotate(-0 217.36063 45.940292)">1</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="230.626772" y="45.883605" transform="rotate(-0 230.626772 45.883605)">0</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="243.892913" y="45.883605" transform="rotate(-0 243.892913 45.883605)">0</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="257.159055" y="45.883605" transform="rotate(-0 257.159055 45.883605)">0</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="270.425197" y="45.940292" transform="rotate(-0 270.425197 45.940292)">3</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="283.691339" y="45.940292" transform="rotate(-0 283.691339 45.940292)">1</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="296.95748" y="45.940292" transform="rotate(-0 296.95748 45.940292)">4</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="310.223622" y="45.940292" transform="rotate(-0 310.223622 45.940292)">2</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="323.489764" y="45.940292" transform="rotate(-0 323.489764 45.940292)">9</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="336.755906" y="45.940292" transform="rotate(-0 336.755906 45.940292)">4</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="350.022047" y="45.940292" transform="rotate(-0 350.022047 45.940292)">4</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="363.288189" y="45.940292" transform="rotate(-0 363.288189 45.940292)">8</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="376.554331" y="45.940292" transform="rotate(-0 376.554331 45.940292)">7</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="389.820472" y="45.940292" transform="rotate(-0 389.820472 45.940292)">7</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="403.086614" y="45.940292" transform="rotate(-0 403.086614 45.940292)">10</text>
+   </g>
+   <g id="text_68">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="416.352756" y="45.940292" transform="rotate(-0 416.352756 45.940292)">18</text>
+   </g>
+   <g id="text_69">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="429.618898" y="45.940292" transform="rotate(-0 429.618898 45.940292)">20</text>
+   </g>
+   <g id="text_70">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="442.885039" y="45.940292" transform="rotate(-0 442.885039 45.940292)">22</text>
+   </g>
+   <g id="text_71">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="456.151181" y="45.940292" transform="rotate(-0 456.151181 45.940292)">27</text>
+   </g>
+   <g id="text_72">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="469.417323" y="45.940292" transform="rotate(-0 469.417323 45.940292)">45</text>
+   </g>
+   <g id="text_73">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="482.683465" y="45.940292" transform="rotate(-0 482.683465 45.940292)">51</text>
+   </g>
+   <g id="text_74">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="495.949606" y="45.940292" transform="rotate(-0 495.949606 45.940292)">33</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="84.699213" y="61.2573" transform="rotate(-0 84.699213 61.2573)">1</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="97.965354" y="61.200613" transform="rotate(-0 97.965354 61.200613)">0</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="111.231496" y="61.200613" transform="rotate(-0 111.231496 61.200613)">0</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="124.497638" y="61.200613" transform="rotate(-0 124.497638 61.200613)">0</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="137.76378" y="61.200613" transform="rotate(-0 137.76378 61.200613)">0</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="151.029921" y="61.200613" transform="rotate(-0 151.029921 61.200613)">0</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="164.296063" y="61.200613" transform="rotate(-0 164.296063 61.200613)">0</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="177.562205" y="61.2573" transform="rotate(-0 177.562205 61.2573)">2</text>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="190.828346" y="61.2573" transform="rotate(-0 190.828346 61.2573)">1</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="204.094488" y="61.2573" transform="rotate(-0 204.094488 61.2573)">1</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="217.36063" y="61.200613" transform="rotate(-0 217.36063 61.200613)">0</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="230.626772" y="61.2573" transform="rotate(-0 230.626772 61.2573)">1</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="243.892913" y="61.200613" transform="rotate(-0 243.892913 61.200613)">0</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="257.159055" y="61.2573" transform="rotate(-0 257.159055 61.2573)">1</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="270.425197" y="61.2573" transform="rotate(-0 270.425197 61.2573)">1</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="283.691339" y="61.2573" transform="rotate(-0 283.691339 61.2573)">1</text>
+   </g>
+   <g id="text_91">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="296.95748" y="61.2573" transform="rotate(-0 296.95748 61.2573)">1</text>
+   </g>
+   <g id="text_92">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="310.223622" y="61.2573" transform="rotate(-0 310.223622 61.2573)">1</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="323.489764" y="61.200613" transform="rotate(-0 323.489764 61.200613)">0</text>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="336.755906" y="61.200613" transform="rotate(-0 336.755906 61.200613)">0</text>
+   </g>
+   <g id="text_95">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="350.022047" y="61.2573" transform="rotate(-0 350.022047 61.2573)">2</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="363.288189" y="61.2573" transform="rotate(-0 363.288189 61.2573)">3</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="376.554331" y="61.2573" transform="rotate(-0 376.554331 61.2573)">8</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="389.820472" y="61.2573" transform="rotate(-0 389.820472 61.2573)">1</text>
+   </g>
+   <g id="text_99">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="403.086614" y="61.2573" transform="rotate(-0 403.086614 61.2573)">6</text>
+   </g>
+   <g id="text_100">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="416.352756" y="61.2573" transform="rotate(-0 416.352756 61.2573)">8</text>
+   </g>
+   <g id="text_101">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="429.618898" y="61.2573" transform="rotate(-0 429.618898 61.2573)">12</text>
+   </g>
+   <g id="text_102">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="442.885039" y="61.2573" transform="rotate(-0 442.885039 61.2573)">13</text>
+   </g>
+   <g id="text_103">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="456.151181" y="61.2573" transform="rotate(-0 456.151181 61.2573)">17</text>
+   </g>
+   <g id="text_104">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="469.417323" y="61.2573" transform="rotate(-0 469.417323 61.2573)">15</text>
+   </g>
+   <g id="text_105">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="482.683465" y="61.2573" transform="rotate(-0 482.683465 61.2573)">20</text>
+   </g>
+   <g id="text_106">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="495.949606" y="61.2573" transform="rotate(-0 495.949606 61.2573)">21</text>
+   </g>
+   <g id="text_107">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="84.699213" y="76.51762" transform="rotate(-0 84.699213 76.51762)">0</text>
+   </g>
+   <g id="text_108">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="97.965354" y="76.51762" transform="rotate(-0 97.965354 76.51762)">0</text>
+   </g>
+   <g id="text_109">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="111.231496" y="76.51762" transform="rotate(-0 111.231496 76.51762)">0</text>
+   </g>
+   <g id="text_110">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="124.497638" y="76.51762" transform="rotate(-0 124.497638 76.51762)">0</text>
+   </g>
+   <g id="text_111">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="137.76378" y="76.51762" transform="rotate(-0 137.76378 76.51762)">0</text>
+   </g>
+   <g id="text_112">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="151.029921" y="76.51762" transform="rotate(-0 151.029921 76.51762)">0</text>
+   </g>
+   <g id="text_113">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="164.296063" y="76.51762" transform="rotate(-0 164.296063 76.51762)">0</text>
+   </g>
+   <g id="text_114">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="177.562205" y="76.51762" transform="rotate(-0 177.562205 76.51762)">0</text>
+   </g>
+   <g id="text_115">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="190.828346" y="76.51762" transform="rotate(-0 190.828346 76.51762)">0</text>
+   </g>
+   <g id="text_116">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="204.094488" y="76.51762" transform="rotate(-0 204.094488 76.51762)">0</text>
+   </g>
+   <g id="text_117">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="217.36063" y="76.51762" transform="rotate(-0 217.36063 76.51762)">0</text>
+   </g>
+   <g id="text_118">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="230.626772" y="76.51762" transform="rotate(-0 230.626772 76.51762)">0</text>
+   </g>
+   <g id="text_119">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="243.892913" y="76.51762" transform="rotate(-0 243.892913 76.51762)">0</text>
+   </g>
+   <g id="text_120">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="257.159055" y="76.51762" transform="rotate(-0 257.159055 76.51762)">0</text>
+   </g>
+   <g id="text_121">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="270.425197" y="76.51762" transform="rotate(-0 270.425197 76.51762)">0</text>
+   </g>
+   <g id="text_122">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="283.691339" y="76.51762" transform="rotate(-0 283.691339 76.51762)">0</text>
+   </g>
+   <g id="text_123">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="296.95748" y="76.51762" transform="rotate(-0 296.95748 76.51762)">0</text>
+   </g>
+   <g id="text_124">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="310.223622" y="76.51762" transform="rotate(-0 310.223622 76.51762)">0</text>
+   </g>
+   <g id="text_125">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="323.489764" y="76.51762" transform="rotate(-0 323.489764 76.51762)">0</text>
+   </g>
+   <g id="text_126">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="336.755906" y="76.51762" transform="rotate(-0 336.755906 76.51762)">0</text>
+   </g>
+   <g id="text_127">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="350.022047" y="76.51762" transform="rotate(-0 350.022047 76.51762)">0</text>
+   </g>
+   <g id="text_128">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="363.288189" y="76.51762" transform="rotate(-0 363.288189 76.51762)">0</text>
+   </g>
+   <g id="text_129">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="376.554331" y="76.51762" transform="rotate(-0 376.554331 76.51762)">0</text>
+   </g>
+   <g id="text_130">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="389.820472" y="76.51762" transform="rotate(-0 389.820472 76.51762)">0</text>
+   </g>
+   <g id="text_131">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="403.086614" y="76.51762" transform="rotate(-0 403.086614 76.51762)">0</text>
+   </g>
+   <g id="text_132">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="416.352756" y="76.51762" transform="rotate(-0 416.352756 76.51762)">0</text>
+   </g>
+   <g id="text_133">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="429.618898" y="76.574308" transform="rotate(-0 429.618898 76.574308)">1</text>
+   </g>
+   <g id="text_134">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="442.885039" y="76.574308" transform="rotate(-0 442.885039 76.574308)">1</text>
+   </g>
+   <g id="text_135">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="456.151181" y="76.574308" transform="rotate(-0 456.151181 76.574308)">1</text>
+   </g>
+   <g id="text_136">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="469.417323" y="76.574308" transform="rotate(-0 469.417323 76.574308)">6</text>
+   </g>
+   <g id="text_137">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="482.683465" y="76.574308" transform="rotate(-0 482.683465 76.574308)">3</text>
+   </g>
+   <g id="text_138">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="495.949606" y="76.574308" transform="rotate(-0 495.949606 76.574308)">1</text>
+   </g>
+   <g id="text_139">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="84.699213" y="91.834628" transform="rotate(-0 84.699213 91.834628)">0</text>
+   </g>
+   <g id="text_140">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="97.965354" y="91.834628" transform="rotate(-0 97.965354 91.834628)">0</text>
+   </g>
+   <g id="text_141">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="111.231496" y="91.834628" transform="rotate(-0 111.231496 91.834628)">0</text>
+   </g>
+   <g id="text_142">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="124.497638" y="91.834628" transform="rotate(-0 124.497638 91.834628)">0</text>
+   </g>
+   <g id="text_143">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="137.76378" y="91.834628" transform="rotate(-0 137.76378 91.834628)">0</text>
+   </g>
+   <g id="text_144">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="151.029921" y="91.834628" transform="rotate(-0 151.029921 91.834628)">0</text>
+   </g>
+   <g id="text_145">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="164.296063" y="91.834628" transform="rotate(-0 164.296063 91.834628)">0</text>
+   </g>
+   <g id="text_146">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="177.562205" y="91.834628" transform="rotate(-0 177.562205 91.834628)">0</text>
+   </g>
+   <g id="text_147">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="190.828346" y="91.834628" transform="rotate(-0 190.828346 91.834628)">0</text>
+   </g>
+   <g id="text_148">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="204.094488" y="91.834628" transform="rotate(-0 204.094488 91.834628)">0</text>
+   </g>
+   <g id="text_149">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="217.36063" y="91.834628" transform="rotate(-0 217.36063 91.834628)">0</text>
+   </g>
+   <g id="text_150">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="230.626772" y="91.834628" transform="rotate(-0 230.626772 91.834628)">0</text>
+   </g>
+   <g id="text_151">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="243.892913" y="91.834628" transform="rotate(-0 243.892913 91.834628)">0</text>
+   </g>
+   <g id="text_152">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="257.159055" y="91.834628" transform="rotate(-0 257.159055 91.834628)">0</text>
+   </g>
+   <g id="text_153">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="270.425197" y="91.834628" transform="rotate(-0 270.425197 91.834628)">0</text>
+   </g>
+   <g id="text_154">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="283.691339" y="91.834628" transform="rotate(-0 283.691339 91.834628)">0</text>
+   </g>
+   <g id="text_155">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="296.95748" y="91.834628" transform="rotate(-0 296.95748 91.834628)">0</text>
+   </g>
+   <g id="text_156">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="310.223622" y="91.834628" transform="rotate(-0 310.223622 91.834628)">0</text>
+   </g>
+   <g id="text_157">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="323.489764" y="91.834628" transform="rotate(-0 323.489764 91.834628)">0</text>
+   </g>
+   <g id="text_158">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="336.755906" y="91.834628" transform="rotate(-0 336.755906 91.834628)">0</text>
+   </g>
+   <g id="text_159">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="350.022047" y="91.834628" transform="rotate(-0 350.022047 91.834628)">0</text>
+   </g>
+   <g id="text_160">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="363.288189" y="91.834628" transform="rotate(-0 363.288189 91.834628)">0</text>
+   </g>
+   <g id="text_161">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="376.554331" y="91.834628" transform="rotate(-0 376.554331 91.834628)">0</text>
+   </g>
+   <g id="text_162">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="389.820472" y="91.834628" transform="rotate(-0 389.820472 91.834628)">0</text>
+   </g>
+   <g id="text_163">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="403.086614" y="91.834628" transform="rotate(-0 403.086614 91.834628)">0</text>
+   </g>
+   <g id="text_164">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="416.352756" y="91.834628" transform="rotate(-0 416.352756 91.834628)">0</text>
+   </g>
+   <g id="text_165">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="429.618898" y="91.834628" transform="rotate(-0 429.618898 91.834628)">0</text>
+   </g>
+   <g id="text_166">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="442.885039" y="91.834628" transform="rotate(-0 442.885039 91.834628)">0</text>
+   </g>
+   <g id="text_167">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="456.151181" y="91.834628" transform="rotate(-0 456.151181 91.834628)">0</text>
+   </g>
+   <g id="text_168">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="469.417323" y="91.891316" transform="rotate(-0 469.417323 91.891316)">1</text>
+   </g>
+   <g id="text_169">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="482.683465" y="91.834628" transform="rotate(-0 482.683465 91.834628)">0</text>
+   </g>
+   <g id="text_170">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="495.949606" y="91.834628" transform="rotate(-0 495.949606 91.834628)">0</text>
+   </g>
+   <g id="text_171">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="84.699213" y="107.151636" transform="rotate(-0 84.699213 107.151636)">0</text>
+   </g>
+   <g id="text_172">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="97.965354" y="107.151636" transform="rotate(-0 97.965354 107.151636)">0</text>
+   </g>
+   <g id="text_173">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="111.231496" y="107.151636" transform="rotate(-0 111.231496 107.151636)">0</text>
+   </g>
+   <g id="text_174">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="124.497638" y="107.151636" transform="rotate(-0 124.497638 107.151636)">0</text>
+   </g>
+   <g id="text_175">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="137.76378" y="107.151636" transform="rotate(-0 137.76378 107.151636)">0</text>
+   </g>
+   <g id="text_176">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="151.029921" y="107.151636" transform="rotate(-0 151.029921 107.151636)">0</text>
+   </g>
+   <g id="text_177">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="164.296063" y="107.151636" transform="rotate(-0 164.296063 107.151636)">0</text>
+   </g>
+   <g id="text_178">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="177.562205" y="107.151636" transform="rotate(-0 177.562205 107.151636)">0</text>
+   </g>
+   <g id="text_179">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="190.828346" y="107.151636" transform="rotate(-0 190.828346 107.151636)">0</text>
+   </g>
+   <g id="text_180">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="204.094488" y="107.151636" transform="rotate(-0 204.094488 107.151636)">0</text>
+   </g>
+   <g id="text_181">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="217.36063" y="107.151636" transform="rotate(-0 217.36063 107.151636)">0</text>
+   </g>
+   <g id="text_182">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="230.626772" y="107.151636" transform="rotate(-0 230.626772 107.151636)">0</text>
+   </g>
+   <g id="text_183">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="243.892913" y="107.151636" transform="rotate(-0 243.892913 107.151636)">0</text>
+   </g>
+   <g id="text_184">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="257.159055" y="107.151636" transform="rotate(-0 257.159055 107.151636)">0</text>
+   </g>
+   <g id="text_185">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="270.425197" y="107.151636" transform="rotate(-0 270.425197 107.151636)">0</text>
+   </g>
+   <g id="text_186">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="283.691339" y="107.151636" transform="rotate(-0 283.691339 107.151636)">0</text>
+   </g>
+   <g id="text_187">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="296.95748" y="107.151636" transform="rotate(-0 296.95748 107.151636)">0</text>
+   </g>
+   <g id="text_188">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="310.223622" y="107.151636" transform="rotate(-0 310.223622 107.151636)">0</text>
+   </g>
+   <g id="text_189">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="323.489764" y="107.151636" transform="rotate(-0 323.489764 107.151636)">0</text>
+   </g>
+   <g id="text_190">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="336.755906" y="107.151636" transform="rotate(-0 336.755906 107.151636)">0</text>
+   </g>
+   <g id="text_191">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="350.022047" y="107.151636" transform="rotate(-0 350.022047 107.151636)">0</text>
+   </g>
+   <g id="text_192">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="363.288189" y="107.151636" transform="rotate(-0 363.288189 107.151636)">0</text>
+   </g>
+   <g id="text_193">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="376.554331" y="107.151636" transform="rotate(-0 376.554331 107.151636)">0</text>
+   </g>
+   <g id="text_194">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="389.820472" y="107.151636" transform="rotate(-0 389.820472 107.151636)">0</text>
+   </g>
+   <g id="text_195">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="403.086614" y="107.151636" transform="rotate(-0 403.086614 107.151636)">0</text>
+   </g>
+   <g id="text_196">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="416.352756" y="107.151636" transform="rotate(-0 416.352756 107.151636)">0</text>
+   </g>
+   <g id="text_197">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="429.618898" y="107.151636" transform="rotate(-0 429.618898 107.151636)">0</text>
+   </g>
+   <g id="text_198">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="442.885039" y="107.208324" transform="rotate(-0 442.885039 107.208324)">1</text>
+   </g>
+   <g id="text_199">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="456.151181" y="107.208324" transform="rotate(-0 456.151181 107.208324)">2</text>
+   </g>
+   <g id="text_200">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="469.417323" y="107.151636" transform="rotate(-0 469.417323 107.151636)">0</text>
+   </g>
+   <g id="text_201">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="482.683465" y="107.208324" transform="rotate(-0 482.683465 107.208324)">1</text>
+   </g>
+   <g id="text_202">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="495.949606" y="107.151636" transform="rotate(-0 495.949606 107.151636)">0</text>
+   </g>
+   <g id="text_203">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="84.699213" y="122.468644" transform="rotate(-0 84.699213 122.468644)">0</text>
+   </g>
+   <g id="text_204">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="97.965354" y="122.468644" transform="rotate(-0 97.965354 122.468644)">0</text>
+   </g>
+   <g id="text_205">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="111.231496" y="122.468644" transform="rotate(-0 111.231496 122.468644)">0</text>
+   </g>
+   <g id="text_206">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="124.497638" y="122.468644" transform="rotate(-0 124.497638 122.468644)">0</text>
+   </g>
+   <g id="text_207">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="137.76378" y="122.468644" transform="rotate(-0 137.76378 122.468644)">0</text>
+   </g>
+   <g id="text_208">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="151.029921" y="122.468644" transform="rotate(-0 151.029921 122.468644)">0</text>
+   </g>
+   <g id="text_209">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="164.296063" y="122.468644" transform="rotate(-0 164.296063 122.468644)">0</text>
+   </g>
+   <g id="text_210">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="177.562205" y="122.468644" transform="rotate(-0 177.562205 122.468644)">0</text>
+   </g>
+   <g id="text_211">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="190.828346" y="122.468644" transform="rotate(-0 190.828346 122.468644)">0</text>
+   </g>
+   <g id="text_212">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="204.094488" y="122.468644" transform="rotate(-0 204.094488 122.468644)">0</text>
+   </g>
+   <g id="text_213">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="217.36063" y="122.468644" transform="rotate(-0 217.36063 122.468644)">0</text>
+   </g>
+   <g id="text_214">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="230.626772" y="122.468644" transform="rotate(-0 230.626772 122.468644)">0</text>
+   </g>
+   <g id="text_215">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="243.892913" y="122.468644" transform="rotate(-0 243.892913 122.468644)">0</text>
+   </g>
+   <g id="text_216">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="257.159055" y="122.468644" transform="rotate(-0 257.159055 122.468644)">0</text>
+   </g>
+   <g id="text_217">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="270.425197" y="122.468644" transform="rotate(-0 270.425197 122.468644)">0</text>
+   </g>
+   <g id="text_218">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="283.691339" y="122.468644" transform="rotate(-0 283.691339 122.468644)">0</text>
+   </g>
+   <g id="text_219">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="296.95748" y="122.468644" transform="rotate(-0 296.95748 122.468644)">0</text>
+   </g>
+   <g id="text_220">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="310.223622" y="122.468644" transform="rotate(-0 310.223622 122.468644)">0</text>
+   </g>
+   <g id="text_221">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="323.489764" y="122.468644" transform="rotate(-0 323.489764 122.468644)">0</text>
+   </g>
+   <g id="text_222">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="336.755906" y="122.468644" transform="rotate(-0 336.755906 122.468644)">0</text>
+   </g>
+   <g id="text_223">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="350.022047" y="122.468644" transform="rotate(-0 350.022047 122.468644)">0</text>
+   </g>
+   <g id="text_224">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="363.288189" y="122.468644" transform="rotate(-0 363.288189 122.468644)">0</text>
+   </g>
+   <g id="text_225">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="376.554331" y="122.468644" transform="rotate(-0 376.554331 122.468644)">0</text>
+   </g>
+   <g id="text_226">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="389.820472" y="122.468644" transform="rotate(-0 389.820472 122.468644)">0</text>
+   </g>
+   <g id="text_227">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="403.086614" y="122.468644" transform="rotate(-0 403.086614 122.468644)">0</text>
+   </g>
+   <g id="text_228">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="416.352756" y="122.468644" transform="rotate(-0 416.352756 122.468644)">0</text>
+   </g>
+   <g id="text_229">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="429.618898" y="122.468644" transform="rotate(-0 429.618898 122.468644)">0</text>
+   </g>
+   <g id="text_230">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="442.885039" y="122.468644" transform="rotate(-0 442.885039 122.468644)">0</text>
+   </g>
+   <g id="text_231">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="456.151181" y="122.468644" transform="rotate(-0 456.151181 122.468644)">0</text>
+   </g>
+   <g id="text_232">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="469.417323" y="122.468644" transform="rotate(-0 469.417323 122.468644)">0</text>
+   </g>
+   <g id="text_233">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="482.683465" y="122.468644" transform="rotate(-0 482.683465 122.468644)">0</text>
+   </g>
+   <g id="text_234">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="495.949606" y="122.468644" transform="rotate(-0 495.949606 122.468644)">0</text>
+   </g>
+   <g id="text_235">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="84.699213" y="137.785652" transform="rotate(-0 84.699213 137.785652)">0</text>
+   </g>
+   <g id="text_236">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="97.965354" y="137.785652" transform="rotate(-0 97.965354 137.785652)">0</text>
+   </g>
+   <g id="text_237">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="111.231496" y="137.785652" transform="rotate(-0 111.231496 137.785652)">0</text>
+   </g>
+   <g id="text_238">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="124.497638" y="137.785652" transform="rotate(-0 124.497638 137.785652)">0</text>
+   </g>
+   <g id="text_239">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="137.76378" y="137.785652" transform="rotate(-0 137.76378 137.785652)">0</text>
+   </g>
+   <g id="text_240">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="151.029921" y="137.785652" transform="rotate(-0 151.029921 137.785652)">0</text>
+   </g>
+   <g id="text_241">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="164.296063" y="137.785652" transform="rotate(-0 164.296063 137.785652)">0</text>
+   </g>
+   <g id="text_242">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="177.562205" y="137.785652" transform="rotate(-0 177.562205 137.785652)">0</text>
+   </g>
+   <g id="text_243">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="190.828346" y="137.785652" transform="rotate(-0 190.828346 137.785652)">0</text>
+   </g>
+   <g id="text_244">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="204.094488" y="137.785652" transform="rotate(-0 204.094488 137.785652)">0</text>
+   </g>
+   <g id="text_245">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="217.36063" y="137.785652" transform="rotate(-0 217.36063 137.785652)">0</text>
+   </g>
+   <g id="text_246">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="230.626772" y="137.785652" transform="rotate(-0 230.626772 137.785652)">0</text>
+   </g>
+   <g id="text_247">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="243.892913" y="137.785652" transform="rotate(-0 243.892913 137.785652)">0</text>
+   </g>
+   <g id="text_248">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="257.159055" y="137.785652" transform="rotate(-0 257.159055 137.785652)">0</text>
+   </g>
+   <g id="text_249">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="270.425197" y="137.785652" transform="rotate(-0 270.425197 137.785652)">0</text>
+   </g>
+   <g id="text_250">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="283.691339" y="137.785652" transform="rotate(-0 283.691339 137.785652)">0</text>
+   </g>
+   <g id="text_251">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="296.95748" y="137.785652" transform="rotate(-0 296.95748 137.785652)">0</text>
+   </g>
+   <g id="text_252">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="310.223622" y="137.785652" transform="rotate(-0 310.223622 137.785652)">0</text>
+   </g>
+   <g id="text_253">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="323.489764" y="137.842339" transform="rotate(-0 323.489764 137.842339)">1</text>
+   </g>
+   <g id="text_254">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="336.755906" y="137.842339" transform="rotate(-0 336.755906 137.842339)">1</text>
+   </g>
+   <g id="text_255">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="350.022047" y="137.842339" transform="rotate(-0 350.022047 137.842339)">1</text>
+   </g>
+   <g id="text_256">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="363.288189" y="137.842339" transform="rotate(-0 363.288189 137.842339)">1</text>
+   </g>
+   <g id="text_257">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="376.554331" y="137.785652" transform="rotate(-0 376.554331 137.785652)">0</text>
+   </g>
+   <g id="text_258">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="389.820472" y="137.785652" transform="rotate(-0 389.820472 137.785652)">0</text>
+   </g>
+   <g id="text_259">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="403.086614" y="137.785652" transform="rotate(-0 403.086614 137.785652)">0</text>
+   </g>
+   <g id="text_260">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="416.352756" y="137.785652" transform="rotate(-0 416.352756 137.785652)">0</text>
+   </g>
+   <g id="text_261">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="429.618898" y="137.785652" transform="rotate(-0 429.618898 137.785652)">0</text>
+   </g>
+   <g id="text_262">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="442.885039" y="137.785652" transform="rotate(-0 442.885039 137.785652)">0</text>
+   </g>
+   <g id="text_263">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="456.151181" y="137.842339" transform="rotate(-0 456.151181 137.842339)">1</text>
+   </g>
+   <g id="text_264">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="469.417323" y="137.785652" transform="rotate(-0 469.417323 137.785652)">0</text>
+   </g>
+   <g id="text_265">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="482.683465" y="137.785652" transform="rotate(-0 482.683465 137.785652)">0</text>
+   </g>
+   <g id="text_266">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="495.949606" y="137.785652" transform="rotate(-0 495.949606 137.785652)">0</text>
+   </g>
+   <g id="text_267">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="84.699213" y="153.10266" transform="rotate(-0 84.699213 153.10266)">0</text>
+   </g>
+   <g id="text_268">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="97.965354" y="153.10266" transform="rotate(-0 97.965354 153.10266)">0</text>
+   </g>
+   <g id="text_269">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="111.231496" y="153.10266" transform="rotate(-0 111.231496 153.10266)">0</text>
+   </g>
+   <g id="text_270">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="124.497638" y="153.10266" transform="rotate(-0 124.497638 153.10266)">0</text>
+   </g>
+   <g id="text_271">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="137.76378" y="153.10266" transform="rotate(-0 137.76378 153.10266)">0</text>
+   </g>
+   <g id="text_272">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="151.029921" y="153.10266" transform="rotate(-0 151.029921 153.10266)">0</text>
+   </g>
+   <g id="text_273">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="164.296063" y="153.10266" transform="rotate(-0 164.296063 153.10266)">0</text>
+   </g>
+   <g id="text_274">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="177.562205" y="153.10266" transform="rotate(-0 177.562205 153.10266)">0</text>
+   </g>
+   <g id="text_275">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="190.828346" y="153.10266" transform="rotate(-0 190.828346 153.10266)">0</text>
+   </g>
+   <g id="text_276">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="204.094488" y="153.10266" transform="rotate(-0 204.094488 153.10266)">0</text>
+   </g>
+   <g id="text_277">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="217.36063" y="153.159347" transform="rotate(-0 217.36063 153.159347)">1</text>
+   </g>
+   <g id="text_278">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="230.626772" y="153.159347" transform="rotate(-0 230.626772 153.159347)">1</text>
+   </g>
+   <g id="text_279">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="243.892913" y="153.10266" transform="rotate(-0 243.892913 153.10266)">0</text>
+   </g>
+   <g id="text_280">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="257.159055" y="153.10266" transform="rotate(-0 257.159055 153.10266)">0</text>
+   </g>
+   <g id="text_281">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="270.425197" y="153.10266" transform="rotate(-0 270.425197 153.10266)">0</text>
+   </g>
+   <g id="text_282">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="283.691339" y="153.10266" transform="rotate(-0 283.691339 153.10266)">0</text>
+   </g>
+   <g id="text_283">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="296.95748" y="153.159347" transform="rotate(-0 296.95748 153.159347)">1</text>
+   </g>
+   <g id="text_284">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="310.223622" y="153.159347" transform="rotate(-0 310.223622 153.159347)">4</text>
+   </g>
+   <g id="text_285">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="323.489764" y="153.159347" transform="rotate(-0 323.489764 153.159347)">4</text>
+   </g>
+   <g id="text_286">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="336.755906" y="153.159347" transform="rotate(-0 336.755906 153.159347)">5</text>
+   </g>
+   <g id="text_287">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="350.022047" y="153.159347" transform="rotate(-0 350.022047 153.159347)">4</text>
+   </g>
+   <g id="text_288">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="363.288189" y="153.159347" transform="rotate(-0 363.288189 153.159347)">2</text>
+   </g>
+   <g id="text_289">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="376.554331" y="153.159347" transform="rotate(-0 376.554331 153.159347)">5</text>
+   </g>
+   <g id="text_290">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="389.820472" y="153.159347" transform="rotate(-0 389.820472 153.159347)">4</text>
+   </g>
+   <g id="text_291">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="403.086614" y="153.159347" transform="rotate(-0 403.086614 153.159347)">3</text>
+   </g>
+   <g id="text_292">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="416.352756" y="153.159347" transform="rotate(-0 416.352756 153.159347)">7</text>
+   </g>
+   <g id="text_293">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="429.618898" y="153.159347" transform="rotate(-0 429.618898 153.159347)">6</text>
+   </g>
+   <g id="text_294">
+    <text style="font-weight: 600; font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #ffffff" x="442.885039" y="153.159347" transform="rotate(-0 442.885039 153.159347)">11</text>
+   </g>
+   <g id="text_295">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="456.151181" y="153.159347" transform="rotate(-0 456.151181 153.159347)">3</text>
+   </g>
+   <g id="text_296">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="469.417323" y="153.159347" transform="rotate(-0 469.417323 153.159347)">7</text>
+   </g>
+   <g id="text_297">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="482.683465" y="153.159347" transform="rotate(-0 482.683465 153.159347)">3</text>
+   </g>
+   <g id="text_298">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="495.949606" y="153.159347" transform="rotate(-0 495.949606 153.159347)">6</text>
+   </g>
+   <g id="text_299">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="84.699213" y="168.419668" transform="rotate(-0 84.699213 168.419668)">0</text>
+   </g>
+   <g id="text_300">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="97.965354" y="168.419668" transform="rotate(-0 97.965354 168.419668)">0</text>
+   </g>
+   <g id="text_301">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="111.231496" y="168.419668" transform="rotate(-0 111.231496 168.419668)">0</text>
+   </g>
+   <g id="text_302">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="124.497638" y="168.419668" transform="rotate(-0 124.497638 168.419668)">0</text>
+   </g>
+   <g id="text_303">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="137.76378" y="168.419668" transform="rotate(-0 137.76378 168.419668)">0</text>
+   </g>
+   <g id="text_304">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="151.029921" y="168.419668" transform="rotate(-0 151.029921 168.419668)">0</text>
+   </g>
+   <g id="text_305">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="164.296063" y="168.419668" transform="rotate(-0 164.296063 168.419668)">0</text>
+   </g>
+   <g id="text_306">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="177.562205" y="168.419668" transform="rotate(-0 177.562205 168.419668)">0</text>
+   </g>
+   <g id="text_307">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="190.828346" y="168.419668" transform="rotate(-0 190.828346 168.419668)">0</text>
+   </g>
+   <g id="text_308">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="204.094488" y="168.419668" transform="rotate(-0 204.094488 168.419668)">0</text>
+   </g>
+   <g id="text_309">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="217.36063" y="168.419668" transform="rotate(-0 217.36063 168.419668)">0</text>
+   </g>
+   <g id="text_310">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="230.626772" y="168.419668" transform="rotate(-0 230.626772 168.419668)">0</text>
+   </g>
+   <g id="text_311">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="243.892913" y="168.419668" transform="rotate(-0 243.892913 168.419668)">0</text>
+   </g>
+   <g id="text_312">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="257.159055" y="168.419668" transform="rotate(-0 257.159055 168.419668)">0</text>
+   </g>
+   <g id="text_313">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="270.425197" y="168.419668" transform="rotate(-0 270.425197 168.419668)">0</text>
+   </g>
+   <g id="text_314">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="283.691339" y="168.419668" transform="rotate(-0 283.691339 168.419668)">0</text>
+   </g>
+   <g id="text_315">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="296.95748" y="168.419668" transform="rotate(-0 296.95748 168.419668)">0</text>
+   </g>
+   <g id="text_316">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="310.223622" y="168.476355" transform="rotate(-0 310.223622 168.476355)">2</text>
+   </g>
+   <g id="text_317">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="323.489764" y="168.476355" transform="rotate(-0 323.489764 168.476355)">2</text>
+   </g>
+   <g id="text_318">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="336.755906" y="168.476355" transform="rotate(-0 336.755906 168.476355)">1</text>
+   </g>
+   <g id="text_319">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="350.022047" y="168.476355" transform="rotate(-0 350.022047 168.476355)">2</text>
+   </g>
+   <g id="text_320">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="363.288189" y="168.476355" transform="rotate(-0 363.288189 168.476355)">3</text>
+   </g>
+   <g id="text_321">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="376.554331" y="168.476355" transform="rotate(-0 376.554331 168.476355)">2</text>
+   </g>
+   <g id="text_322">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="389.820472" y="168.476355" transform="rotate(-0 389.820472 168.476355)">4</text>
+   </g>
+   <g id="text_323">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="403.086614" y="168.476355" transform="rotate(-0 403.086614 168.476355)">4</text>
+   </g>
+   <g id="text_324">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="416.352756" y="168.419668" transform="rotate(-0 416.352756 168.419668)">0</text>
+   </g>
+   <g id="text_325">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="429.618898" y="168.419668" transform="rotate(-0 429.618898 168.419668)">0</text>
+   </g>
+   <g id="text_326">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="442.885039" y="168.476355" transform="rotate(-0 442.885039 168.476355)">3</text>
+   </g>
+   <g id="text_327">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="456.151181" y="168.476355" transform="rotate(-0 456.151181 168.476355)">2</text>
+   </g>
+   <g id="text_328">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="469.417323" y="168.476355" transform="rotate(-0 469.417323 168.476355)">2</text>
+   </g>
+   <g id="text_329">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="482.683465" y="168.476355" transform="rotate(-0 482.683465 168.476355)">1</text>
+   </g>
+   <g id="text_330">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="495.949606" y="168.476355" transform="rotate(-0 495.949606 168.476355)">1</text>
+   </g>
+   <g id="text_331">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="84.699213" y="183.736676" transform="rotate(-0 84.699213 183.736676)">0</text>
+   </g>
+   <g id="text_332">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="97.965354" y="183.736676" transform="rotate(-0 97.965354 183.736676)">0</text>
+   </g>
+   <g id="text_333">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="111.231496" y="183.736676" transform="rotate(-0 111.231496 183.736676)">0</text>
+   </g>
+   <g id="text_334">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="124.497638" y="183.736676" transform="rotate(-0 124.497638 183.736676)">0</text>
+   </g>
+   <g id="text_335">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="137.76378" y="183.736676" transform="rotate(-0 137.76378 183.736676)">0</text>
+   </g>
+   <g id="text_336">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="151.029921" y="183.736676" transform="rotate(-0 151.029921 183.736676)">0</text>
+   </g>
+   <g id="text_337">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="164.296063" y="183.736676" transform="rotate(-0 164.296063 183.736676)">0</text>
+   </g>
+   <g id="text_338">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="177.562205" y="183.736676" transform="rotate(-0 177.562205 183.736676)">0</text>
+   </g>
+   <g id="text_339">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="190.828346" y="183.736676" transform="rotate(-0 190.828346 183.736676)">0</text>
+   </g>
+   <g id="text_340">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="204.094488" y="183.736676" transform="rotate(-0 204.094488 183.736676)">0</text>
+   </g>
+   <g id="text_341">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="217.36063" y="183.736676" transform="rotate(-0 217.36063 183.736676)">0</text>
+   </g>
+   <g id="text_342">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="230.626772" y="183.736676" transform="rotate(-0 230.626772 183.736676)">0</text>
+   </g>
+   <g id="text_343">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="243.892913" y="183.736676" transform="rotate(-0 243.892913 183.736676)">0</text>
+   </g>
+   <g id="text_344">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="257.159055" y="183.736676" transform="rotate(-0 257.159055 183.736676)">0</text>
+   </g>
+   <g id="text_345">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="270.425197" y="183.736676" transform="rotate(-0 270.425197 183.736676)">0</text>
+   </g>
+   <g id="text_346">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="283.691339" y="183.736676" transform="rotate(-0 283.691339 183.736676)">0</text>
+   </g>
+   <g id="text_347">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="296.95748" y="183.736676" transform="rotate(-0 296.95748 183.736676)">0</text>
+   </g>
+   <g id="text_348">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="310.223622" y="183.736676" transform="rotate(-0 310.223622 183.736676)">0</text>
+   </g>
+   <g id="text_349">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="323.489764" y="183.736676" transform="rotate(-0 323.489764 183.736676)">0</text>
+   </g>
+   <g id="text_350">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="336.755906" y="183.736676" transform="rotate(-0 336.755906 183.736676)">0</text>
+   </g>
+   <g id="text_351">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="350.022047" y="183.736676" transform="rotate(-0 350.022047 183.736676)">0</text>
+   </g>
+   <g id="text_352">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="363.288189" y="183.736676" transform="rotate(-0 363.288189 183.736676)">0</text>
+   </g>
+   <g id="text_353">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="376.554331" y="183.793363" transform="rotate(-0 376.554331 183.793363)">1</text>
+   </g>
+   <g id="text_354">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="389.820472" y="183.736676" transform="rotate(-0 389.820472 183.736676)">0</text>
+   </g>
+   <g id="text_355">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="403.086614" y="183.736676" transform="rotate(-0 403.086614 183.736676)">0</text>
+   </g>
+   <g id="text_356">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="416.352756" y="183.793363" transform="rotate(-0 416.352756 183.793363)">1</text>
+   </g>
+   <g id="text_357">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="429.618898" y="183.736676" transform="rotate(-0 429.618898 183.736676)">0</text>
+   </g>
+   <g id="text_358">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="442.885039" y="183.793363" transform="rotate(-0 442.885039 183.793363)">1</text>
+   </g>
+   <g id="text_359">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="456.151181" y="183.793363" transform="rotate(-0 456.151181 183.793363)">2</text>
+   </g>
+   <g id="text_360">
+    <text style="font-size: 3.55px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #b4b9bd" x="469.417323" y="183.736676" transform="rotate(-0 469.417323 183.736676)">0</text>
+   </g>
+   <g id="text_361">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="482.683465" y="183.793363" transform="rotate(-0 482.683465 183.793363)">2</text>
+   </g>
+   <g id="text_362">
+    <text style="font-size: 3.75px; font-family: 'Noto Sans SC'; text-anchor: middle; fill: #202428" x="495.949606" y="183.793363" transform="rotate(-0 495.949606 183.793363)">2</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 78.066142 260.532283 
+L 502.582677 260.532283 
+L 502.582677 252.802205 
+L 78.066142 252.802205 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="QuadMesh_1">
+    <path d="M 78.066142 260.532283 
+L 78.066142 252.802205 
+L 138.711361 252.802205 
+L 138.711361 260.532283 
+L 78.066142 260.532283 
+" clip-path="url(#p6bf3f13961)" style="fill: #ffffff"/>
+    <path d="M 138.711361 260.532283 
+L 138.711361 252.802205 
+L 199.35658 252.802205 
+L 199.35658 260.532283 
+L 138.711361 260.532283 
+" clip-path="url(#p6bf3f13961)" style="fill: #eaf2f8"/>
+    <path d="M 199.35658 260.532283 
+L 199.35658 252.802205 
+L 260.0018 252.802205 
+L 260.0018 260.532283 
+L 199.35658 260.532283 
+" clip-path="url(#p6bf3f13961)" style="fill: #cfe1ef"/>
+    <path d="M 260.0018 260.532283 
+L 260.0018 252.802205 
+L 320.647019 252.802205 
+L 320.647019 260.532283 
+L 260.0018 260.532283 
+" clip-path="url(#p6bf3f13961)" style="fill: #9fc5df"/>
+    <path d="M 320.647019 260.532283 
+L 320.647019 252.802205 
+L 381.292238 252.802205 
+L 381.292238 260.532283 
+L 320.647019 260.532283 
+" clip-path="url(#p6bf3f13961)" style="fill: #6aa6cf"/>
+    <path d="M 381.292238 260.532283 
+L 381.292238 252.802205 
+L 441.937458 252.802205 
+L 441.937458 260.532283 
+L 381.292238 260.532283 
+" clip-path="url(#p6bf3f13961)" style="fill: #337fb8"/>
+    <path d="M 441.937458 260.532283 
+L 441.937458 252.802205 
+L 502.582677 252.802205 
+L 502.582677 260.532283 
+L 441.937458 260.532283 
+" clip-path="url(#p6bf3f13961)" style="fill: #0b4f8a"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_66">
+     <g id="line2d_93"/>
+     <g id="text_363">
+      <text style="font-size: 5.2px; font-family: 'Noto Sans SC'; text-anchor: middle" x="108.388751" y="266.371158" transform="rotate(-0 108.388751 266.371158)">0</text>
+     </g>
+    </g>
+    <g id="xtick_67">
+     <g id="line2d_94"/>
+     <g id="text_364">
+      <text style="font-size: 5.2px; font-family: 'Noto Sans SC'; text-anchor: middle" x="169.033971" y="266.371158" transform="rotate(-0 169.033971 266.371158)">1–2</text>
+     </g>
+    </g>
+    <g id="xtick_68">
+     <g id="line2d_95"/>
+     <g id="text_365">
+      <text style="font-size: 5.2px; font-family: 'Noto Sans SC'; text-anchor: middle" x="229.67919" y="266.371158" transform="rotate(-0 229.67919 266.371158)">3–5</text>
+     </g>
+    </g>
+    <g id="xtick_69">
+     <g id="line2d_96"/>
+     <g id="text_366">
+      <text style="font-size: 5.2px; font-family: 'Noto Sans SC'; text-anchor: middle" x="290.324409" y="266.371158" transform="rotate(-0 290.324409 266.371158)">6–10</text>
+     </g>
+    </g>
+    <g id="xtick_70">
+     <g id="line2d_97"/>
+     <g id="text_367">
+      <text style="font-size: 5.2px; font-family: 'Noto Sans SC'; text-anchor: middle" x="347.937368" y="266.371158" transform="rotate(-0 347.937368 266.371158)">11–20</text>
+     </g>
+    </g>
+    <g id="xtick_71">
+     <g id="line2d_98"/>
+     <g id="text_368">
+      <text style="font-size: 5.2px; font-family: 'Noto Sans SC'; text-anchor: middle" x="410.098718" y="266.371158" transform="rotate(-0 410.098718 266.371158)">21–40</text>
+     </g>
+    </g>
+    <g id="xtick_72">
+     <g id="line2d_99"/>
+     <g id="text_369">
+      <text style="font-size: 5.2px; font-family: 'Noto Sans SC'; text-anchor: middle" x="443.169956" y="266.371158" transform="rotate(-0 443.169956 266.371158)">≥41</text>
+     </g>
+    </g>
+    <g id="xtick_73">
+     <g id="line2d_100">
+      <defs>
+       <path id="mfeb8afc193" d="M 0 0 
+L 0 2 
+" style="stroke: #000000; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#mfeb8afc193" x="78.066142" y="260.532283" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_74">
+     <g id="line2d_101">
+      <g>
+       <use xlink:href="#mfeb8afc193" x="138.711361" y="260.532283" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_75">
+     <g id="line2d_102">
+      <g>
+       <use xlink:href="#mfeb8afc193" x="199.35658" y="260.532283" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_76">
+     <g id="line2d_103">
+      <g>
+       <use xlink:href="#mfeb8afc193" x="260.0018" y="260.532283" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_77">
+     <g id="line2d_104">
+      <g>
+       <use xlink:href="#mfeb8afc193" x="320.647019" y="260.532283" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_78">
+     <g id="line2d_105">
+      <g>
+       <use xlink:href="#mfeb8afc193" x="381.292238" y="260.532283" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_79">
+     <g id="line2d_106">
+      <g>
+       <use xlink:href="#mfeb8afc193" x="441.937458" y="260.532283" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_80">
+     <g id="line2d_107">
+      <g>
+       <use xlink:href="#mfeb8afc193" x="502.582677" y="260.532283" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_370">
+     <text style="font-size: 6px; font-family: 'Noto Sans SC'; text-anchor: middle" x="290.324409" y="274.837908" transform="rotate(-0 290.324409 274.837908)">每任务-年度文献数，n</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4"/>
+   <g id="LineCollection_1"/>
+   <g id="patch_4">
+    <path d="M 78.066142 260.532283 
+L 78.066142 256.667244 
+L 78.066142 252.802205 
+L 502.582677 252.802205 
+L 502.582677 256.667244 
+L 502.582677 260.532283 
+L 78.066142 260.532283 
+z
+" style="fill: none; stroke: #8a959d; stroke-width: 0.45; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_371">
+   <text style="font-weight: 600; font-size: 9px; font-family: 'Noto Sans SC'; text-anchor: start; fill: #202428" x="78.066142" y="19.760603" transform="rotate(-0 78.066142 19.760603)">严格集逐年文献工作量（1995–2026 年，2026 为年内截至）</text>
+  </g>
+  <g id="text_372">
+   <text style="font-weight: 600; font-size: 10.2px; font-family: 'Noto Sans SC'; text-anchor: start; fill: #202428" x="12.245669" y="30.449901" transform="rotate(-0 12.245669 30.449901)">c</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3a54b9c282">
+   <rect x="78.066142" y="37.218898" width="424.516535" height="153.170079"/>
+  </clipPath>
+  <clipPath id="p6bf3f13961">
+   <rect x="78.066142" y="252.802205" width="424.516535" height="7.730079"/>
+  </clipPath>
+ </defs>
+</svg>

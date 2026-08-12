@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Copyrighted or rights-unclear full texts and private working material
+local_only/
+papers/
+
+# Credentials and secrets
+.env
+.env.*
+*.token
+credentials*.json
+
+# Temporary outputs
+work/
+tmp/

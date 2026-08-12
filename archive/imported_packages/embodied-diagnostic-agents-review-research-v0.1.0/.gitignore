@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+node_modules/
+results/link_check.csv
+results/crossref_suggestions.json
+

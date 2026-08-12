@@ -1,0 +1,25 @@
+﻿task_code,task_en,task_zh,arxiv_raw_hits,included_records_with_arxiv_source,arxiv_only_included_records,net_core_change_vs_two_database_version,net_expanded_change_vs_two_database_version
+A1,Robotic ultrasound / sonography,机器人超声/超声扫查,86,78,6,6,6
+A2,Robotic endoscopic search / navigation,机器人内镜搜索/导航,38,21,5,3,7
+A3,Robotic OCT / ophthalmic imaging,机器人 OCT/眼科成像,3,3,0,0,0
+A4,Robotic dermoscopy / skin scanning,机器人皮肤镜/全身皮肤扫描,0,0,0,0,0
+A5,Robotic auscultation,机器人听诊,1,1,0,0,0
+A6,Robotic otoscopy / oral-ENT examination,机器人耳镜/口腔/耳鼻喉检查,0,0,0,0,0
+A7,Robotic optical / spectral / thermal scanning,机器人光谱/热成像/表面扫描,0,0,0,0,0
+R1,Robotic palpation / tactile stiffness mapping,机器人触诊/触觉硬度映射,6,5,0,0,0
+R2,Robotic elastography / compression imaging,机器人弹性检测/压缩成像,0,0,0,0,0
+R3,Robotic joint provocative / laxity examination,机器人关节激发/松弛度检查,0,0,0,0,0
+R4,Robotic diagnostic percussion,机器人诊断性叩诊,0,0,0,0,0
+R5,Robotic deep-tendon reflex examination,机器人腱反射检查,0,0,0,0,0
+R6,Robot-guided TMS / motor-response mapping,机器人引导 TMS/运动反应映射,7,3,0,0,0
+R7,Robotic nerve-conduction / electrical response testing,机器人神经传导/电刺激—响应检测,0,0,0,0,0
+R8,Robotic tonometry / indentation testing,机器人眼压/压入式检测,0,0,0,0,0
+S1,Robotic venipuncture / phlebotomy,机器人静脉穿刺/采血,3,3,1,1,1
+S2,Robotic swab collection,机器人拭子采样,1,1,0,0,0
+S3,Robotic bronchoscopy biopsy / TBNA,机器人支气管镜活检/TBNA,0,1,0,0,0
+S4,Robotic prostate biopsy,机器人前列腺活检,1,1,0,0,0
+S5,Robotic percutaneous core-needle biopsy,机器人经皮粗针活检,2,1,0,0,0
+S6,Robotic GI endoscopic biopsy,机器人胃肠内镜活检,0,0,0,0,0
+S7,Robotic fine-needle aspiration,机器人细针抽吸,0,0,0,0,0
+S8,Robotic lumbar puncture / CSF collection,机器人腰椎穿刺/脑脊液采集,0,0,0,0,0
+S9,Robotic bone-marrow / body-fluid sampling,机器人骨髓/体液穿刺采样,0,0,0,0,0

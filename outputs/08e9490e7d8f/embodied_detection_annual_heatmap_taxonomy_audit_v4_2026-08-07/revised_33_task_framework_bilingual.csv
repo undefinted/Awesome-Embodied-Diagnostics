@@ -1,0 +1,34 @@
+﻿code,class_code,class_en,class_zh,task_en,task_zh,revision_status_en,revision_status_zh
+A1,A,Active observational sensing,主动观察式检测,Robotic ultrasound / sonography,机器人超声 / 超声扫查,Retained,保留
+A2,A,Active observational sensing,主动观察式检测,Robotic endoscopic search / navigation,机器人内镜搜索 / 导航,Retained,保留
+A3,A,Active observational sensing,主动观察式检测,Robotic OCT / ophthalmic scanning,机器人 OCT / 眼科扫描,Narrowed after split,拆分后收窄
+A4,A,Active observational sensing,主动观察式检测,Robotic dermoscopy / skin scanning,机器人皮肤镜 / 皮肤扫描,Retained,保留
+A5,A,Active observational sensing,主动观察式检测,Robotic auscultation,机器人听诊,Retained,保留
+A6,A,Active observational sensing,主动观察式检测,Robotic otoscopy / oral-ENT examination,机器人耳镜 / 口腔-耳鼻喉检查,Retained,保留
+A7,A,Active observational sensing,主动观察式检测,Robotic optical / spectral / thermal scanning,机器人光学 / 光谱 / 热成像扫描,Boundary refinement,边界收紧
+A8,A,Active observational sensing,主动观察式检测,Robotic ionizing-radiation / nuclear imaging acquisition,机器人电离辐射 / 核医学成像采集,New family,新增任务
+A9,A,Active observational sensing,主动观察式检测,Robotic microscopy / confocal endomicroscopy,机器人显微 / 共聚焦内显微扫描,Split from over-broad A3,由过宽的 A3 拆出
+A10,A,Active observational sensing,主动观察式检测,Embodied non-contact vital-sign monitoring,具身式非接触生命体征监测,New family,新增任务
+R1,R,Response-based interactive diagnosis,响应式交互检测,Robotic palpation,机器人触诊,Retained,保留
+R2,R,Response-based interactive diagnosis,响应式交互检测,Robotic elastography / stiffness mapping,机器人弹性检测 / 刚度成像,Retained,保留
+R3,R,Response-based interactive diagnosis,响应式交互检测,Robotic joint provocation / laxity testing,机器人关节激发 / 松弛度检测,Retained,保留
+R4,R,Response-based interactive diagnosis,响应式交互检测,Robotic percussion,机器人叩诊,Retained,保留
+R5,R,Response-based interactive diagnosis,响应式交互检测,Robotic deep-tendon reflex testing,机器人腱反射检测,Retained,保留
+R6,R,Response-based interactive diagnosis,响应式交互检测,Robotic TMS motor-response testing,机器人 TMS 运动响应检测,Retained,保留
+R7,R,Response-based interactive diagnosis,响应式交互检测,Robotic nerve-conduction / electrical-response testing,机器人神经传导 / 电刺激响应检测,Retained,保留
+R8,R,Response-based interactive diagnosis,响应式交互检测,Robotic tonometry / indentation response,机器人眼压 / 压入响应检测,Retained,保留
+R9,R,Response-based interactive diagnosis,响应式交互检测,"Robotic tone, spasticity, ROM and strength assessment",机器人肌张力、痉挛、关节活动度与力量评估,New family,新增任务
+R10,R,Response-based interactive diagnosis,响应式交互检测,Robot-based sensorimotor / proprioceptive assessment,机器人感觉运动 / 本体感觉评估,New family,新增任务
+R11,R,Response-based interactive diagnosis,响应式交互检测,Robot-supported balance / gait perturbation assessment,机器人平衡 / 步态扰动评估,New family,新增任务
+R12,R,Response-based interactive diagnosis,响应式交互检测,Automated vestibular / oculomotor provocation testing,自动化前庭 / 眼动激发检测,New family,新增任务
+S1,S,Sample-based interactive diagnosis,采样式交互检测,Robotic vascular blood collection,机器人血管采血,Retained; broaden vocabulary,保留并扩充检索词
+S2,S,Sample-based interactive diagnosis,采样式交互检测,Robotic swab / brush collection,机器人拭子 / 刷检采样,Retained,保留
+S3,S,Sample-based interactive diagnosis,采样式交互检测,Robotic bronchoscopic biopsy / TBNA,机器人支气管镜活检 / TBNA,Retained,保留
+S4,S,Sample-based interactive diagnosis,采样式交互检测,Robotic prostate biopsy,机器人前列腺活检,Retained,保留
+S5,S,Sample-based interactive diagnosis,采样式交互检测,Robotic percutaneous core-needle biopsy,机器人经皮粗针活检,Retained; exclude CNS stereotaxy,保留；排除中枢立体定向
+S6,S,Sample-based interactive diagnosis,采样式交互检测,Robotic GI endoscopic / capsule tissue sampling,机器人消化内镜 / 胶囊组织采样,Retained; broaden vocabulary,保留并扩充检索词
+S7,S,Sample-based interactive diagnosis,采样式交互检测,Robotic FNA / FNB including EUS-guided sampling,机器人 FNA / FNB（含 EUS 引导）,Retained; broaden vocabulary,保留并扩充检索词
+S8,S,Sample-based interactive diagnosis,采样式交互检测,Robotic lumbar puncture / CSF sampling,机器人腰椎穿刺 / 脑脊液采样,Retained,保留
+S9,S,Sample-based interactive diagnosis,采样式交互检测,Robotic bone-marrow biopsy / aspiration,机器人骨髓活检 / 抽吸,Narrowed after split,拆分后收窄
+S10,S,Sample-based interactive diagnosis,采样式交互检测,Robotic body-cavity fluid aspiration,机器人体腔液体穿刺抽吸,Split from S9,由 S9 拆出
+S11,S,Sample-based interactive diagnosis,采样式交互检测,Robot-assisted stereotactic CNS biopsy,机器人辅助立体定向中枢神经系统活检,New family,新增任务

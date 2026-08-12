@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "checks": {
+    "ten_task_codes_present": true,
+    "annual_rows_equal_10x32": true,
+    "years_are_1995_through_2026": true,
+    "annual_counts_nonnegative_integers": true,
+    "annual_sums_match_cumulative_totals": true,
+    "record_count_matches_total": true,
+    "no_duplicate_nonempty_doi": true,
+    "no_duplicate_normalized_title": true,
+    "arxiv_present_in_final_records": true,
+    "a8_a10_adjudication_complete": true,
+    "2026_marked_ytd": true
+  },
+  "final_records": 551,
+  "task_totals": {
+    "A1": 276,
+    "A2": 137,
+    "A3": 13,
+    "A4": 1,
+    "A5": 4,
+    "A6": 0,
+    "A7": 5,
+    "A8": 77,
+    "A9": 29,
+    "A10": 9
+  },
+  "extension_candidate_status": {
+    "A10:Excluded": 4,
+    "A10:Included": 9,
+    "A10:Merged version": 1,
+    "A8:Excluded": 181,
+    "A8:Included": 77,
+    "A9:Excluded": 12,
+    "A9:Included": 29
+  },
+  "cutoff": "2026-08-06",
+  "databases": [
+    "OpenAlex",
+    "Europe PMC",
+    "arXiv"
+  ]
+}

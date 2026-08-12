@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this research archive, please cite the repository and the underlying sources appropriate to your claim."
+title: "Embodied Diagnostic Agents Review — Research Archive"
+type: dataset
+version: 0.1.0
+date-released: 2026-08-12
+license: CC-BY-4.0
+abstract: "A reproducible literature catalog, evidence map, synthesis notes, and validation code for a review of embodied diagnostic agents."
+keywords:
+  - embodied AI
+  - diagnostic agents
+  - medical robotics
+  - clinical evaluation
+  - lifecycle monitoring
+  - AI governance
+repository-code: "https://github.com/OWNER/REPOSITORY"
+

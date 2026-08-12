@@ -1,0 +1,12 @@
+﻿metric_en,metric_zh,value,unit
+Deduplicated candidates across all classes,三大类去重候选记录,3868.0,records
+All-class core corpus,三大类核心文献集,812.0,records
+All-class expanded upper bound,三大类扩展上界,1475.0,records
+Active-observation core corpus,主动观察核心文献集,436.0,records
+Active-observation expanded upper bound,主动观察扩展上界,1015.0,records
+A1+A2 share of active core,A1+A2 占主动观察核心集比例,94.72477064220183,%
+2021–2025 share of active core,2021–2025 占主动观察核心集比例,59.63302752293578,%
+2016–2020 active core,2016–2020 主动观察核心文献,77.0,records
+2021–2025 active core,2021–2025 主动观察核心文献,260.0,records
+Five-year workload ratio (2021–2025 / 2016–2020),五年期工作量倍数（2021–2025 / 2016–2020）,3.3766233766233764,ratio
+2026 YTD active core,2026 年截至检索日的主动观察核心文献,55.0,records

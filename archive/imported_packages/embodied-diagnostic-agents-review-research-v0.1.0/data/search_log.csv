@@ -1,0 +1,16 @@
+search_id,date_utc,method,query_or_scope,purpose,key_primary_domains,status
+S001,2026-08-12,web_search,"STARD-AI; meaningful oversight; AMIE; MedAgentBench","Verify high-risk 2025–2026 publications","nature.com; ai.nejm.org",completed
+S002,2026-08-12,web_search,"FDA GMLP; PCCP; cybersecurity; physiologic closed-loop control","Verify current regulatory title and issue status",fda.gov,completed
+S003,2026-08-12,web_search,"IMDRF GMLP N88; SaMD N41; GHTF N7","Verify identifiers and final status",imdrf.org,completed
+S004,2026-08-12,web_search,"IDEAL surgical robotics; medical robotics autonomy; healthcare benchmarks; validation generalizability","Verify publisher metadata","nature.com; science.org",completed
+S005,2026-08-12,web_search,"Human–AI workload; FUTURE-AI; deployment framework; reporting-guideline review","Verify title DOI and venue","nature.com; bmj.com",completed
+S006,2026-08-12,web_search,"Ambient intelligence ethics; remote monitoring; home monitoring; personal health data","Verify privacy and autonomy sources","thelancet.com; wiley.com; nature.com; academic.oup.com",completed
+S007,2026-08-12,web_search,"Pulse oximetry bias; population-health algorithm bias; medical fairness; WannaCry","Verify equity and resilience sources","nejm.org; science.org; nature.com",completed
+S008,2026-08-12,web_search,"Self-driving laboratories; robotic chemist; thin-film discovery","Verify self-optimizing workflow sources","pubs.acs.org; cell.com; nature.com; science.org",completed
+S009,2026-08-12,web_search,"Longitudinal omics; precision health; wearable laboratory prediction; digital twins","Verify patient-specific model sources","cell.com; nature.com",completed
+S010,2026-08-12,web_search,"Closed-loop diabetes; depression neuromodulation; graphene microneedles; Neuro-stack","Verify detection–intervention examples","nejm.org; nature.com",completed
+S011,2026-08-12,web_search,"MedAgentBench; Sequential Diagnosis; learning health system","Verify benchmark and ecosystem sources","ai.nejm.org; arxiv.org; bmj.com",completed
+S012,2026-08-12,web_search,"Health data poverty; informatics inequality; postmarket shift; algorithmic audit","Resolve DOI and locator gaps","thelancet.com; academic.oup.com; nature.com",completed
+S013,prior_conversation,web_research,"Validation; human-centred evaluation; lifecycle monitoring","Reconstructed from preserved conversation","WHO; FDA; IMDRF; Nature; BMJ; Lancet",reconstructed
+S014,prior_conversation,web_research,"Ethics safety governance; outlook grand challenges","Reconstructed from preserved conversation","WHO; FDA; EU; ISO; major journals",reconstructed
+

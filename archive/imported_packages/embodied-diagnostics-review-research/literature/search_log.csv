@@ -1,0 +1,12 @@
+search_date,database_or_site,query,purpose,result_note
+2026-08-12,workspace,"LaTeX citation-key extraction from all recovered .tex files",recover all visible references,All keys retained in references.csv
+2026-08-12,PubMed/publisher,"Can Smart Home Technologies Help Older Adults Manage Their Chronic Condition",verify Facchinetti2023SmartHomes,Matched DOI 10.3390/ijerph20021205
+2026-08-12,NEJM AI,"A virtual EHR environment to benchmark medical LLM agents",verify Jiang2025MedAgentBench,Matched DOI 10.1056/AIdbp2500144
+2026-08-12,Nature,"wearable platform closed-loop stimulation single-neuron freely moving humans Topalovic",verify Topalovic2023ClosedLoopWearable,Matched DOI 10.1038/s41593-023-01260-4
+2026-08-12,PubMed/Nature,"randomized pilot socially assistive robot patient engagement care quality",verify Mlakar2025SocialRobotPilot,Matched DOI 10.1038/s41746-025-02117-9
+2026-08-12,PubMed/publisher,"Socially Assistive Robots for People Living with Dementia in Long-Term Facilities",verify Hsieh2023DementiaSocialRobots,Matched DOI 10.1159/000529849
+2026-08-12,PubMed/publisher,"Socially assistive robots for people with dementia Yu 2022",verify Yu2022DementiaSocialRobots,Matched DOI 10.1016/j.arr.2022.101633
+2026-08-12,Nature Communications,"Machine learning in point-of-care testing innovations challenges and opportunities",resolve Han2025MLPointOfCare,Matched DOI 10.1038/s41467-025-58527-6
+2026-08-12,PubMed,"Preanalytical Errors in Clinical Laboratory Testing at a Glance",resolve Nordin2024PreanalyticalErrors,Matched DOI 10.7759/cureus.57243
+2026-08-12,Nature Chemical Engineering,"self-driving laboratories protein fitness landscape Rapp",resolve Rapp2024SelfDrivingProtein,Matched DOI 10.1038/s44286-023-00002-4
+2026-08-12,publisher/DOI resolver,"11 provisional DOI records in references.csv",verify remaining provisional metadata,All DOI-title pairs matched authoritative publisher or PubMed records

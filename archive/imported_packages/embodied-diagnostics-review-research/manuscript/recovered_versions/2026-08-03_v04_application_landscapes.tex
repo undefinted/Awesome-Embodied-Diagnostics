@@ -1,0 +1,131 @@
+\section{Application landscapes}
+\label{sec:application_landscapes}
+
+% Opening paragraph:
+% Introduce the application landscape according to the environments in
+% which diagnostic agents are embedded and where their
+% perception--reasoning--action loops are closed.
+%
+% The following applications are organized into three interconnected
+% settings: clinical care, diagnostic laboratories and everyday life.
+% These settings should not be viewed as isolated device categories,
+% but as successive and interacting components of a longitudinal
+% diagnostic pathway.
+The application landscape of embodied diagnostic agents is best distinguished by the environments in which their perception--reasoning--action loops are closed rather than by device form alone. We organize this landscape into three interconnected settings: clinical care, diagnostic laboratories and everyday life. Clinical environments centre the loop on a patient-specific question and the acquisition of evidence that can guide an immediate examination, test or intervention. Diagnostic laboratories relocate the loop to specimens and instruments, where analytical operations are selected and adapted according to sample state and intermediate results. Everyday systems extend observation beyond formal encounters and may determine when clinical assessment or laboratory testing should be initiated. These settings form successive and interacting components of a longitudinal diagnostic pathway rather than isolated device categories. A signal detected at home may trigger clinical evaluation; a patient-facing procedure may generate a specimen for centralized analysis; and a laboratory result may redirect bedside examination, treatment or subsequent monitoring. The interfaces between settings are therefore part of the diagnostic loop: clinically meaningful continuity depends on whether patient identity, specimen integrity, acquisition context, uncertainty and urgency remain connected as evidence and actions move across environments.
+
+
+\subsection{Clinical detection and intervention}
+\label{subsec:clinical_detection_intervention}
+
+% Paragraph 1: Patient-facing acquisition and assessment
+%
+% Begin with a clinical question or an initial diagnostic hypothesis,
+% which determines what evidence should be acquired from the patient.
+%
+% Discuss embodied systems that directly interact with patients through
+% robotic or image-guided sampling, bedside examination, continuous
+% physiological sensing and intra-procedural assessment.
+%
+% Focus on the clinical need for safe and reliable evidence acquisition
+% under patient movement, anatomical variability, time pressure and
+% uncertainty.
+%
+% Explain how these systems perceive patient anatomy, physiological state
+% or signal quality; select or adjust an acquisition strategy; perform the
+% measurement or sampling action; and verify whether diagnostically useful
+% evidence has been obtained.
+%
+% Representative examples may include robotic blood collection,
+% image-guided biopsy, AI-assisted point-of-care ultrasound,
+% robotic auscultation, continuous inpatient monitoring and
+% intra-procedural sensing.
+
+
+% Paragraph 2: Distributed testing and diagnostic continuity
+%
+% Explain that patient-facing acquisition can lead to two diagnostic routes.
+% In one route, bedside or point-of-care systems immediately process and
+% interpret the acquired information. In the other, physical specimens are
+% transferred to a centralized diagnostic laboratory.
+%
+% For point-of-care testing, discuss the integration of sample preparation,
+% measurement, quality assessment and machine-learning-assisted
+% interpretation close to the patient.
+%
+% For centralized testing, discuss patient--sample identification,
+% labelling, sample-quality assessment, chain-of-custody tracking and
+% autonomous specimen transport from wards, clinics or operating rooms
+% to the laboratory.
+%
+% Emphasize that embodied diagnostic logistics should preserve the identity,
+% integrity, context and clinical priority of the specimen, rather than
+% merely automate physical transportation.
+%
+% Define the clinical--laboratory boundary:
+% this paragraph ends at formal laboratory accessioning, whereas subsequent
+% specimen processing and analytical operations are discussed in the
+% laboratory subsection.
+
+
+% Paragraph 3: Detection-guided decision, action and reassessment
+%
+% Describe how patient observations, bedside measurements, imaging,
+% laboratory results and longitudinal records are integrated into a
+% clinically meaningful representation of the patient's state.
+%
+% Discuss sequential diagnostic reasoning, including the selection of
+% additional questions, examinations or tests when current evidence is
+% incomplete or uncertain.
+%
+% Present the clinical closed loop as:
+% clinical question
+% $\rightarrow$ targeted evidence acquisition
+% $\rightarrow$ multimodal interpretation
+% $\rightarrow$ selection of the next test or clinical action
+% $\rightarrow$ reassessment using newly acquired evidence.
+%
+% Distinguish between measurement actions, diagnostic workflow actions
+% and therapeutic interventions. Emphasize that higher-risk clinical
+% actions generally require explicit clinician supervision, clear
+% escalation criteria and the ability to override or stop the system.
+%
+% Clarify that a standalone diagnostic model is not necessarily embodied.
+% Embodied diagnostic agency emerges when perception and reasoning are
+% connected to physical diagnostic tools, workflow operations or
+% clinically consequential actions.
+Clinical detection begins with a question or provisional diagnostic hypothesis that determines what evidence should be acquired from the patient. An embodied acquisition system must translate this objective into a feasible and safe operation despite patient movement, anatomical variability, limited time and uncertainty about whether the resulting signal or specimen will be diagnostically adequate. It may localize an anatomical target, assess physiological state or signal quality, select an acquisition trajectory or sensor configuration, execute or guide the measurement and then verify the evidence obtained. Automated venipuncture illustrates this structure: ultrasound imaging is used to identify a suitable peripheral vessel, after which a robotic mechanism guides the needle towards the lumen and confirms the outcome of the attempt \cite{Leipheimer2019AutomatedVenipuncture}. In AI-guided echocardiography, a deep-learning system evaluates the current view and provides real-time instructions for probe movement, enabling novice operators to acquire images suitable for limited diagnostic assessment \cite{Narang2021GuidedEchoAcquisition}. Here, embodiment is distributed between the software and the human operator who physically executes its recommendations. A fully autonomous thyroid-ultrasound system integrates body-region localization, force feedback and adaptive probe orientation within the robotic platform itself, providing a more complete acquisition loop in which observations of anatomy and contact conditions continually modify probe motion \cite{Su2024AutonomousThyroidUltrasound}. The same functional pattern applies to image-guided biopsy, robotic auscultation and intra-procedural sensing: the relevant achievement is not merely automated motion or signal classification, but the reliable acquisition of evidence that answers the clinical question. Continuous inpatient wearables extend this process over time by repeatedly sampling physiological state and enabling deterioration risk to be updated as new observations arrive \cite{Scheid2025WearableDeterioration}. Nevertheless, a wearable prediction model alone does not constitute an embodied diagnostic agent unless its output is connected to actions such as checking sensor placement, increasing measurement frequency, requesting confirmatory assessment or escalating the patient for clinical review.
+
+Patient-facing acquisition subsequently gives rise to two diagnostic routes. In the first, information or specimens are processed near the patient, allowing bedside or point-of-care systems to combine sample preparation, measurement, quality assessment and algorithmic interpretation within a short local workflow. Microfluidic platforms have, for example, quantified leukocyte counts and neutrophil CD64 expression directly from small volumes of whole blood without manual sample processing \cite{Hassan2017POCMicrofluidic}. More recent systems integrate automated whole-blood preparation, molecular measurement and machine-learning-derived classifiers to estimate deterioration risk in patients with suspected sepsis \cite{Malic2025SepsisMicrofluidics}. Machine learning can additionally support signal reconstruction, assay reading, quality control and interpretation across multiple point-of-care modalities \cite{Han2025MLPOCT}. Such integration shortens the distance between acquisition and interpretation, but the loop closes locally only if the system can recognize an inadequate specimen or invalid measurement and initiate an appropriate response, such as repeating the assay, requesting another sample or escalating the result. In the second route, a physical specimen is transferred to a centralized laboratory. During this interval, the specimen becomes the material carrier of evidence about the patient, and preanalytical failures in identification, labelling, collection, handling or transport can invalidate otherwise accurate downstream analysis \cite{Nordin2024PreanalyticalErrors}. Embodied diagnostic logistics must therefore do more than navigate between a ward and a laboratory: they must maintain the link between patient, order and specimen; monitor relevant transport conditions and delays; document handovers; and preserve clinical priority. Hospital logistics robots can combine autonomous navigation with authenticated pickup and receipt, status tracking, hospital-information-system integration and urgency-based task scheduling, illustrating how transport can become part of a traceable diagnostic workflow \cite{Li2026HospitalLogisticsRobots}. The clinical side of this pathway ends at formal laboratory accessioning, when receipt, identity, condition and acceptance of the specimen are recorded. Subsequent specimen preparation and analytical operations belong to the laboratory environment discussed below.
+
+Evidence acquired through examination, monitoring, imaging and laboratory testing must ultimately be assembled into a clinically meaningful representation of the patient's evolving state. Because the initial evidence is often incomplete or ambiguous, diagnostic reasoning is sequential: each result can change the differential diagnosis and determine which question, examination or test would be most informative next. Conversational diagnostic systems demonstrate active history taking in which successive questions depend on previous answers, while differential-diagnosis models and multimodal oncology agents illustrate how clinical records, images, specialised analytical tools and external knowledge can be coordinated during interpretation \cite{Tu2025ConversationalDiagnosticAI,McDuff2025DifferentialDiagnosis,Ferber2025OncologyAgent}. These systems primarily establish agency at the informational level; they become clinically embodied only when their selections can alter subsequent acquisition or care. The corresponding clinical loop can be expressed as
+
+The actions within this loop differ in consequence. Measurement actions adjust a sensor, reacquire an image or repeat a reversible test. Diagnostic-workflow actions request another examination, prioritize a specimen, issue an alert or escalate the case to a clinician. Therapeutic interventions alter the patient's biological state and therefore carry a different level of risk. The deployment of the TREWS sepsis warning system illustrates a clinician-mediated workflow loop in which model-generated alerts were reviewed by providers and connected to subsequent clinical decisions, rather than executed autonomously \cite{Adams2022TREWS}. Closed-loop insulin delivery provides a mature example of direct sensing, algorithmic control, physiological intervention and feedback, but it is a therapeutic control system rather than a diagnostic agent \cite{Brown2019ClosedLoopDiabetes}. As actions become more invasive, less reversible or more clinically consequential, explicit clinician authorization, defined escalation criteria and the ability to interrupt or override the system become increasingly important. A standalone model that predicts a diagnosis from already collected data is therefore not necessarily embodied. Embodied diagnostic agency arises when perception and reasoning are connected to physical diagnostic tools, workflow operations or clinically consequential actions, and when the results of those actions are observed and used to determine what should happen next.
+
+
+\subsection{Laboratory diagnostics and assay development}
+\label{subsec:laboratory_diagnostics}
+
+% Paragraph 1: From manual manipulation to programmable execution
+% Repetitive physical operations, occupational burden, robotic liquid
+% handling and task-level automation.
+
+% Paragraph 2: From fixed workflows to adaptive laboratory operation
+% Integration of instruments, perception of sample and equipment states,
+% adaptation to variable conditions, error recovery and dynamic replanning.
+
+% Paragraph 3: From automated experimentation to closed-loop scientific agency
+% Scientific objectives, experiment selection, robotic execution,
+% measurement, reasoning, model updating and selection of the next experiment.
+
+
+\subsection{Everyday embodied monitoring and adaptive support}
+\label{subsec:everyday_monitoring}
+
+% Intelligent body-integrated monitoring
+% Wearable, implantable and ingestible systems
+
+% Ambient and home-embedded intelligence
+% Smart-home sensing and connected home diagnostic devices
+
+% Interactive care and functional assistance
+% Companion robots, rehabilitation robots and intelligent assistive devices

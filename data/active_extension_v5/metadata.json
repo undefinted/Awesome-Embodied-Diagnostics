@@ -1,0 +1,23 @@
+{
+  "cutoff": "2026-08-06",
+  "retrieved_on": "2026-08-07",
+  "databases": [
+    "OpenAlex",
+    "Europe PMC",
+    "arXiv"
+  ],
+  "raw_records": 4116,
+  "deduplicated_candidates": 3710,
+  "auto_included": 1902,
+  "task_counts": {
+    "A10": 128,
+    "A8": 1632,
+    "A9": 142
+  },
+  "core_task_counts": {
+    "A10": 14,
+    "A8": 258,
+    "A9": 41
+  },
+  "status": "auto-screened; requires title/abstract adjudication before final counts"
+}

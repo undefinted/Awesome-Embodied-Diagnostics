@@ -1,0 +1,5 @@
+﻿class_code,class_en,class_zh,current_task_families,revised_task_families,net_change
+A,Active observational sensing,主动观察式检测,7,10,3
+R,Response-based interactive diagnosis,响应式交互检测,8,12,4
+S,Sample-based interactive diagnosis,采样式交互检测,9,11,2
+Total,Total,合计,24,33,9

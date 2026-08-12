@@ -1,0 +1,463 @@
+[
+  {
+    "code": "A1",
+    "class_code": "A",
+    "class_en": "Active observational sensing",
+    "class_zh": "主动观察式检测",
+    "task_en": "Robotic ultrasound / sonography",
+    "task_zh": "机器人超声/超声扫查",
+    "phrases": [
+      "robotic ultrasound",
+      "robot-assisted ultrasound",
+      "robotized ultrasound",
+      "robotised ultrasound",
+      "autonomous ultrasound",
+      "telerobotic ultrasound",
+      "robotic ultrasonography",
+      "robot-assisted ultrasonography",
+      "robotic sonography"
+    ],
+    "task_pattern": "ultra(?:sound|sonograph\\w*)|sonograph\\w*|echograph\\w*",
+    "definition": "机器人主动改变探头位置、姿态或接触力以获得诊断超声影像。",
+    "exclusions": "仅做图像分割/分类、针路或治疗导航而未主动扫查；弹性成像归 R2；取样归 S 类。"
+  },
+  {
+    "code": "A2",
+    "class_code": "A",
+    "class_en": "Active observational sensing",
+    "class_zh": "主动观察式检测",
+    "task_en": "Robotic endoscopic search / navigation",
+    "task_zh": "机器人内镜搜索/导航",
+    "phrases": [
+      "robotic endoscopy",
+      "robotic endoscope",
+      "robot-assisted endoscopy",
+      "autonomous endoscopy",
+      "endoscopic robot",
+      "robotic capsule endoscopy",
+      "magnetic capsule endoscopy",
+      "robotic colonoscopy",
+      "autonomous colonoscopy",
+      "robotic bronchoscopy",
+      "robot-assisted bronchoscopy"
+    ],
+    "task_pattern": "endoscop\\w*|colonoscop\\w*|bronchoscop\\w*|capsule",
+    "definition": "机器人/磁驱内镜主动改变视角、位置或路径以检查腔道和搜索病灶。",
+    "exclusions": "纯治疗性内镜操作；带活检/针吸的主要终点归 S3/S6。"
+  },
+  {
+    "code": "A3",
+    "class_code": "A",
+    "class_en": "Active observational sensing",
+    "class_zh": "主动观察式检测",
+    "task_en": "Robotic OCT / ophthalmic imaging",
+    "task_zh": "机器人 OCT/眼科成像",
+    "phrases": [
+      "robotic optical coherence tomography",
+      "robot-assisted optical coherence tomography",
+      "robotic OCT",
+      "autonomous OCT",
+      "robotic retinal imaging",
+      "robotic fundus imaging",
+      "robotic ophthalmic imaging"
+    ],
+    "task_pattern": "optical coherence tomography|\\bOCT\\b|retin\\w* imag\\w*|fundus imag\\w*|ophthalm\\w* imag\\w*",
+    "definition": "机器人定位 OCT、眼底或其他眼科成像传感器并主动获取诊断影像。",
+    "exclusions": "仅做图像算法或机器人眼科治疗而无主动成像。"
+  },
+  {
+    "code": "A4",
+    "class_code": "A",
+    "class_en": "Active observational sensing",
+    "class_zh": "主动观察式检测",
+    "task_en": "Robotic dermoscopy / skin scanning",
+    "task_zh": "机器人皮肤镜/全身皮肤扫描",
+    "phrases": [
+      "robotic dermoscopy",
+      "robot-assisted dermoscopy",
+      "robotic skin imaging",
+      "autonomous skin imaging",
+      "robotic total body photography",
+      "skin scanning robot",
+      "robotic skin examination"
+    ],
+    "task_pattern": "dermoscop\\w*|skin imag\\w*|skin scan\\w*|total.body photograph\\w*|skin examination",
+    "definition": "机器人主动巡视皮肤表面、调整相机/皮肤镜位姿并采集病灶影像。",
+    "exclusions": "固定相机皮肤分类器、纯图像诊断模型。"
+  },
+  {
+    "code": "A5",
+    "class_code": "A",
+    "class_en": "Active observational sensing",
+    "class_zh": "主动观察式检测",
+    "task_en": "Robotic auscultation",
+    "task_zh": "机器人听诊",
+    "phrases": [
+      "robotic auscultation",
+      "robot-assisted auscultation",
+      "autonomous auscultation",
+      "robotic stethoscope",
+      "robotic heart sound",
+      "robotic lung sound"
+    ],
+    "task_pattern": "auscultat\\w*|stethoscop\\w*|heart sound\\w*|lung sound\\w*",
+    "definition": "机器人在多个解剖位置放置听诊器并采集心肺声音。",
+    "exclusions": "固定电子听诊器和仅做声音分类的算法。"
+  },
+  {
+    "code": "A6",
+    "class_code": "A",
+    "class_en": "Active observational sensing",
+    "class_zh": "主动观察式检测",
+    "task_en": "Robotic otoscopy / oral-ENT examination",
+    "task_zh": "机器人耳镜/口腔/耳鼻喉检查",
+    "phrases": [
+      "robotic otoscopy",
+      "robotic otoscope",
+      "robot-assisted otoscopy",
+      "autonomous otoscopy",
+      "robotic oral examination",
+      "robotic throat examination",
+      "robotic ear examination",
+      "robotic dental examination",
+      "robotic intraoral imaging"
+    ],
+    "task_pattern": "otoscop\\w*|oral examination|throat examination|ear examination|dental examination|intraoral imag\\w*",
+    "definition": "机器人主动定位耳镜或口腔/咽喉相机以获得检查影像。",
+    "exclusions": "牙科加工、手术或固定式口内扫描而无机器人主动定位。"
+  },
+  {
+    "code": "A7",
+    "class_code": "A",
+    "class_en": "Active observational sensing",
+    "class_zh": "主动观察式检测",
+    "task_en": "Robotic optical / spectral / thermal scanning",
+    "task_zh": "机器人光谱/热成像/表面扫描",
+    "phrases": [
+      "robotic hyperspectral imaging",
+      "robot-assisted hyperspectral imaging",
+      "robotic thermography",
+      "robotic thermal imaging",
+      "robotic terahertz imaging",
+      "robotic Raman spectroscopy",
+      "robotic fluorescence imaging",
+      "robotic photoacoustic imaging"
+    ],
+    "task_pattern": "hyperspectral|thermograph\\w*|thermal imag\\w*|terahertz|Raman|fluorescen\\w* imag\\w*|photoacoustic imag\\w*",
+    "definition": "机器人主动移动光谱、热、太赫兹、荧光或光声传感器扫描人体/组织。",
+    "exclusions": "工业检测；主要用于切除/消融而非诊断取证。"
+  },
+  {
+    "code": "R1",
+    "class_code": "R",
+    "class_en": "Response-based interactive diagnosis",
+    "class_zh": "响应式交互检测",
+    "task_en": "Robotic palpation / tactile stiffness mapping",
+    "task_zh": "机器人触诊/触觉硬度映射",
+    "phrases": [
+      "robotic palpation",
+      "robot-assisted palpation",
+      "autonomous palpation",
+      "robot palpation",
+      "tactile palpation robot",
+      "robotic tactile examination"
+    ],
+    "task_pattern": "palpat\\w*|tactile examination|tactile stiff\\w*",
+    "definition": "机器人施加受控接触/压入并由力、位移或触觉响应定位硬结或边界。",
+    "exclusions": "仅抓取/操作组织而不以诊断为终点。"
+  },
+  {
+    "code": "R2",
+    "class_code": "R",
+    "class_en": "Response-based interactive diagnosis",
+    "class_zh": "响应式交互检测",
+    "task_en": "Robotic elastography / compression imaging",
+    "task_zh": "机器人弹性检测/压缩成像",
+    "phrases": [
+      "robotic elastography",
+      "robot-assisted elastography",
+      "robotic ultrasound elastography",
+      "robotic compression ultrasound",
+      "robotic tissue stiffness mapping"
+    ],
+    "task_pattern": "elastograph\\w*|compression ultrasound|tissue stiff\\w* map\\w*",
+    "definition": "机器人施加可控压缩、振动或剪切波激励并测得组织弹性响应。",
+    "exclusions": "无机器人施力/定位的常规弹性成像。"
+  },
+  {
+    "code": "R3",
+    "class_code": "R",
+    "class_en": "Response-based interactive diagnosis",
+    "class_zh": "响应式交互检测",
+    "task_en": "Robotic joint provocative / laxity examination",
+    "task_zh": "机器人关节激发/松弛度检查",
+    "phrases": [
+      "robotic joint examination",
+      "robotic knee examination",
+      "robotic shoulder examination",
+      "robotic ankle examination",
+      "robotic laxity testing",
+      "robotic arthrometer",
+      "robot-assisted joint assessment"
+    ],
+    "task_pattern": "joint examination|knee examination|shoulder examination|ankle examination|laxity test\\w*|arthromet\\w*|joint assessment",
+    "definition": "机器人施加标准化关节载荷/运动，测量松弛度、活动度或疼痛/功能响应。",
+    "exclusions": "康复训练、手术导航、假体测试而无诊断检查终点。"
+  },
+  {
+    "code": "R4",
+    "class_code": "R",
+    "class_en": "Response-based interactive diagnosis",
+    "class_zh": "响应式交互检测",
+    "task_en": "Robotic diagnostic percussion",
+    "task_zh": "机器人诊断性叩诊",
+    "phrases": [
+      "robotic diagnostic percussion",
+      "robot-assisted percussion examination",
+      "automated percussion examination",
+      "robotic chest percussion diagnosis"
+    ],
+    "task_pattern": "percussion",
+    "definition": "机器人执行可重复叩击并分析声学/机械响应用于体格检查。",
+    "exclusions": "排痰、胸部物理治疗或康复性叩击。"
+  },
+  {
+    "code": "R5",
+    "class_code": "R",
+    "class_en": "Response-based interactive diagnosis",
+    "class_zh": "响应式交互检测",
+    "task_en": "Robotic deep-tendon reflex examination",
+    "task_zh": "机器人腱反射检查",
+    "phrases": [
+      "robotic reflex testing",
+      "robotic tendon reflex",
+      "automated tendon reflex",
+      "robot-assisted reflex examination",
+      "robotic patellar reflex"
+    ],
+    "task_pattern": "reflex test\\w*|tendon reflex|reflex examination|patellar reflex",
+    "definition": "机器人施加标准化叩击并测量肢体、肌电或运动学反射。",
+    "exclusions": "康复反射训练或非诊断性控制实验。"
+  },
+  {
+    "code": "R6",
+    "class_code": "R",
+    "class_en": "Response-based interactive diagnosis",
+    "class_zh": "响应式交互检测",
+    "task_en": "Robot-guided TMS / motor-response mapping",
+    "task_zh": "机器人引导 TMS/运动反应映射",
+    "phrases": [
+      "robotic transcranial magnetic stimulation",
+      "robot-assisted transcranial magnetic stimulation",
+      "robot-guided transcranial magnetic stimulation",
+      "robotic TMS",
+      "robot-assisted TMS"
+    ],
+    "task_pattern": "transcranial magnetic stimulation|\\bTMS\\b",
+    "definition": "机器人定位刺激线圈，通过 MEP/功能响应做皮层定位、评估或诊断映射。",
+    "exclusions": "仅以治疗疗效为终点且未测量诊断/功能映射响应。"
+  },
+  {
+    "code": "R7",
+    "class_code": "R",
+    "class_en": "Response-based interactive diagnosis",
+    "class_zh": "响应式交互检测",
+    "task_en": "Robotic nerve-conduction / electrical response testing",
+    "task_zh": "机器人神经传导/电刺激—响应检测",
+    "phrases": [
+      "robotic nerve conduction",
+      "robot-assisted nerve conduction",
+      "automated nerve conduction study",
+      "robotic electrical stimulation response",
+      "robotic neuromuscular assessment"
+    ],
+    "task_pattern": "nerve conduction|electrical stimulation response|neuromuscular assessment",
+    "definition": "机器人定位刺激/记录电极并测量神经或肌肉的诱发响应。",
+    "exclusions": "治疗性电刺激、康复或假肢控制而无诊断测量。"
+  },
+  {
+    "code": "R8",
+    "class_code": "R",
+    "class_en": "Response-based interactive diagnosis",
+    "class_zh": "响应式交互检测",
+    "task_en": "Robotic tonometry / indentation testing",
+    "task_zh": "机器人眼压/压入式检测",
+    "phrases": [
+      "robotic tonometry",
+      "robot-assisted tonometry",
+      "robotic indentation test",
+      "robotic corneal indentation",
+      "autonomous tonometry"
+    ],
+    "task_pattern": "tonometr\\w*|indentation test\\w*|corneal indentation",
+    "definition": "机器人施加标准化接触或气动/机械载荷并测量眼压或组织变形。",
+    "exclusions": "固定式商用眼压计或材料测试。"
+  },
+  {
+    "code": "S1",
+    "class_code": "S",
+    "class_en": "Sample-based interactive diagnosis",
+    "class_zh": "采样式交互检测",
+    "task_en": "Robotic venipuncture / phlebotomy",
+    "task_zh": "机器人静脉穿刺/采血",
+    "phrases": [
+      "robotic venipuncture",
+      "robot-assisted venipuncture",
+      "autonomous venipuncture",
+      "robotic phlebotomy",
+      "robotic blood draw",
+      "venipuncture robot"
+    ],
+    "task_pattern": "venipuncture|phlebotom\\w*|blood draw",
+    "definition": "机器人定位静脉、穿刺并取得血液样本。",
+    "exclusions": "仅静脉显像、输液/置管而无采血终点。"
+  },
+  {
+    "code": "S2",
+    "class_code": "S",
+    "class_en": "Sample-based interactive diagnosis",
+    "class_zh": "采样式交互检测",
+    "task_en": "Robotic swab collection",
+    "task_zh": "机器人拭子采样",
+    "phrases": [
+      "robotic swab",
+      "robot-assisted swab",
+      "autonomous swab collection",
+      "robotic nasopharyngeal swab",
+      "robotic oropharyngeal swab",
+      "swabbing robot"
+    ],
+    "task_pattern": "swab\\w*",
+    "definition": "机器人执行鼻咽、口咽或其他表面拭子采样。",
+    "exclusions": "清洁/消毒机器人或实验室移液拭子。"
+  },
+  {
+    "code": "S3",
+    "class_code": "S",
+    "class_en": "Sample-based interactive diagnosis",
+    "class_zh": "采样式交互检测",
+    "task_en": "Robotic bronchoscopy biopsy / TBNA",
+    "task_zh": "机器人支气管镜活检/TBNA",
+    "phrases": [
+      "robotic bronchoscopy biopsy",
+      "robotic-assisted bronchoscopy biopsy",
+      "robotic bronchoscopic biopsy",
+      "robotic transbronchial biopsy",
+      "robotic bronchoscopy needle aspiration",
+      "robotic bronchoscopy sampling",
+      "robotic-assisted bronchoscopy tissue acquisition"
+    ],
+    "task_pattern": "bronchoscop\\w*|transbronchial|TBNA",
+    "definition": "机器人支气管镜导航至肺病灶并执行活检、刷检或针吸取样。",
+    "exclusions": "仅导航/观察而未取样归 A2。"
+  },
+  {
+    "code": "S4",
+    "class_code": "S",
+    "class_en": "Sample-based interactive diagnosis",
+    "class_zh": "采样式交互检测",
+    "task_en": "Robotic prostate biopsy",
+    "task_zh": "机器人前列腺活检",
+    "phrases": [
+      "robotic prostate biopsy",
+      "robot-assisted prostate biopsy",
+      "robotic transperineal biopsy",
+      "robotic transrectal biopsy"
+    ],
+    "task_pattern": "prostat\\w*|transperineal|transrectal",
+    "definition": "机器人规划并执行经会阴/经直肠前列腺组织取样。",
+    "exclusions": "前列腺治疗或仅影像融合而未执行取样。"
+  },
+  {
+    "code": "S5",
+    "class_code": "S",
+    "class_en": "Sample-based interactive diagnosis",
+    "class_zh": "采样式交互检测",
+    "task_en": "Robotic percutaneous core-needle biopsy",
+    "task_zh": "机器人经皮粗针活检",
+    "phrases": [
+      "robotic needle biopsy",
+      "robot-assisted needle biopsy",
+      "robotic percutaneous biopsy",
+      "robotic breast biopsy",
+      "robotic liver biopsy",
+      "robotic lung biopsy",
+      "robotic kidney biopsy",
+      "robotic core needle biopsy"
+    ],
+    "task_pattern": "biops\\w*|core needle",
+    "definition": "机器人在影像引导下执行肺、肝、乳腺、肾等经皮粗针组织取样。",
+    "exclusions": "支气管镜、前列腺、胃肠内镜和骨髓活检分别归 S3/S4/S6/S9。"
+  },
+  {
+    "code": "S6",
+    "class_code": "S",
+    "class_en": "Sample-based interactive diagnosis",
+    "class_zh": "采样式交互检测",
+    "task_en": "Robotic GI endoscopic biopsy",
+    "task_zh": "机器人胃肠内镜活检",
+    "phrases": [
+      "robotic endoscopic biopsy",
+      "robot-assisted endoscopic biopsy",
+      "robotic gastrointestinal biopsy",
+      "robotic colon biopsy",
+      "robotic gastric biopsy"
+    ],
+    "task_pattern": "endoscop\\w*|gastrointestinal|gastric|colon",
+    "definition": "机器人胃肠内镜定位病灶并夹取/切取组织。",
+    "exclusions": "仅视觉搜索/导航而无取样归 A2。"
+  },
+  {
+    "code": "S7",
+    "class_code": "S",
+    "class_en": "Sample-based interactive diagnosis",
+    "class_zh": "采样式交互检测",
+    "task_en": "Robotic fine-needle aspiration",
+    "task_zh": "机器人细针抽吸",
+    "phrases": [
+      "robotic fine needle aspiration",
+      "robot-assisted fine needle aspiration",
+      "robotic FNA",
+      "robotic aspiration biopsy"
+    ],
+    "task_pattern": "fine needle aspiration|\\bFNA\\b|aspiration biopsy",
+    "definition": "机器人执行细针抽吸并取得细胞学样本。",
+    "exclusions": "支气管镜 TBNA 归 S3；纯治疗性抽吸/引流。"
+  },
+  {
+    "code": "S8",
+    "class_code": "S",
+    "class_en": "Sample-based interactive diagnosis",
+    "class_zh": "采样式交互检测",
+    "task_en": "Robotic lumbar puncture / CSF collection",
+    "task_zh": "机器人腰椎穿刺/脑脊液采集",
+    "phrases": [
+      "robotic lumbar puncture",
+      "robot-assisted lumbar puncture",
+      "autonomous lumbar puncture",
+      "robotic cerebrospinal fluid collection"
+    ],
+    "task_pattern": "lumbar puncture|cerebrospinal fluid|\\bCSF\\b",
+    "definition": "机器人定位椎间隙、穿刺并取得脑脊液样本。",
+    "exclusions": "硬膜外麻醉或药物注射而无采样。"
+  },
+  {
+    "code": "S9",
+    "class_code": "S",
+    "class_en": "Sample-based interactive diagnosis",
+    "class_zh": "采样式交互检测",
+    "task_en": "Robotic bone-marrow / body-fluid sampling",
+    "task_zh": "机器人骨髓/体液穿刺采样",
+    "phrases": [
+      "robotic bone marrow biopsy",
+      "robot-assisted bone marrow biopsy",
+      "robotic bone marrow aspiration",
+      "robotic joint aspiration",
+      "robotic pleural aspiration",
+      "robotic diagnostic paracentesis"
+    ],
+    "task_pattern": "bone marrow|joint aspiration|pleural aspiration|paracentesis",
+    "definition": "机器人执行骨髓活检/抽吸或关节、胸腹腔液体的诊断性采样。",
+    "exclusions": "以治疗引流为唯一终点的操作。"
+  }
+]

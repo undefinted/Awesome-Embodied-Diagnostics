@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.venv/
+venv/
+build/
+dist/
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.tmp
+
+# Keep unknown-rights review images locally; remove this line only after rights clearance.
+sources/private_review_only/*.png
+
