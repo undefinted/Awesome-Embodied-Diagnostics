@@ -24,7 +24,8 @@ The basic unit is a `sensing → decision → action → feedback` loop. A syste
 - [Generated results and figures](outputs/)
 - [Review/manuscript research package](archive/imported_packages/)
 - [Releases and provenance](provenance/)
-- [Application presentation package](docs/APPLICATION_PRESENTATION.md)
+- [P5–P29 page-by-page research support](docs/PRESENTATION_SLIDE_SUPPORT.md)
+- [Application evidence and analysis package](docs/APPLICATION_PRESENTATION.md)
 
 ## Application map
 
@@ -45,6 +46,18 @@ The basic unit is a `sensing → decision → action → feedback` loop. A syste
 
 See [`data/presentation/application_evidence.csv`](data/presentation/application_evidence.csv) for claim-level qualifiers and sources.
 
+## Current reproducible snapshot
+
+The frozen 2026-08-12 task-assignment file contains 1,454 saved rows. After selected task aliases are merged and saved snapshots are deduplicated, the analysis produces 1,150 unique task–paper candidate pairs. Within-category paper counts are 869 for active observational sensing, 131 for response-based interaction and 118 for sample-based interaction.
+
+These are **curation-pipeline results**, not estimates of all publications and not measures of clinical maturity. Reproduce them with:
+
+```bash
+python scripts/analyze_application_landscape.py
+```
+
+Results are written to [`outputs/application_landscape/`](outputs/application_landscape/), including a filterable research workbook, normalized task counts and evidence-stage summaries.
+
 ## Working taxonomy
 
 | Evidence-generation mechanism | Diagnostic action | Typical tasks |
@@ -63,6 +76,7 @@ python -m venv .venv
 # Linux/macOS: source .venv/bin/activate
 pip install -r requirements.txt
 python scripts/validate_repository.py
+python scripts/analyze_application_landscape.py
 ```
 
 Existing analysis scripts and exact data snapshots are preserved. Networked retrieval will change as bibliographic indexes update; freeze the query date and retain raw responses when refreshing results.

@@ -1,6 +1,6 @@
 # Application presentation package
 
-This package supports the group-meeting deck on applications of embodied intelligence in medical detection. It is organized around how diagnostic evidence is generated, not around robot morphology.
+This package supports the group-meeting content and the review's Application section. It is organized around how diagnostic evidence is generated, not around robot morphology. The current deliverable is research support and structured analysis, not a finished PowerPoint file.
 
 ## Narrative
 
@@ -16,7 +16,8 @@ The common evaluation question is whether feedback reduces clinically consequent
 
 - `data/presentation/application_evidence.csv`: claim-level evidence ledger used by the deck.
 - `data/presentation/slide_plan.csv`: page-by-page communication job, layout and source plan.
-- `scripts/presentations/rebuild_application_deck.mjs`: Artifact Tool round-trip build entry point.
-- `presentations/医学检测具身智能_应用完整版.pptx`: versioned presentation output.
+- `scripts/analyze_application_landscape.py`: normalization and deduplicated bibliometric summaries.
+- `scripts/workbooks/build_application_research_workbook.mjs`: filterable research-workbook builder.
+- `docs/PRESENTATION_SLIDE_SUPPORT.md`: complete P5–P29 content, figure and evidence plan.
 
 Numbers in the presentation should be read with the evidence-stage qualifier in the ledger. Bibliometric task counts are curated workflow outputs and not global publication totals.

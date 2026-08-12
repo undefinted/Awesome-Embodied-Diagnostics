@@ -1,0 +1,25 @@
+﻿category,task,unique_closed_loop_candidates,candidates_since_2021,recent_share,interpretation
+Active observational sensing,机器人超声,549,420,0.765,research-volume signal only; not maturity or clinical-effectiveness evidence
+Active observational sensing,内镜搜索/自主巡检,241,197,0.817,research-volume signal only; not maturity or clinical-effectiveness evidence
+Sample-based interactive diagnosis,机器人穿刺/芯针活检,80,42,0.525,research-volume signal only; not maturity or clinical-effectiveness evidence
+Response-based interactive diagnosis,机器人触诊,78,51,0.654,research-volume signal only; not maturity or clinical-effectiveness evidence
+Response-based interactive diagnosis,机器人神经刺激—响应检测,43,23,0.535,research-volume signal only; not maturity or clinical-effectiveness evidence
+Active observational sensing,机器人OCT扫描,39,34,0.872,research-volume signal only; not maturity or clinical-effectiveness evidence
+Active observational sensing,磁控/主动胶囊内镜巡检,23,15,0.652,research-volume signal only; not maturity or clinical-effectiveness evidence
+Sample-based interactive diagnosis,机器人采血/静脉穿刺,21,12,0.571,research-volume signal only; not maturity or clinical-effectiveness evidence
+Active observational sensing,机器人支气管镜搜索/导航,18,18,1.0,research-volume signal only; not maturity or clinical-effectiveness evidence
+Sample-based interactive diagnosis,机器人静脉穿刺/采血,12,4,0.333,research-volume signal only; not maturity or clinical-effectiveness evidence
+Sample-based interactive diagnosis,机器人拭子/腔道标本采集,11,11,1.0,research-volume signal only; not maturity or clinical-effectiveness evidence
+Active observational sensing,机器人听诊,8,7,0.875,research-volume signal only; not maturity or clinical-effectiveness evidence
+Response-based interactive diagnosis,机器人神经刺激—响应映射,5,4,0.8,research-volume signal only; not maturity or clinical-effectiveness evidence
+Response-based interactive diagnosis,机器人关节/激发检查,4,2,0.5,research-volume signal only; not maturity or clinical-effectiveness evidence
+Sample-based interactive diagnosis,机器人拭子/腔道采样,4,3,0.75,research-volume signal only; not maturity or clinical-effectiveness evidence
+Response-based interactive diagnosis,机器人关节松弛度/激发检查,2,0,0.0,research-volume signal only; not maturity or clinical-effectiveness evidence
+Active observational sensing,机器人创面/皮肤表面扫描,2,2,1.0,research-volume signal only; not maturity or clinical-effectiveness evidence
+Response-based interactive diagnosis,机器人弹性/刚度测绘,2,2,1.0,research-volume signal only; not maturity or clinical-effectiveness evidence
+Active observational sensing,机器人眼底/裂隙灯成像,2,1,0.5,research-volume signal only; not maturity or clinical-effectiveness evidence
+Sample-based interactive diagnosis,胶囊机器人组织采样/活检,2,1,0.5,research-volume signal only; not maturity or clinical-effectiveness evidence
+Sample-based interactive diagnosis,机器人内镜/支气管镜活检,1,1,1.0,research-volume signal only; not maturity or clinical-effectiveness evidence
+Active observational sensing,机器人创面/皮肤扫描,1,1,1.0,research-volume signal only; not maturity or clinical-effectiveness evidence
+Response-based interactive diagnosis,机器人弹性/刚度检测,1,1,1.0,research-volume signal only; not maturity or clinical-effectiveness evidence
+Response-based interactive diagnosis,机器人被动活动度/肌张力评估,1,1,1.0,research-volume signal only; not maturity or clinical-effectiveness evidence
