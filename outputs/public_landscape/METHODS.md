@@ -1,0 +1,3 @@
+# Public title-screened landscape
+
+This is a conservative, reproducible TITLE-level screen of the saved public-index corpus (Europe PMC, OpenAlex, Crossref and arXiv), deduplicated by DOI or normalized title. Counts are candidate records, not manually included studies and not global publication totals. The automated access indicator is taken from OpenAlex OA metadata plus explicit public-repository URLs; it is a discovery aid and must not be interpreted as a manually verified licence audit. False negatives are expected because relevant titles may not contain both the embodiment and task concepts. False positives must be removed by human full-text screening before journal publication.

@@ -1,5 +1,7 @@
 # Awesome Embodied Diagnostics
 
+![Awesome Embodied Diagnostics banner](assets/readme-banner.svg)
+
 [![Repository validation](https://github.com/undefinted/awesome-embodied-diagnostics/actions/workflows/validate.yml/badge.svg)](https://github.com/undefinted/awesome-embodied-diagnostics/actions/workflows/validate.yml)
 ![Status](https://img.shields.io/badge/status-active%20curation-5B1A6E)
 ![Scope](https://img.shields.io/badge/scope-medical%20detection-3569A8)
@@ -15,6 +17,15 @@ A curated, reproducible research repository for **embodied intelligence in medic
 
 The basic unit is a `sensing → decision → action → feedback` loop. A system is treated as fully embodied only when an inference changes a subsequent physical measurement or diagnostic action and the consequence updates later decisions.
 
+```mermaid
+flowchart LR
+  O[Observation] --> S[State and uncertainty]
+  S --> D[Bounded decision]
+  D --> A[Physical diagnostic action]
+  A --> F[New evidence and feedback]
+  F --> S
+```
+
 ## Contents
 
 - [Scope and inclusion boundary](docs/SCOPE.md)
@@ -26,6 +37,9 @@ The basic unit is a `sensing → decision → action → feedback` loop. A syste
 - [Releases and provenance](provenance/)
 - [P5–P29 page-by-page research support](docs/PRESENTATION_SLIDE_SUPPORT.md)
 - [Application evidence and analysis package](docs/APPLICATION_PRESENTATION.md)
+- [Public-available P5–P29 slide blueprint](docs/P5_P29_PUBLIC_AVAILABLE_SLIDE_BLUEPRINT.md)
+- [Public-source counting method](docs/PUBLIC_COUNTING_METHOD.md)
+- [Subscription-database and full-text acquisition backlog](docs/PUBLIC_SOURCE_LIMITATIONS_AND_ACQUISITION.md)
 
 ## Application map
 
@@ -46,17 +60,24 @@ The basic unit is a `sensing → decision → action → feedback` loop. A syste
 
 See [`data/presentation/application_evidence.csv`](data/presentation/application_evidence.csv) for claim-level qualifiers and sources.
 
-## Current reproducible snapshot
+## Current reproducible public-source snapshot
 
-The frozen 2026-08-12 task-assignment file contains 1,454 saved rows. After selected task aliases are merged and saved snapshots are deduplicated, the analysis produces 1,150 unique task–paper candidate pairs. Within-category paper counts are 869 for active observational sensing, 131 for response-based interaction and 118 for sample-based interaction.
+The presentation-facing landscape uses a frozen 2026-08-12 corpus of 359 unique records from Europe PMC, OpenAlex, Crossref and arXiv. Conservative task-specific title rules identify **250 active-observation**, **30 response-based** and **50 sample-based** unique candidate papers within the three domains. Automated public-location discovery identifies an OA or repository location for 158, 18 and 27 candidates, respectively. Task rows can sum to a larger number because one paper may satisfy more than one task rule.
 
-These are **curation-pipeline results**, not estimates of all publications and not measures of clinical maturity. Reproduce them with:
+These values are **public-index title-screened candidates**, not global publication totals, full-text included-study counts, measures of loop completeness or measures of clinical maturity. They replace the older high-recall task-assignment counts for presentation claims because the latter contain adjacent-task false positives. Reproduce the conservative snapshot with:
 
 ```bash
-python scripts/analyze_application_landscape.py
+python scripts/build_public_title_screened_landscape.py
 ```
 
-Results are written to [`outputs/application_landscape/`](outputs/application_landscape/), including a filterable research workbook, normalized task counts and evidence-stage summaries.
+Results are written to [`outputs/public_landscape/`](outputs/public_landscape/). The independent evidence-maturity synthesis is in [`data/presentation/public_evidence_maturity_matrix.csv`](data/presentation/public_evidence_maturity_matrix.csv), and claim-level primary evidence is in [`data/presentation/verified_public_primary_evidence_2026-08-13.csv`](data/presentation/verified_public_primary_evidence_2026-08-13.csv).
+
+## Presentation support
+
+- P5–P29 slide-by-slide communication job, layout and evidence: [`docs/P5_P29_PUBLIC_AVAILABLE_SLIDE_BLUEPRINT.md`](docs/P5_P29_PUBLIC_AVAILABLE_SLIDE_BLUEPRINT.md)
+- Audit-ready workbook with task counts, maturity, verified studies and all screened records: [`outputs/public_landscape/public_available_presentation_evidence.xlsx`](outputs/public_landscape/public_available_presentation_evidence.xlsx)
+- Editable SVG and high-resolution PNG figures: [`figures/public_evidence/`](figures/public_evidence/)
+- Template-following layout example for P9 and P13: [`presentations/医学检测具身智能_P9_P13公开证据排版示例.pptx`](presentations/医学检测具身智能_P9_P13公开证据排版示例.pptx)
 
 ## Working taxonomy
 

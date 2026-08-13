@@ -1,0 +1,18 @@
+﻿task_code,domain,task,public_index_title_screened_candidates,oa_or_repository_location_identified_automatically,full_text_not_identified,access_unresolved,since_2021,counting_unit
+A1,Active observational sensing,Robotic ultrasound,181,114,66,1,142,unique deduplicated paper satisfying task-specific title rule
+A2,Active observational sensing,Robotic endoscopy inspection,20,11,9,0,12,unique deduplicated paper satisfying task-specific title rule
+A3,Active observational sensing,Active/magnetic capsule endoscopy,23,13,10,0,15,unique deduplicated paper satisfying task-specific title rule
+A4,Active observational sensing,Robotic bronchoscopy navigation,15,11,4,0,15,unique deduplicated paper satisfying task-specific title rule
+A5,Active observational sensing,Robotic OCT,8,6,2,0,8,unique deduplicated paper satisfying task-specific title rule
+A6,Active observational sensing,Robotic auscultation,4,3,1,0,4,unique deduplicated paper satisfying task-specific title rule
+R1,Response-based interactive diagnosis,Robotic palpation,19,13,6,0,13,unique deduplicated paper satisfying task-specific title rule
+R2,Response-based interactive diagnosis,Robotic elastography/stiffness mapping,5,2,3,0,5,unique deduplicated paper satisfying task-specific title rule
+R3,Response-based interactive diagnosis,Robotic joint laxity/provocation,1,0,1,0,0,unique deduplicated paper satisfying task-specific title rule
+R4,Response-based interactive diagnosis,Robotic tone/spasticity assessment,1,1,0,0,1,unique deduplicated paper satisfying task-specific title rule
+R5,Response-based interactive diagnosis,Robotic percussion/reflex examination,0,0,0,0,0,unique deduplicated paper satisfying task-specific title rule
+R6,Response-based interactive diagnosis,Closed-loop TMS response mapping,4,2,2,0,3,unique deduplicated paper satisfying task-specific title rule
+S1,Sample-based interactive diagnosis,Robotic percutaneous/core biopsy,22,14,7,1,14,unique deduplicated paper satisfying task-specific title rule
+S2,Sample-based interactive diagnosis,Robotic endoscopic/bronchoscopic biopsy,4,2,2,0,4,unique deduplicated paper satisfying task-specific title rule
+S3,Sample-based interactive diagnosis,Capsule tissue/fluid sampling,2,0,2,0,1,unique deduplicated paper satisfying task-specific title rule
+S4,Sample-based interactive diagnosis,Robotic venipuncture/phlebotomy,12,6,6,0,4,unique deduplicated paper satisfying task-specific title rule
+S5,Sample-based interactive diagnosis,Robotic swab/specimen collection,10,5,5,0,10,unique deduplicated paper satisfying task-specific title rule

@@ -22,3 +22,5 @@ node_modules/
 tmp-*.png
 *.inspect.ndjson
 outputs/access_audit/openalex_cache/
+outputs/public_landscape/openalex_cache/
+outputs/public_landscape/*.inspect.ndjson
