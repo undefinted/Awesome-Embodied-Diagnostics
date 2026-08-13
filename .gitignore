@@ -21,3 +21,4 @@ tmp/
 node_modules/
 tmp-*.png
 *.inspect.ndjson
+outputs/access_audit/openalex_cache/
