@@ -40,6 +40,7 @@ flowchart LR
 - [Public-available P5–P29 slide blueprint](docs/P5_P29_PUBLIC_AVAILABLE_SLIDE_BLUEPRINT.md)
 - [Public-source counting method](docs/PUBLIC_COUNTING_METHOD.md)
 - [Subscription-database and full-text acquisition backlog](docs/PUBLIC_SOURCE_LIMITATIONS_AND_ACQUISITION.md)
+- [Data rigour and completeness audit](docs/DATA_RIGOUR_AND_COMPLETENESS_AUDIT_2026-08-13.md)
 
 ## Application map
 

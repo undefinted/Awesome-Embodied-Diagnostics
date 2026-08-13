@@ -9,6 +9,7 @@ Updated: 2026-08-13. Intended canvas: 16:9. Use the existing Tsinghua-purple tit
 - Every slide has one take-home sentence and no more than three visual anchors.
 - Put DOI or stable public link in the footer; put complete claim and asset citations in speaker notes.
 - On all landscape slides, write exactly: `公开索引题名筛选候选（冻结快照；非系统综述纳入数）`.
+- Evidence status: P5/P9/P13 use reproducible task-level counts. P16–P25 currently use verified representative primary evidence and must not be presented as exhaustive task-level literature counts.
 
 ## Clinical detection and intervention
 
