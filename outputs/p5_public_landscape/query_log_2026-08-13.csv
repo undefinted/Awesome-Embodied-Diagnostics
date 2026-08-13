@@ -1,0 +1,197 @@
+﻿task_code,task,source,query,retrieved,status,date
+A1,机器人超声,Europe PMC,robotic ultrasound,1000,ok,2026-08-13
+A1,机器人超声,OpenAlex,robotic ultrasound,200,ok,2026-08-13
+A1,机器人超声,OpenAlex,autonomous ultrasound scanning,200,ok,2026-08-13
+A1,机器人超声,Europe PMC,autonomous ultrasound scanning,1000,ok,2026-08-13
+A1,机器人超声,OpenAlex,robot-assisted sonography,200,ok,2026-08-13
+A1,机器人超声,OpenAlex,robotized ultrasound,200,ok,2026-08-13
+A1,机器人超声,Europe PMC,robotized ultrasound,130,ok,2026-08-13
+A1,机器人超声,Europe PMC,robot-assisted sonography,599,ok,2026-08-13
+A1,机器人超声,arXiv,robot-assisted sonography,0,ok,2026-08-13
+A1,机器人超声,OpenAlex,ultrasound scanning robot,200,ok,2026-08-13
+A1,机器人超声,Europe PMC,ultrasound scanning robot,1000,ok,2026-08-13
+A1,机器人超声,arXiv,robotic ultrasound,100,ok,2026-08-13
+A1,机器人超声,arXiv,robotized ultrasound,100,ok,2026-08-13
+A2,机器人胃肠内镜巡检,OpenAlex,robotic endoscopy autonomous navigation,200,ok,2026-08-13
+A1,机器人超声,arXiv,ultrasound scanning robot,77,ok,2026-08-13
+A2,机器人胃肠内镜巡检,Europe PMC,robotic endoscopy autonomous navigation,362,ok,2026-08-13
+A1,机器人超声,Crossref,robotic ultrasound,200,ok,2026-08-13
+A2,机器人胃肠内镜巡检,OpenAlex,autonomous colonoscopy robot,200,ok,2026-08-13
+A2,机器人胃肠内镜巡检,arXiv,robotic endoscopy autonomous navigation,9,ok,2026-08-13
+A2,机器人胃肠内镜巡检,Europe PMC,autonomous colonoscopy robot,232,ok,2026-08-13
+A1,机器人超声,arXiv,autonomous ultrasound scanning,48,ok,2026-08-13
+A2,机器人胃肠内镜巡检,OpenAlex,robotic flexible endoscope navigation,200,ok,2026-08-13
+A1,机器人超声,Crossref,autonomous ultrasound scanning,200,ok,2026-08-13
+A2,机器人胃肠内镜巡检,Europe PMC,robotic flexible endoscope navigation,629,ok,2026-08-13
+A1,机器人超声,Crossref,robotized ultrasound,200,ok,2026-08-13
+A2,机器人胃肠内镜巡检,OpenAlex,endoscopic robot visual servo,200,ok,2026-08-13
+A2,机器人胃肠内镜巡检,Europe PMC,endoscopic robot visual servo,97,ok,2026-08-13
+A2,机器人胃肠内镜巡检,arXiv,autonomous colonoscopy robot,7,ok,2026-08-13
+A2,机器人胃肠内镜巡检,arXiv,robotic flexible endoscope navigation,7,ok,2026-08-13
+A3,磁控/主动胶囊内镜,OpenAlex,magnetic capsule endoscopy,200,ok,2026-08-13
+A3,磁控/主动胶囊内镜,Europe PMC,magnetic capsule endoscopy,1000,ok,2026-08-13
+A2,机器人胃肠内镜巡检,arXiv,endoscopic robot visual servo,7,ok,2026-08-13
+A1,机器人超声,Crossref,robot-assisted sonography,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A3,磁控/主动胶囊内镜,OpenAlex,active capsule endoscopy,200,ok,2026-08-13
+A3,磁控/主动胶囊内镜,Europe PMC,active capsule endoscopy,1000,ok,2026-08-13
+A3,磁控/主动胶囊内镜,arXiv,magnetic capsule endoscopy,17,ok,2026-08-13
+A2,机器人胃肠内镜巡检,Crossref,robotic endoscopy autonomous navigation,200,ok,2026-08-13
+A3,磁控/主动胶囊内镜,OpenAlex,robotic capsule endoscopy,200,ok,2026-08-13
+A1,机器人超声,Crossref,ultrasound scanning robot,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A3,磁控/主动胶囊内镜,Europe PMC,robotic capsule endoscopy,1000,ok,2026-08-13
+A3,磁控/主动胶囊内镜,arXiv,active capsule endoscopy,20,ok,2026-08-13
+A3,磁控/主动胶囊内镜,OpenAlex,self-propelled capsule endoscopy,200,ok,2026-08-13
+A3,磁控/主动胶囊内镜,Europe PMC,self-propelled capsule endoscopy,147,ok,2026-08-13
+A3,磁控/主动胶囊内镜,arXiv,robotic capsule endoscopy,24,ok,2026-08-13
+A3,磁控/主动胶囊内镜,arXiv,self-propelled capsule endoscopy,0,ok,2026-08-13
+A4,机器人支气管镜观察/导航,OpenAlex,robotic bronchoscopy navigation,200,ok,2026-08-13
+A4,机器人支气管镜观察/导航,Europe PMC,robotic bronchoscopy navigation,1000,ok,2026-08-13
+A2,机器人胃肠内镜巡检,Crossref,robotic flexible endoscope navigation,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A2,机器人胃肠内镜巡检,Crossref,endoscopic robot visual servo,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A4,机器人支气管镜观察/导航,OpenAlex,autonomous bronchoscopy navigation,200,ok,2026-08-13
+A3,磁控/主动胶囊内镜,Crossref,active capsule endoscopy,200,ok,2026-08-13
+A4,机器人支气管镜观察/导航,Europe PMC,autonomous bronchoscopy navigation,174,ok,2026-08-13
+A4,机器人支气管镜观察/导航,arXiv,robotic bronchoscopy navigation,5,ok,2026-08-13
+A3,磁控/主动胶囊内镜,Crossref,robotic capsule endoscopy,200,ok,2026-08-13
+A4,机器人支气管镜观察/导航,OpenAlex,bronchoscope robot visual navigation,200,ok,2026-08-13
+A4,机器人支气管镜观察/导航,Europe PMC,bronchoscope robot visual navigation,94,ok,2026-08-13
+A2,机器人胃肠内镜巡检,Crossref,autonomous colonoscopy robot,200,ok,2026-08-13
+A3,磁控/主动胶囊内镜,Crossref,magnetic capsule endoscopy,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A4,机器人支气管镜观察/导航,Europe PMC,robotic bronchoscope localization,290,ok,2026-08-13
+A4,机器人支气管镜观察/导航,OpenAlex,robotic bronchoscope localization,200,ok,2026-08-13
+A4,机器人支气管镜观察/导航,arXiv,autonomous bronchoscopy navigation,2,ok,2026-08-13
+A5,机器人OCT,OpenAlex,robotic optical coherence tomography,200,ok,2026-08-13
+A5,机器人OCT,Europe PMC,robotic optical coherence tomography,1000,ok,2026-08-13
+A4,机器人支气管镜观察/导航,arXiv,bronchoscope robot visual navigation,1,ok,2026-08-13
+A4,机器人支气管镜观察/导航,arXiv,robotic bronchoscope localization,2,ok,2026-08-13
+A5,机器人OCT,OpenAlex,autonomous OCT scanning,200,ok,2026-08-13
+A5,机器人OCT,Europe PMC,autonomous OCT scanning,1000,ok,2026-08-13
+A4,机器人支气管镜观察/导航,Crossref,robotic bronchoscopy navigation,200,ok,2026-08-13
+A5,机器人OCT,arXiv,robotic optical coherence tomography,30,ok,2026-08-13
+A5,机器人OCT,OpenAlex,contactless robotic OCT,200,ok,2026-08-13
+A5,机器人OCT,Europe PMC,contactless robotic OCT,70,ok,2026-08-13
+A5,机器人OCT,arXiv,autonomous OCT scanning,3,ok,2026-08-13
+A4,机器人支气管镜观察/导航,Crossref,bronchoscope robot visual navigation,200,ok,2026-08-13
+A5,机器人OCT,arXiv,contactless robotic OCT,1,ok,2026-08-13
+A5,机器人OCT,OpenAlex,robot-assisted OCT,200,ok,2026-08-13
+A5,机器人OCT,Europe PMC,robot-assisted OCT,1000,ok,2026-08-13
+A4,机器人支气管镜观察/导航,Crossref,robotic bronchoscope localization,200,ok,2026-08-13
+A5,机器人OCT,Crossref,robotic optical coherence tomography,200,ok,2026-08-13
+A6,机器人听诊,OpenAlex,robotic auscultation,200,ok,2026-08-13
+A6,机器人听诊,Europe PMC,robotic auscultation,388,ok,2026-08-13
+A3,磁控/主动胶囊内镜,Crossref,self-propelled capsule endoscopy,200,ok,2026-08-13
+A6,机器人听诊,OpenAlex,autonomous auscultation robot,200,ok,2026-08-13
+A6,机器人听诊,Europe PMC,autonomous auscultation robot,59,ok,2026-08-13
+A5,机器人OCT,arXiv,robot-assisted OCT,8,ok,2026-08-13
+A6,机器人听诊,arXiv,robotic auscultation,2,ok,2026-08-13
+A6,机器人听诊,OpenAlex,robotic stethoscope,200,ok,2026-08-13
+A6,机器人听诊,Europe PMC,robotic stethoscope,220,ok,2026-08-13
+A4,机器人支气管镜观察/导航,Crossref,autonomous bronchoscopy navigation,200,ok,2026-08-13
+A6,机器人听诊,arXiv,autonomous auscultation robot,2,ok,2026-08-13
+A6,机器人听诊,OpenAlex,automated auscultation robot,200,ok,2026-08-13
+A6,机器人听诊,Europe PMC,automated auscultation robot,106,ok,2026-08-13
+A5,机器人OCT,Crossref,contactless robotic OCT,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A5,机器人OCT,Crossref,autonomous OCT scanning,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A6,机器人听诊,Crossref,autonomous auscultation robot,200,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,OpenAlex,robotic fundus imaging,200,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,Europe PMC,robotic fundus imaging,1000,ok,2026-08-13
+A6,机器人听诊,arXiv,robotic stethoscope,2,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,OpenAlex,autonomous fundus camera,200,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,Europe PMC,autonomous fundus camera,641,ok,2026-08-13
+A6,机器人听诊,Crossref,robotic auscultation,200,ok,2026-08-13
+A5,机器人OCT,Crossref,robot-assisted OCT,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A7,机器人眼底/裂隙灯成像,OpenAlex,robotic slit lamp,200,ok,2026-08-13
+A6,机器人听诊,arXiv,automated auscultation robot,2,ok,2026-08-13
+A6,机器人听诊,Crossref,robotic stethoscope,200,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,arXiv,robotic fundus imaging,3,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,Europe PMC,robotic slit lamp,233,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,OpenAlex,automated robotic ophthalmic examination,200,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,Europe PMC,automated robotic ophthalmic examination,301,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,arXiv,autonomous fundus camera,0,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,OpenAlex,robotic ophthalmoscopy,200,ok,2026-08-13
+A6,机器人听诊,Crossref,automated auscultation robot,200,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,Europe PMC,robotic ophthalmoscopy,101,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,arXiv,robotic slit lamp,0,ok,2026-08-13
+A8,机器人耳镜检查,OpenAlex,robotic otoscopy,134,ok,2026-08-13
+A8,机器人耳镜检查,Europe PMC,robotic otoscopy,48,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,arXiv,automated robotic ophthalmic examination,0,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,arXiv,robotic ophthalmoscopy,0,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,Crossref,robotic fundus imaging,200,ok,2026-08-13
+A8,机器人耳镜检查,OpenAlex,autonomous otoscope,166,ok,2026-08-13
+A8,机器人耳镜检查,Europe PMC,autonomous otoscope,53,ok,2026-08-13
+A8,机器人耳镜检查,arXiv,robotic otoscopy,0,ok,2026-08-13
+A8,机器人耳镜检查,OpenAlex,robotic ear examination,200,ok,2026-08-13
+A8,机器人耳镜检查,Europe PMC,robotic ear examination,1000,ok,2026-08-13
+A8,机器人耳镜检查,arXiv,autonomous otoscope,0,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,Crossref,autonomous fundus camera,200,ok,2026-08-13
+A8,机器人耳镜检查,OpenAlex,automated otoscopic imaging,200,ok,2026-08-13
+A8,机器人耳镜检查,Europe PMC,automated otoscopic imaging,148,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,Crossref,automated robotic ophthalmic examination,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A8,机器人耳镜检查,arXiv,robotic ear examination,0,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,Crossref,robotic ophthalmoscopy,200,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,OpenAlex,robotic skin scanning diagnosis,200,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,Europe PMC,robotic skin scanning diagnosis,1000,ok,2026-08-13
+A8,机器人耳镜检查,Crossref,robotic otoscopy,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A9,机器人皮肤/创面表面扫描,OpenAlex,autonomous wound imaging robot,200,ok,2026-08-13
+A8,机器人耳镜检查,arXiv,automated otoscopic imaging,0,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,Europe PMC,autonomous wound imaging robot,573,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,arXiv,robotic skin scanning diagnosis,0,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,OpenAlex,robotic dermatology imaging,200,ok,2026-08-13
+A7,机器人眼底/裂隙灯成像,Crossref,robotic slit lamp,200,ok,2026-08-13
+A8,机器人耳镜检查,Crossref,autonomous otoscope,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A9,机器人皮肤/创面表面扫描,Europe PMC,robotic dermatology imaging,837,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,OpenAlex,robotic skin lesion scanning,200,ok,2026-08-13
+A8,机器人耳镜检查,Crossref,automated otoscopic imaging,200,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,arXiv,autonomous wound imaging robot,3,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,Europe PMC,robotic skin lesion scanning,1000,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,arXiv,robotic dermatology imaging,0,ok,2026-08-13
+A8,机器人耳镜检查,Crossref,robotic ear examination,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A9,机器人皮肤/创面表面扫描,Europe PMC,robotic wound assessment,1000,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,OpenAlex,robotic wound assessment,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,OpenAlex,robotic Raman tissue scanning diagnosis,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,Europe PMC,robotic Raman tissue scanning diagnosis,342,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,arXiv,robotic skin lesion scanning,0,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,arXiv,robotic wound assessment,1,ok,2026-08-13
+A10,机器人光谱/光学扫描,OpenAlex,robotic hyperspectral medical imaging,200,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,Crossref,autonomous wound imaging robot,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A10,机器人光谱/光学扫描,Europe PMC,robotic hyperspectral medical imaging,387,ok,2026-08-13
+A10,机器人光谱/光学扫描,arXiv,robotic Raman tissue scanning diagnosis,0,ok,2026-08-13
+A10,机器人光谱/光学扫描,OpenAlex,robotic multispectral tissue scanning,200,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,Crossref,robotic dermatology imaging,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,Europe PMC,robotic multispectral tissue scanning,244,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,Crossref,robotic skin lesion scanning,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A10,机器人光谱/光学扫描,OpenAlex,robotic diffuse reflectance spectroscopy tissue,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,Europe PMC,robotic diffuse reflectance spectroscopy tissue,196,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,Crossref,robotic skin scanning diagnosis,200,ok,2026-08-13
+A9,机器人皮肤/创面表面扫描,Crossref,robotic wound assessment,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,OpenAlex,robotic confocal endomicroscopy scanning,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,Europe PMC,robotic confocal endomicroscopy scanning,118,ok,2026-08-13
+A10,机器人光谱/光学扫描,arXiv,robotic hyperspectral medical imaging,0,error:HTTPError:HTTP Error 429: Unknown Error,2026-08-13
+A10,机器人光谱/光学扫描,Crossref,robotic multispectral tissue scanning,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,OpenAlex,robotic photoacoustic scanning diagnosis,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,arXiv,robotic multispectral tissue scanning,0,error:HTTPError:HTTP Error 429: Unknown Error,2026-08-13
+A10,机器人光谱/光学扫描,Europe PMC,robotic photoacoustic scanning diagnosis,187,ok,2026-08-13
+A10,机器人光谱/光学扫描,Crossref,robotic diffuse reflectance spectroscopy tissue,200,ok,2026-08-13
+A11,机器人喉镜/口腔检查,OpenAlex,robotic laryngoscopy examination,200,ok,2026-08-13
+A11,机器人喉镜/口腔检查,Europe PMC,robotic laryngoscopy examination,483,ok,2026-08-13
+A10,机器人光谱/光学扫描,Crossref,robotic Raman tissue scanning diagnosis,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,arXiv,robotic diffuse reflectance spectroscopy tissue,0,error:HTTPError:HTTP Error 429: Unknown Error,2026-08-13
+A11,机器人喉镜/口腔检查,OpenAlex,autonomous laryngoscope,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,Crossref,robotic hyperspectral medical imaging,200,ok,2026-08-13
+A11,机器人喉镜/口腔检查,Europe PMC,autonomous laryngoscope,227,ok,2026-08-13
+A10,机器人光谱/光学扫描,Crossref,robotic confocal endomicroscopy scanning,200,ok,2026-08-13
+A11,机器人喉镜/口腔检查,OpenAlex,robotic oral examination imaging,200,ok,2026-08-13
+A11,机器人喉镜/口腔检查,Europe PMC,robotic oral examination imaging,1000,ok,2026-08-13
+A10,机器人光谱/光学扫描,arXiv,robotic confocal endomicroscopy scanning,0,error:HTTPError:HTTP Error 429: Unknown Error,2026-08-13
+A10,机器人光谱/光学扫描,arXiv,robotic photoacoustic scanning diagnosis,0,error:HTTPError:HTTP Error 429: Unknown Error,2026-08-13
+A11,机器人喉镜/口腔检查,OpenAlex,robotic oral cavity inspection,200,ok,2026-08-13
+A10,机器人光谱/光学扫描,Crossref,robotic photoacoustic scanning diagnosis,0,error:HTTPError:HTTP Error 429: Too Many Requests,2026-08-13
+A11,机器人喉镜/口腔检查,Europe PMC,robotic oral cavity inspection,1000,ok,2026-08-13
+A11,机器人喉镜/口腔检查,arXiv,robotic laryngoscopy examination,0,error:HTTPError:HTTP Error 429: Unknown Error,2026-08-13
+A11,机器人喉镜/口腔检查,arXiv,autonomous laryngoscope,0,error:HTTPError:HTTP Error 429: Unknown Error,2026-08-13
+A11,机器人喉镜/口腔检查,Crossref,robotic laryngoscopy examination,200,ok,2026-08-13
+A11,机器人喉镜/口腔检查,Crossref,autonomous laryngoscope,200,ok,2026-08-13
+A11,机器人喉镜/口腔检查,arXiv,robotic oral examination imaging,0,error:HTTPError:HTTP Error 429: Unknown Error,2026-08-13
+A11,机器人喉镜/口腔检查,Crossref,robotic oral examination imaging,200,ok,2026-08-13
+A11,机器人喉镜/口腔检查,arXiv,robotic oral cavity inspection,0,error:HTTPError:HTTP Error 429: Unknown Error,2026-08-13
+A11,机器人喉镜/口腔检查,Crossref,robotic oral cavity inspection,200,ok,2026-08-13

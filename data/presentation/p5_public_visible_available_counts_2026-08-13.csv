@@ -1,0 +1,12 @@
+﻿task_code,task,public_visible_precision_title_candidates,public_available_location_identified,since_2021,status
+A1,机器人超声,350,152,244,precision automated title candidate; manual verification pending
+A2,机器人胃肠内镜巡检,83,42,39,precision automated title candidate; manual verification pending
+A3,磁控/主动胶囊内镜,237,116,94,precision automated title candidate; manual verification pending
+A4,机器人支气管镜观察/导航,93,33,83,precision automated title candidate; manual verification pending
+A5,机器人OCT,42,25,40,precision automated title candidate; manual verification pending
+A6,机器人听诊,13,5,11,precision automated title candidate; manual verification pending
+A7,机器人眼底/裂隙灯成像,5,2,1,precision automated title candidate; manual verification pending
+A8,机器人耳镜检查,0,0,0,precision automated title candidate; manual verification pending
+A9,机器人皮肤/创面表面扫描,2,1,2,precision automated title candidate; manual verification pending
+A10,机器人光谱/光学扫描,33,13,22,precision automated title candidate; manual verification pending
+A11,机器人喉镜/口腔检查,3,0,1,precision automated title candidate; manual verification pending
