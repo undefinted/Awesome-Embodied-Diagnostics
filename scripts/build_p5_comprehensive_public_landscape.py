@@ -11,12 +11,13 @@ one project may produce multiple publications. They are maintained separately.
 """
 from __future__ import annotations
 
-import csv, hashlib, json, re, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import argparse, csv, hashlib, json, re, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parents[1] / "outputs" / "p5_comprehensive_public_landscape_2026-08-13"
+DEFAULT_OUT = Path(__file__).resolve().parents[1] / "outputs" / "p5_comprehensive_public_landscape_2026-08-13"
+OUT = DEFAULT_OUT
 RAW = OUT / "raw"
 YEAR_FROM, YEAR_TO = 2000, 2026
 UA = "awesome-embodied-diagnostics/0.2 (public evidence-map research)"
@@ -123,6 +124,11 @@ def relevant(x,t):
     return bool(re.search(t["body"],text,re.I) and re.search(t["mod"],text,re.I) and not re.search(t["exclude"],text,re.I))
 
 def main():
+    global OUT, RAW
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output-dir",type=Path,default=DEFAULT_OUT,help="Directory for raw cache, query log, candidate records and counts")
+    args=parser.parse_args()
+    OUT=args.output_dir.resolve(); RAW=OUT/"raw"
     RAW.mkdir(parents=True,exist_ok=True); store={}; log=[]
     jobs=[]
     for t in TASKS:

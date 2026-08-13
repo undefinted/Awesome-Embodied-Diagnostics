@@ -1,9 +1,8 @@
 """Precision screen the P5 high-recall public-index pool using auditable title rules."""
-import csv,re,json
+import argparse,csv,re,json
 from pathlib import Path
 
-BASE=Path(__file__).resolve().parents[1]/"outputs"/"p5_comprehensive_public_landscape_2026-08-13"
-src=list(csv.DictReader(open(BASE/"p5_public_visible_available_records.csv",encoding="utf-8-sig")))
+DEFAULT_BASE=Path(__file__).resolve().parents[1]/"outputs"/"p5_comprehensive_public_landscape_2026-08-13"
 
 RULES={
 "A1": (r"(robot(ic|ized)?|autonomous|telerobot(ic)?|robot.assisted).{0,45}(ultrasound|sonograph)|(ultrasound|sonograph).{0,45}(robot(ic|ized)?|autonomous|telerobot(ic)?|robot.assisted)",r"surgery|surgical|resection|myomectomy|enucleation|prostatectomy|ablation|injection|puncture|needle|biopsy|catheter|therapy|therapeutic|rehabilitation|segmentation|lesion detection|review|simulation.based assessment|focused ultrasound|organ.sparing|blood clot"),
@@ -19,19 +18,25 @@ RULES={
 "A11":(r"(robot(ic)?|autonomous|remote).{0,55}(laryngoscop|oral examination|oral cavity inspection)|(laryngoscop|oral examination).{0,55}(robot(ic)?|autonomous|remote)",r"surgery|resection|intubat|classification|segmentation|deep learning"),
 }
 
-out=[]
-for x in src:
-    inc,exc=RULES[x['task_code']]; title=x['title']
-    if re.search(inc,title,re.I) and not re.search(exc,title,re.I):
-        y=dict(x);y['screening']='precision automated title candidate; manual verification pending';out.append(y)
-
-with open(BASE/'p5_precision_title_candidates.csv','w',encoding='utf-8-sig',newline='') as f:
-    w=csv.DictWriter(f,fieldnames=list(out[0]));w.writeheader();w.writerows(out)
-counts=[]
-for code in RULES:
-    a=[x for x in out if x['task_code']==code]
-    task=next((x['task'] for x in src if x['task_code']==code),code)
-    counts.append({'task_code':code,'task':task,'public_visible_precision_title_candidates':len(a),'public_available_location_identified':sum(x['public_available']=='yes' for x in a),'since_2021':sum(x['year'].isdigit() and int(x['year'])>=2021 for x in a),'status':'precision automated title candidate; manual verification pending'})
-with open(BASE/'p5_precision_title_candidate_counts.csv','w',encoding='utf-8-sig',newline='') as f:
-    w=csv.DictWriter(f,fieldnames=list(counts[0]));w.writeheader();w.writerows(counts)
-print(json.dumps({'records':len(out),'counts':counts},ensure_ascii=False,indent=2))
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--input-dir',type=Path,default=DEFAULT_BASE)
+    parser.add_argument('--output-dir',type=Path,default=None)
+    args=parser.parse_args(); base=args.input_dir.resolve(); dest=(args.output_dir or base).resolve(); dest.mkdir(parents=True,exist_ok=True)
+    src=list(csv.DictReader(open(base/'p5_public_visible_available_records.csv',encoding='utf-8-sig')))
+    out=[]
+    for x in src:
+        inc,exc=RULES[x['task_code']]; title=x['title']
+        if re.search(inc,title,re.I) and not re.search(exc,title,re.I):
+            y=dict(x);y['screening']='precision automated title candidate; manual verification pending';out.append(y)
+    with open(dest/'p5_precision_title_candidates.csv','w',encoding='utf-8-sig',newline='') as f:
+        w=csv.DictWriter(f,fieldnames=list(out[0]));w.writeheader();w.writerows(out)
+    counts=[]
+    for code in RULES:
+        a=[x for x in out if x['task_code']==code]
+        task=next((x['task'] for x in src if x['task_code']==code),code)
+        counts.append({'task_code':code,'task':task,'public_visible_precision_title_candidates':len(a),'public_available_location_identified':sum(x['public_available']=='yes' for x in a),'since_2021':sum(x['year'].isdigit() and int(x['year'])>=2021 for x in a),'status':'precision automated title candidate; manual verification pending'})
+    with open(dest/'p5_precision_title_candidate_counts.csv','w',encoding='utf-8-sig',newline='') as f:
+        w=csv.DictWriter(f,fieldnames=list(counts[0]));w.writeheader();w.writerows(counts)
+    print(json.dumps({'records':len(out),'counts':counts,'output_dir':str(dest)},ensure_ascii=False,indent=2))
+if __name__=='__main__': main()

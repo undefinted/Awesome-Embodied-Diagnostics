@@ -1,10 +1,12 @@
 """Create the revised P5 nested-bar SVG/PNG-ready source."""
-import csv,html
+import argparse,csv,html
 from pathlib import Path
 
-ROOT=Path(r"D:\Researching\清华\古月\Project\综述\支持图表\codex-参考")
-DATA=ROOT/"02_当前主数据"/"P5_public_visible_available_counts_2026-08-13.csv"
-OUT=ROOT/"03_PPT图表"/"P5_主动观察_public_visible与public_available_扩展版.svg"
+DEFAULT_ROOT=Path(r"D:\Researching\清华\古月\Project\综述\支持图表\codex-参考")
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--data',type=Path,default=DEFAULT_ROOT/"02_当前主数据"/"P5_public_visible_available_counts_2026-08-13.csv")
+parser.add_argument('--output',type=Path,default=DEFAULT_ROOT/"03_PPT图表"/"P5_主动观察_public_visible与public_available_扩展版.svg")
+args=parser.parse_args(); DATA=args.data.resolve(); OUT=args.output.resolve(); OUT.parent.mkdir(parents=True,exist_ok=True)
 rows=list(csv.DictReader(open(DATA,encoding="utf-8-sig")))
 rows=sorted(rows,key=lambda x:int(x['public_visible_precision_title_candidates']),reverse=True)
 W,H=1600,1030;left,right,top,bottom=420,110,135,150;pw=W-left-right;rh=(H-top-bottom)/len(rows);mx=max(int(x['public_visible_precision_title_candidates']) for x in rows)
