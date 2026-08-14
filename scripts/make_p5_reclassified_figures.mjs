@@ -49,7 +49,7 @@ function mainFigure() {
   const chartW = chartRight - left, rowH = (H - top - bottom) / sorted.length;
   const s = [`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`, `<rect width="${W}" height="${H}" fill="white"/>`];
   s.push(`<text x="60" y="66" font-family="${font}" font-size="38" font-weight="700" fill="${C.text}">主动观察式检测｜公开索引证据版图</text>`);
-  s.push(`<text x="60" y="108" font-family="${font}" font-size="22" fill="${C.muted}">按临床证据获取任务统计的公开索引题名候选与公开全文可得性</text>`);
+  s.push(`<text x="60" y="108" font-family="${font}" font-size="22" fill="${C.muted}">按题名可核验的临床检查程序统计；模态与载体作为独立属性</text>`);
   for (let i = 0; i <= 4; i++) {
     const x = left + chartW * i / 4, val = Math.round(max * i / 4);
     s.push(`<line x1="${x}" y1="${top-18}" x2="${x}" y2="${H-bottom+10}" stroke="${C.grid}" stroke-width="1"/>`);
@@ -67,7 +67,7 @@ function mainFigure() {
   });
   const x0 = 1390;
   s.push(`<text x="${x0}" y="180" font-family="${font}" font-size="25" font-weight="700" fill="${C.text}">证据语料范围</text>`);
-  const scope = [["临床证据获取任务", sorted.length, C.text], ["题名级候选研究", clinicalTotal, C.purple], ["已定位公开全文", clinicalAvailable, C.green], ["临床部位未定技术平台", Number(generic.public_visible_unique_title_candidates), C.gray]];
+  const scope = [["题名可定位检查程序", sorted.length, C.text], ["任务已定位候选", clinicalTotal, C.purple], ["其中已定位公开全文", clinicalAvailable, C.green], ["任务未定/跨任务技术", Number(generic.public_visible_unique_title_candidates), C.gray]];
   scope.forEach((d,i) => {
     const y=235+i*82;
     s.push(`<text x="${x0}" y="${y}" font-family="${font}" font-size="19" fill="${C.muted}">${d[0]}</text><text x="1815" y="${y}" text-anchor="end" font-family="Arial" font-size="30" font-weight="700" fill="${d[2]}">${d[1]}</text>`);
@@ -75,7 +75,7 @@ function mainFigure() {
   });
   s.push(`<rect x="${x0}" y="580" width="425" height="1" fill="${C.grid}"/>`);
   s.push(`<text x="${x0}" y="628" font-family="${font}" font-size="22" font-weight="700" fill="${C.text}">范围说明</text>`);
-  s.push(`<text x="${x0}" y="674" font-family="${font}" font-size="17" fill="${C.muted}">临床部位未定的技术平台未进入</text><text x="${x0}" y="704" font-family="${font}" font-size="17" fill="${C.muted}">任务柱状图，相关记录保留在补充审计表。</text>`);
+  s.push(`<text x="${x0}" y="674" font-family="${font}" font-size="17" fill="${C.muted}">题名未明确临床检查程序者不强行归类，</text><text x="${x0}" y="704" font-family="${font}" font-size="17" fill="${C.muted}">单列为 T9 并保留在补充审计表。</text>`);
   s.push(`<rect x="1050" y="966" width="24" height="17" rx="3" fill="${C.purple}"/><text x="1086" y="981" font-family="${font}" font-size="17" fill="${C.muted}">公开索引题名候选</text>`);
   s.push(`<rect x="1415" y="966" width="24" height="17" rx="3" fill="${C.green}"/><text x="1451" y="981" font-family="${font}" font-size="17" fill="${C.muted}">已定位公开全文</text>`);
   s.push(`<text x="60" y="1025" font-family="${font}" font-size="15" fill="${C.muted}">公开索引冻结：2026-08-13；重分类：2026-08-14。按 DOI 与规范化题名去重。计数为题名级候选，不是系统综述全文纳入数；公开全文位置未经逐篇许可证审计。</text>`);
@@ -94,7 +94,7 @@ function matrixFigure() {
   const ordered=["T1","T2","T3","T4","T5","T6","T7","T8","T9"];
   const lookup=new Map(matrixRows.map(r=>[`${r.primary_task_code}|${r.modality_tag}`,r]));
   const s=[`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><rect width="${W}" height="${H}" fill="white"/>`];
-  s.push(`<text x="60" y="68" font-family="${font}" font-size="38" font-weight="700" fill="${C.text}">主动观察式检测｜临床任务 × 传感模态</text>`);
+  s.push(`<text x="60" y="68" font-family="${font}" font-size="38" font-weight="700" fill="${C.text}">主动观察式检测｜临床检查程序 × 传感模态</text>`);
   s.push(`<text x="60" y="110" font-family="${font}" font-size="22" fill="${C.muted}">模态是可多选标签；单元格为 public visible / public available，不能跨列求和</text>`);
   modalityGroups.forEach((g,j)=>{
     const x=left+j*cellW+cellW/2;
@@ -115,7 +115,7 @@ function matrixFigure() {
     });
   });
   s.push(`<text x="60" y="938" font-family="${font}" font-size="17" fill="${C.muted}">*“内镜/腔道影像”表示题名未进一步指明 OCT、共聚焦、光声等具体模态；它不是对所有内镜论文的成像方式推断。</text>`);
-  s.push(`<text x="60" y="978" font-family="${font}" font-size="17" fill="${C.muted}">OCT、共聚焦、光声和光谱均已跨临床任务归位；T9 仅保留题名无法确定临床部位的通用技术平台。</text>`);
+  s.push(`<text x="60" y="978" font-family="${font}" font-size="17" fill="${C.muted}">OCT、共聚焦、光声和光谱是跨任务模态；T9 保留题名无法确定检查程序的采集技术，不解释为临床应用量。</text>`);
   s.push(`<text x="60" y="1025" font-family="${font}" font-size="15" fill="${C.muted}">来源与范围同主图。模态来自题名显式术语；缺少明确模态时使用“unspecified”任务级标签。模态多标签计数不等于唯一论文总数。</text></svg>`);
   return s.join("");
 }

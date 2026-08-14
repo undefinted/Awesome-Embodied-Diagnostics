@@ -1,24 +1,23 @@
-axis,code,category_cn,category_en,statistical_role,multiple_allowed,example_or_rule
-clinical_task,T1,超声检查与主动扫查,Ultrasound examination and active scanning,primary mutually exclusive task,false,包括机械臂或专用机构驱动的体表/腔内超声扫查
-clinical_task,T2,胃肠柔性内镜巡检,Flexible gastrointestinal endoscopic inspection,primary mutually exclusive task,false,OCT或共聚焦仅作为模态标签
-clinical_task,T3,主动或磁控胶囊内镜,Active or magnetically controlled capsule endoscopy,primary mutually exclusive task,false,按诊断巡检阶段计数
-clinical_task,T4,支气管镜观察与导航,Bronchoscopic observation and navigation,primary mutually exclusive task,false,取样阶段另归采样式交互
-clinical_task,T5,眼科主动对准与成像,Actively aligned ophthalmic examination,primary mutually exclusive task,false,眼底裂隙灯与眼科OCT按任务归此
-clinical_task,T6,皮肤创面与暴露组织表面测绘,Skin wound and exposed-tissue surface mapping,primary mutually exclusive task,false,皮肤OCT或Raman按任务归此
-clinical_task,T7,主动听诊与声学检查,Active auscultation and acoustic examination,primary mutually exclusive task,false,传感器位姿或接触由反馈调整
-clinical_task,T8,耳鼻咽喉与口腔腔道检查,ENT and oral-cavity examination,primary mutually exclusive task,false,耳镜喉镜及口腔主动巡检
-clinical_task,T9,通用主动扫描技术平台,Generic active-scanning technology platform,separate technical corpus,false,无明确临床部位时不并入临床任务总数
-modality,M1,超声,Ultrasound,secondary tag,true,跨任务标签
-modality,M2,白光或RGB视频,White-light or RGB video,secondary tag,true,跨任务标签
-modality,M3,光学相干断层成像,Optical coherence tomography,secondary tag,true,不得与皮肤或眼科任务并列求和
-modality,M4,拉曼或漫反射光谱,Raman or diffuse-reflectance spectroscopy,secondary tag,true,不得作为独立临床任务桶
-modality,M5,高光谱或多光谱成像,Hyperspectral or multispectral imaging,secondary tag,true,不得作为独立临床任务桶
-modality,M6,共聚焦或内镜显微,Confocal or endomicroscopy,secondary tag,true,依据进入路径归主要任务
-modality,M7,光声成像,Photoacoustic imaging,secondary tag,true,依据临床检查任务归类
-modality,M8,声学或生理声音,Acoustic or physiological sound,secondary tag,true,主动听诊的主要模态
-carrier,C1,机械臂或机械手,Robotic manipulator or arm,secondary tag,true,一种载体而非纳入前提
-carrier,C2,专用机电扫描机构,Dedicated mechatronic scanner,secondary tag,true,包括直线旋转龙门等机构
-carrier,C3,柔性连续体或软体内镜,Flexible continuum or soft endoscope,secondary tag,true,包括线缆驱动和可转向结构
-carrier,C4,磁控主动或可转向胶囊,Magnetic active or steerable capsule,secondary tag,true,包括外部磁驱和内部推进
-carrier,C5,移动床旁或体表可控装置,Mobile bedside or body-mounted controllable device,secondary tag,true,只要形成物理采集闭环即可
-
+axis,code,category_cn,category_en,statistical_role,multiple_allowed,explicit_assignment_basis
+clinical_examination_procedure,T1,超声检查与主动扫查,Ultrasound examination and active scanning,primary mutually exclusive procedure,false,title explicitly contains ultrasound or sonography and no more-specific access-route procedure
+clinical_examination_procedure,T2,胃肠柔性内镜检查,Flexible gastrointestinal endoscopic examination,primary mutually exclusive procedure,false,title explicitly identifies a gastrointestinal or biliary endoscopic procedure
+clinical_examination_procedure,T3,主动或磁控胶囊内镜检查,Active or magnetically controlled capsule endoscopy,primary mutually exclusive procedure,false,title explicitly identifies capsule endoscopy or a capsule robot
+clinical_examination_procedure,T4,支气管镜观察与导航,Bronchoscopic observation and navigation,primary mutually exclusive procedure,false,title explicitly contains bronchoscopic or endobronchial terminology
+clinical_examination_procedure,T5,眼科主动对准与成像,Actively aligned ophthalmic examination,primary mutually exclusive procedure,false,title explicitly identifies an ophthalmic ocular retinal fundus corneal or slit-lamp examination
+clinical_examination_procedure,T6,皮肤与暴露组织表面成像,Cutaneous and exposed-tissue surface imaging,primary mutually exclusive procedure,false,title explicitly identifies cutaneous imaging or imaging of an exposed or ex-vivo organ/tissue surface
+clinical_examination_procedure,T7,主动听诊与声学检查,Active auscultation and acoustic examination,primary mutually exclusive procedure,false,title explicitly identifies auscultation stethoscopy or heart/lung sound acquisition
+clinical_examination_procedure,T8,耳鼻咽喉与口腔腔道检查,ENT and oral-cavity examination,primary mutually exclusive procedure,false,title explicitly identifies otoscopic laryngoscopic pharyngeal or oral-cavity examination
+classification_residual,T9,临床任务未定或跨任务采集技术,Task-unresolved or cross-cutting acquisition technology,separate audit corpus,false,title does not explicitly identify one of the prespecified clinical examination procedures; retrieval bucket is never used as a substitute
+modality,M1,超声,Ultrasound,secondary tag,true,title-explicit sensing modality
+modality,M2,白光或RGB视频,White-light or RGB video,secondary tag,true,title-explicit sensing modality
+modality,M3,光学相干断层成像,Optical coherence tomography,secondary tag,true,title-explicit sensing modality; never summed as a competing clinical procedure
+modality,M4,拉曼或漫反射光谱,Raman or diffuse-reflectance spectroscopy,secondary tag,true,title-explicit sensing modality; never summed as a competing clinical procedure
+modality,M5,高光谱或多光谱成像,Hyperspectral or multispectral imaging,secondary tag,true,title-explicit sensing modality
+modality,M6,共聚焦或内镜显微,Confocal or endomicroscopy,secondary tag,true,title-explicit sensing modality
+modality,M7,光声成像,Photoacoustic imaging,secondary tag,true,title-explicit sensing modality
+modality,M8,声学或生理声音,Acoustic or physiological sound,secondary tag,true,title-explicit sensing modality
+carrier,C1,机械臂或机械手,Robotic manipulator or arm,secondary tag,true,one physical carrier rather than an inclusion requirement
+carrier,C2,专用机电扫描机构,Dedicated mechatronic scanner,secondary tag,true,title-derived carrier attribute
+carrier,C3,柔性连续体或软体内镜,Flexible continuum or soft endoscope,secondary tag,true,title-derived carrier attribute
+carrier,C4,磁控主动或可转向胶囊,Magnetic active or steerable capsule,secondary tag,true,title-derived carrier attribute
+carrier,C5,移动床旁或体表可控装置,Mobile bedside or body-mounted controllable device,secondary tag,true,title-derived carrier attribute

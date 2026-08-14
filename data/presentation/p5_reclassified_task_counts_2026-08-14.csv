@@ -1,10 +1,10 @@
 ﻿primary_task_code,primary_task_cn,primary_task_en,public_visible_unique_title_candidates,public_available_location_identified,public_available_share,since_2021,status
-T1,超声检查与主动扫查,Ultrasound examination and active scanning,341,149,0.437,236,deterministic title-level reclassification; manual full-text screening pending
-T2,胃肠柔性内镜巡检,Flexible gastrointestinal endoscopic inspection,80,40,0.5,36,deterministic title-level reclassification; manual full-text screening pending
-T3,主动或磁控胶囊内镜,Active or magnetically controlled capsule endoscopy,237,117,0.4937,94,deterministic title-level reclassification; manual full-text screening pending
+T1,超声检查与主动扫查,Ultrasound examination and active scanning,330,138,0.4182,226,deterministic title-level reclassification; manual full-text screening pending
+T2,胃肠柔性内镜检查,Flexible gastrointestinal endoscopic examination,54,25,0.463,26,deterministic title-level reclassification; manual full-text screening pending
+T3,主动或磁控胶囊内镜检查,Active or magnetically controlled capsule endoscopy,239,117,0.4895,94,deterministic title-level reclassification; manual full-text screening pending
 T4,支气管镜观察与导航,Bronchoscopic observation and navigation,91,32,0.3516,83,deterministic title-level reclassification; manual full-text screening pending
-T5,眼科主动对准与成像,Actively aligned ophthalmic examination,27,14,0.5185,20,deterministic title-level reclassification; manual full-text screening pending
-T6,皮肤、创面与暴露组织表面测绘,"Skin, wound and exposed-tissue surface mapping",14,6,0.4286,13,deterministic title-level reclassification; manual full-text screening pending
+T5,眼科主动对准与成像,Actively aligned ophthalmic examination,20,10,0.5,15,deterministic title-level reclassification; manual full-text screening pending
+T6,皮肤与暴露组织表面成像,Cutaneous and exposed-tissue surface imaging,8,3,0.375,7,deterministic title-level reclassification; manual full-text screening pending
 T7,主动听诊与声学检查,Active auscultation and acoustic examination,13,5,0.3846,11,deterministic title-level reclassification; manual full-text screening pending
 T8,耳鼻咽喉与口腔腔道检查,ENT and oral-cavity examination,4,1,0.25,2,deterministic title-level reclassification; manual full-text screening pending
-T9,通用主动扫描技术平台,Generic active-scanning technology platform,27,14,0.5185,21,deterministic title-level reclassification; manual full-text screening pending
+T9,临床任务未定或跨任务采集技术,Task-unresolved or cross-cutting acquisition technology,75,47,0.6267,52,deterministic title-level reclassification; manual full-text screening pending

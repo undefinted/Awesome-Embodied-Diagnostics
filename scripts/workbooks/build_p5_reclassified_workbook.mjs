@@ -59,7 +59,11 @@ addDataSheet("Excluded",sources.Excluded,{A:42,B:85,C:10,D:24,E:18,F:40,Q:32,R:3
 addDataSheet("Audit_Queue",sources.Audit_Queue,{A:42,B:85,C:10,D:24,E:18,F:40,M:34,N:48,O:38,P:18,Q:32,R:32,S:24,T:25,U:42,V:58});
 addDataSheet("Task_Modality",sources.Task_Modality,{A:12,B:38,C:34,D:18,E:18});
 addDataSheet("Projects",sources.Projects,{A:12,B:22,C:42,D:40,E:14,F:28,G:55,H:62,I:24,J:16,K:12,L:34,M:34,N:32,O:58,P:16,Q:52});
-const val=wb.worksheets.add("Validation"); val.showGridLines=false; val.getRange("A1:B1").values=[["Validation field","Value"]]; val.getRange("A2:B10").values=Object.entries(validation).filter(([k])=>k!=="errors").map(([k,v])=>[k,String(v)]); val.getRange("A11:B11").values=[["errors",validation.errors.join(" | ")||"none"]]; val.getRange("A1:B1").format={fill:purple,font:{bold:true,color:"#FFFFFF"}}; val.getRange("A:A").format.columnWidth=42; val.getRange("B:B").format.columnWidth=45;
+const val=wb.worksheets.add("Validation"); val.showGridLines=false; val.getRange("A1:B1").values=[["Validation field","Value"]];
+const valRows=Object.entries(validation).filter(([k])=>k!=="errors").map(([k,v])=>[k,String(v)]);
+val.getRangeByIndexes(1,0,valRows.length,2).values=valRows;
+val.getRangeByIndexes(1+valRows.length,0,1,2).values=[["errors",validation.errors.join(" | ")||"none"]];
+val.getRange("A1:B1").format={fill:purple,font:{bold:true,color:"#FFFFFF"}}; val.getRange("A:A").format.columnWidth=42; val.getRange("B:B").format.columnWidth=45;
 
 const summary=wb.worksheets.add("README"); summary.showGridLines=false;
 summary.getRange("A1:H1").merge(); summary.getRange("A1").values=[["P5 主动观察式检测｜修订后公开证据工作簿"]];
@@ -73,14 +77,14 @@ for(let i=0;i<9;i++) summary.getRange(`D${4+i}:F${4+i}`).formulas=[[`='Task_Coun
 summary.getRange("D3:F12").format.borders={preset:"inside",style:"thin",color:grid}; summary.getRange("D3:F3").format={fill:pale,font:{bold:true,color:text}}; summary.getRange("E4:F12").format.numberFormat="#,##0";
 summary.getRange("A12:H12").merge(); summary.getRange("A12").values=[["范围和解释"]]; summary.getRange("A12:H12").format={fill:pale,font:{bold:true,color:purple}};
 summary.getRange("A13:H17").merge(true); summary.getRange("A13:A17").values=[
-  ["• 主分类是互斥的临床证据获取任务；OCT、光谱、共聚焦、光声等作为多标签模态。"],
-  ["• 834 是公开索引题名级候选，不是系统综述全文纳入数；33 条保留在优先人工全文复核队列。"],
+  ["• 主轴是题名可核验的临床检查程序；OCT、光谱、共聚焦、光声等作为多标签模态。"],
+  ["• 834 是公开索引题名级候选，不是系统综述全文纳入数；75 条任务未定记录与其他冲突记录保留在人工复核队列。"],
   ["• 12 个公开具名项目/系统单独列账，绝不与论文数量相加。"],
   ["• Public available 表示识别到公开全文或完整预印本位置，尚未逐篇完成许可证审计。"],
   ["• 检索冻结 2026-08-13；重分类与项目来源复核 2026-08-14；验证状态：PASS。"]
 ]; summary.getRange("A13:H17").format={wrapText:true,font:{color:text,size:11}};
 summary.getRange("A:A").format.columnWidth=31; summary.getRange("B:B").format.columnWidth=15; summary.getRange("C:C").format.columnWidth=3; summary.getRange("D:D").format.columnWidth=38; summary.getRange("E:F").format.columnWidth=18; summary.getRange("G:H").format.columnWidth=14;
-const chart=summary.charts.add("bar",summary.getRange("D3:F12")); chart.title="公开候选按主要临床任务分布"; chart.hasLegend=true; chart.xAxis={axisType:"textAxis",textStyle:{fontSize:9}}; chart.yAxis={numberFormatCode:"#,##0"}; chart.setPosition("H3","P20");
+const chart=summary.charts.add("bar",summary.getRange("D3:F11")); chart.title="公开候选按题名可核验的临床检查程序分布"; chart.hasLegend=true; chart.xAxis={axisType:"textAxis",textStyle:{fontSize:9}}; chart.yAxis={numberFormatCode:"#,##0"}; chart.setPosition("H3","P20");
 
 await fs.mkdir(outputDir,{recursive:true});
 const preview=await wb.render({sheetName:"README",range:"A1:P20",scale:1.4,format:"png"}); await fs.writeFile(`${outputDir}/p5_workbook_preview.png`,new Uint8Array(await preview.arrayBuffer()));

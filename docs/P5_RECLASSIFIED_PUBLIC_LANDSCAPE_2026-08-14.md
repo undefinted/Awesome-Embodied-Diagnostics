@@ -1,124 +1,77 @@
-# P5 active-observation public landscape after taxonomy revision
+# P5 public-index evidence landscape after conservative task revision
 
-Freeze date for bibliographic discovery: 2026-08-13. Reclassification,
-scope audit and project-page access check: 2026-08-14.
-
-## What changed
-
-The previous 11 retrieval buckets mixed clinical tasks, sensing modalities and
-physical carriers. The revised analysis uses one mutually exclusive primary
-clinical acquisition task for each unique work. OCT, spectroscopy,
-endomicroscopy, photoacoustic imaging and other sensing methods are retained as
-multi-label modality attributes. Manipulators, capsules, endoscopes and other
-physical embodiments are retained as carrier attributes.
-
-The old chart remains a search-coverage audit. The new chart is the P5 figure
-for task-level interpretation.
+Bibliographic discovery freeze: 2026-08-13. Classification revision:
+2026-08-14.
 
 ## Accounting
 
 | Stage | Count |
 |---|---:|
-| Original task assignments | 861 |
+| Retrieval-task assignment rows | 861 |
 | Unique works after DOI-first/title-second deduplication | 855 |
 | Excluded by explicit title-scope rules | 21 |
-| Reclassified public-visible title candidates | 834 |
+| Retained title-level candidates | 834 |
 | Candidates with a public full-text/preprint location identified | 378 |
-| Priority manual full-text audit queue | 33 |
-| Separately curated named public projects/systems | 12 |
+| Task-resolved clinical-procedure candidates | 759 |
+| Task-unresolved/cross-cutting technology candidates (T9) | 75 |
 
-The 21 title exclusions comprise nine treatment or non-diagnostic actions,
-seven non-medical/industrial applications, four reviews/perspectives, and one
-sample-based interaction paper. Every excluded record and reason is preserved
-in `data/presentation/p5_reclassification_excluded_records_2026-08-14.csv`.
+The 21 title exclusions and their rule-based reasons remain in
+`data/presentation/p5_reclassification_excluded_records_2026-08-14.csv`.
 
-## Revised task counts
+## Conservative procedure counts
 
-| Primary clinical acquisition task | Public visible | Public available |
+| Title-verifiable clinical examination procedure | Public visible | Public available |
 |---|---:|---:|
-| Ultrasound examination and active scanning | 341 | 149 |
-| Active or magnetically controlled capsule endoscopy | 237 | 117 |
+| Ultrasound examination and active scanning | 330 | 138 |
+| Active or magnetically controlled capsule endoscopy | 239 | 117 |
 | Bronchoscopic observation and navigation | 91 | 32 |
-| Flexible gastrointestinal endoscopic inspection | 80 | 40 |
-| Actively aligned ophthalmic examination | 27 | 14 |
-| Generic active-scanning technology platform | 27 | 14 |
-| Skin, wound and exposed-tissue surface mapping | 14 | 6 |
+| Flexible gastrointestinal endoscopic examination | 54 | 25 |
+| Actively aligned ophthalmic examination | 20 | 10 |
 | Active auscultation and acoustic examination | 13 | 5 |
+| Cutaneous and exposed-tissue surface imaging | 8 | 3 |
 | ENT and oral-cavity examination | 4 | 1 |
+| **Task-resolved total shown in the main chart** | **759** | **331** |
+| Task-unresolved/cross-cutting technology (T9; not a clinical bar) | 75 | 47 |
+| **All retained candidates** | **834** | **378** |
 
-T9 is removed from the main clinical-task bars because its titles do not specify
-a clinical acquisition site. The figure reconciles 807 site-resolved clinical-task
-candidates plus 27 generic technical-platform candidates to the 834 title-level
-records. T9 remains in the task-by-modality matrix and audit tables, where it is
-shown in grey and must not be interpreted as a clinical-application volume.
+## Counting rules
 
-## Classification rules
+1. Deduplicate by normalized DOI and then normalized title when DOI is absent.
+2. Apply explicit title-scope exclusions while retaining excluded rows.
+3. Assign a procedure only when the title explicitly supports it.
+4. Never convert the retrieval query/bucket into a clinical assignment.
+5. Put records without an explicit procedure into T9 and the manual audit
+   queue; do not distribute them by assumption.
+6. Derive modality and physical-carrier tags independently. These are
+   multi-label attributes and cannot be summed as unique papers.
+7. Keep named projects/systems separate from publication counts.
 
-1. Deduplicate by normalized DOI; use normalized title only when DOI is absent.
-2. Apply explicit scope exclusions while retaining excluded rows and reasons.
-3. Assign the primary clinical task from access-route/anatomical title terms.
-4. If the title does not specify a site, use a direct clinical retrieval bucket.
-5. If only a cross-cutting modality bucket is available, assign T9 and place the
-   record in the priority manual audit queue.
-6. Derive modality and carrier tags independently; tags are non-exclusive and
-   their counts must not be summed to obtain unique works.
-7. Keep named projects/systems in a separate curated table and never add them to
-   publication counts.
+The pipeline is implemented by
+`scripts/reclassify_p5_active_observation.py` and checked by
+`scripts/validate_p5_reclassification.py`.
 
-All rules are implemented in
-`scripts/reclassify_p5_active_observation.py`. Project mappings are explicit in
-`scripts/reclassify_p5_public_projects.py`. Accounting and modality tables are
-checked independently by `scripts/validate_p5_reclassification.py`.
+## Figure use
 
-## Validation result
+Use `figures/public_evidence/p5_reclassified_clinical_tasks.svg` (Chinese) or
+`p5_reclassified_clinical_tasks_en.svg` (English) for the main evidence map.
+The right-hand panel reports the unresolved T9 residual explicitly. Use the
+task-by-modality matrix only as a secondary/backup panel.
 
-The validation report passes with zero errors:
+Suggested claim:
 
-- 855 unique work keys;
-- 834 included title candidates plus 21 title exclusions;
-- exactly one primary task for every unique record;
-- task counts reconcile to included unique records;
-- modality matrix reconciles to record-level tags;
-- 378 unique included works have a public location identified;
-- 12 project IDs are unique and contain source URLs;
-- projects are not added to publication counts.
+> In this frozen public-index title corpus, ultrasound and active capsule
+> endoscopy form the largest task-resolved candidate clusters. Optical and
+> spectroscopic methods are treated as cross-cutting sensing modalities rather
+> than competing clinical applications. Seventy-five candidates could not be
+> assigned to a prespecified clinical examination procedure from the title
+> alone and were retained as an unresolved audit corpus.
 
-## P5 use
+## Limits
 
-Use `figures/public_evidence/p5_reclassified_clinical_tasks.svg` as the main P5
-visual. It is a publication-ready 16:9 editable vector. Internal workflow-audit
-metrics (prior assignments, title exclusions, named projects and manual-review
-queues) are retained in this methods record and the audit workbook rather than
-displayed in the main figure. Use
-`figures/public_evidence/p5_task_modality_matrix.svg` as a second panel,
-appendix figure or discussion backup. PNG copies are provided for rapid preview.
-
-Suggested spoken claim:
-
-> After deduplicating and separating clinical tasks from sensing modalities,
-> the public title-level candidate landscape remains dominated by ultrasound
-> and active capsule endoscopy. OCT and optical spectroscopy no longer appear
-> as competing application categories; they are cross-cutting modalities used
-> across ophthalmic, endoscopic, bronchoscopic and surface-mapping tasks.
-
-## Interpretation limits
-
-- These are deterministic title-level candidates, not systematic-review
-  full-text inclusions.
-- Public available means that a public full-text or complete preprint location
-  was identified; it is not a per-item licence audit.
-- Thirty-three records remain prioritized for manual full-text confirmation,
-  but all have an explicit provisional primary task.
-- Index coverage and rate-limited supplemental queries constrain completeness.
-- Counts measure the visible public research corpus, not clinical maturity,
-  diagnostic efficacy or regulatory deployment.
-
-## Public project source checks
-
-The 12 curated project/system sources were revisited on 2026-08-14. Examples
-include CMU autonomous ultrasound, Aalborg robot-assisted obstetric ultrasound,
-REMDOC, RWTH 3D robotic ultrasound, UltraBot tactile extension, ROPCA,
-robotized slit-lamp imaging, two robotic auscultation systems, autonomous
-endomicroscopy and robotic capsule endomicroscopy. Source URLs and loop
-characterizations are preserved in
-`data/presentation/p5_reclassified_public_projects_2026-08-14.csv`.
+- These are title-level candidates, not full-text systematic-review inclusions.
+- A task-resolved title does not prove a complete embodied sensing–decision–
+  action–feedback loop.
+- Public availability is a located full-text/preprint endpoint, not an
+  item-by-item licence certification.
+- Counts measure the visible indexed research corpus, not clinical maturity,
+  diagnostic efficacy, autonomy or regulatory deployment.

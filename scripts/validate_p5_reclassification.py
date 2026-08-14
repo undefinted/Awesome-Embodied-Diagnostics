@@ -37,6 +37,12 @@ def main() -> None:
     if len(included) + len(excluded) != len(records): errors.append("scope accounting does not close")
     if any(not r["primary_task_code"] for r in records): errors.append("missing primary task")
     if len({r["work_key"] for r in records}) != len(records): errors.append("duplicate work key in unique records")
+    if any("retrieval_bucket" in r["primary_assignment_rule"] for r in records):
+        errors.append("retrieval bucket was used as a clinical task assignment")
+    if any(r["primary_task_code"] == "T9" and r["classification_confidence"] != "low" for r in included):
+        errors.append("T9 task-unresolved records must remain low confidence")
+    if any(r["classification_confidence"] == "medium" for r in included):
+        errors.append("unresolved competing procedure rules remain")
 
     derived = defaultdict(lambda: Counter(public_visible=0, public_available=0))
     modality = defaultdict(lambda: Counter(public_visible=0, public_available=0))
@@ -56,6 +62,12 @@ def main() -> None:
             errors.append(f"available task count mismatch: {task}")
     if sum(int(r["public_visible_unique_title_candidates"]) for r in counts) != len(included):
         errors.append("task count sum does not equal included unique works")
+    resolved = [r for r in included if r["primary_task_code"] != "T9"]
+    unresolved = [r for r in included if r["primary_task_code"] == "T9"]
+    if len(resolved) != qc["task_resolved_title_candidates"]:
+        errors.append("task-resolved count does not match QC")
+    if len(unresolved) != qc["task_unresolved_cross_cutting_T9"]:
+        errors.append("task-unresolved T9 count does not match QC")
 
     matrix_seen = set()
     for r in matrix:
@@ -78,6 +90,8 @@ def main() -> None:
         "included_title_candidates": len(included),
         "excluded_title_records": len(excluded),
         "public_available_unique_included": sum(int(r["public_available"]) for r in included),
+        "task_resolved_title_candidates": len(resolved),
+        "task_unresolved_cross_cutting_T9": len(unresolved),
         "task_rows": len(counts),
         "task_modality_rows": len(matrix),
         "curated_projects": len(projects),

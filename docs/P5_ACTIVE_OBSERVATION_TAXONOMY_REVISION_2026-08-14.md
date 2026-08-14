@@ -1,76 +1,76 @@
-# P5 active-observation taxonomy revision (2026-08-14)
+# P5 active-observation taxonomy: objective revision (2026-08-14)
 
-## Decision
+## Conclusion
 
-The 11 labels used in the 2026-08-13 public-index search are retrieval
-buckets, not mutually exclusive scientific application categories. They mix
-clinical examination tasks/access routes, sensing modalities, and physical
-carriers.
+The retrieval buckets are not a scientific classification. They combine at
+least four different axes: clinical examination procedure, anatomical access,
+sensing modality and physical carrier. The presentation figure therefore uses
+one conservative primary axis—**title-verifiable clinical examination
+procedure**—and records modality and carrier separately.
 
-Consequently, robotic optical/spectroscopic scanning overlaps with skin/wound
-surface scanning. OCT also overlaps with ophthalmic, skin, gastrointestinal and
-bronchoscopic tasks. The old bars must not be summed or interpreted as
-exclusive application-domain sizes.
+This is a pragmatic evidence-map taxonomy, not a claim that the eight
+procedures form a universal or exhaustive ontology of active sensing.
 
-## Evidence from the frozen records
+## Primary procedure axis
 
-Auditing the frozen task-assignment table by DOI and then normalized title
-found 861 task assignments representing 855 unique works. Six works occurred
-in two retrieval buckets. Observed combinations include GI endoscopy + OCT,
-bronchoscopy + optical/confocal imaging, skin/wound + OCT, and GI endoscopy +
-photoacoustic/optical imaging. Run `scripts/audit_p5_taxonomy_overlap.py` to
-reproduce the audit.
-
-## Revised two-axis framework
-
-Use a mutually exclusive primary clinical acquisition task for P5 counts:
+The mutually exclusive task-resolved groups are:
 
 1. ultrasound examination and active scanning;
-2. flexible gastrointestinal endoscopic inspection;
+2. flexible gastrointestinal endoscopic examination;
 3. active or magnetically controlled capsule endoscopy;
 4. bronchoscopic observation and navigation;
 5. actively aligned ophthalmic examination;
-6. skin, wound and exposed-tissue surface mapping;
+6. cutaneous and exposed-tissue surface imaging;
 7. active auscultation and acoustic examination;
-8. ENT and oral-cavity examination;
-9. generic active-scanning platforms without a defined clinical site, reported
-   as a separate technical corpus.
+8. ENT and oral-cavity examination.
 
-Record sensing modality as a non-exclusive secondary tag: ultrasound,
-white-light/RGB video, OCT, Raman/DRS, HSI/MSI, confocal/endomicroscopy,
-photoacoustic, acoustic/physiological sound, or another specified signal.
+T9 is not a ninth clinical application. It is an audit residual for
+task-unresolved or cross-cutting acquisition technology. T9 records are kept in
+the dataset and modality matrix but excluded from the clinical-procedure bars.
 
-For example, skin OCT is assigned to skin/wound surface mapping and tagged
-`OCT`; endoscopic OCT is assigned to the relevant endoscopic task and tagged
-`OCT`.
+## Corrections to the former rules
 
-## Physical embodiment is broader than “robot”
+- Retrieval source buckets no longer substitute for title evidence.
+- Bare `eye`, `eyes`, `gaze` and `hand-eye` no longer imply ophthalmology.
+- Bare `kidney` no longer implies exposed-tissue imaging.
+- Bare `lung nodule` no longer implies bronchoscopy.
+- Generic `endoscopic robot` no longer implies gastrointestinal endoscopy.
+- Explicit capsule terminology takes precedence over generic endoscopy.
+- A specific access route takes precedence over ultrasound as the primary
+  procedure; ultrasound remains a modality tag (for example, endobronchial
+  ultrasound is classified under bronchoscopy).
+- “Wound” was removed from the T6 label because the frozen title corpus does
+  not support a distinct wound-imaging cluster. The revised label is
+  “cutaneous and exposed-tissue surface imaging”.
 
-The review should include algorithmically controlled physical acquisition
-systems that alter sensor pose, contact, viewpoint or trajectory and use new
-observations to guide subsequent evidence acquisition. Embodiments may include
-robotic manipulators, dedicated mechatronic scanners, continuum/flexible/soft
-endoscopes, magnetic or self-propelled capsules, actuated probe holders, mobile
-platforms, bedside systems and body-mounted controllable devices.
+These corrections are encoded in
+`scripts/reclassify_p5_active_observation.py`; the exact rule vocabulary is
+also exposed in
+`data/presentation/p5_active_observation_two_axis_taxonomy_2026-08-14.csv`.
 
-A robotic arm is therefore one embodiment, not an inclusion requirement.
-However, fixed open-loop motion alone remains supporting automation rather than
-a complete embodied diagnostic loop.
+## Why optical/spectral scanning is not a clinical task
 
-## Figure status
+OCT, Raman/DRS, hyperspectral imaging, confocal endomicroscopy and
+photoacoustic imaging describe how evidence is measured. Skin, ophthalmic,
+gastrointestinal and bronchoscopic examination describe where and through
+which clinical procedure it is acquired. A skin OCT study is therefore T6 +
+OCT, whereas an endoscopic OCT study is assigned to its explicit access route
++ OCT. If the title contains no clinical procedure, it remains T9.
 
-The 2026-08-13 chart is retained for search-coverage and rule auditing. It must
-not be used as a final exclusive application count until the 855 unique works
-have been reassigned to primary clinical tasks. The revised P5 should show
-exclusive task counts and place OCT, spectroscopy and other modalities in a
-small multi-label matrix or annotation panel.
+## Embodiment boundary
 
-## Evidence anchors
+“Robot” is not an inclusion requirement. Eligible physical carriers can
+include manipulators, dedicated mechatronic scanners, flexible or continuum
+endoscopes, magnetic or self-propelled capsules, actuated probe holders and
+other controllable devices. However, the current bibliometric map is a
+title-level candidate map: full text is still required to establish whether a
+paper contains a sensing–decision–action–feedback loop rather than open-loop
+automation or supporting hardware.
 
-- Autonomous thyroid ultrasound: Nature Communications (2024), DOI
-  `10.1038/s41467-024-48421-y`.
-- LARA-OCT surface tracking and skin imaging: Biomedical Optics Express (2024),
-  PMC11166428.
-- Endoscopic OCT path scanning: IEEE Robotics and Automation Letters (2021),
-  DOI `10.1109/LRA.2021.3087085`.
+## Interpretation
 
+Counts are DOI-first/title-second deduplicated public-index candidates. They
+are not full-text systematic-review inclusions, clinical maturity scores or
+evidence that each record is a complete embodied diagnostic system. Public
+available means that a public full-text/preprint location was identified; it
+does not assert an item-level licence audit.

@@ -1,9 +1,9 @@
 ﻿carrier_tag,public_visible_unique_title_candidates,public_available_location_identified,interpretation
 dedicated_mechatronic_scanner,12,4,title-derived or task-default tag; detailed hardware audit pending
 flexible_continuum_endoscope,33,16,title-derived or task-default tag; detailed hardware audit pending
-magnetic_active_capsule,242,121,title-derived or task-default tag; detailed hardware audit pending
+magnetic_active_capsule,244,121,title-derived or task-default tag; detailed hardware audit pending
 mobile_bedside_body_mounted,1,1,title-derived or task-default tag; detailed hardware audit pending
 robotic_bronchoscope_unspecified,88,31,title-derived or task-default tag; detailed hardware audit pending
-robotic_endoscope_unspecified,52,23,title-derived or task-default tag; detailed hardware audit pending
+robotic_endoscope_unspecified,38,15,title-derived or task-default tag; detailed hardware audit pending
 robotic_manipulator_arm,13,7,title-derived or task-default tag; detailed hardware audit pending
-robotic_mechatronic_carrier_unspecified,394,176,title-derived or task-default tag; detailed hardware audit pending
+robotic_mechatronic_carrier_unspecified,406,184,title-derived or task-default tag; detailed hardware audit pending

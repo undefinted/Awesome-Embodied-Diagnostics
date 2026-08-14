@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Reclassify frozen P5 retrieval candidates into a two-axis taxonomy.
+"""Reclassify frozen P5 candidates by explicit clinical examination procedure.
 
-Primary clinical acquisition tasks are mutually exclusive at the unique-work
-level. Sensing modalities and physical carriers are multi-label attributes.
-This is a deterministic title-level reclassification, not full-text inclusion.
+The primary axis is a mutually exclusive, title-verifiable clinical procedure.
+Modality and carrier remain independent multi-label attributes. Records without
+an explicit procedure in the title are retained as T9 (unresolved/cross-cutting)
+instead of inheriting a clinical label from the retrieval query that found them.
+This is a conservative title-level map, not a full-text systematic-review result.
 """
 
 from __future__ import annotations
@@ -20,28 +22,25 @@ from pathlib import Path
 
 TASKS = {
     "T1": ("超声检查与主动扫查", "Ultrasound examination and active scanning"),
-    "T2": ("胃肠柔性内镜巡检", "Flexible gastrointestinal endoscopic inspection"),
-    "T3": ("主动或磁控胶囊内镜", "Active or magnetically controlled capsule endoscopy"),
+    "T2": ("胃肠柔性内镜检查", "Flexible gastrointestinal endoscopic examination"),
+    "T3": ("主动或磁控胶囊内镜检查", "Active or magnetically controlled capsule endoscopy"),
     "T4": ("支气管镜观察与导航", "Bronchoscopic observation and navigation"),
     "T5": ("眼科主动对准与成像", "Actively aligned ophthalmic examination"),
-    "T6": ("皮肤、创面与暴露组织表面测绘", "Skin, wound and exposed-tissue surface mapping"),
+    "T6": ("皮肤与暴露组织表面成像", "Cutaneous and exposed-tissue surface imaging"),
     "T7": ("主动听诊与声学检查", "Active auscultation and acoustic examination"),
     "T8": ("耳鼻咽喉与口腔腔道检查", "ENT and oral-cavity examination"),
-    "T9": ("通用主动扫描技术平台", "Generic active-scanning technology platform"),
+    "T9": ("临床任务未定或跨任务采集技术", "Task-unresolved or cross-cutting acquisition technology"),
 }
 
-DIRECT_BUCKET = {
-    "A1": "T1", "A2": "T2", "A3": "T3", "A4": "T4",
-    "A6": "T7", "A7": "T5", "A8": "T8", "A9": "T6", "A11": "T8",
-}
-
-# Ordered: access route / anatomical task overrides cross-cutting modality.
-SITE_RULES = [
-    ("T3", r"\b(capsule endoscop|capsule robot|magnetic capsule|active capsule)"),
-    ("T4", r"\b(bronchoscop|endobronch|pulmonary nodule|lung nodule)"),
-    ("T2", r"\b(gastrointestinal|gastro-intestinal|gastroscop|colonoscop|colonic|intragastric|gastric|esophag|endoscopic robot|endoscope robot)"),
-    ("T5", r"\b(ophthalm|ocular|fundus|retina|retinal|cornea|corneal|slit.?lamp|eye|eyes|gaze|nystagmus|schlemm)"),
-    ("T6", r"\b(dermat|cutaneous|skin|wound|ulcer|exposed tissue|kidney|renal surface|thyroid gland|brain micro.vascular|spinal cord tumor|tissue surface|curved tissue surface)"),
+# Ordered clinical-procedure rules. Each rule requires title evidence. Generic
+# words such as "eye", "gaze", "kidney", "lung nodule" and "endoscopic robot"
+# are deliberately absent: they previously generated demonstrable false labels.
+PROCEDURE_RULES = [
+    ("T3", r"\b(capsule endoscop|capsule robot|robotic capsule|magnetic(?:ally)? (?:controlled )?capsule|active capsule|capsular endoscop)"),
+    ("T4", r"\b(bronchoscop|endobronch)"),
+    ("T2", r"\b(gastrointestinal|gastro-intestinal|gastroscop|colonoscop|colonic|colon\b|human intestine|intragastric|gastric|esophag|duoden|small bowel|large bowel|colorectal|biliary|upper gi|lower gi)"),
+    ("T5", r"\b(ophthalm|ocular|fundus|retina|retinal|cornea|corneal|slit.?lamp|nystagmus|schlemm|moving eyes|eye disease)"),
+    ("T6", r"\b(dermat|cutaneous|in vivo skin|skin (?:imag|evaluat|lesion|disease|surface|scan|mapping)|wound|(?:skin|diabetic|pressure|venous) ulcer|exposed tissue|renal surface|donor kidney assessment|kidney imaging for pre.transplant|pre.transplant kidney monitoring|thyroid gland endomicroscop|brain micro.vascular|spinal cord tumor|ex vivo (?:tissue|organ)|intraoperative tissue surface)"),
     ("T7", r"\b(auscultat|stethoscop|heart sound|lung sound)"),
     ("T8", r"\b(otoscop|ear examination|tympanic|laryngoscop|pharyng|oral cavity|oral examination|malleus|incus)"),
     ("T1", r"\b(ultrasound|sonograph)"),
@@ -124,24 +123,31 @@ def split_pipe(values: list[str]) -> str:
 
 def classify_primary(title: str, source_codes: set[str]) -> tuple[str, str, str]:
     text = title.casefold()
-    site_hits = [(code, pattern) for code, pattern in SITE_RULES if re.search(pattern, text, re.I)]
+    site_hits = [(code, pattern) for code, pattern in PROCEDURE_RULES if re.search(pattern, text, re.I)]
     distinct = []
     for code, _ in site_hits:
         if code not in distinct:
             distinct.append(code)
 
-    # Access-route rules are ordered and override modality-derived source buckets.
+    # A specific access/anatomy procedure takes precedence when the only other
+    # hit is ultrasound, which is simultaneously a sensing modality. This keeps
+    # e.g. endobronchial ultrasound under bronchoscopy with an ultrasound tag.
     if distinct:
+        specific = [code for code in distinct if code != "T1"]
+        if "T1" in distinct and len(specific) == 1:
+            return specific[0], f"explicit_route_over_ultrasound_modality:{specific[0]}", "high"
+        if "T3" in distinct and set(distinct).issubset({"T2", "T3"}):
+            return "T3", "explicit_capsule_route_over_gastrointestinal_site:T3", "high"
+
+        # The first ordered explicit procedure wins. Multiple genuinely
+        # distinct procedure hits are retained for manual inspection.
         chosen = distinct[0]
         confidence = "high" if len(distinct) == 1 else "medium"
-        return chosen, f"title_site_rule:{chosen}", confidence
+        return chosen, f"explicit_title_procedure:{chosen}", confidence
 
-    direct = sorted({DIRECT_BUCKET[c] for c in source_codes if c in DIRECT_BUCKET})
-    if len(direct) == 1:
-        return direct[0], f"direct_retrieval_bucket:{direct[0]}", "high"
-    if len(direct) > 1:
-        return direct[0], f"conflicting_direct_buckets:{'+'.join(direct)}", "low"
-    return "T9", "cross_cutting_modality_without_site", "low"
+    # Retrieval buckets document search provenance, not the clinical procedure.
+    # They must never be converted into a high-confidence task assignment.
+    return "T9", "no_explicit_clinical_procedure_in_title", "low"
 
 
 def classify_tags(title: str, primary: str) -> tuple[list[str], list[str]]:
@@ -217,7 +223,7 @@ def main() -> None:
             year = int(first.get("year") or 0)
         except ValueError:
             year = 0
-        review_status = "priority_manual_review" if confidence == "low" or len(source_codes) > 1 else "title_rule_classified"
+        review_status = "priority_manual_review" if confidence != "high" or len(source_codes) > 1 else "title_rule_classified"
         if scope_status == "excluded_title":
             review_status = "excluded_by_title_rule_reviewable"
 
@@ -319,6 +325,7 @@ def main() -> None:
         writer.writerows(carrier_rows)
 
     qc = {
+        "classification_rule_version": "p5-clinical-procedure-title-explicit-v2",
         "input": str(args.records),
         "input_sha256": sha256(args.records),
         "task_assignment_rows": len(assignments),
@@ -327,9 +334,12 @@ def main() -> None:
         "excluded_by_title_scope_rules": len(excluded_records),
         "visible_count_sum": sum(r["public_visible_unique_title_candidates"] for r in count_rows),
         "public_available_unique_works": sum(r["public_available_location_identified"] for r in count_rows),
+        "task_resolved_title_candidates": sum(counts[c]["public_visible"] for c in TASKS if c != "T9"),
+        "task_resolved_public_available": sum(counts[c]["public_available"] for c in TASKS if c != "T9"),
         "multi_bucket_unique_works": sum("+" in r["source_task_codes"] for r in records),
         "priority_manual_review": len(audit_queue),
-        "generic_platform_T9": counts["T9"]["public_visible"],
+        "task_unresolved_cross_cutting_T9": counts["T9"]["public_visible"],
+        "task_unresolved_cross_cutting_T9_public_available": counts["T9"]["public_available"],
         "low_confidence_included": sum(r["classification_confidence"] == "low" and r["scope_status"] == "included_title_candidate" for r in records),
         "medium_confidence_included": sum(r["classification_confidence"] == "medium" and r["scope_status"] == "included_title_candidate" for r in records),
         "high_confidence_included": sum(r["classification_confidence"] == "high" and r["scope_status"] == "included_title_candidate" for r in records),

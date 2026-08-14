@@ -5,8 +5,10 @@
   "included_title_candidates": 834,
   "excluded_title_records": 21,
   "public_available_unique_included": 378,
+  "task_resolved_title_candidates": 759,
+  "task_unresolved_cross_cutting_T9": 75,
   "task_rows": 9,
-  "task_modality_rows": 28,
+  "task_modality_rows": 26,
   "curated_projects": 12,
   "projects_added_to_publication_counts": false
 }

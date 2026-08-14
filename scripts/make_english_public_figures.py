@@ -128,7 +128,7 @@ def reclassified_p5() -> None:
     chart_w = chart_right-left; row_h=(height-top-bottom)/len(rows); maximum=max(int(r["public_visible_unique_title_candidates"]) for r in rows)
     body=[f'<rect width="{width}" height="{height}" fill="white"/>',
           f'<text x="60" y="66" font-family="{FONT}" font-size="38" font-weight="700" fill="{C["text"]}">Active observational sensing | Publicly indexed evidence landscape</text>',
-          f'<text x="60" y="108" font-family="{FONT}" font-size="22" fill="{C["muted"]}">Public-index title candidates and public full-text availability by clinical evidence-acquisition task</text>']
+          f'<text x="60" y="108" font-family="{FONT}" font-size="22" fill="{C["muted"]}">Grouped by title-verifiable clinical examination procedure; modality and carrier are separate attributes</text>']
     for i in range(5):
         x=left+chart_w*i/4
         body += [f'<line x1="{x}" y1="{top-18}" x2="{x}" y2="{height-bottom+10}" stroke="{C["grid"]}"/>',
@@ -144,14 +144,14 @@ def reclassified_p5() -> None:
             body.append(f'<text x="{left+max(wa-7,12)}" y="{y+bar_h*.60}" text-anchor="end" font-family="{FONT}" font-size="14" font-weight="700" fill="white">{available}</text>')
     x0=1400
     body += [f'<text x="{x0}" y="180" font-family="{FONT}" font-size="25" font-weight="700" fill="{C["text"]}">Evidence-corpus scope</text>']
-    scope=[("Clinical evidence-acquisition tasks",len(rows),C["text"]),("Title-level candidate studies",clinical_total,C["purple"]),("Public full-text locations identified",clinical_available,C["green"]),("Generic platforms; site unresolved",generic["public_visible_unique_title_candidates"],C["gray"])]
+    scope=[("Title-resolved procedures",len(rows),C["text"]),("Task-resolved candidates",clinical_total,C["purple"]),("Public full-text locations identified",clinical_available,C["green"]),("Task-unresolved / cross-cutting",generic["public_visible_unique_title_candidates"],C["gray"])]
     for i,(label,value,color) in enumerate(scope):
         y=235+i*82
         body += [f'<text x="{x0}" y="{y}" font-family="{FONT}" font-size="17" fill="{C["muted"]}">{label}</text>',f'<text x="1815" y="{y}" text-anchor="end" font-family="{FONT}" font-size="30" font-weight="700" fill="{color}">{value}</text>']
         if i<3: body.append(f'<line x1="{x0}" y1="{y+24}" x2="1815" y2="{y+24}" stroke="{C["grid"]}"/>')
     body += [f'<line x1="{x0}" y1="580" x2="1815" y2="580" stroke="{C["grid"]}"/>',
              f'<text x="{x0}" y="628" font-family="{FONT}" font-size="22" font-weight="700" fill="{C["text"]}">Scope note</text>',
-             f'<text x="{x0}" y="674" font-family="{FONT}" font-size="16" fill="{C["muted"]}">Platforms without a resolvable clinical site are excluded</text><text x="{x0}" y="702" font-family="{FONT}" font-size="16" fill="{C["muted"]}">from task bars and retained in the supplementary audit table.</text>',
+             f'<text x="{x0}" y="674" font-family="{FONT}" font-size="16" fill="{C["muted"]}">Titles without an explicit examination procedure are not</text><text x="{x0}" y="702" font-family="{FONT}" font-size="16" fill="{C["muted"]}">force-assigned; they remain T9 in the audit table.</text>',
              f'<rect x="1050" y="966" width="24" height="17" rx="3" fill="{C["purple"]}"/><text x="1086" y="981" font-family="{FONT}" font-size="16" fill="{C["muted"]}">Public-index title candidates</text>',
              f'<rect x="1415" y="966" width="24" height="17" rx="3" fill="{C["green"]}"/><text x="1451" y="981" font-family="{FONT}" font-size="16" fill="{C["muted"]}">Public full-text location identified</text>',
              f'<text x="60" y="1025" font-family="{FONT}" font-size="14" fill="{C["muted"]}">Public-index freeze: 13 Aug 2026; reclassification: 14 Aug 2026. Deduplicated by DOI and normalized title. Counts are title-level candidates, not systematic-review inclusions; locations were not individually licence-audited.</text>']
@@ -161,7 +161,7 @@ def reclassified_p5() -> None:
     lookup={(r["primary_task_code"],r["modality_tag"]):r for r in matrix_rows}
     groups=[("Ultrasound",["ultrasound"]),("OCT",["OCT"]),("Endoscopic / cavity imaging*",["endoscopic_imaging_unspecified","capsule_endoscopic_imaging_unspecified","bronchoscopic_imaging_unspecified","cavity_visual_imaging_unspecified"]),("Confocal / endomicroscopy",["confocal_endomicroscopy"]),("Photoacoustic",["photoacoustic"]),("Raman / DRS",["Raman_DRS_spectroscopy"]),("Other optical / RGB",["white_light_RGB_video","other_optical","ophthalmic_imaging_unspecified","surface_imaging_unspecified"]),("Physiological sound",["acoustic_physiological_sound"])]
     width,height,left,top,cell_w,cell_h=1920,1080,540,220,160,74
-    body=[f'<rect width="{width}" height="{height}" fill="white"/>',f'<text x="60" y="68" font-family="{FONT}" font-size="38" font-weight="700" fill="{C["text"]}">Active observational sensing | Clinical task × sensing modality</text>',f'<text x="60" y="110" font-family="{FONT}" font-size="22" fill="{C["muted"]}">Modality is multi-label; cells show public visible / public available and must not be summed across columns</text>']
+    body=[f'<rect width="{width}" height="{height}" fill="white"/>',f'<text x="60" y="68" font-family="{FONT}" font-size="38" font-weight="700" fill="{C["text"]}">Active observational sensing | Clinical examination procedure × sensing modality</text>',f'<text x="60" y="110" font-family="{FONT}" font-size="22" fill="{C["muted"]}">Modality is multi-label; cells show public visible / public available and must not be summed across columns</text>']
     for j,(label,_) in enumerate(groups):
         x=left+j*cell_w+cell_w/2; words=label.split(" / ")
         body.append(f'<text x="{x}" y="168" text-anchor="middle" font-family="{FONT}" font-size="15" font-weight="700" fill="{C["text"]}">{esc(words[0])}</text>')
@@ -178,7 +178,7 @@ def reclassified_p5() -> None:
             body.append(f'<rect x="{x+5}" y="{y+5}" width="{cell_w-10}" height="{cell_h-10}" rx="7" fill="{C["purple"]}" fill-opacity="{alpha:.3f}" stroke="{C["grid"]}"/>')
             if visible: body.append(f'<text x="{x+cell_w/2}" y="{y+35}" text-anchor="middle" font-family="{FONT}" font-size="20" font-weight="700" fill="{C["text"]}">{visible}<tspan fill="{C["muted"]}" font-size="16"> / </tspan><tspan fill="{C["green"]}" font-size="18">{available}</tspan></text>')
             else: body.append(f'<text x="{x+cell_w/2}" y="{y+39}" text-anchor="middle" font-family="{FONT}" font-size="18" fill="#C9C2CB">–</text>')
-    body += [f'<text x="60" y="938" font-family="{FONT}" font-size="16" fill="{C["muted"]}">* “Endoscopic / cavity imaging” means that the title did not specify OCT, confocal, photoacoustic or another modality; it is not an inferred modality for all endoscopy papers.</text>',f'<text x="60" y="978" font-family="{FONT}" font-size="16" fill="{C["muted"]}">OCT, confocal, photoacoustic and spectroscopic records are assigned to clinical tasks; T9 retains only generic platforms whose clinical site cannot be identified from the title.</text>',f'<text x="60" y="1025" font-family="{FONT}" font-size="14" fill="{C["muted"]}">Scope and sources match the main P5 chart. Modalities are title-explicit terms; “unspecified” tags are used when the title lacks a specific modality. Multi-label modality counts are not unique-paper totals.</text>']
+    body += [f'<text x="60" y="938" font-family="{FONT}" font-size="16" fill="{C["muted"]}">* “Endoscopic / cavity imaging” means that the title did not specify OCT, confocal, photoacoustic or another modality; it is not an inferred modality for all endoscopy papers.</text>',f'<text x="60" y="978" font-family="{FONT}" font-size="16" fill="{C["muted"]}">OCT, confocal, photoacoustic and spectroscopic methods are cross-task modalities; T9 is an unresolved audit corpus, not a clinical-application volume.</text>',f'<text x="60" y="1025" font-family="{FONT}" font-size="14" fill="{C["muted"]}">Scope and sources match the main P5 chart. Modalities are title-explicit terms; “unspecified” tags are used when the title lacks a specific modality. Multi-label modality counts are not unique-paper totals.</text>']
     save("p5_task_modality_matrix_en.svg",width,height,body)
 
 
