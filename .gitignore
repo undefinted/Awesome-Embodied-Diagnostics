@@ -24,3 +24,5 @@ tmp-*.png
 outputs/access_audit/openalex_cache/
 outputs/public_landscape/openalex_cache/
 outputs/public_landscape/*.inspect.ndjson
+outputs/p5_reclassification/p5_workbook_preview.png
+outputs/p5_reclassification/provenance_verify_*.json

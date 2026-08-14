@@ -2,6 +2,8 @@
 
 > **2026-08-14 分类修订：** 2026-08-13 版图混合了临床任务、成像模态和物理载体。`机器人 OCT`、`机器人光谱/光学扫描` 不应与眼科、皮肤、胃肠内镜或支气管镜任务作为互斥类别并列。当前扩展图只可作为检索覆盖审计；在按主要临床任务重分配唯一论文前，不用于声称应用类别规模。详见 `docs/P5_ACTIVE_OBSERVATION_TAXONOMY_REVISION_2026-08-14.md`。
 
+> **完成状态更新：** 855 篇唯一记录已经按修订框架重分类并通过计数验证。P5 最终使用 `figures/public_evidence/p5_reclassified_clinical_tasks.svg`；任务 × 模态矩阵使用 `figures/public_evidence/p5_task_modality_matrix.svg`。完整方法和限制见 `docs/P5_RECLASSIFIED_PUBLIC_LANDSCAPE_2026-08-14.md`。
+
 ## 页面主张
 
 主动观察式检测的公开研究高度集中于机器人超声和磁控/主动胶囊内镜；光谱/内镜显微、听诊、眼科、皮肤和喉镜已经出现独立工作，但集群仍小。公开可见不等于公开全文，文献数量也不等于临床成熟度。

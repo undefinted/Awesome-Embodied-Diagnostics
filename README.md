@@ -78,6 +78,8 @@ The Python screen is self-contained. The editable figure and workbook builders u
 ## Presentation support
 
 - P5–P29 slide-by-slide communication job, layout and evidence: [`docs/P5_P29_PUBLIC_AVAILABLE_SLIDE_BLUEPRINT.md`](docs/P5_P29_PUBLIC_AVAILABLE_SLIDE_BLUEPRINT.md)
+- Corrected P5 task-level taxonomy, counts, limitations and validation: [`docs/P5_RECLASSIFIED_PUBLIC_LANDSCAPE_2026-08-14.md`](docs/P5_RECLASSIFIED_PUBLIC_LANDSCAPE_2026-08-14.md)
+- P5 reclassified audit workbook: [`outputs/p5_reclassification/p5_active_observation_reclassified_2026-08-14.xlsx`](outputs/p5_reclassification/p5_active_observation_reclassified_2026-08-14.xlsx)
 - Audit-ready workbook with task counts, maturity, verified studies and all screened records: [`outputs/public_landscape/public_available_presentation_evidence.xlsx`](outputs/public_landscape/public_available_presentation_evidence.xlsx)
 - Editable SVG and high-resolution PNG figures: [`figures/public_evidence/`](figures/public_evidence/)
 - Template-following layout example for P9 and P13: [`presentations/医学检测具身智能_P9_P13公开证据排版示例.pptx`](presentations/医学检测具身智能_P9_P13公开证据排版示例.pptx)

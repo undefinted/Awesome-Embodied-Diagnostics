@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "errors": [],
+  "unique_works": 855,
+  "included_title_candidates": 834,
+  "excluded_title_records": 21,
+  "public_available_unique_included": 378,
+  "task_rows": 9,
+  "task_modality_rows": 28,
+  "curated_projects": 12,
+  "projects_added_to_publication_counts": false
+}

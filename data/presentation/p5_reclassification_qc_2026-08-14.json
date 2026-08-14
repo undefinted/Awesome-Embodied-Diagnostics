@@ -1,0 +1,18 @@
+{
+  "input": "D:\\Researching\\清华\\古月\\Project\\综述\\code maintainance\\awesome-embodied-diagnostics\\data\\presentation\\p5_public_visible_available_records_2026-08-13.csv",
+  "input_sha256": "b4562792a6cb0f11952eaf849c00d6241984a14ce740bd2d2d6519ea8d3528b5",
+  "task_assignment_rows": 861,
+  "unique_works": 855,
+  "included_title_candidates": 834,
+  "excluded_by_title_scope_rules": 21,
+  "visible_count_sum": 834,
+  "public_available_unique_works": 378,
+  "multi_bucket_unique_works": 6,
+  "priority_manual_review": 33,
+  "generic_platform_T9": 27,
+  "low_confidence_included": 27,
+  "medium_confidence_included": 78,
+  "high_confidence_included": 729,
+  "counting_unit": "unique work after DOI-first/title-second deduplication",
+  "scope_warning": "Title-level reclassified candidates, not systematic-review full-text inclusions."
+}
