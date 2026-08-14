@@ -42,13 +42,15 @@ const font = "Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif";
 
 function mainFigure() {
   const W = 1920, H = 1080;
-  const sorted = [...counts].sort((a,b) => Number(b.public_visible_unique_title_candidates) - Number(a.public_visible_unique_title_candidates));
+  const sorted = counts.filter(r => r.primary_task_code !== "T9").sort((a,b) => Number(b.public_visible_unique_title_candidates) - Number(a.public_visible_unique_title_candidates));
+  const generic = counts.find(r => r.primary_task_code === "T9");
+  const clinicalTotal = sorted.reduce((sum, r) => sum + Number(r.public_visible_unique_title_candidates), 0);
   const max = Math.max(...sorted.map(r => Number(r.public_visible_unique_title_candidates)));
   const left = 420, chartRight = 1300, top = 170, bottom = 185;
   const chartW = chartRight - left, rowH = (H - top - bottom) / sorted.length;
   const s = [`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`, `<rect width="${W}" height="${H}" fill="white"/>`];
   s.push(`<text x="60" y="66" font-family="${font}" font-size="38" font-weight="700" fill="${C.text}">主动观察式检测｜按临床证据获取任务重分类</text>`);
-  s.push(`<text x="60" y="108" font-family="${font}" font-size="22" fill="${C.muted}">模态与载体移出主分类；每篇唯一论文仅进入一个主要临床任务</text>`);
+  s.push(`<text x="60" y="108" font-family="${font}" font-size="22" fill="${C.muted}">模态与载体移出主分类；临床部位未定的通用技术平台移出主柱状图区</text>`);
   for (let i = 0; i <= 4; i++) {
     const x = left + chartW * i / 4, val = Math.round(max * i / 4);
     s.push(`<line x1="${x}" y1="${top-18}" x2="${x}" y2="${H-bottom+10}" stroke="${C.grid}" stroke-width="1"/>`);
@@ -58,9 +60,8 @@ function mainFigure() {
     const y = top + i * rowH + rowH * .15, h = rowH * .56;
     const v = Number(r.public_visible_unique_title_candidates), a = Number(r.public_available_location_identified);
     const wv = chartW * v / max, wa = chartW * a / max;
-    const isTech = r.primary_task_code === "T9";
-    s.push(`<text x="${left-24}" y="${y+h*.70}" text-anchor="end" font-family="${font}" font-size="21" fill="${isTech ? C.muted : C.text}">${esc(r.primary_task_cn)}</text>`);
-    s.push(`<rect x="${left}" y="${y}" width="${wv}" height="${h}" rx="7" fill="${isTech ? C.gray : C.purple}"/>`);
+    s.push(`<text x="${left-24}" y="${y+h*.70}" text-anchor="end" font-family="${font}" font-size="21" fill="${C.text}">${esc(r.primary_task_cn)}</text>`);
+    s.push(`<rect x="${left}" y="${y}" width="${wv}" height="${h}" rx="7" fill="${C.purple}"/>`);
     s.push(`<rect x="${left}" y="${y+h*.30}" width="${wa}" height="${h*.40}" rx="4" fill="${C.green}"/>`);
     s.push(`<text x="${left+wv+12}" y="${y+h*.70}" font-family="Arial" font-size="20" fill="${C.text}">${v}</text>`);
     if (a) s.push(`<text x="${left+Math.max(wa-7,12)}" y="${y+h*.60}" text-anchor="end" font-family="Arial" font-size="14" font-weight="700" fill="white">${a}</text>`);
@@ -74,10 +75,11 @@ function mainFigure() {
     if(i<flow.length-1) s.push(`<line x1="${x0}" y1="${y+18}" x2="1815" y2="${y+18}" stroke="${C.grid}"/>`);
   });
   s.push(`<rect x="${x0}" y="505" width="425" height="1" fill="${C.grid}"/>`);
-  s.push(`<text x="${x0}" y="552" font-family="${font}" font-size="24" font-weight="700" fill="${C.text}">不并入论文柱状图</text>`);
-  s.push(`<text x="${x0}" y="596" font-family="${font}" font-size="18" fill="${C.muted}">公开具名项目/系统</text><text x="1815" y="596" text-anchor="end" font-family="Arial" font-size="28" font-weight="700" fill="${C.green}">${projects.length}</text>`);
-  s.push(`<text x="${x0}" y="642" font-family="${font}" font-size="18" fill="${C.muted}">优先人工复核队列</text><text x="1815" y="642" text-anchor="end" font-family="Arial" font-size="28" font-weight="700" fill="${C.purple2}">${qc.priority_manual_review}</text>`);
-  s.push(`<text x="${x0}" y="710" font-family="${font}" font-size="18" fill="${C.muted}">T9 为无明确临床部位的技术平台，</text><text x="${x0}" y="740" font-family="${font}" font-size="18" fill="${C.muted}">以灰色显示，不解释为临床应用规模。</text>`);
+  s.push(`<text x="${x0}" y="552" font-family="${font}" font-size="24" font-weight="700" fill="${C.text}">图中分层</text>`);
+  s.push(`<text x="${x0}" y="596" font-family="${font}" font-size="18" fill="${C.muted}">8 个可定位临床任务</text><text x="1815" y="596" text-anchor="end" font-family="Arial" font-size="28" font-weight="700" fill="${C.purple}">${clinicalTotal}</text>`);
+  s.push(`<text x="${x0}" y="642" font-family="${font}" font-size="18" fill="${C.muted}">临床部位未定技术平台</text><text x="1815" y="642" text-anchor="end" font-family="Arial" font-size="28" font-weight="700" fill="${C.gray}">${Number(generic.public_visible_unique_title_candidates)}</text>`);
+  s.push(`<text x="${x0}" y="688" font-family="${font}" font-size="18" fill="${C.muted}">另表：公开具名项目/系统</text><text x="1815" y="688" text-anchor="end" font-family="Arial" font-size="28" font-weight="700" fill="${C.green}">${projects.length}</text>`);
+  s.push(`<text x="${x0}" y="734" font-family="${font}" font-size="18" fill="${C.muted}">优先人工复核队列</text><text x="1815" y="734" text-anchor="end" font-family="Arial" font-size="28" font-weight="700" fill="${C.purple2}">${qc.priority_manual_review}</text>`);
   s.push(`<rect x="1030" y="966" width="24" height="17" rx="3" fill="${C.purple}"/><text x="1066" y="981" font-family="${font}" font-size="17" fill="${C.muted}">public visible：公开索引题名候选</text>`);
   s.push(`<rect x="1415" y="966" width="24" height="17" rx="3" fill="${C.green}"/><text x="1451" y="981" font-family="${font}" font-size="17" fill="${C.muted}">public available：识别到公开全文位置</text>`);
   s.push(`<text x="60" y="1025" font-family="${font}" font-size="15" fill="${C.muted}">公开索引冻结：2026-08-13；重分类：2026-08-14。按 DOI 优先、规范化题名其次去重。834 为题名级候选，不是系统综述全文纳入数；公开全文位置未经逐篇许可证审计。</text>`);

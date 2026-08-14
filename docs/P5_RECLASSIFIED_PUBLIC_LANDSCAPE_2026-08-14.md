@@ -46,8 +46,11 @@ in `data/presentation/p5_reclassification_excluded_records_2026-08-14.csv`.
 | Active auscultation and acoustic examination | 13 | 5 |
 | ENT and oral-cavity examination | 4 | 1 |
 
-T9 is shown in grey because its titles do not specify a clinical acquisition
-site. It is a technical corpus, not a clinical-application-size estimate.
+T9 is removed from the main clinical-task bars because its titles do not specify
+a clinical acquisition site. The figure reconciles 807 site-resolved clinical-task
+candidates plus 27 generic technical-platform candidates to the 834 title-level
+records. T9 remains in the task-by-modality matrix and audit tables, where it is
+shown in grey and must not be interpreted as a clinical-application volume.
 
 ## Classification rules
 
@@ -116,4 +119,3 @@ robotized slit-lamp imaging, two robotic auscultation systems, autonomous
 endomicroscopy and robotic capsule endomicroscopy. Source URLs and loop
 characterizations are preserved in
 `data/presentation/p5_reclassified_public_projects_2026-08-14.csv`.
-

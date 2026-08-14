@@ -82,6 +82,7 @@ The Python screen is self-contained. The editable figure and workbook builders u
 - P5 reclassified audit workbook: [`outputs/p5_reclassification/p5_active_observation_reclassified_2026-08-14.xlsx`](outputs/p5_reclassification/p5_active_observation_reclassified_2026-08-14.xlsx)
 - Audit-ready workbook with task counts, maturity, verified studies and all screened records: [`outputs/public_landscape/public_available_presentation_evidence.xlsx`](outputs/public_landscape/public_available_presentation_evidence.xlsx)
 - Editable SVG and high-resolution PNG figures: [`figures/public_evidence/`](figures/public_evidence/)
+- Every current chart has a fully translated English sibling (`*_en.svg` and `*_en.png`); policy and validation: [`docs/BILINGUAL_FIGURE_POLICY.md`](docs/BILINGUAL_FIGURE_POLICY.md)
 - Template-following layout example for P9 and P13: [`presentations/医学检测具身智能_P9_P13公开证据排版示例.pptx`](presentations/医学检测具身智能_P9_P13公开证据排版示例.pptx)
 
 ## Working taxonomy

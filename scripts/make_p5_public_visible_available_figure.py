@@ -2,10 +2,10 @@
 import argparse,csv,html
 from pathlib import Path
 
-DEFAULT_ROOT=Path(r"D:\Researching\清华\古月\Project\综述\支持图表\codex-参考")
+DEFAULT_ROOT=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--data',type=Path,default=DEFAULT_ROOT/"02_当前主数据"/"P5_public_visible_available_counts_2026-08-13.csv")
-parser.add_argument('--output',type=Path,default=DEFAULT_ROOT/"03_PPT图表"/"P5_主动观察_public_visible与public_available_扩展版.svg")
+parser.add_argument('--data',type=Path,default=DEFAULT_ROOT/"data"/"presentation"/"p5_public_visible_available_counts_2026-08-13.csv")
+parser.add_argument('--output',type=Path,default=DEFAULT_ROOT/"figures"/"public_evidence"/"p5_public_visible_available_extended.svg")
 args=parser.parse_args(); DATA=args.data.resolve(); OUT=args.output.resolve(); OUT.parent.mkdir(parents=True,exist_ok=True)
 rows=list(csv.DictReader(open(DATA,encoding="utf-8-sig")))
 rows=sorted(rows,key=lambda x:int(x['public_visible_precision_title_candidates']),reverse=True)
