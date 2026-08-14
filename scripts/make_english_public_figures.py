@@ -102,11 +102,8 @@ def maturity(rows: list[dict[str, object]], name: str, title: str) -> None:
     save(name, width, height, body)
 
 
-def old_public_figures() -> None:
+def response_sample_public_figures() -> None:
     matrix = {r["task_code"]: r for r in read_csv("public_evidence_maturity_matrix.csv")}
-    active = [("A1", "Robotic ultrasound"), ("A3", "Active / magnetically controlled capsule"),
-              ("A2", "Robotic GI endoscopic inspection"), ("A4", "Robotic bronchoscopy navigation"),
-              ("A5", "Robotic OCT"), ("A6", "Robotic auscultation")]
     response = [("R1", "Robotic palpation"), ("R2", "Elasticity / stiffness mapping"),
                 ("R6", "Closed-loop TMS response mapping"), ("R3", "Joint laxity / provocation"),
                 ("R4", "Tone / spasticity assessment"), ("R5", "Percussion / reflex examination")]
@@ -116,24 +113,10 @@ def old_public_figures() -> None:
     def rows(spec):
         return [{**matrix[code], "label": label} for code, label in spec]
     note = "Deduplicated papers in frozen public-index snapshots (Europe PMC, OpenAlex, Crossref and arXiv); title-rule screening; not systematic-review inclusions."
-    landscape(rows(active), "p5_active_public_landscape_en.svg", "Active observational sensing | Public-source research landscape", "public_index_title_screened_candidates", "oa_or_repository_location_identified_automatically", note)
     landscape(rows(response), "p9_response_public_landscape_en.svg", "Response-based interactive diagnosis | Public-source title-screened candidates", "public_index_title_screened_candidates", "oa_or_repository_location_identified_automatically", note)
     landscape(rows(sample), "p13_sample_public_landscape_en.svg", "Sample-based interactive diagnosis | Public-source title-screened candidates", "public_index_title_screened_candidates", "oa_or_repository_location_identified_automatically", note)
     maturity(rows(response), "p9_response_maturity_en.svg", "Highest publicly verifiable evidence maturity")
     maturity(rows(sample), "p13_sample_maturity_en.svg", "Highest publicly verifiable evidence maturity")
-
-
-def extended_p5() -> None:
-    source = read_csv("p5_public_visible_available_counts_2026-08-13.csv")
-    labels = {
-        "A1":"Robotic ultrasound", "A2":"Robotic GI endoscopic inspection", "A3":"Active / magnetically controlled capsule endoscopy",
-        "A4":"Robotic bronchoscopy observation / navigation", "A5":"Robotic OCT", "A6":"Robotic auscultation",
-        "A7":"Robotic fundus / slit-lamp imaging", "A8":"Robotic otoscopy", "A9":"Robotic skin / wound surface scanning",
-        "A10":"Robotic spectroscopic / optical scanning", "A11":"Robotic laryngoscopy / oral examination",
-    }
-    rows = [{**r, "label": labels[r["task_code"]]} for r in sorted(source, key=lambda x:int(x["public_visible_precision_title_candidates"]), reverse=True)]
-    landscape(rows, "p5_public_visible_available_extended_en.svg", "Active observational sensing | Public-visible and public-full-text candidate landscape", "public_visible_precision_title_candidates", "public_available_location_identified", "Public indexes: OpenAlex and Europe PMC, supplemented by Crossref/arXiv; 2000–13 Aug 2026. Deduplicated by DOI/title. Candidate counts are not full-text systematic-review inclusions; availability is not a licence audit.")
-
 
 def reclassified_p5() -> None:
     counts = read_csv("p5_reclassified_task_counts_2026-08-14.csv")
@@ -200,7 +183,6 @@ def reclassified_p5() -> None:
 
 
 if __name__ == "__main__":
-    old_public_figures()
-    extended_p5()
+    response_sample_public_figures()
     reclassified_p5()
     print("Generated English SVG counterparts in figures/public_evidence")

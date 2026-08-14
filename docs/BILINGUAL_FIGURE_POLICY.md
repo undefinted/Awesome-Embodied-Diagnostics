@@ -11,6 +11,7 @@ The English version is a presentation translation, not an independent analysis.
 `scripts/validate_bilingual_figures.py` fails when either-language files are missing.
 Run `scripts/reproduce_bilingual_public_figures.ps1` after changing a chart or its data.
 
-Superseded charts retained for provenance remain explicitly documented as historical
-or retrieval-audit artifacts; bilingual availability does not make them the preferred
-figure for scientific interpretation.
+Superseded presentation charts are removed from the current working tree to prevent
+accidental reuse. Their prior states remain recoverable from Git history; upstream
+retrieval data required for reproducibility remain in the data and audit records.
+The validator also fails if a prohibited superseded basename reappears.
