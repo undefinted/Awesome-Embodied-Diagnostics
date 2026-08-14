@@ -6,7 +6,7 @@ const args = Object.fromEntries(process.argv.slice(2).reduce((pairs, value, inde
   if (value.startsWith("--")) pairs.push([value.slice(2), arr[index + 1]]);
   return pairs;
 }, []));
-for (const required of ["counts", "matrix", "qc", "projects", "output-dir"]) {
+for (const required of ["counts", "matrix", "output-dir"]) {
   if (!args[required]) throw new Error(`Missing --${required}`);
 }
 
@@ -33,8 +33,6 @@ function parseCsv(text) {
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&apos;"}[c]));
 const counts = parseCsv(fs.readFileSync(args.counts, "utf8"));
 const matrixRows = parseCsv(fs.readFileSync(args.matrix, "utf8"));
-const projects = parseCsv(fs.readFileSync(args.projects, "utf8"));
-const qc = JSON.parse(fs.readFileSync(args.qc, "utf8"));
 fs.mkdirSync(args["output-dir"], { recursive: true });
 
 const C = { purple: "#5F1B73", purple2: "#7B3B8D", green: "#2C8068", text: "#25152B", muted: "#6D6470", grid: "#E8E1EA", pale: "#F5F1F7", gray: "#A69DA8", white: "#FFFFFF" };
@@ -45,12 +43,13 @@ function mainFigure() {
   const sorted = counts.filter(r => r.primary_task_code !== "T9").sort((a,b) => Number(b.public_visible_unique_title_candidates) - Number(a.public_visible_unique_title_candidates));
   const generic = counts.find(r => r.primary_task_code === "T9");
   const clinicalTotal = sorted.reduce((sum, r) => sum + Number(r.public_visible_unique_title_candidates), 0);
+  const clinicalAvailable = sorted.reduce((sum, r) => sum + Number(r.public_available_location_identified), 0);
   const max = Math.max(...sorted.map(r => Number(r.public_visible_unique_title_candidates)));
   const left = 420, chartRight = 1300, top = 170, bottom = 185;
   const chartW = chartRight - left, rowH = (H - top - bottom) / sorted.length;
   const s = [`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`, `<rect width="${W}" height="${H}" fill="white"/>`];
-  s.push(`<text x="60" y="66" font-family="${font}" font-size="38" font-weight="700" fill="${C.text}">主动观察式检测｜按临床证据获取任务重分类</text>`);
-  s.push(`<text x="60" y="108" font-family="${font}" font-size="22" fill="${C.muted}">模态与载体移出主分类；临床部位未定的通用技术平台移出主柱状图区</text>`);
+  s.push(`<text x="60" y="66" font-family="${font}" font-size="38" font-weight="700" fill="${C.text}">主动观察式检测｜公开索引证据版图</text>`);
+  s.push(`<text x="60" y="108" font-family="${font}" font-size="22" fill="${C.muted}">按临床证据获取任务统计的公开索引题名候选与公开全文可得性</text>`);
   for (let i = 0; i <= 4; i++) {
     const x = left + chartW * i / 4, val = Math.round(max * i / 4);
     s.push(`<line x1="${x}" y1="${top-18}" x2="${x}" y2="${H-bottom+10}" stroke="${C.grid}" stroke-width="1"/>`);
@@ -67,22 +66,19 @@ function mainFigure() {
     if (a) s.push(`<text x="${left+Math.max(wa-7,12)}" y="${y+h*.60}" text-anchor="end" font-family="Arial" font-size="14" font-weight="700" fill="white">${a}</text>`);
   });
   const x0 = 1390;
-  s.push(`<text x="${x0}" y="180" font-family="${font}" font-size="24" font-weight="700" fill="${C.text}">计数闭合</text>`);
-  const flow = [["旧任务分配", qc.task_assignment_rows], ["唯一论文", qc.unique_works], ["题名排除", qc.excluded_by_title_scope_rules], ["重分类候选", qc.included_title_candidates]];
-  flow.forEach((d,i) => {
-    const y=220+i*66;
-    s.push(`<text x="${x0}" y="${y}" font-family="${font}" font-size="18" fill="${C.muted}">${d[0]}</text><text x="1815" y="${y}" text-anchor="end" font-family="Arial" font-size="27" font-weight="700" fill="${i===3?C.purple:C.text}">${d[1]}</text>`);
-    if(i<flow.length-1) s.push(`<line x1="${x0}" y1="${y+18}" x2="1815" y2="${y+18}" stroke="${C.grid}"/>`);
+  s.push(`<text x="${x0}" y="180" font-family="${font}" font-size="25" font-weight="700" fill="${C.text}">证据语料范围</text>`);
+  const scope = [["临床证据获取任务", sorted.length, C.text], ["题名级候选研究", clinicalTotal, C.purple], ["已定位公开全文", clinicalAvailable, C.green], ["临床部位未定技术平台", Number(generic.public_visible_unique_title_candidates), C.gray]];
+  scope.forEach((d,i) => {
+    const y=235+i*82;
+    s.push(`<text x="${x0}" y="${y}" font-family="${font}" font-size="19" fill="${C.muted}">${d[0]}</text><text x="1815" y="${y}" text-anchor="end" font-family="Arial" font-size="30" font-weight="700" fill="${d[2]}">${d[1]}</text>`);
+    if(i<scope.length-1) s.push(`<line x1="${x0}" y1="${y+24}" x2="1815" y2="${y+24}" stroke="${C.grid}"/>`);
   });
-  s.push(`<rect x="${x0}" y="505" width="425" height="1" fill="${C.grid}"/>`);
-  s.push(`<text x="${x0}" y="552" font-family="${font}" font-size="24" font-weight="700" fill="${C.text}">图中分层</text>`);
-  s.push(`<text x="${x0}" y="596" font-family="${font}" font-size="18" fill="${C.muted}">8 个可定位临床任务</text><text x="1815" y="596" text-anchor="end" font-family="Arial" font-size="28" font-weight="700" fill="${C.purple}">${clinicalTotal}</text>`);
-  s.push(`<text x="${x0}" y="642" font-family="${font}" font-size="18" fill="${C.muted}">临床部位未定技术平台</text><text x="1815" y="642" text-anchor="end" font-family="Arial" font-size="28" font-weight="700" fill="${C.gray}">${Number(generic.public_visible_unique_title_candidates)}</text>`);
-  s.push(`<text x="${x0}" y="688" font-family="${font}" font-size="18" fill="${C.muted}">另表：公开具名项目/系统</text><text x="1815" y="688" text-anchor="end" font-family="Arial" font-size="28" font-weight="700" fill="${C.green}">${projects.length}</text>`);
-  s.push(`<text x="${x0}" y="734" font-family="${font}" font-size="18" fill="${C.muted}">优先人工复核队列</text><text x="1815" y="734" text-anchor="end" font-family="Arial" font-size="28" font-weight="700" fill="${C.purple2}">${qc.priority_manual_review}</text>`);
-  s.push(`<rect x="1030" y="966" width="24" height="17" rx="3" fill="${C.purple}"/><text x="1066" y="981" font-family="${font}" font-size="17" fill="${C.muted}">public visible：公开索引题名候选</text>`);
-  s.push(`<rect x="1415" y="966" width="24" height="17" rx="3" fill="${C.green}"/><text x="1451" y="981" font-family="${font}" font-size="17" fill="${C.muted}">public available：识别到公开全文位置</text>`);
-  s.push(`<text x="60" y="1025" font-family="${font}" font-size="15" fill="${C.muted}">公开索引冻结：2026-08-13；重分类：2026-08-14。按 DOI 优先、规范化题名其次去重。834 为题名级候选，不是系统综述全文纳入数；公开全文位置未经逐篇许可证审计。</text>`);
+  s.push(`<rect x="${x0}" y="580" width="425" height="1" fill="${C.grid}"/>`);
+  s.push(`<text x="${x0}" y="628" font-family="${font}" font-size="22" font-weight="700" fill="${C.text}">范围说明</text>`);
+  s.push(`<text x="${x0}" y="674" font-family="${font}" font-size="17" fill="${C.muted}">临床部位未定的技术平台未进入</text><text x="${x0}" y="704" font-family="${font}" font-size="17" fill="${C.muted}">任务柱状图，相关记录保留在补充审计表。</text>`);
+  s.push(`<rect x="1050" y="966" width="24" height="17" rx="3" fill="${C.purple}"/><text x="1086" y="981" font-family="${font}" font-size="17" fill="${C.muted}">公开索引题名候选</text>`);
+  s.push(`<rect x="1415" y="966" width="24" height="17" rx="3" fill="${C.green}"/><text x="1451" y="981" font-family="${font}" font-size="17" fill="${C.muted}">已定位公开全文</text>`);
+  s.push(`<text x="60" y="1025" font-family="${font}" font-size="15" fill="${C.muted}">公开索引冻结：2026-08-13；重分类：2026-08-14。按 DOI 与规范化题名去重。计数为题名级候选，不是系统综述全文纳入数；公开全文位置未经逐篇许可证审计。</text>`);
   s.push(`</svg>`);
   return s.join("");
 }

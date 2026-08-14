@@ -86,7 +86,10 @@ The validation report passes with zero errors:
 ## P5 use
 
 Use `figures/public_evidence/p5_reclassified_clinical_tasks.svg` as the main P5
-visual. It is a 16:9 slide-sized editable vector. Use
+visual. It is a publication-ready 16:9 editable vector. Internal workflow-audit
+metrics (prior assignments, title exclusions, named projects and manual-review
+queues) are retained in this methods record and the audit workbook rather than
+displayed in the main figure. Use
 `figures/public_evidence/p5_task_modality_matrix.svg` as a second panel,
 appendix figure or discussion backup. PNG copies are provided for rapid preview.
 

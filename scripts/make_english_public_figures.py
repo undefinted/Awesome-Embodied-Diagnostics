@@ -1,6 +1,6 @@
 """Generate English counterparts for every current public-evidence presentation chart.
 
-The English SVGs use the same frozen CSV/JSON inputs and counting fields as their
+The English SVGs use the same frozen data inputs and counting fields as their
 Chinese counterparts.  They are presentation translations, not independent
 analyses.  PNG rendering is deliberately handled by ``rasterize_svg.mjs`` so the
 editable SVG remains the canonical figure.
@@ -9,7 +9,6 @@ from __future__ import annotations
 
 import csv
 import html
-import json
 import argparse
 from pathlib import Path
 
@@ -138,16 +137,15 @@ def extended_p5() -> None:
 
 def reclassified_p5() -> None:
     counts = read_csv("p5_reclassified_task_counts_2026-08-14.csv")
-    qc = json.loads((DATA / "p5_reclassification_qc_2026-08-14.json").read_text(encoding="utf-8"))
-    projects = read_csv("p5_reclassified_public_projects_2026-08-14.csv")
     rows = sorted((r for r in counts if r["primary_task_code"] != "T9"), key=lambda x:int(x["public_visible_unique_title_candidates"]), reverse=True)
     generic = next(r for r in counts if r["primary_task_code"] == "T9")
     clinical_total = sum(int(r["public_visible_unique_title_candidates"]) for r in rows)
+    clinical_available = sum(int(r["public_available_location_identified"]) for r in rows)
     width, height, left, chart_right, top, bottom = 1920, 1080, 520, 1320, 170, 185
     chart_w = chart_right-left; row_h=(height-top-bottom)/len(rows); maximum=max(int(r["public_visible_unique_title_candidates"]) for r in rows)
     body=[f'<rect width="{width}" height="{height}" fill="white"/>',
-          f'<text x="60" y="66" font-family="{FONT}" font-size="38" font-weight="700" fill="{C["text"]}">Active observational sensing | Reclassified by clinical evidence-acquisition task</text>',
-          f'<text x="60" y="108" font-family="{FONT}" font-size="22" fill="{C["muted"]}">Modality and embodiment are secondary tags; generic platforms without a clinical site are moved out of the main bars</text>']
+          f'<text x="60" y="66" font-family="{FONT}" font-size="38" font-weight="700" fill="{C["text"]}">Active observational sensing | Publicly indexed evidence landscape</text>',
+          f'<text x="60" y="108" font-family="{FONT}" font-size="22" fill="{C["muted"]}">Public-index title candidates and public full-text availability by clinical evidence-acquisition task</text>']
     for i in range(5):
         x=left+chart_w*i/4
         body += [f'<line x1="{x}" y1="{top-18}" x2="{x}" y2="{height-bottom+10}" stroke="{C["grid"]}"/>',
@@ -162,22 +160,18 @@ def reclassified_p5() -> None:
         if available:
             body.append(f'<text x="{left+max(wa-7,12)}" y="{y+bar_h*.60}" text-anchor="end" font-family="{FONT}" font-size="14" font-weight="700" fill="white">{available}</text>')
     x0=1400
-    body += [f'<text x="{x0}" y="180" font-family="{FONT}" font-size="24" font-weight="700" fill="{C["text"]}">Count reconciliation</text>']
-    flow=[("Prior task assignments",qc["task_assignment_rows"]),("Unique papers",qc["unique_works"]),("Title-level exclusions",qc["excluded_by_title_scope_rules"]),("Reclassified candidates",qc["included_title_candidates"])]
-    for i,(label,value) in enumerate(flow):
-        y=220+i*66
-        body += [f'<text x="{x0}" y="{y}" font-family="{FONT}" font-size="18" fill="{C["muted"]}">{label}</text>',
-                 f'<text x="1815" y="{y}" text-anchor="end" font-family="{FONT}" font-size="27" font-weight="700" fill="{C["purple"] if i==3 else C["text"]}">{value}</text>']
-        if i<3: body.append(f'<line x1="{x0}" y1="{y+18}" x2="1815" y2="{y+18}" stroke="{C["grid"]}"/>')
-    body += [f'<line x1="{x0}" y1="505" x2="1815" y2="505" stroke="{C["grid"]}"/>',
-             f'<text x="{x0}" y="552" font-family="{FONT}" font-size="22" font-weight="700" fill="{C["text"]}">Figure stratification</text>',
-             f'<text x="{x0}" y="596" font-family="{FONT}" font-size="18" fill="{C["muted"]}">Eight site-resolved clinical tasks</text><text x="1815" y="596" text-anchor="end" font-family="{FONT}" font-size="28" font-weight="700" fill="{C["purple"]}">{clinical_total}</text>',
-             f'<text x="{x0}" y="642" font-family="{FONT}" font-size="18" fill="{C["muted"]}">Generic platforms; clinical site unresolved</text><text x="1815" y="642" text-anchor="end" font-family="{FONT}" font-size="28" font-weight="700" fill="{C["gray"]}">{generic["public_visible_unique_title_candidates"]}</text>',
-             f'<text x="{x0}" y="688" font-family="{FONT}" font-size="18" fill="{C["muted"]}">Separate ledger: named projects / systems</text><text x="1815" y="688" text-anchor="end" font-family="{FONT}" font-size="28" font-weight="700" fill="{C["green"]}">{len(projects)}</text>',
-             f'<text x="{x0}" y="734" font-family="{FONT}" font-size="18" fill="{C["muted"]}">Priority manual-review queue</text><text x="1815" y="734" text-anchor="end" font-family="{FONT}" font-size="28" font-weight="700" fill="#7B3B8D">{qc["priority_manual_review"]}</text>',
-             f'<rect x="1000" y="966" width="24" height="17" rx="3" fill="{C["purple"]}"/><text x="1036" y="981" font-family="{FONT}" font-size="16" fill="{C["muted"]}">public visible: public-index title candidates</text>',
-             f'<rect x="1405" y="966" width="24" height="17" rx="3" fill="{C["green"]}"/><text x="1441" y="981" font-family="{FONT}" font-size="16" fill="{C["muted"]}">public available: public full-text location identified</text>',
-             f'<text x="60" y="1025" font-family="{FONT}" font-size="14" fill="{C["muted"]}">Public-index freeze: 13 Aug 2026; reclassification: 14 Aug 2026. DOI-first/title-second deduplication. The 834 records are title-level candidates, not systematic-review inclusions; locations were not individually licence-audited.</text>']
+    body += [f'<text x="{x0}" y="180" font-family="{FONT}" font-size="25" font-weight="700" fill="{C["text"]}">Evidence-corpus scope</text>']
+    scope=[("Clinical evidence-acquisition tasks",len(rows),C["text"]),("Title-level candidate studies",clinical_total,C["purple"]),("Public full-text locations identified",clinical_available,C["green"]),("Generic platforms; site unresolved",generic["public_visible_unique_title_candidates"],C["gray"])]
+    for i,(label,value,color) in enumerate(scope):
+        y=235+i*82
+        body += [f'<text x="{x0}" y="{y}" font-family="{FONT}" font-size="17" fill="{C["muted"]}">{label}</text>',f'<text x="1815" y="{y}" text-anchor="end" font-family="{FONT}" font-size="30" font-weight="700" fill="{color}">{value}</text>']
+        if i<3: body.append(f'<line x1="{x0}" y1="{y+24}" x2="1815" y2="{y+24}" stroke="{C["grid"]}"/>')
+    body += [f'<line x1="{x0}" y1="580" x2="1815" y2="580" stroke="{C["grid"]}"/>',
+             f'<text x="{x0}" y="628" font-family="{FONT}" font-size="22" font-weight="700" fill="{C["text"]}">Scope note</text>',
+             f'<text x="{x0}" y="674" font-family="{FONT}" font-size="16" fill="{C["muted"]}">Platforms without a resolvable clinical site are excluded</text><text x="{x0}" y="702" font-family="{FONT}" font-size="16" fill="{C["muted"]}">from task bars and retained in the supplementary audit table.</text>',
+             f'<rect x="1050" y="966" width="24" height="17" rx="3" fill="{C["purple"]}"/><text x="1086" y="981" font-family="{FONT}" font-size="16" fill="{C["muted"]}">Public-index title candidates</text>',
+             f'<rect x="1415" y="966" width="24" height="17" rx="3" fill="{C["green"]}"/><text x="1451" y="981" font-family="{FONT}" font-size="16" fill="{C["muted"]}">Public full-text location identified</text>',
+             f'<text x="60" y="1025" font-family="{FONT}" font-size="14" fill="{C["muted"]}">Public-index freeze: 13 Aug 2026; reclassification: 14 Aug 2026. Deduplicated by DOI and normalized title. Counts are title-level candidates, not systematic-review inclusions; locations were not individually licence-audited.</text>']
     save("p5_reclassified_clinical_tasks_en.svg",width,height,body)
 
     matrix_rows=read_csv("p5_task_modality_matrix_2026-08-14.csv")
