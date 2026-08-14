@@ -1,0 +1,15 @@
+{
+  "input": "data\\presentation\\p5_public_visible_available_records_2026-08-13.csv",
+  "input_sha256": "b4562792a6cb0f11952eaf849c00d6241984a14ce740bd2d2d6519ea8d3528b5",
+  "task_assignment_rows": 861,
+  "unique_works": 855,
+  "unique_works_in_multiple_buckets": 6,
+  "overlap_pair_counts": {
+    "A1+A3": 1,
+    "A10+A2": 1,
+    "A10+A4": 2,
+    "A2+A5": 1,
+    "A5+A9": 1
+  },
+  "interpretation": "Retrieval buckets are non-exclusive. These figures audit overlap and are not clinical-category publication totals."
+}
