@@ -19,6 +19,7 @@ credentials*.json
 work/
 tmp/
 node_modules/
+data/cache/
 tmp-*.png
 *.inspect.ndjson
 outputs/access_audit/openalex_cache/

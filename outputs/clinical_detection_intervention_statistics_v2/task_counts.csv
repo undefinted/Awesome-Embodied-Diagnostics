@@ -1,0 +1,17 @@
+﻿mechanism_code,task_code,task_en,task_cn,public_visible_screened_candidates,public_available_location_identified,public_available_share,since_2021,counting_unit
+1.1,A1,External contact scanning and sensor placement,体表接触式扫描与传感器布置,905,487,0.5381,585,one task-study pair after DOI-first/title-second deduplication within task
+1.1,A2,External non-contact alignment and scanning,体表非接触式对准与扫描,27,17,0.6296,21,one task-study pair after DOI-first/title-second deduplication within task
+1.1,A3,Tethered endoluminal or intracavitary observation and navigation,有缆腔内或腔道内观察与导航,442,212,0.4796,376,one task-study pair after DOI-first/title-second deduplication within task
+1.1,A4,Untethered internal observation and navigation,无缆体内观察与导航,106,40,0.3774,66,one task-study pair after DOI-first/title-second deduplication within task
+1.1,A5,"Catheter-based, intravascular, intraductal or percutaneous in-vivo sensing",导管、血管内、管道内或经皮探头在体感知,8,3,0.375,2,one task-study pair after DOI-first/title-second deduplication within task
+1.2,R1,"Quasi-static contact, palpation and indentation",准静态接触、触诊与压入,107,53,0.4953,60,one task-study pair after DOI-first/title-second deduplication within task
+1.2,R2,Dynamic mechanical or acoustic excitation,动态机械或声学激励,39,19,0.4872,14,one task-study pair after DOI-first/title-second deduplication within task
+1.2,R3,"Imposed motion, loading and functional provocation",施加运动、载荷与功能激发,14,9,0.6429,7,one task-study pair after DOI-first/title-second deduplication within task
+1.2,R4,"Electrical, magnetic or neurophysiological stimulation-response mapping",电、磁或神经生理刺激—响应映射,39,14,0.359,15,one task-study pair after DOI-first/title-second deduplication within task
+1.2,R5,Physiological challenge and controlled modulation,生理挑战与受控调制,2,0,0.0,1,one task-study pair after DOI-first/title-second deduplication within task
+1.3,S1,Percutaneous needle-based tissue sampling,经皮针式组织采样,30,15,0.5,19,one task-study pair after DOI-first/title-second deduplication within task
+1.3,S2,Vascular blood sampling,血管血液采样,20,14,0.7,8,one task-study pair after DOI-first/title-second deduplication within task
+1.3,S3,Tethered endoluminal or intracavitary tissue/fluid sampling,有缆腔内或腔道内组织/体液采样,47,17,0.3617,47,one task-study pair after DOI-first/title-second deduplication within task
+1.3,S4,Untethered or capsule-based internal sampling,无缆或胶囊式体内采样,36,14,0.3889,27,one task-study pair after DOI-first/title-second deduplication within task
+1.3,S5,Surface or mucosal specimen collection,体表或黏膜标本采集,16,8,0.5,15,one task-study pair after DOI-first/title-second deduplication within task
+1.3,S6,Other adaptive body-fluid or excretion collection,其他自适应体液或排泄物采集,0,0,,0,one task-study pair after DOI-first/title-second deduplication within task

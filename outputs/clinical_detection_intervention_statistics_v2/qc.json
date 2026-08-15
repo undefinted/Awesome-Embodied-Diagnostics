@@ -1,0 +1,27 @@
+{
+  "schema_version": "clinical-detection-intervention-public-statistics-v2",
+  "date_window": [
+    "2000-01-01",
+    "2026-08-15"
+  ],
+  "sources": [
+    "arxiv",
+    "epmc",
+    "openalex"
+  ],
+  "tasks": 16,
+  "query_runs": 234,
+  "query_errors": 0,
+  "retrieval_records": 14845,
+  "deduplicated_task_records": 12270,
+  "screened_task_study_pairs": 1838,
+  "excluded_task_records": 10432,
+  "unique_screened_works": 1790,
+  "overlap_works": 46,
+  "checks": {
+    "task_count_sum_matches_screened_pairs": true,
+    "public_available_not_above_visible": true,
+    "all_tasks_present": true
+  },
+  "interpretation_warning": "Candidate evidence map only. Full-text eligibility and feedback-loop verification require manual review before journal-grade inclusion counts."
+}

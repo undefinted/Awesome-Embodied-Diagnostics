@@ -1,0 +1,47 @@
+﻿work_key,title,year,doi,mechanism_codes,task_codes,requires_manual_boundary_adjudication
+doi:10.1007/978-3-642-33415-3_6,Remote ultrasound palpation for robotic interventions using absolute elastography.,2012,10.1007/978-3-642-33415-3_6,1.1;1.2,A1;R1;R2,yes
+doi:10.1007/s00408-022-00590-7,Shape-Sensing Robotic-Assisted Bronchoscopy with Concurrent use of Radial Endobronchial Ultrasound and Cone Beam Computed Tomography in the Evaluation of Pulmonary Lesions.,2022,10.1007/s00408-022-00590-7,1.1,A1;A3,yes
+doi:10.1016/j.jtho.2025.09.519,P2.05.01 The Role of Robotic-Assisted Bronchoscopy and Endobronchial Ultrasound in Diagnosing and Staging Pulmonary Carcinoid,2025,10.1016/j.jtho.2025.09.519,1.1,A1;A3,yes
+doi:10.1016/j.jval.2024.03.390,EE90 Diagnostic Yield and Downstream Lung Cancer Treatment Revenue From Shape-Sensing Robotic-Assisted Bronchoscopy Compared to Transthoracic Needle Aspiration Biopsy,2024,10.1016/j.jval.2024.03.390,1.3,S1;S3,yes
+doi:10.1016/j.labinv.2025.104575,293 Utility and Performance of Endobronchial Ultrasonography-Guided Fine-Needle Aspiration in the Era of Robotic Bronchoscopy-Guided Cryo-Biopsy for the Evaluation of Pulmonary Lesions,2026,10.1016/j.labinv.2025.104575,1.3,S1;S3,yes
+doi:10.1016/s0016-5085(18)32351-5,Su2007 - Image Diagnosis of Magnetically Controlled Robotic Capsule Endoscopy on Patients with small Intestinal Diseases from Large Sample,2018,10.1016/s0016-5085(18)32351-5,1.1,A3;A4,yes
+doi:10.1055/s-0034-1376075,Robotic maneuvering of capsule endoscopy: Preliminary tests in an experimental colonic model,2014,10.1055/s-0034-1376075,1.1,A3;A4,yes
+doi:10.1055/s-0046-1821199,Robotic Capsule Endoscopy: Simultaneous Gastric and Enteric Evaluation in Real-World Practice,2026,10.1055/s-0046-1821199,1.1,A3;A4,yes
+doi:10.1093/ajrccm/aamag162.3544,C78-04 Needle-based Confocal Laser Endomicroscopy-assisted Lung Nodule Biopsy Using the ION Robotic Bronchoscopy Platform - A Case Report,2026,10.1093/ajrccm/aamag162.3544,1.3,S1;S3,yes
+doi:10.1093/annalsats/aaoag142,Robotic Assisted Bronchoscopy with Endobronchial Ultrasound for the Evaluation of Multiple Pulmonary Nodules: A Multi-Center Registry.,2026,10.1093/annalsats/aaoag142,1.1,A1;A3,yes
+doi:10.1097/lbr.0000000000001058,Accuracy of Rapid On-Site Evaluation in Robotic-Assisted Bronchoscopy Fine Needle Aspirations of Lung Nodules.,2026,10.1097/lbr.0000000000001058,1.1;1.3,A3;S1,yes
+doi:10.1097/mca.0000000000001274,Safety and feasibility of intravascular ultrasound-guided robotic percutaneous coronary intervention.,2023,10.1097/mca.0000000000001274,1.1,A1;A5,yes
+doi:10.1109/access.2026.3693588,Curiosity-Driven Reinforcement Learning for Autonomous Navigation in Magnetically Controlled Capsule Endoscopy,2026,10.1109/access.2026.3693588,1.1,A3;A4,yes
+doi:10.1109/biorob49111.2020.9224276,Robotic assistance for ultrasound elastography providing autonomous palpation with teleoperation and haptic feedback capabilities,2020,10.1109/biorob49111.2020.9224276,1.1;1.2,A1;R1;R2,yes
+doi:10.1109/icra.2017.7989440,A robotic control framework for 3-D quantitative ultrasound elastography,2017,10.1109/icra.2017.7989440,1.1;1.2,A1;R2,yes
+doi:10.1109/irc.2018.00083,Simulation Study of Autonomous Drive for Active Capsule Endoscopy,2018,10.1109/irc.2018.00083,1.1,A3;A4,yes
+doi:10.1109/ist.2016.7738202,Robotic validation of visual odometry for wireless capsule endoscopy,2016,10.1109/ist.2016.7738202,1.1,A3;A4,yes
+doi:10.1109/jsen.2024.3391797,Implementing an Autonomous Navigation System for Active Wireless Capsule Endoscopy,2024,10.1109/jsen.2024.3391797,1.1,A3;A4,yes
+doi:10.1109/jsen.2025.11235502,In vivo validation of Wireless Power Transfer System for Magnetically Controlled Robotic Capsule Endoscopy,2025,10.1109/jsen.2025.11235502,1.1,A3;A4,yes
+doi:10.1109/jsen.2025.3628016,In Vivo Validation of Wireless Power Transfer System for Magnetically Controlled Robotic Capsule Endoscopy,2025,10.1109/jsen.2025.3628016,1.1,A3;A4,yes
+doi:10.1109/lra.2022.3141378,Autonomous Magnetic Navigation Framework for Active Wireless Capsule Endoscopy Inspired by Conventional Colonoscopy Procedures,2022,10.1109/lra.2022.3141378,1.1,A3;A4,yes
+doi:10.1109/rcar61438.2024.10670920,Robotic Assistance for Standardized Compression Ultrasound Elastography,2024,10.1109/rcar61438.2024.10670920,1.1;1.2,A1;R2,yes
+doi:10.1109/tbme.2015.2479607,"Intestinal Manometry Force Sensor for Robotic Capsule Endoscopy: An Acute, Multipatient In vivo Animal and Human Study.",2016,10.1109/tbme.2015.2479607,1.1,A3;A4,yes
+doi:10.1109/tbme.2025.3634552,Quasi-Static Elastography-Driven Automated Robotic Ultrasound Screening and Localization,2025,10.1109/tbme.2025.3634552,1.1;1.2,A1;R2,yes
+doi:10.1109/tie.2016.2557306,"Adaptive Kinematic Control of a Robotic Venipuncture Device Based on Stereo Vision, Ultrasound, and Force Guidance",2016,10.1109/tie.2016.2557306,1.1;1.3,A1;S2,yes
+doi:10.1109/tmrb.2020.3042982,3-D Ultrasound Elastography Reconstruction Using Acoustically Transparent Pressure Sensor on Robotic Arm,2020,10.1109/tmrb.2020.3042982,1.1;1.2,A1;R2,yes
+doi:10.1109/tmrb.2026.3681001,Multimodal Cross-Attention Fusion of B-Mode Ultrasound and Strain Elastography for Tumor Segmentation in Robotics-Assisted Surgery.,2026,10.1109/tmrb.2026.3681001,1.1;1.2,A1;R2,yes
+doi:10.1109/tmrb.2026.3722327,A Robotic Wire-Driven Video Capsule Endoscopy Platform for Controlled Data Generation in Gastrointestinal Diagnostics,2026,10.1109/tmrb.2026.3722327,1.1,A3;A4,yes
+doi:10.1111/1759-7714.70324,Comparing Complications Between Shape‐Sensing Robotic‐Assisted Bronchoscopy and Trans‐Thoracic Needle Pulmonary Biopsy Approaches: Insights From a Large Nationally Representative Administrative Database,2026,10.1111/1759-7714.70324,1.3,S1;S3,yes
+doi:10.1115/dmd2017-3391,Towards Recovering a Lost Degree of Freedom in Magnet-Driven Robotic Capsule Endoscopy,2017,10.1115/dmd2017-3391,1.1,A3;A4,yes
+doi:10.1159/000522514,"Accuracy of Pulmonary Nodule Sampling Using Robotic Assisted Bronchoscopy with Shape Sensing, Fluoroscopy, and Radial Endobronchial Ultrasound (The ACCURACY Study).",2022,10.1159/000522514,1.1;1.3,A1;S3,yes
+doi:10.1164/ajrccm-conference.2021.203.1_meetingabstracts.a2187,When Needle Biopsy Falls Short - Robotic Assisted-Bronchoscopy May Be a Solution for Inaccessible Peripheral Pulmonary Nodules,2021,10.1164/ajrccm-conference.2021.203.1_meetingabstracts.a2187,1.3,S1;S3,yes
+doi:10.1177/15533506251334690,Enabling Robotic Capsule Endoscopy Through Effective in-Body Capsule Localization,2025,10.1177/15533506251334690,1.1,A3;A4,yes
+doi:10.1186/s13244-025-02181-5,Force-controlled robotic ultrasound elastography enhances diagnostic consistency for thyroid nodules.,2026,10.1186/s13244-025-02181-5,1.1;1.2,A1;R2,yes
+doi:10.21203/rs.3.rs-884422/v1,Safety and Feasibility of Intravascular Ultrasound-Guided Robotic,2021,10.21203/rs.3.rs-884422/v1,1.1,A1;A5,yes
+doi:10.31256/hsmr2024.49,Enhancing Capsule Endoscopy with Robotic Magnetic Manipulation and Wireless Power Transfer,2024,10.31256/hsmr2024.49,1.1,A3;A4,yes
+doi:10.3389/fmed.2021.610563,The Detective Value of Magnetically Controlled Robotic Capsule Endoscopy in Patients With Suspected Small Intestinal Disease.,2021,10.3389/fmed.2021.610563,1.1,A3;A4,yes
+doi:10.3390/diagnostics16020334,Robotic Capsule Endoscopy: Simultaneous Gastric and Enteric Evaluation in Real-World Practice.,2026,10.3390/diagnostics16020334,1.1,A3;A4,yes
+doi:10.48550/arxiv.2111.01977,Autonomous Magnetic Navigation Framework for Active Wireless Capsule Endoscopy Inspired by Conventional Colonoscopy Procedures,2021,10.48550/arxiv.2111.01977,1.1,A3;A4,yes
+doi:10.5505/respircase.2022.70437,Robotic-assisted Bronchoscopy with Endobronchial Ultrasound for the Diagnosis a of Peripheral Lung Nodule with Lymphadenopathy: A Case Report,2022,10.5505/respircase.2022.70437,1.1,A1;A3,yes
+doi:10.70675/638a6808z877bz4ddazad31zc84bb56e1262,A robotic control framework for quantitative ultrasound elastography,2018,10.70675/638a6808z877bz4ddazad31zc84bb56e1262,1.1;1.2,A1;R2,yes
+title:aroboticcontrolframeworkforquantitativeultrasoundelastography,A robotic control framework for quantitative ultrasound elastography,2018,,1.1;1.2,A1;R2,yes
+title:autonomousmagneticnavigationframeworkforactivewirelesscapsuleendoscopyinspiredbyconventionalcolonoscopyprocedures,Autonomous Magnetic Navigation Framework for Active Wireless Capsule Endoscopy Inspired by Conventional Colonoscopy Procedures,2021,,1.1,A3;A4,yes
+title:designandprototypeofaroboticsystemforremotepalpationandultrasoundimaging,Design and prototype of a robotic system for remote palpation and ultrasound imaging,2004,,1.1;1.2,A1;R1,yes
+title:invivovalidationofwirelesspowertransfersystemformagneticallycontrolledroboticcapsuleendoscopy,In vivo validation of Wireless Power Transfer System for Magnetically Controlled Robotic Capsule Endoscopy,2025,,1.1,A3;A4,yes
+title:roboticwirelessvideocapsuleendoscopyforgastrointestinaltract,Robotic wireless video capsule endoscopy for gastrointestinal tract,2026,,1.1,A3;A4,yes

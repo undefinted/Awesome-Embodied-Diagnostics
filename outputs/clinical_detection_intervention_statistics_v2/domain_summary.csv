@@ -1,0 +1,2 @@
+﻿domain,snapshot_end_date,public_visible_unique_screened_works,public_available_unique_works,task_study_pairs,cross_task_or_mechanism_overlap_works,retrieval_records_before_deduplication,deduplicated_task_records_screened,excluded_task_records,scope_note
+Clinical Detection and Intervention,2026-08-15,1790,900,1838,46,14845,12270,10432,public-source deterministic title/abstract-screened candidate map; not dual-reviewer full-text inclusion counts
