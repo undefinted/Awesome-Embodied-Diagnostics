@@ -80,6 +80,8 @@ python scripts/make_clinical_detection_intervention_figures.py \
 
 Results, methods, crossover audit and the research workbook are in [`outputs/clinical_detection_intervention/`](outputs/clinical_detection_intervention/). The independent evidence-maturity synthesis is in [`data/presentation/public_evidence_maturity_matrix.csv`](data/presentation/public_evidence_maturity_matrix.csv), and claim-level primary evidence is in [`data/presentation/verified_public_primary_evidence_2026-08-13.csv`](data/presentation/verified_public_primary_evidence_2026-08-13.csv).
 
+Bilingual release notes are paired against the same frozen tables: [`REPORT_CN.md`](outputs/clinical_detection_intervention/REPORT_CN.md), [`REPORT_EN.md`](outputs/clinical_detection_intervention/REPORT_EN.md), Chinese [`METHODS_CN.md`](outputs/clinical_detection_intervention/METHODS_CN.md), and English [`METHODS.md`](outputs/clinical_detection_intervention/METHODS.md). The workbook contains separate `Summary_CN` and `Summary_EN` dashboards plus a field-level bilingual taxonomy sheet.
+
 The Python screen is self-contained. The editable figure and workbook builders use the Codex workspace-provided Node runtime and `@oai/artifact-tool`; generated SVG/PNG/XLSX files are committed so readers do not need that private build runtime to inspect the results.
 
 ## Presentation support
