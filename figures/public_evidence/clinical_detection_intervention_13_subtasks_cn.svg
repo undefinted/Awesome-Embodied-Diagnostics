@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="753.1pt" height="392.882432pt" viewBox="0 0 753.1 392.882432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-15T18:16:17.722279</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 392.882432 
+L 753.1 392.882432 
+L 753.1 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 104.2 320.493312 
+L 745.9 320.493312 
+L 745.9 32.205312 
+L 104.2 32.205312 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 104.2 320.493312 
+L 104.2 32.205312 
+" clip-path="url(#p6828346fa5)" style="fill: none; stroke: #e9e3ea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mba844dd9aa" d="M 0 0 
+L 0 3.5 
+" style="stroke: #746b79; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mba844dd9aa" x="104.2" y="320.493312" style="fill: #746b79; stroke: #746b79; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #746b79" x="104.2" y="334.651125" transform="rotate(-0 104.2 334.651125)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 243.096104 320.493312 
+L 243.096104 32.205312 
+" clip-path="url(#p6828346fa5)" style="fill: none; stroke: #e9e3ea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mba844dd9aa" x="243.096104" y="320.493312" style="fill: #746b79; stroke: #746b79; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #746b79" x="243.096104" y="334.651125" transform="rotate(-0 243.096104 334.651125)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 381.992208 320.493312 
+L 381.992208 32.205312 
+" clip-path="url(#p6828346fa5)" style="fill: none; stroke: #e9e3ea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mba844dd9aa" x="381.992208" y="320.493312" style="fill: #746b79; stroke: #746b79; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #746b79" x="381.992208" y="334.651125" transform="rotate(-0 381.992208 334.651125)">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 520.888312 320.493312 
+L 520.888312 32.205312 
+" clip-path="url(#p6828346fa5)" style="fill: none; stroke: #e9e3ea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mba844dd9aa" x="520.888312" y="320.493312" style="fill: #746b79; stroke: #746b79; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #746b79" x="520.888312" y="334.651125" transform="rotate(-0 520.888312 334.651125)">15</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 659.784416 320.493312 
+L 659.784416 32.205312 
+" clip-path="url(#p6828346fa5)" style="fill: none; stroke: #e9e3ea; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mba844dd9aa" x="659.784416" y="320.493312" style="fill: #746b79; stroke: #746b79; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #746b79" x="659.784416" y="334.651125" transform="rotate(-0 659.784416 334.651125)">20</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #24172a" x="425.05" y="348.465187" transform="rotate(-0 425.05 348.465187)">去重论文候选数</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11">
+      <defs>
+       <path id="m095b3e1444" d="M 0 0 
+L -3.5 0 
+" style="stroke: #24172a; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m095b3e1444" x="104.2" y="61.903898" style="fill: #24172a; stroke: #24172a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #24172a" x="97.2" y="65.788273" transform="rotate(-0 97.2 65.788273)">经皮或芯针活检</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m095b3e1444" x="104.2" y="119.126605" style="fill: #24172a; stroke: #24172a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #24172a" x="97.2" y="123.001605" transform="rotate(-0 97.2 123.001605)">静脉穿刺与采血</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m095b3e1444" x="104.2" y="176.349312" style="fill: #24172a; stroke: #24172a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #24172a" x="97.2" y="180.224312" transform="rotate(-0 97.2 180.224312)">拭子与腔道标本采集</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m095b3e1444" x="104.2" y="233.57202" style="fill: #24172a; stroke: #24172a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #24172a" x="97.2" y="237.456395" transform="rotate(-0 97.2 237.456395)">内镜或支气管镜活检</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m095b3e1444" x="104.2" y="290.794727" style="fill: #24172a; stroke: #24172a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #24172a" x="97.2" y="294.68379" transform="rotate(-0 97.2 294.68379)">胶囊组织或体液采样</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 104.2 45.309312 
+L 715.342857 45.309312 
+L 715.342857 78.498483 
+L 104.2 78.498483 
+z
+" clip-path="url(#p6828346fa5)" style="fill: #642176"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 104.2 102.53202 
+L 437.550649 102.53202 
+L 437.550649 135.72119 
+L 104.2 135.72119 
+z
+" clip-path="url(#p6828346fa5)" style="fill: #642176"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 104.2 159.754727 
+L 381.992208 159.754727 
+L 381.992208 192.943898 
+L 104.2 192.943898 
+z
+" clip-path="url(#p6828346fa5)" style="fill: #642176"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 104.2 216.977435 
+L 215.316883 216.977435 
+L 215.316883 250.166605 
+L 104.2 250.166605 
+z
+" clip-path="url(#p6828346fa5)" style="fill: #642176"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 104.2 274.200142 
+L 159.758442 274.200142 
+L 159.758442 307.389312 
+L 104.2 307.389312 
+z
+" clip-path="url(#p6828346fa5)" style="fill: #642176"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 104.2 55.323286 
+L 493.109091 55.323286 
+L 493.109091 68.484509 
+L 104.2 68.484509 
+z
+" clip-path="url(#p6828346fa5)" style="fill: #2f8a70"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 104.2 112.545994 
+L 270.875325 112.545994 
+L 270.875325 125.707216 
+L 104.2 125.707216 
+z
+" clip-path="url(#p6828346fa5)" style="fill: #2f8a70"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 104.2 169.768701 
+L 243.096104 169.768701 
+L 243.096104 182.929924 
+L 104.2 182.929924 
+z
+" clip-path="url(#p6828346fa5)" style="fill: #2f8a70"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 104.2 226.991409 
+L 159.758442 226.991409 
+L 159.758442 240.152631 
+L 104.2 240.152631 
+z
+" clip-path="url(#p6828346fa5)" style="fill: #2f8a70"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 104.2 284.214116 
+L 104.2 284.214116 
+L 104.2 297.375339 
+L 104.2 297.375339 
+z
+" clip-path="url(#p6828346fa5)" style="fill: #2f8a70"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 104.2 320.493312 
+L 745.9 320.493312 
+" style="fill: none; stroke: #e9e3ea; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="726.343429" y="64.230538" transform="rotate(-0 726.343429 64.230538)">22</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #ffffff" x="485.775377" y="63.977648" transform="rotate(-0 485.775377 63.977648)">14</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="448.551221" y="121.453246" transform="rotate(-0 448.551221 121.453246)">12</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #ffffff" x="263.54161" y="121.200355" transform="rotate(-0 263.54161 121.200355)">6</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="392.992779" y="178.675953" transform="rotate(-0 392.992779 178.675953)">10</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #ffffff" x="235.76239" y="178.423062" transform="rotate(-0 235.76239 178.423062)">5</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="226.317455" y="235.898661" transform="rotate(-0 226.317455 235.898661)">4</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #ffffff" x="152.424727" y="235.64577" transform="rotate(-0 152.424727 235.64577)">2</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="170.759013" y="293.121368" transform="rotate(-0 170.759013 293.121368)">2</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #746b79" x="104.2" y="372.896892" transform="rotate(-0 104.2 372.896892)">零值保留，以显示当前公开索引题名筛选的证据空白。</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="104.2" y="18.205312" transform="rotate(-0 104.2 18.205312)">1.3 采样式交互诊断：互斥主任务统计</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_14">
+     <path d="M 541.9 380.892432 
+L 557.9 380.892432 
+L 557.9 375.292432 
+L 541.9 375.292432 
+z
+" style="fill: #642176"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 8px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start" x="564.3" y="380.892432" transform="rotate(-0 564.3 380.892432)">公开可见题名候选</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 644.3 380.892432 
+L 660.3 380.892432 
+L 660.3 375.292432 
+L 644.3 375.292432 
+z
+" style="fill: #2f8a70"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 8px; font-family: 'Arial', 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start" x="666.7" y="380.892432" transform="rotate(-0 666.7 380.892432)">已识别公开全文位置</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6828346fa5">
+   <rect x="104.2" y="32.205312" width="641.7" height="288.288"/>
+  </clipPath>
+ </defs>
+</svg>

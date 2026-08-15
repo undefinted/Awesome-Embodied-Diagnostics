@@ -1,0 +1,18 @@
+﻿mechanism_code,task_code,task_en,task_cn,public_visible_unique_title_candidates,public_available_location_identified,public_available_share,since_2021,counting_unit
+1.1,A1,Ultrasound examination and active scanning,超声检查与主动扫描,176,112,0.6364,138,one unique work assigned to one primary subtask
+1.1,A2,Flexible gastrointestinal endoscopic examination,胃肠柔性内镜检查,19,10,0.5263,11,one unique work assigned to one primary subtask
+1.1,A3,Active or magnetically controlled capsule endoscopy,主动或磁控胶囊内镜检查,21,13,0.619,14,one unique work assigned to one primary subtask
+1.1,A4,Bronchoscopic observation and navigation,支气管镜观察与导航,15,11,0.7333,15,one unique work assigned to one primary subtask
+1.1,A5,Optical coherence tomography acquisition,光学相干断层成像采集,7,6,0.8571,7,one unique work assigned to one primary subtask
+1.1,A6,Active auscultation and acoustic examination,主动听诊与声学检查,4,3,0.75,4,one unique work assigned to one primary subtask
+1.2,R1,Robotic palpation,机器人触诊,19,13,0.6842,13,one unique work assigned to one primary subtask
+1.2,R2,Elastography and stiffness mapping,弹性成像与刚度测绘,5,2,0.4,5,one unique work assigned to one primary subtask
+1.2,R3,Joint laxity and provocation examination,关节松弛度与激发检查,1,0,0.0,0,one unique work assigned to one primary subtask
+1.2,R4,Tone and spasticity assessment,肌张力与痉挛评估,1,1,1.0,1,one unique work assigned to one primary subtask
+1.2,R5,Percussion and reflex examination,叩诊与反射检查,0,0,,0,one unique work assigned to one primary subtask
+1.2,R6,Stimulation-response mapping,刺激—响应映射,4,2,0.5,3,one unique work assigned to one primary subtask
+1.3,S1,Percutaneous or core-needle biopsy,经皮或芯针活检,22,14,0.6364,14,one unique work assigned to one primary subtask
+1.3,S2,Endoscopic or bronchoscopic biopsy,内镜或支气管镜活检,4,2,0.5,4,one unique work assigned to one primary subtask
+1.3,S3,Capsule-based tissue or fluid sampling,胶囊组织或体液采样,2,0,0.0,1,one unique work assigned to one primary subtask
+1.3,S4,Venipuncture and phlebotomy,静脉穿刺与采血,12,6,0.5,4,one unique work assigned to one primary subtask
+1.3,S5,Swab and cavity-specimen collection,拭子与腔道标本采集,10,5,0.5,10,one unique work assigned to one primary subtask

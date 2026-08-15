@@ -63,15 +63,22 @@ See [`data/presentation/application_evidence.csv`](data/presentation/application
 
 ## Current reproducible public-source snapshot
 
-The presentation-facing landscape uses a frozen 2026-08-12 corpus of 359 unique records from Europe PMC, OpenAlex, Crossref and arXiv. Conservative task-specific title rules identify **250 active-observation**, **30 response-based** and **50 sample-based** unique candidate papers within the three domains. Automated public-location discovery identifies an OA or repository location for 158, 18 and 27 candidates, respectively. Task rows can sum to a larger number because one paper may satisfy more than one task rule.
+The comparable Clinical Detection and Intervention landscape uses a frozen 2026-08-12 corpus of 359 unique records from Europe PMC, OpenAlex, Crossref and arXiv. Conservative task-specific title rules and a terminal evidence-action hierarchy resolve cross-rule hits into one primary mechanism per work: **242 active-observation**, **30 response-based** and **50 sample-based** title-level candidates (**322 unique works**). Automated discovery identifies a public full-text or repository location for 155, 18 and 27 works, respectively (**200/322; 62.1%**).
 
-These values are **public-index title-screened candidates**, not global publication totals, full-text included-study counts, measures of loop completeness or measures of clinical maturity. They replace the older high-recall task-assignment counts for presentation claims because the latter contain adjacent-task false positives. Reproduce the conservative snapshot with:
+These values are **public-index title-screened candidates**, not global publication totals, full-text included-study counts, measures of loop completeness or measures of clinical maturity. A broader saved retrieval union contains 1,111 unscreened unique records and is reported only as a screening denominator. The separately expanded P5 active-observation corpus is not mixed into the comparable three-mechanism figure because equivalent high-recall screening is not yet complete for 1.2 and 1.3. Reproduce the mutually exclusive statistics and bilingual figures with:
 
 ```bash
-python scripts/build_public_title_screened_landscape.py
+python scripts/build_clinical_detection_intervention_statistics.py \
+  --screened-records outputs/public_landscape/public_title_screened_records.csv \
+  --retrieval-assignments data/standalone_snapshots/2026-08-12/literature_task_assignments_all_snapshots.csv \
+  --output-dir outputs/clinical_detection_intervention \
+  --snapshot-date 2026-08-15
+python scripts/make_clinical_detection_intervention_figures.py \
+  --input-dir outputs/clinical_detection_intervention \
+  --output-dir figures/public_evidence
 ```
 
-Results are written to [`outputs/public_landscape/`](outputs/public_landscape/). The independent evidence-maturity synthesis is in [`data/presentation/public_evidence_maturity_matrix.csv`](data/presentation/public_evidence_maturity_matrix.csv), and claim-level primary evidence is in [`data/presentation/verified_public_primary_evidence_2026-08-13.csv`](data/presentation/verified_public_primary_evidence_2026-08-13.csv).
+Results, methods, crossover audit and the research workbook are in [`outputs/clinical_detection_intervention/`](outputs/clinical_detection_intervention/). The independent evidence-maturity synthesis is in [`data/presentation/public_evidence_maturity_matrix.csv`](data/presentation/public_evidence_maturity_matrix.csv), and claim-level primary evidence is in [`data/presentation/verified_public_primary_evidence_2026-08-13.csv`](data/presentation/verified_public_primary_evidence_2026-08-13.csv).
 
 The Python screen is self-contained. The editable figure and workbook builders use the Codex workspace-provided Node runtime and `@oai/artifact-tool`; generated SVG/PNG/XLSX files are committed so readers do not need that private build runtime to inspect the results.
 
@@ -93,7 +100,7 @@ The Python screen is self-contained. The editable figure and workbook builders u
 | Response-based interactive diagnosis | Applies a controlled stimulus and measures the response | Palpation, stiffness mapping, provocation tests, stimulation-response mapping |
 | Sample-based interactive diagnosis | Acquires tissue or fluid for downstream analysis | Biopsy, blood draw, swab and capsule sampling |
 
-The taxonomy is task-level and multi-label. Static classification, report generation and fixed trajectories without feedback are not treated as complete embodied diagnostic loops.
+The underlying system can be multi-stage, but publication-count figures use one mutually exclusive primary mechanism determined by the terminal evidence action: sample acquisition, then elicited response, then active observation. Secondary stages remain explicit tags. Static classification, report generation and fixed trajectories without feedback are not treated as complete embodied diagnostic loops.
 
 ## Reproduce
 
