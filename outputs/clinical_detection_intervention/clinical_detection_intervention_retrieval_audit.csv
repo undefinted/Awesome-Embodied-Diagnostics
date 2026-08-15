@@ -1,4 +1,0 @@
-﻿mechanism_code,mechanism_en,retrieval_assigned_unique_records_unscreened,comparable_core_title_candidates,difference_requiring_screening_or_scope_reconciliation,interpretation
-1.1,Active observational sensing,869,242,627,retrieval coverage denominator only; assignments may contain false positives and cross-mechanism duplicates
-1.2,Response-based interactive diagnosis,131,30,101,retrieval coverage denominator only; assignments may contain false positives and cross-mechanism duplicates
-1.3,Sample-based interactive diagnosis,118,50,68,retrieval coverage denominator only; assignments may contain false positives and cross-mechanism duplicates

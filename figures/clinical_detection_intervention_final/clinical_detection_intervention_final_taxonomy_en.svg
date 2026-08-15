@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="999.36pt" height="609.105375pt" viewBox="0 0 999.36 609.105375" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-15T19:58:47.331378</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 609.105375 
+L 999.36 609.105375 
+L 999.36 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 107.270886 135.941184 
+L 373.980759 135.941184 
+Q 379.631392 135.941184 379.631392 126.183744 
+L 379.631392 87.641856 
+Q 379.631392 77.884416 373.980759 77.884416 
+L 107.270886 77.884416 
+Q 101.620253 77.884416 101.620253 87.641856 
+L 101.620253 126.183744 
+Q 101.620253 135.941184 107.270886 135.941184 
+z
+" clip-path="url(#pd1016fe193)" style="fill: #642176"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 105.858228 216.440064 
+L 375.393418 216.440064 
+Q 379.631392 216.440064 379.631392 209.121984 
+L 379.631392 151.065216 
+Q 379.631392 143.747136 375.393418 143.747136 
+L 105.858228 143.747136 
+Q 101.620253 143.747136 101.620253 151.065216 
+L 101.620253 209.121984 
+Q 101.620253 216.440064 105.858228 216.440064 
+z
+" clip-path="url(#pd1016fe193)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 105.858228 286.20576 
+L 375.393418 286.20576 
+Q 379.631392 286.20576 379.631392 278.88768 
+L 379.631392 220.830912 
+Q 379.631392 213.512832 375.393418 213.512832 
+L 105.858228 213.512832 
+Q 101.620253 213.512832 101.620253 220.830912 
+L 101.620253 278.88768 
+Q 101.620253 286.20576 105.858228 286.20576 
+z
+" clip-path="url(#pd1016fe193)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 105.858228 355.971456 
+L 375.393418 355.971456 
+Q 379.631392 355.971456 379.631392 348.653376 
+L 379.631392 290.596608 
+Q 379.631392 283.278528 375.393418 283.278528 
+L 105.858228 283.278528 
+Q 101.620253 283.278528 101.620253 290.596608 
+L 101.620253 348.653376 
+Q 101.620253 355.971456 105.858228 355.971456 
+z
+" clip-path="url(#pd1016fe193)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 105.858228 425.737152 
+L 375.393418 425.737152 
+Q 379.631392 425.737152 379.631392 418.419072 
+L 379.631392 360.362304 
+Q 379.631392 353.044224 375.393418 353.044224 
+L 105.858228 353.044224 
+Q 101.620253 353.044224 101.620253 360.362304 
+L 101.620253 418.419072 
+Q 101.620253 425.737152 105.858228 425.737152 
+z
+" clip-path="url(#pd1016fe193)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 105.858228 495.502848 
+L 375.393418 495.502848 
+Q 379.631392 495.502848 379.631392 488.184768 
+L 379.631392 430.128 
+Q 379.631392 422.80992 375.393418 422.80992 
+L 105.858228 422.80992 
+Q 101.620253 422.80992 101.620253 430.128 
+L 101.620253 488.184768 
+Q 101.620253 495.502848 105.858228 495.502848 
+z
+" clip-path="url(#pd1016fe193)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="114.899241" y="110.217458" transform="rotate(-0 114.899241 110.217458)">1.1  Active observational sensing</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #642176" x="114.899241" y="173.837602" transform="rotate(-0 114.899241 173.837602)">A1</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 168.033612)">External contact scanning and</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 178.705262)">sensor placement</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="114.899241" y="198.65753" transform="rotate(-0 114.899241 198.65753)">In-vivo image, sound or physiological signal</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #642176" x="114.899241" y="243.603298" transform="rotate(-0 114.899241 243.603298)">A2</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 237.777996)">External non-contact alignment</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 248.449646)">and scanning</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(114.899241 263.795285)">In-vivo optical, spectral, thermal or acoustic</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(114.899241 273.095682)">observation</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #642176" x="114.899241" y="313.368994" transform="rotate(-0 114.899241 313.368994)">A3</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 302.229179)">Tethered endoluminal or</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 312.858204)">intracavitary observation and</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 323.529854)">navigation</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(114.899241 333.516466)">Endoluminal or intracavitary in-vivo image or</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(114.899241 342.861378)">signal</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #642176" x="114.899241" y="383.13469" transform="rotate(-0 114.899241 383.13469)">A4</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 377.3307)">Untethered internal observation</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 387.959725)">and navigation</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="114.899241" y="407.954618" transform="rotate(-0 114.899241 407.954618)">Internal in-vivo image or signal</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #642176" x="114.899241" y="452.900386" transform="rotate(-0 114.899241 452.900386)">A5</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 441.781884)">Catheter-based, intravascular,</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 452.410909)">intraductal or percutaneous in-</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 463.039934)">vivo sensing</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(114.899241 473.070116)">In-vivo image, spectrum or physiological</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(114.899241 482.415028)">measurement</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 412.405063 135.941184 
+L 679.114937 135.941184 
+Q 684.76557 135.941184 684.76557 126.183744 
+L 684.76557 87.641856 
+Q 684.76557 77.884416 679.114937 77.884416 
+L 412.405063 77.884416 
+Q 406.75443 77.884416 406.75443 87.641856 
+L 406.75443 126.183744 
+Q 406.75443 135.941184 412.405063 135.941184 
+z
+" clip-path="url(#p938ddd55a3)" style="fill: #b36a2e"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 410.992405 216.440064 
+L 680.527595 216.440064 
+Q 684.76557 216.440064 684.76557 209.121984 
+L 684.76557 151.065216 
+Q 684.76557 143.747136 680.527595 143.747136 
+L 410.992405 143.747136 
+Q 406.75443 143.747136 406.75443 151.065216 
+L 406.75443 209.121984 
+Q 406.75443 216.440064 410.992405 216.440064 
+z
+" clip-path="url(#p938ddd55a3)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 410.992405 286.20576 
+L 680.527595 286.20576 
+Q 684.76557 286.20576 684.76557 278.88768 
+L 684.76557 220.830912 
+Q 684.76557 213.512832 680.527595 213.512832 
+L 410.992405 213.512832 
+Q 406.75443 213.512832 406.75443 220.830912 
+L 406.75443 278.88768 
+Q 406.75443 286.20576 410.992405 286.20576 
+z
+" clip-path="url(#p938ddd55a3)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 410.992405 355.971456 
+L 680.527595 355.971456 
+Q 684.76557 355.971456 684.76557 348.653376 
+L 684.76557 290.596608 
+Q 684.76557 283.278528 680.527595 283.278528 
+L 410.992405 283.278528 
+Q 406.75443 283.278528 406.75443 290.596608 
+L 406.75443 348.653376 
+Q 406.75443 355.971456 410.992405 355.971456 
+z
+" clip-path="url(#p938ddd55a3)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 410.992405 425.737152 
+L 680.527595 425.737152 
+Q 684.76557 425.737152 684.76557 418.419072 
+L 684.76557 360.362304 
+Q 684.76557 353.044224 680.527595 353.044224 
+L 410.992405 353.044224 
+Q 406.75443 353.044224 406.75443 360.362304 
+L 406.75443 418.419072 
+Q 406.75443 425.737152 410.992405 425.737152 
+z
+" clip-path="url(#p938ddd55a3)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 410.992405 495.502848 
+L 680.527595 495.502848 
+Q 684.76557 495.502848 684.76557 488.184768 
+L 684.76557 430.128 
+Q 684.76557 422.80992 680.527595 422.80992 
+L 410.992405 422.80992 
+Q 406.75443 422.80992 406.75443 430.128 
+L 406.75443 488.184768 
+Q 406.75443 495.502848 410.992405 495.502848 
+z
+" clip-path="url(#p938ddd55a3)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #ffffff" transform="translate(420.033418 102.901726)">1.2  Response-eliciting</text>
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #ffffff" transform="translate(420.033418 116.605095)">interactive diagnosis</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #b36a2e" x="420.033418" y="173.837602" transform="rotate(-0 420.033418 173.837602)">R1</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 168.054925)">Quasi-static contact, palpation</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 178.68395)">and indentation</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(420.033418 194.029589)">Elicited force, deformation or stiffness</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(420.033418 203.329986)">response</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #b36a2e" x="420.033418" y="243.603298" transform="rotate(-0 420.033418 243.603298)">R2</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 237.799308)">Dynamic mechanical or acoustic</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 248.470958)">excitation</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(420.033418 263.718887)">Wave, vibration, resonance or dynamic</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(420.033418 273.172081)">deformation response</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #b36a2e" x="420.033418" y="313.368994" transform="rotate(-0 420.033418 313.368994)">R3</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 307.498179)">Imposed motion, loading and</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 318.303479)">functional provocation</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(420.033418 333.5297)">Laxity, range-of-motion, torque, catch, EMG or</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(420.033418 342.982894)">functional response</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #b36a2e" x="420.033418" y="383.13469" transform="rotate(-0 420.033418 383.13469)">R4</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 371.973563)">Electrical, magnetic or</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 382.645213)">neurophysiological stimulation-</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 393.316863)">response mapping</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(420.033418 403.349537)">MEP, EMG, EEG, reflex, electrophysiological or</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(420.033418 412.694449)">behavioural response</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #b36a2e" x="420.033418" y="452.900386" transform="rotate(-0 420.033418 452.900386)">R5</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 447.096396)">Physiological challenge and</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(446.873924 457.768046)">controlled modulation</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(420.033418 473.070116)">Provoked physiological trajectory or recovery</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(420.033418 482.415028)">response</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_14">
+    <path d="M 717.539241 135.941184 
+L 984.249114 135.941184 
+Q 989.899747 135.941184 989.899747 126.183744 
+L 989.899747 87.641856 
+Q 989.899747 77.884416 984.249114 77.884416 
+L 717.539241 77.884416 
+Q 711.888608 77.884416 711.888608 87.641856 
+L 711.888608 126.183744 
+Q 711.888608 135.941184 717.539241 135.941184 
+z
+" clip-path="url(#p3586fb09e2)" style="fill: #2f8a70"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 716.126582 211.561344 
+L 985.661772 211.561344 
+Q 989.899747 211.561344 989.899747 204.243264 
+L 989.899747 151.065216 
+Q 989.899747 143.747136 985.661772 143.747136 
+L 716.126582 143.747136 
+Q 711.888608 143.747136 711.888608 151.065216 
+L 711.888608 204.243264 
+Q 711.888608 211.561344 716.126582 211.561344 
+z
+" clip-path="url(#p3586fb09e2)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 716.126582 276.44832 
+L 985.661772 276.44832 
+Q 989.899747 276.44832 989.899747 269.13024 
+L 989.899747 215.952192 
+Q 989.899747 208.634112 985.661772 208.634112 
+L 716.126582 208.634112 
+Q 711.888608 208.634112 711.888608 215.952192 
+L 711.888608 269.13024 
+Q 711.888608 276.44832 716.126582 276.44832 
+z
+" clip-path="url(#p3586fb09e2)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 716.126582 341.335296 
+L 985.661772 341.335296 
+Q 989.899747 341.335296 989.899747 334.017216 
+L 989.899747 280.839168 
+Q 989.899747 273.521088 985.661772 273.521088 
+L 716.126582 273.521088 
+Q 711.888608 273.521088 711.888608 280.839168 
+L 711.888608 334.017216 
+Q 711.888608 341.335296 716.126582 341.335296 
+z
+" clip-path="url(#p3586fb09e2)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 716.126582 406.222272 
+L 985.661772 406.222272 
+Q 989.899747 406.222272 989.899747 398.904192 
+L 989.899747 345.726144 
+Q 989.899747 338.408064 985.661772 338.408064 
+L 716.126582 338.408064 
+Q 711.888608 338.408064 711.888608 345.726144 
+L 711.888608 398.904192 
+Q 711.888608 406.222272 716.126582 406.222272 
+z
+" clip-path="url(#p3586fb09e2)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 716.126582 471.109248 
+L 985.661772 471.109248 
+Q 989.899747 471.109248 989.899747 463.791168 
+L 989.899747 410.61312 
+Q 989.899747 403.29504 985.661772 403.29504 
+L 716.126582 403.29504 
+Q 711.888608 403.29504 711.888608 410.61312 
+L 711.888608 463.791168 
+Q 711.888608 471.109248 716.126582 471.109248 
+z
+" clip-path="url(#p3586fb09e2)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 716.126582 535.996224 
+L 985.661772 535.996224 
+Q 989.899747 535.996224 989.899747 528.678144 
+L 989.899747 475.500096 
+Q 989.899747 468.182016 985.661772 468.182016 
+L 716.126582 468.182016 
+Q 711.888608 468.182016 711.888608 475.500096 
+L 711.888608 528.678144 
+Q 711.888608 535.996224 716.126582 535.996224 
+z
+" clip-path="url(#p3586fb09e2)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="725.167595" y="110.217458" transform="rotate(-0 725.167595 110.217458)">1.3  Diagnostic sample acquisition</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="172.13005" transform="rotate(-0 725.167595 172.13005)">S1</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 166.32606)">Percutaneous needle-based</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 176.955085)">tissue sampling</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 190.228459)">Ex-vivo histological, cytological or molecular</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 199.573372)">result, including adequacy</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="237.017026" transform="rotate(-0 725.167595 237.017026)">S2</text>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="752.008101" y="236.527549" transform="rotate(-0 752.008101 236.527549)">Vascular blood sampling</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 255.115435)">Ex-vivo haematological, biochemical,</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 264.460348)">microbiological or molecular result</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="301.904002" transform="rotate(-0 725.167595 301.904002)">S3</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 290.697362)">Tethered endoluminal or</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 301.460037)">intracavitary tissue/fluid</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 312.131687)">sampling</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 320.024669)">Ex-vivo pathology, cytology, microbiology or</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 329.369582)">molecular result</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="366.790978" transform="rotate(-0 725.167595 366.790978)">S4</text>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 360.986988)">Untethered or capsule-based</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 371.616013)">internal sampling</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 384.933903)">Ex-vivo tissue, microbiome, metabolite or</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 394.2343)">molecular result</text>
+   </g>
+   <g id="text_46">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="431.677954" transform="rotate(-0 725.167595 431.677954)">S5</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 425.950964)">Surface or mucosal specimen</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 436.579989)">collection</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 449.798621)">Ex-vivo microbiological, cytological or</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 459.143534)">molecular result</text>
+   </g>
+   <g id="text_49">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="496.56493" transform="rotate(-0 725.167595 496.56493)">S6</text>
+   </g>
+   <g id="text_50">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 490.816628)">Other adaptive body-fluid or</text>
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(752.008101 501.488278)">excretion collection</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 514.685597)">Ex-vivo biochemical, microbiological or</text>
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #706875" transform="translate(725.167595 524.03051)">molecular result</text>
+   </g>
+  </g>
+  <g id="text_52">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="7.2" y="25.064687" transform="rotate(-0 7.2 25.064687)">Clinical detection and intervention: final task taxonomy</text>
+  </g>
+  <g id="text_53">
+   <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="7.2" y="35.712" transform="rotate(-0 7.2 35.712)">Primary classes follow the evidence-generation mechanism; modality, anatomy, carrier and autonomy remain separate tags</text>
+  </g>
+  <g id="text_54">
+   <text style="font-size: 9px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="7.2" y="599.616" transform="rotate(-0 7.2 599.616)">Unit: one evaluated diagnostic evidence-acquisition episode; a multistage system may generate linked task records.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd1016fe193">
+   <rect x="99.36" y="64.224" width="282.531646" height="487.872"/>
+  </clipPath>
+  <clipPath id="p938ddd55a3">
+   <rect x="404.494177" y="64.224" width="282.531646" height="487.872"/>
+  </clipPath>
+  <clipPath id="p3586fb09e2">
+   <rect x="709.628354" y="64.224" width="282.531646" height="487.872"/>
+  </clipPath>
+ </defs>
+</svg>

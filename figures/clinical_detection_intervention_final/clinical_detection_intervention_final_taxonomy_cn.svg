@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="999.36pt" height="609.053344pt" viewBox="0 0 999.36 609.053344" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-15T19:58:46.751869</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 609.053344 
+L 999.36 609.053344 
+L 999.36 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 107.270886 135.941184 
+L 373.980759 135.941184 
+Q 379.631392 135.941184 379.631392 126.183744 
+L 379.631392 87.641856 
+Q 379.631392 77.884416 373.980759 77.884416 
+L 107.270886 77.884416 
+Q 101.620253 77.884416 101.620253 87.641856 
+L 101.620253 126.183744 
+Q 101.620253 135.941184 107.270886 135.941184 
+z
+" clip-path="url(#p346b6c27df)" style="fill: #642176"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 105.858228 216.440064 
+L 375.393418 216.440064 
+Q 379.631392 216.440064 379.631392 209.121984 
+L 379.631392 151.065216 
+Q 379.631392 143.747136 375.393418 143.747136 
+L 105.858228 143.747136 
+Q 101.620253 143.747136 101.620253 151.065216 
+L 101.620253 209.121984 
+Q 101.620253 216.440064 105.858228 216.440064 
+z
+" clip-path="url(#p346b6c27df)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 105.858228 286.20576 
+L 375.393418 286.20576 
+Q 379.631392 286.20576 379.631392 278.88768 
+L 379.631392 220.830912 
+Q 379.631392 213.512832 375.393418 213.512832 
+L 105.858228 213.512832 
+Q 101.620253 213.512832 101.620253 220.830912 
+L 101.620253 278.88768 
+Q 101.620253 286.20576 105.858228 286.20576 
+z
+" clip-path="url(#p346b6c27df)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 105.858228 355.971456 
+L 375.393418 355.971456 
+Q 379.631392 355.971456 379.631392 348.653376 
+L 379.631392 290.596608 
+Q 379.631392 283.278528 375.393418 283.278528 
+L 105.858228 283.278528 
+Q 101.620253 283.278528 101.620253 290.596608 
+L 101.620253 348.653376 
+Q 101.620253 355.971456 105.858228 355.971456 
+z
+" clip-path="url(#p346b6c27df)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 105.858228 425.737152 
+L 375.393418 425.737152 
+Q 379.631392 425.737152 379.631392 418.419072 
+L 379.631392 360.362304 
+Q 379.631392 353.044224 375.393418 353.044224 
+L 105.858228 353.044224 
+Q 101.620253 353.044224 101.620253 360.362304 
+L 101.620253 418.419072 
+Q 101.620253 425.737152 105.858228 425.737152 
+z
+" clip-path="url(#p346b6c27df)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 105.858228 495.502848 
+L 375.393418 495.502848 
+Q 379.631392 495.502848 379.631392 488.184768 
+L 379.631392 430.128 
+Q 379.631392 422.80992 375.393418 422.80992 
+L 105.858228 422.80992 
+Q 101.620253 422.80992 101.620253 430.128 
+L 101.620253 488.184768 
+Q 101.620253 495.502848 105.858228 495.502848 
+z
+" clip-path="url(#p346b6c27df)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="114.899241" y="110.248942" transform="rotate(-0 114.899241 110.248942)">1.1  主动观察式感知</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #642176" x="114.899241" y="173.837602" transform="rotate(-0 114.899241 173.837602)">A1</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="141.739747" y="173.562211" transform="rotate(-0 141.739747 173.562211)">体表接触式扫描与传感器布置</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="114.899241" y="198.679788" transform="rotate(-0 114.899241 198.679788)">在体影像、声音或生理信号</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #642176" x="114.899241" y="243.603298" transform="rotate(-0 114.899241 243.603298)">A2</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="141.739747" y="243.327907" transform="rotate(-0 141.739747 243.327907)">体表非接触式对准与扫描</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="114.899241" y="268.445484" transform="rotate(-0 114.899241 268.445484)">在体光学、光谱、热学或声学观察</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #642176" x="114.899241" y="313.368994" transform="rotate(-0 114.899241 313.368994)">A3</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="141.739747" y="313.093603" transform="rotate(-0 141.739747 313.093603)">有缆腔内或腔道内观察与导航</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="114.899241" y="338.21118" transform="rotate(-0 114.899241 338.21118)">腔内或体腔内在体影像/信号</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #642176" x="114.899241" y="383.13469" transform="rotate(-0 114.899241 383.13469)">A4</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="141.739747" y="382.859299" transform="rotate(-0 141.739747 382.859299)">无缆体内观察与导航</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="114.899241" y="407.976876" transform="rotate(-0 114.899241 407.976876)">体内在体影像/信号</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #642176" x="114.899241" y="452.900386" transform="rotate(-0 114.899241 452.900386)">A5</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 446.887737)">导管、血管内、管道内或经皮探头在体感</text>
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; fill: #24172a" transform="translate(141.739747 458.362253)">知</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="114.899241" y="477.742572" transform="rotate(-0 114.899241 477.742572)">在体影像、光谱或生理测量</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 412.405063 135.941184 
+L 679.114937 135.941184 
+Q 684.76557 135.941184 684.76557 126.183744 
+L 684.76557 87.641856 
+Q 684.76557 77.884416 679.114937 77.884416 
+L 412.405063 77.884416 
+Q 406.75443 77.884416 406.75443 87.641856 
+L 406.75443 126.183744 
+Q 406.75443 135.941184 412.405063 135.941184 
+z
+" clip-path="url(#pbf671091dd)" style="fill: #b36a2e"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 410.992405 216.440064 
+L 680.527595 216.440064 
+Q 684.76557 216.440064 684.76557 209.121984 
+L 684.76557 151.065216 
+Q 684.76557 143.747136 680.527595 143.747136 
+L 410.992405 143.747136 
+Q 406.75443 143.747136 406.75443 151.065216 
+L 406.75443 209.121984 
+Q 406.75443 216.440064 410.992405 216.440064 
+z
+" clip-path="url(#pbf671091dd)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 410.992405 286.20576 
+L 680.527595 286.20576 
+Q 684.76557 286.20576 684.76557 278.88768 
+L 684.76557 220.830912 
+Q 684.76557 213.512832 680.527595 213.512832 
+L 410.992405 213.512832 
+Q 406.75443 213.512832 406.75443 220.830912 
+L 406.75443 278.88768 
+Q 406.75443 286.20576 410.992405 286.20576 
+z
+" clip-path="url(#pbf671091dd)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 410.992405 355.971456 
+L 680.527595 355.971456 
+Q 684.76557 355.971456 684.76557 348.653376 
+L 684.76557 290.596608 
+Q 684.76557 283.278528 680.527595 283.278528 
+L 410.992405 283.278528 
+Q 406.75443 283.278528 406.75443 290.596608 
+L 406.75443 348.653376 
+Q 406.75443 355.971456 410.992405 355.971456 
+z
+" clip-path="url(#pbf671091dd)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 410.992405 425.737152 
+L 680.527595 425.737152 
+Q 684.76557 425.737152 684.76557 418.419072 
+L 684.76557 360.362304 
+Q 684.76557 353.044224 680.527595 353.044224 
+L 410.992405 353.044224 
+Q 406.75443 353.044224 406.75443 360.362304 
+L 406.75443 418.419072 
+Q 406.75443 425.737152 410.992405 425.737152 
+z
+" clip-path="url(#pbf671091dd)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 410.992405 495.502848 
+L 680.527595 495.502848 
+Q 684.76557 495.502848 684.76557 488.184768 
+L 684.76557 430.128 
+Q 684.76557 422.80992 680.527595 422.80992 
+L 410.992405 422.80992 
+Q 406.75443 422.80992 406.75443 430.128 
+L 406.75443 488.184768 
+Q 406.75443 495.502848 410.992405 495.502848 
+z
+" clip-path="url(#pbf671091dd)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="420.033418" y="110.248942" transform="rotate(-0 420.033418 110.248942)">1.2  诱发响应式交互诊断</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #b36a2e" x="420.033418" y="173.837602" transform="rotate(-0 420.033418 173.837602)">R1</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="446.873924" y="173.562211" transform="rotate(-0 446.873924 173.562211)">准静态接触、触诊与压入</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="420.033418" y="198.679788" transform="rotate(-0 420.033418 198.679788)">诱发的力、形变或刚度响应</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #b36a2e" x="420.033418" y="243.603298" transform="rotate(-0 420.033418 243.603298)">R2</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="446.873924" y="243.327907" transform="rotate(-0 446.873924 243.327907)">动态机械或声学激励</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="420.033418" y="268.445484" transform="rotate(-0 420.033418 268.445484)">波动、振动、共振或动态形变响应</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #b36a2e" x="420.033418" y="313.368994" transform="rotate(-0 420.033418 313.368994)">R3</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="446.873924" y="313.093603" transform="rotate(-0 446.873924 313.093603)">施加运动、载荷与功能激发</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="420.033418" y="338.21118" transform="rotate(-0 420.033418 338.21118)">松弛度、活动度、力矩、卡顿、肌电或功能响应</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #b36a2e" x="420.033418" y="383.13469" transform="rotate(-0 420.033418 383.13469)">R4</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="446.873924" y="382.859299" transform="rotate(-0 446.873924 382.859299)">电、磁或神经生理刺激—响应映射</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="420.033418" y="407.976876" transform="rotate(-0 420.033418 407.976876)">MEP、EMG、EEG、反射、电生理或行为响应</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #b36a2e" x="420.033418" y="452.900386" transform="rotate(-0 420.033418 452.900386)">R5</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="446.873924" y="452.624995" transform="rotate(-0 446.873924 452.624995)">生理挑战与受控调制</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="420.033418" y="477.742572" transform="rotate(-0 420.033418 477.742572)">激发后的生理轨迹或恢复响应</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_14">
+    <path d="M 717.539241 135.941184 
+L 984.249114 135.941184 
+Q 989.899747 135.941184 989.899747 126.183744 
+L 989.899747 87.641856 
+Q 989.899747 77.884416 984.249114 77.884416 
+L 717.539241 77.884416 
+Q 711.888608 77.884416 711.888608 87.641856 
+L 711.888608 126.183744 
+Q 711.888608 135.941184 717.539241 135.941184 
+z
+" clip-path="url(#pbb0b301ccc)" style="fill: #2f8a70"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 716.126582 211.561344 
+L 985.661772 211.561344 
+Q 989.899747 211.561344 989.899747 204.243264 
+L 989.899747 151.065216 
+Q 989.899747 143.747136 985.661772 143.747136 
+L 716.126582 143.747136 
+Q 711.888608 143.747136 711.888608 151.065216 
+L 711.888608 204.243264 
+Q 711.888608 211.561344 716.126582 211.561344 
+z
+" clip-path="url(#pbb0b301ccc)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 716.126582 276.44832 
+L 985.661772 276.44832 
+Q 989.899747 276.44832 989.899747 269.13024 
+L 989.899747 215.952192 
+Q 989.899747 208.634112 985.661772 208.634112 
+L 716.126582 208.634112 
+Q 711.888608 208.634112 711.888608 215.952192 
+L 711.888608 269.13024 
+Q 711.888608 276.44832 716.126582 276.44832 
+z
+" clip-path="url(#pbb0b301ccc)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 716.126582 341.335296 
+L 985.661772 341.335296 
+Q 989.899747 341.335296 989.899747 334.017216 
+L 989.899747 280.839168 
+Q 989.899747 273.521088 985.661772 273.521088 
+L 716.126582 273.521088 
+Q 711.888608 273.521088 711.888608 280.839168 
+L 711.888608 334.017216 
+Q 711.888608 341.335296 716.126582 341.335296 
+z
+" clip-path="url(#pbb0b301ccc)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 716.126582 406.222272 
+L 985.661772 406.222272 
+Q 989.899747 406.222272 989.899747 398.904192 
+L 989.899747 345.726144 
+Q 989.899747 338.408064 985.661772 338.408064 
+L 716.126582 338.408064 
+Q 711.888608 338.408064 711.888608 345.726144 
+L 711.888608 398.904192 
+Q 711.888608 406.222272 716.126582 406.222272 
+z
+" clip-path="url(#pbb0b301ccc)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 716.126582 471.109248 
+L 985.661772 471.109248 
+Q 989.899747 471.109248 989.899747 463.791168 
+L 989.899747 410.61312 
+Q 989.899747 403.29504 985.661772 403.29504 
+L 716.126582 403.29504 
+Q 711.888608 403.29504 711.888608 410.61312 
+L 711.888608 463.791168 
+Q 711.888608 471.109248 716.126582 471.109248 
+z
+" clip-path="url(#pbb0b301ccc)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 716.126582 535.996224 
+L 985.661772 535.996224 
+Q 989.899747 535.996224 989.899747 528.678144 
+L 989.899747 475.500096 
+Q 989.899747 468.182016 985.661772 468.182016 
+L 716.126582 468.182016 
+Q 711.888608 468.182016 711.888608 475.500096 
+L 711.888608 528.678144 
+Q 711.888608 535.996224 716.126582 535.996224 
+z
+" clip-path="url(#pbb0b301ccc)" style="fill: #f6f2f7; stroke: #e4dde7; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="725.167595" y="110.248942" transform="rotate(-0 725.167595 110.248942)">1.3  诊断性样本获取</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="172.13005" transform="rotate(-0 725.167595 172.13005)">S1</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="752.008101" y="171.854659" transform="rotate(-0 752.008101 171.854659)">经皮针式组织采样</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="725.167595" y="194.923173" transform="rotate(-0 725.167595 194.923173)">离体组织学、细胞学或分子结果，包括样本充分性</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="237.017026" transform="rotate(-0 725.167595 237.017026)">S2</text>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="752.008101" y="236.741635" transform="rotate(-0 752.008101 236.741635)">血管血液采样</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="725.167595" y="259.810149" transform="rotate(-0 725.167595 259.810149)">离体血液学、生化、微生物或分子结果</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="301.904002" transform="rotate(-0 725.167595 301.904002)">S3</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="752.008101" y="301.628611" transform="rotate(-0 752.008101 301.628611)">有缆腔内或腔道内组织/体液采样</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="725.167595" y="324.697125" transform="rotate(-0 725.167595 324.697125)">离体病理、细胞学、微生物或分子结果</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="366.790978" transform="rotate(-0 725.167595 366.790978)">S4</text>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="752.008101" y="366.515587" transform="rotate(-0 752.008101 366.515587)">无缆或胶囊式体内采样</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="725.167595" y="389.584101" transform="rotate(-0 725.167595 389.584101)">离体组织、微生物组、代谢物或分子结果</text>
+   </g>
+   <g id="text_46">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="431.677954" transform="rotate(-0 725.167595 431.677954)">S5</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="752.008101" y="431.402563" transform="rotate(-0 752.008101 431.402563)">体表或黏膜标本采集</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="725.167595" y="454.471077" transform="rotate(-0 725.167595 454.471077)">离体微生物、细胞学或分子结果</text>
+   </g>
+   <g id="text_49">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #2f8a70" x="725.167595" y="496.56493" transform="rotate(-0 725.167595 496.56493)">S6</text>
+   </g>
+   <g id="text_50">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="752.008101" y="496.289539" transform="rotate(-0 752.008101 496.289539)">其他自适应体液或排泄物采集</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 7.7px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="725.167595" y="519.358053" transform="rotate(-0 725.167595 519.358053)">离体生化、微生物或分子结果</text>
+   </g>
+  </g>
+  <g id="text_52">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #24172a" x="7.2" y="24.78625" transform="rotate(-0 7.2 24.78625)">临床检测与干预：最终任务分类</text>
+  </g>
+  <g id="text_53">
+   <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="7.2" y="35.712" transform="rotate(-0 7.2 35.712)">主类按诊断证据生成机制定义；模态、解剖部位、载体和自主程度作为独立标签</text>
+  </g>
+  <g id="text_54">
+   <text style="font-size: 9px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #706875" x="7.2" y="599.616" transform="rotate(-0 7.2 599.616)">分类单位：一项研究中被评价的一个诊断证据获取阶段；多阶段系统可产生多个相互关联的任务记录。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p346b6c27df">
+   <rect x="99.36" y="64.224" width="282.531646" height="487.872"/>
+  </clipPath>
+  <clipPath id="pbf671091dd">
+   <rect x="404.494177" y="64.224" width="282.531646" height="487.872"/>
+  </clipPath>
+  <clipPath id="pbb0b301ccc">
+   <rect x="709.628354" y="64.224" width="282.531646" height="487.872"/>
+  </clipPath>
+ </defs>
+</svg>

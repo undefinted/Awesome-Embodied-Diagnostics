@@ -61,28 +61,25 @@ flowchart LR
 
 See [`data/presentation/application_evidence.csv`](data/presentation/application_evidence.csv) for claim-level qualifiers and sources.
 
-## Current reproducible public-source snapshot
+## Clinical Detection and Intervention taxonomy
 
-The comparable Clinical Detection and Intervention landscape uses a frozen 2026-08-12 corpus of 359 unique records from Europe PMC, OpenAlex, Crossref and arXiv. Conservative task-specific title rules and a terminal evidence-action hierarchy resolve cross-rule hits into one primary mechanism per work: **242 active-observation**, **30 response-based** and **50 sample-based** title-level candidates (**322 unique works**). Automated discovery identifies a public full-text or repository location for 155, 18 and 27 works, respectively (**200/322; 62.1%**).
+The current release uses a task-level, mechanism-first taxonomy. A classification row represents one evaluated diagnostic evidence-acquisition episode, not an entire robot, paper or sensing modality:
 
-These values are **public-index title-screened candidates**, not global publication totals, full-text included-study counts, measures of loop completeness or measures of clinical maturity. A broader saved retrieval union contains 1,111 unscreened unique records and is reported only as a screening denominator. The separately expanded P5 active-observation corpus is not mixed into the comparable three-mechanism figure because equivalent high-recall screening is not yet complete for 1.2 and 1.3. Reproduce the mutually exclusive statistics and bilingual figures with:
+- **1.1 Active observational sensing** — feedback changes acquisition configuration and the evidence remains an in-vivo observation;
+- **1.2 Response-eliciting interactive diagnosis** — a deliberate perturbation produces the response interpreted as evidence;
+- **1.3 Diagnostic sample acquisition** — material is obtained for ex-vivo analysis and acquisition or adequacy participates in the evaluated loop.
+
+Access route defines the subtask families within 1.1 and 1.3; perturbation type defines the subtask families within 1.2. Modality, anatomy, carrier and autonomy are independent tags. See the [full bilingual taxonomy and boundary rules](docs/CLINICAL_DETECTION_INTERVENTION_FINAL_TAXONOMY.md).
+
+The former mutually exclusive paper-level count figures have been withdrawn. Their source was an automated title screen, and their task labels mixed modalities, routes and carriers at the same level. The frozen retrieval records remain in Git history and raw data snapshots for audit, but they are not presented as final review counts. New numerical claims will require uniform public-source searching, abstract/full-text eligibility screening and task-level coding under the final taxonomy.
+
+Generate the bilingual formal taxonomy and assignment-rule figures with:
 
 ```bash
-python scripts/build_clinical_detection_intervention_statistics.py \
-  --screened-records outputs/public_landscape/public_title_screened_records.csv \
-  --retrieval-assignments data/standalone_snapshots/2026-08-12/literature_task_assignments_all_snapshots.csv \
-  --output-dir outputs/clinical_detection_intervention \
-  --snapshot-date 2026-08-15
-python scripts/make_clinical_detection_intervention_figures.py \
-  --input-dir outputs/clinical_detection_intervention \
-  --output-dir figures/public_evidence
+python scripts/make_clinical_detection_intervention_taxonomy_figures.py \
+  --taxonomy data/presentation/clinical_detection_intervention_final_taxonomy.csv \
+  --output-dir figures/clinical_detection_intervention_final
 ```
-
-Results, methods, crossover audit and the research workbook are in [`outputs/clinical_detection_intervention/`](outputs/clinical_detection_intervention/). The independent evidence-maturity synthesis is in [`data/presentation/public_evidence_maturity_matrix.csv`](data/presentation/public_evidence_maturity_matrix.csv), and claim-level primary evidence is in [`data/presentation/verified_public_primary_evidence_2026-08-13.csv`](data/presentation/verified_public_primary_evidence_2026-08-13.csv).
-
-Bilingual release notes are paired against the same frozen tables: [`REPORT_CN.md`](outputs/clinical_detection_intervention/REPORT_CN.md), [`REPORT_EN.md`](outputs/clinical_detection_intervention/REPORT_EN.md), Chinese [`METHODS_CN.md`](outputs/clinical_detection_intervention/METHODS_CN.md), and English [`METHODS.md`](outputs/clinical_detection_intervention/METHODS.md). The workbook contains separate `Summary_CN` and `Summary_EN` dashboards plus a field-level bilingual taxonomy sheet.
-
-The Python screen is self-contained. The editable figure and workbook builders use the Codex workspace-provided Node runtime and `@oai/artifact-tool`; generated SVG/PNG/XLSX files are committed so readers do not need that private build runtime to inspect the results.
 
 ## Presentation support
 
@@ -94,15 +91,15 @@ The Python screen is self-contained. The editable figure and workbook builders u
 - Every current chart has a fully translated English sibling (`*_en.svg` and `*_en.png`); policy and validation: [`docs/BILINGUAL_FIGURE_POLICY.md`](docs/BILINGUAL_FIGURE_POLICY.md)
 - Template-following layout example for P9 and P13: [`presentations/医学检测具身智能_P9_P13公开证据排版示例.pptx`](presentations/医学检测具身智能_P9_P13公开证据排版示例.pptx)
 
-## Working taxonomy
+## Final working taxonomy
 
 | Evidence-generation mechanism | Diagnostic action | Typical tasks |
 |---|---|---|
-| Active observational sensing | Repositions or controls a sensor to acquire new evidence | Robotic ultrasound, endoscopy, capsule inspection, OCT, auscultation |
-| Response-based interactive diagnosis | Applies a controlled stimulus and measures the response | Palpation, stiffness mapping, provocation tests, stimulation-response mapping |
-| Sample-based interactive diagnosis | Acquires tissue or fluid for downstream analysis | Biopsy, blood draw, swab and capsule sampling |
+| Active observational sensing | Repositions or controls a sensor to acquire a new in-vivo observation | external contact/non-contact scanning, tethered or untethered internal observation, catheter sensing |
+| Response-eliciting interactive diagnosis | Applies a controlled perturbation and interprets the elicited response | palpation, dynamic excitation, provocation, stimulation-response mapping |
+| Diagnostic sample acquisition | Acquires diagnostic material for ex-vivo analysis | needle tissue sampling, blood draw, endoluminal/capsule sampling, mucosal collection |
 
-The underlying system can be multi-stage, but publication-count figures use one mutually exclusive primary mechanism determined by the terminal evidence action: sample acquisition, then elicited response, then active observation. Secondary stages remain explicit tags. Static classification, report generation and fixed trajectories without feedback are not treated as complete embodied diagnostic loops.
+The underlying system can be multi-stage. Distinct evaluated episodes remain linked rather than forcing the whole platform into one class. Static classification, report generation, targeting-only studies and fixed trajectories without feedback are not treated as complete embodied diagnostic loops.
 
 ## Reproduce
 
