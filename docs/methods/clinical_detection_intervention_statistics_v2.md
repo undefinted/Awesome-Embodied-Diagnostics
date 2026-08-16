@@ -31,4 +31,4 @@ This high-precision title screen deliberately sacrifices sensitivity. It still r
 
 ## Interpretation
 
-The purple series is `public-visible screened candidates`, not “included studies”. The green series is the subset with a public full-text location identified. The gold series is the public-visible candidate subset published since 2021. Named products/projects are maintained separately and are not added to literature bars unless represented by a retrievable publication.
+The purple series is labelled **Title-screened candidate records**, not “included studies”. The green series is labelled **Of these: publicly accessible full text**. The gold series is labelled **Of these: published in 2021–2026**. Task families are ordered by the purple measure in descending order, with the green and gold measures used as deterministic tie-breakers. Named products/projects are maintained separately and are not added to literature bars unless represented by a retrievable publication.

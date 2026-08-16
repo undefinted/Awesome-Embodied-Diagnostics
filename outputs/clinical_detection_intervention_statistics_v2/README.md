@@ -9,7 +9,7 @@ This directory contains a reproducible public-source **candidate evidence map** 
 - Task chart (A1–A5, R1–R5, S1–S6): one task–study pair after DOI-first and normalized-title-second deduplication within that task.
 - Mechanism chart (1.1, 1.2, 1.3): unique works within the mechanism; task–study pairs are also retained.
 - Domain chart: unique works across Clinical Detection and Intervention. Cross-task and cross-mechanism overlap is audited separately rather than assigned arbitrarily.
-- `public full text located`: a public full-text location was identified from OpenAlex, Europe PMC/PMC or arXiv. It is not a page-by-page licence audit.
+- `candidates with publicly accessible full text`: a public full-text location was identified from OpenAlex, Europe PMC/PMC or arXiv. It is not a page-by-page licence audit.
 
 ## Current candidate counts
 
@@ -20,7 +20,7 @@ This directory contains a reproducible public-source **candidate evidence map** 
 | 1.2 Response-eliciting interactive diagnosis (unique works) | 199 | 93 |
 | 1.3 Diagnostic sample acquisition (unique works) | 144 | 66 |
 
-The exact 16 task-family counts are in `task_counts.csv`. Zero is retained and displayed; it means that no record passed this reproducible title-screening rule, not that the task or technology cannot exist.
+The exact 16 task-family counts are in `task_counts.csv`. Figures display the three measures as **Title-screened candidate records**, **Of these: publicly accessible full text**, and **Of these: published in 2021–2026**. Zero is retained and displayed; it means that no record passed this reproducible title-screening rule, not that the task or technology cannot exist. Task families are ordered by title-screened candidate count in descending order.
 
 ## Files
 
@@ -49,4 +49,3 @@ node scripts\render_cdi_statistics_charts.mjs `
 ```
 
 Crossref is not used as a corpus-discovery denominator because its bibliographic query is relevance-ranked and nearly always returns a match. It is reserved for later DOI/metadata resolution. This prevents broad fuzzy matches from being presented as study counts.
-
