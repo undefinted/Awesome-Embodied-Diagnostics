@@ -1,0 +1,21 @@
+{
+  "title": "Response-based interactive diagnosis: closed-loop evidence acquisition",
+  "language": "English",
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "generated_by": "scripts/render_response_based_interactive_diagnosis_loop.mjs",
+  "outputs": [
+    "response_based_interactive_diagnosis_closed_loop_en.svg",
+    "response_based_interactive_diagnosis_closed_loop_en.png"
+  ],
+  "conceptual_boundary": "The elicited response must update diagnostic inference and subsequent action selection; stimulus delivery alone is insufficient.",
+  "categories_of_perturbation": [
+    "palpation or indentation",
+    "mechanical or acoustic excitation",
+    "imposed motion or loading",
+    "electrical or magnetic stimulation",
+    "physiological challenge"
+  ]
+}

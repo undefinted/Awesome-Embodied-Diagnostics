@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <marker id="arrow-purple" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#642078"/></marker>
+    <marker id="arrow-teal" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#2F8974"/></marker>
+    <marker id="arrow-gold" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#B9781B"/></marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#2D1834" flood-opacity="0.10"/></filter>
+  </defs>
+  <rect width="1920" height="1080" fill="#FCFBFD"/>
+  <rect x="0" y="0" width="16" height="1080" fill="#642078"/>
+
+  <text x="72" y="76" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="750" font-style="normal" fill="#24182B"><tspan x="72" dy="0">Response-based interactive diagnosis</tspan></text>
+  <text x="72" y="118" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" font-style="normal" fill="#6F6874"><tspan x="72" dy="0">Closed-loop acquisition of diagnostic evidence from controlled physical or physiological responses</tspan></text>
+  <line x1="72" y1="145" x2="1848" y2="145" stroke="#DCD7E0" stroke-width="2"/>
+
+  <rect x="72" y="166" width="325" height="34" rx="17" fill="#F5EFF8"/>
+  <text x="234" y="190" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" fill="#642078"><tspan x="234" dy="0">COGNITIVE ADAPTATION</tspan></text>
+  <rect x="1480" y="166" width="368" height="34" rx="17" fill="#EDF7F4"/>
+  <text x="1664" y="190" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" fill="#2F8974"><tspan x="1664" dy="0">EMBODIED INTERACTION</tspan></text>
+
+  
+  <path d="M 350 283 L 380 283" fill="none" stroke="#642078" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-purple)"/>
+  <path d="M 700 283 L 730 283" fill="none" stroke="#642078" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-purple)"/>
+  <path d="M 1080 283 L 1110 283" fill="none" stroke="#642078" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-purple)"/>
+  <path d="M 1450 283 L 1480 283" fill="none" stroke="#642078" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-purple)"/>
+  <path d="M 1660 430 L 1660 535" fill="none" stroke="#642078" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-purple)"/>
+  <path d="M 1480 635 L 1450 635" fill="none" stroke="#2F8974" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+  <path d="M 1110 635 L 1080 635" fill="none" stroke="#2F8974" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+  <path d="M 730 635 L 660 635" fill="none" stroke="#2F8974" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+  <path d="M 450 555 C 405 470, 470 405, 540 382" fill="none" stroke="#B9781B" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 9" marker-end="url(#arrow-gold)"/>
+  <path d="M 450 715 C 380 785, 300 790, 300 825" fill="none" stroke="#B9781B" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+
+
+  <g filter="url(#shadow)">
+    
+    <g>
+      <rect x="80" y="210" width="270" height="190" rx="16" fill="#FFFFFF" stroke="#DCD7E0" stroke-width="2"/>
+      <rect x="80" y="210" width="8" height="190" rx="4" fill="#642078"/>
+      <rect x="88" y="210" width="262" height="44" rx="14" fill="#F5EFF8"/>
+      <text x="104" y="242" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#642078"><tspan x="104" dy="0">Clinical objective</tspan></text>
+      <text x="104" y="290" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="normal" fill="#24182B"><tspan x="104" dy="0">Patient context</tspan><tspan x="104" dy="29">Prior tests &amp; records</tspan><tspan x="104" dy="29">Decision requirements</tspan></text>
+    </g>
+    
+    <g>
+      <rect x="380" y="210" width="320" height="190" rx="16" fill="#FFFFFF" stroke="#DCD7E0" stroke-width="2"/>
+      <rect x="380" y="210" width="8" height="190" rx="4" fill="#642078"/>
+      <rect x="388" y="210" width="312" height="71" rx="14" fill="#F5EFF8"/>
+      <text x="404" y="242" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#642078"><tspan x="404" dy="0">State estimation</tspan><tspan x="404" dy="27">&amp; working memory</tspan></text>
+      <text x="404" y="315" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#24182B"><tspan x="404" dy="0">Latent tissue / functional state</tspan><tspan x="404" dy="29">Patient-specific baseline</tspan><tspan x="404" dy="29">Prior actions and responses</tspan></text>
+    </g>
+    
+    <g>
+      <rect x="730" y="210" width="350" height="190" rx="16" fill="#FFFFFF" stroke="#DCD7E0" stroke-width="2"/>
+      <rect x="730" y="210" width="8" height="190" rx="4" fill="#642078"/>
+      <rect x="738" y="210" width="342" height="71" rx="14" fill="#F5EFF8"/>
+      <text x="754" y="242" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#642078"><tspan x="754" dy="0">Uncertainty- and</tspan><tspan x="754" dy="27">risk-aware policy</tspan></text>
+      <text x="754" y="315" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#24182B"><tspan x="754" dy="0">Expected diagnostic value</tspan><tspan x="754" dy="29">Uncertainty reduction</tspan><tspan x="754" dy="29">Burden, risk &amp; reversibility</tspan></text>
+    </g>
+    
+    <g>
+      <rect x="1110" y="210" width="340" height="190" rx="16" fill="#FFFFFF" stroke="#DCD7E0" stroke-width="2"/>
+      <rect x="1110" y="210" width="8" height="190" rx="4" fill="#642078"/>
+      <rect x="1118" y="210" width="332" height="71" rx="14" fill="#F5EFF8"/>
+      <text x="1134" y="242" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#642078"><tspan x="1134" dy="0">Stimulus planning</tspan><tspan x="1134" dy="27">&amp; embodied control</tspan></text>
+      <text x="1134" y="315" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#24182B"><tspan x="1134" dy="0">Site and modality</tspan><tspan x="1134" dy="29">Amplitude, duration &amp; trajectory</tspan><tspan x="1134" dy="29">Contact and device state</tspan></text>
+    </g>
+    
+    <g>
+      <rect x="1480" y="210" width="360" height="220" rx="16" fill="#FFFFFF" stroke="#DCD7E0" stroke-width="2"/>
+      <rect x="1480" y="210" width="8" height="220" rx="4" fill="#642078"/>
+      <rect x="1488" y="210" width="352" height="44" rx="14" fill="#F5EFF8"/>
+      <text x="1504" y="242" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#642078"><tspan x="1504" dy="0">Controlled perturbation</tspan></text>
+      <text x="1504" y="290" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" font-style="normal" fill="#24182B"><tspan x="1504" dy="0">Palpation / indentation</tspan><tspan x="1504" dy="29">Mechanical or acoustic excitation</tspan><tspan x="1504" dy="29">Imposed motion / loading</tspan><tspan x="1504" dy="29">Electrical, magnetic or</tspan><tspan x="1504" dy="29">physiological challenge</tspan></text>
+    </g>
+
+    
+    <g>
+      <rect x="1480" y="535" width="360" height="225" rx="16" fill="#FFFFFF" stroke="#DCD7E0" stroke-width="2"/>
+      <rect x="1480" y="535" width="8" height="225" rx="4" fill="#2F8974"/>
+      <rect x="1488" y="535" width="352" height="71" rx="14" fill="#EDF7F4"/>
+      <text x="1504" y="567" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#2F8974"><tspan x="1504" dy="0">Patient • tissue</tspan><tspan x="1504" dy="27">• physiology</tspan></text>
+      <text x="1504" y="640" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="normal" fill="#24182B"><tspan x="1504" dy="0">The controlled action elicits</tspan><tspan x="1504" dy="29">a measurable mechanical,</tspan><tspan x="1504" dy="29">neurophysiological or functional</tspan><tspan x="1504" dy="29">response as new evidence.</tspan></text>
+    </g>
+    
+    <g>
+      <rect x="1110" y="535" width="340" height="225" rx="16" fill="#FFFFFF" stroke="#DCD7E0" stroke-width="2"/>
+      <rect x="1110" y="535" width="8" height="225" rx="4" fill="#2F8974"/>
+      <rect x="1118" y="535" width="332" height="71" rx="14" fill="#EDF7F4"/>
+      <text x="1134" y="567" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#2F8974"><tspan x="1134" dy="0">Multimodal response</tspan><tspan x="1134" dy="27">sensing</tspan></text>
+      <text x="1134" y="640" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#24182B"><tspan x="1134" dy="0">Force–displacement &amp; tactile maps</tspan><tspan x="1134" dy="29">Deformation, strain &amp; waves</tspan><tspan x="1134" dy="29">EMG / EEG / MEP / reflexes</tspan><tspan x="1134" dy="29">Physiological dynamics</tspan></text>
+    </g>
+    
+    <g>
+      <rect x="730" y="535" width="350" height="225" rx="16" fill="#FFFFFF" stroke="#DCD7E0" stroke-width="2"/>
+      <rect x="730" y="535" width="8" height="225" rx="4" fill="#2F8974"/>
+      <rect x="738" y="535" width="342" height="71" rx="14" fill="#EDF7F4"/>
+      <text x="754" y="567" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#2F8974"><tspan x="754" dy="0">Evidence fusion</tspan><tspan x="754" dy="27">&amp; state update</tspan></text>
+      <text x="754" y="640" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#24182B"><tspan x="754" dy="0">Response feature extraction</tspan><tspan x="754" dy="29">Model-based or learned inference</tspan><tspan x="754" dy="29">Calibrated confidence update</tspan><tspan x="754" dy="29">Contradiction / failure detection</tspan></text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M 450 550 L 660 635 L 450 720 L 240 635 Z" fill="#FCF5E8" stroke="#B9781B" stroke-width="3"/>
+    <text x="450" y="608" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#24182B"><tspan x="450" dy="0">Is the evidence</tspan></text>
+    <text x="450" y="640" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#24182B"><tspan x="450" dy="0">sufficient, safe</tspan></text>
+    <text x="450" y="672" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#24182B"><tspan x="450" dy="0">and actionable?</tspan></text>
+  </g>
+  <text x="414" y="515" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" fill="#B9781B"><tspan x="414" dy="0">NO — adapt</tspan></text>
+  <text x="334" y="776" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" fill="#B9781B"><tspan x="334" dy="0">YES</tspan></text>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="825" width="440" height="132" rx="18" fill="#FFFFFF" stroke="#B9781B" stroke-width="3"/>
+    <rect x="80" y="825" width="440" height="42" rx="16" fill="#FCF5E8"/>
+    <text x="300" y="854" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" font-style="normal" fill="#B9781B"><tspan x="300" dy="0">DIAGNOSTIC OUTPUT</tspan></text>
+    <text x="300" y="900" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#24182B"><tspan x="300" dy="0">Response-derived diagnostic evidence</tspan></text>
+    <text x="300" y="934" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="normal" fill="#6F6874"><tspan x="300" dy="0">Report • confirm • escalate • defer</tspan></text>
+  </g>
+
+  <g>
+    <rect x="560" y="825" width="1280" height="132" rx="18" fill="#FFFFFF" stroke="#B9B1BE" stroke-width="2"/>
+    <rect x="560" y="825" width="16" height="132" rx="8" fill="#24182B"/>
+    <text x="605" y="866" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="750" font-style="normal" fill="#24182B"><tspan x="605" dy="0">SAFETY, OVERSIGHT AND GOVERNANCE</tspan></text>
+    <text x="605" y="906" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" font-style="normal" fill="#24182B"><tspan x="605" dy="0">Human oversight  •  bounded operational domain  •  force / dose limits  •  real-time abort or confirmation</tspan></text>
+    <text x="605" y="938" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" font-style="normal" fill="#24182B"><tspan x="605" dy="0">Device self-checks  •  failure-aware fallback  •  traceable observations, actions and model updates</tspan></text>
+  </g>
+
+  <line x1="72" y1="995" x2="1848" y2="995" stroke="#DCD7E0" stroke-width="2"/>
+  <text x="72" y="1027" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#6F6874"><tspan x="72" dy="0">Boundary condition: stimulus delivery alone is not sufficient; the elicited response must update diagnostic inference and subsequent action selection.</tspan></text>
+  <text x="1848" y="1027" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" fill="#642078"><tspan x="1848" dy="0">Conceptual framework</tspan></text>
+</svg>
