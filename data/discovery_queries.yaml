@@ -1,0 +1,25 @@
+queries:
+  - id: robotic-ultrasound
+    focus: Robotic ultrasound and adaptive imaging
+    arxiv: 'all:"robotic ultrasound" OR all:"autonomous ultrasound" OR all:"ultrasound robot"'
+    scholarly: '"robotic ultrasound" OR "autonomous ultrasound" OR "ultrasound robot"'
+  - id: embodied-endoscopy
+    focus: Embodied endoscopy and diagnostic navigation
+    arxiv: 'all:"robotic endoscopy" OR all:"autonomous endoscopy" OR all:"endoscopic navigation"'
+    scholarly: '"robotic endoscopy" OR "autonomous endoscopy" OR "endoscopic navigation"'
+  - id: tactile-examination
+    focus: Palpation, tactile examination, and auscultation
+    arxiv: 'all:"robotic palpation" OR all:"tactile diagnosis" OR all:"robotic auscultation"'
+    scholarly: '"robotic palpation" OR "tactile diagnosis" OR "robotic auscultation"'
+  - id: diagnostic-sampling
+    focus: Diagnostic sampling and biopsy
+    arxiv: 'all:"robotic biopsy" OR all:"autonomous biopsy" OR all:"robotic phlebotomy"'
+    scholarly: '"robotic biopsy" OR "autonomous biopsy" OR "robotic phlebotomy"'
+  - id: active-diagnostic-agents
+    focus: Active sensing and embodied diagnostic agents
+    arxiv: 'all:"active sensing" AND (all:medical OR all:clinical OR all:diagnostic)'
+    scholarly: '"active sensing" AND (medical OR clinical OR diagnostic)'
+  - id: medical-vla
+    focus: Healthcare VLA and language-conditioned diagnostic acquisition
+    arxiv: '(all:"vision-language-action" OR all:VLA OR all:"embodied agent") AND (all:medical OR all:clinical OR all:healthcare)'
+    scholarly: '("vision-language-action" OR VLA OR "embodied agent") AND (medical OR clinical OR healthcare)'
