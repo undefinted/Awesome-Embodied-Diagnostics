@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A living evidence atlas for embodied intelligence in medical diagnostics.">
+  <title>Awesome-Embodied-Diagnostics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Awesome Embodied Diagnostics home"><span class="brand-mark">ED</span><span>Awesome-Embodied-Diagnostics</span></a>
+    <nav><a href="#landscape">Landscape</a><a href="#papers">Paper radar</a><a href="https://github.com/undefinted/Awesome-Embodied-Diagnostics">GitHub</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Living evidence atlas</p>
+        <h1>Awesome-Embodied-Diagnostics</h1>
+        <p class="lede">From interpreting medical data to actively acquiring diagnostic evidence through physical interaction.</p>
+        <div class="hero-actions"><a class="primary" href="#papers">Explore papers</a><a class="secondary" href="https://github.com/undefinted/Awesome-Embodied-Diagnostics/blob/main/docs/DAILY_PAPER_RADAR.md">How the radar works</a></div>
+      </div>
+      <div class="loop-visual" role="img" aria-label="Embodied diagnostic loop: observe, decide, act, acquire, evaluate, adapt">
+        <div class="loop-title"><span>Embodied diagnostic loop</span><b>Closed-loop evidence acquisition</b></div>
+        <div class="loop-track">
+          <div class="loop-node"><i>01</i><strong>Observe</strong><span>patient or target</span></div><span class="arrow">&#8594;</span>
+          <div class="loop-node"><i>02</i><strong>Decide</strong><span>next best action</span></div><span class="arrow">&#8594;</span>
+          <div class="loop-node action"><i>03</i><strong>Act</strong><span>contact or navigate</span></div>
+        </div>
+        <div class="return-line"><span>feedback and adaptation</span></div>
+        <div class="loop-track reverse">
+          <div class="loop-node"><i>06</i><strong>Interpret</strong><span>diagnostic endpoint</span></div><span class="arrow">&#8592;</span>
+          <div class="loop-node"><i>05</i><strong>Evaluate</strong><span>evidence quality</span></div><span class="arrow">&#8592;</span>
+          <div class="loop-node evidence"><i>04</i><strong>Acquire</strong><span>new evidence</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Atlas metrics">
+      <div><strong>0</strong><span>Discovery candidates</span></div>
+      <div><strong>4</strong><span>Scholarly source families</span></div>
+      <div><strong>7</strong><span>Retrieval directions</span></div>
+      <div><strong>--</strong><span>Latest indexed year</span></div>
+    </section>
+
+    <section id="landscape" class="section">
+      <div class="section-heading"><div><p class="eyebrow">Clinical landscape</p><h2>Where embodiment creates diagnostic evidence</h2></div><p>Organized by examination and evidence-acquisition capability, rather than by whichever model family is fashionable this month.</p></div>
+      <div class="domain-grid"><article class="domain-card">
+      <span class="domain-index">01</span>
+      <div><h3>Robotic ultrasound and adaptive imaging</h3><p>Robotic Ultrasound</p></div>
+    </article><article class="domain-card">
+      <span class="domain-index">02</span>
+      <div><h3>Embodied endoscopy and diagnostic navigation</h3><p>Embodied Endoscopy</p></div>
+    </article><article class="domain-card">
+      <span class="domain-index">03</span>
+      <div><h3>Palpation, tactile examination, and auscultation</h3><p>Tactile Examination</p></div>
+    </article><article class="domain-card">
+      <span class="domain-index">04</span>
+      <div><h3>Diagnostic sampling and biopsy</h3><p>Diagnostic Sampling</p></div>
+    </article><article class="domain-card">
+      <span class="domain-index">05</span>
+      <div><h3>Active sensing and embodied diagnostic agents</h3><p>Active Diagnostic Agents</p></div>
+    </article><article class="domain-card">
+      <span class="domain-index">06</span>
+      <div><h3>Healthcare VLA and language-conditioned diagnostic acquisition</h3><p>Medical Vla</p></div>
+    </article><article class="domain-card">
+      <span class="domain-index">07</span>
+      <div><h3>Adaptive clinical measurement and active examination</h3><p>Adaptive Clinical Measurement</p></div>
+    </article></div>
+    </section>
+
+    <section class="principles">
+      <div><p class="eyebrow light">Curation model</p><h2>High recall. Visible uncertainty. Human review.</h2></div>
+      <ol><li><b>Discover</b><span>Daily queries across arXiv, OpenAlex, Crossref, and Europe PMC.</span></li><li><b>Audit</b><span>Every query records source counts, failures, and provenance.</span></li><li><b>Review</b><span>Candidates enter a pull request, never the curated collection directly.</span></li></ol>
+    </section>
+
+    <section id="papers" class="section papers-section">
+      <div class="section-heading"><div><p class="eyebrow">Daily paper radar</p><h2>Latest discovery candidates</h2></div><p>These records are proposals for review, not endorsements or claims of clinical readiness.</p></div>
+      <div class="toolbar"><label><span>Search title or topic</span><input id="search" type="search" placeholder="Try robotic ultrasound or biopsy"></label><label><span>Source</span><select id="source"><option value="">All sources</option></select></label><div class="result-count"><strong id="visible-count">0</strong><span>visible records</span></div></div>
+      <div class="empty-state"><strong>The radar is warming up.</strong><p>The searchable table will appear after the first candidate pull request is merged. The taxonomy and retrieval coverage below are already live.</p></div>
+      <div class="table-wrap" hidden><table><thead><tr><th>Paper and retrieval focus</th><th>Source</th><th>Year</th><th>Signal</th></tr></thead><tbody id="paper-body"></tbody></table></div>
+    </section>
+  </main>
+
+  <footer><div><span class="brand-mark small">ED</span><b>Awesome-Embodied-Diagnostics</b></div><p>Generated September 03, 2026 at 10:32 UTC. Open data, explicit boundaries, living review.</p><a href="https://github.com/undefinted/Awesome-Embodied-Diagnostics">View repository &#8599;</a></footer>
+  <script src="app.js"></script>
+</body>
+</html>
