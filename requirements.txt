@@ -4,3 +4,6 @@ pandas==2.2.3
 Pillow==12.2.0
 pypdf==6.10.0
 XlsxWriter==3.2.9
+PyYAML>=6.0
+feedparser>=6.0
+requests>=2.31
