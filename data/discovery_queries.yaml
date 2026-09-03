@@ -23,3 +23,7 @@ queries:
     focus: Healthcare VLA and language-conditioned diagnostic acquisition
     arxiv: '(all:"vision-language-action" OR all:VLA OR all:"embodied agent") AND (all:medical OR all:clinical OR all:healthcare)'
     scholarly: '("vision-language-action" OR VLA OR "embodied agent") AND (medical OR clinical OR healthcare)'
+  - id: adaptive-clinical-measurement
+    focus: Adaptive clinical measurement and active examination
+    arxiv: '(all:"adaptive examination" OR all:"active examination" OR all:"closed-loop diagnosis") AND (all:medical OR all:clinical)'
+    scholarly: '("adaptive examination" OR "active examination" OR "closed-loop diagnosis") AND (medical OR clinical)'

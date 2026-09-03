@@ -1,6 +1,8 @@
-# Awesome Embodied Diagnostics
+# Awesome-Embodied-Diagnostics
 
 A curated, reproducible research repository for **embodied intelligence in medical detection**: diagnostic systems in which decisions change subsequent physical observation, interaction, sampling or testing, and the resulting evidence updates later decisions.
+
+**Live homepage:** [undefinted.github.io/Awesome-Embodied-Diagnostics](https://undefinted.github.io/Awesome-Embodied-Diagnostics/)
 
 > **Status:** private working repository. The literature map and quantitative results remain under active validation. Counts are research-workflow outputs, not claims of global coverage or clinical maturity.
 
@@ -10,6 +12,7 @@ A curated, reproducible research repository for **embodied intelligence in medic
 - [Curated literature](literature/README.md)
 - [Search and screening data](data/README.md)
 - [Reproducible code](scripts/)
+- [Daily Paper Radar](docs/DAILY_PAPER_RADAR.md)
 - [Generated results and figures](outputs/)
 - [Review/manuscript research package](archive/imported_packages/)
 - [Releases and provenance](provenance/)

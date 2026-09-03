@@ -30,12 +30,16 @@ def works(source,q,since):
     for x in r.json().get("message",{}).get("items",[]):
         parts=x.get("published",{}).get("date-parts",[[None]])[0]; out.append(candidate("Crossref",q," ".join(x.get("title",[])),"",x.get("URL"),x.get("DOI",""),parts[0] if parts else None))
     return out
+def europepmc(q,since):
+    r=requests.get("https://www.ebi.ac.uk/europepmc/webservices/rest/search",params={"query":q["scholarly"]+f" FIRST_PDATE:[{since.date()} TO 9999-12-31]","format":"json","pageSize":50,"resultType":"core"},timeout=40); r.raise_for_status(); out=[]
+    for x in r.json().get("resultList",{}).get("result",[]): out.append(candidate("Europe PMC",q,x.get("title",""),x.get("abstractText","") or "",x.get("doi") and "https://doi.org/"+x["doi"] or x.get("fullTextUrlList",{}).get("fullTextUrl",[{}])[0].get("url","") if x.get("fullTextUrlList") else "",x.get("doi",""),x.get("pubYear")))
+    return out
 def main():
     p=argparse.ArgumentParser(); p.add_argument("--days",type=int,default=2); args=p.parse_args(); since=datetime.now(timezone.utc)-timedelta(days=args.days)
     queries=(yaml.safe_load((ROOT/"data/discovery_queries.yaml").read_text(encoding="utf-8")) or {})["queries"]; inbox=ROOT/"data/inbox.jsonl"; audit={"generated_at":datetime.now(timezone.utc).isoformat(),"since":since.isoformat(),"queries":[]}; found=[]
     for q in queries:
         row={"id":q["id"],"focus":q["focus"],"sources":{}}
-        for name,fn in (("arxiv",lambda:arxiv(q,since)),("openalex",lambda:works("openalex",q,since)),("crossref",lambda:works("crossref",q,since))):
+        for name,fn in (("arxiv",lambda:arxiv(q,since)),("openalex",lambda:works("openalex",q,since)),("crossref",lambda:works("crossref",q,since)),("europepmc",lambda:europepmc(q,since))):
             try: records=fn(); found.extend(records); row["sources"][name]={"records":len(records)}
             except Exception as e: row["sources"][name]={"error":str(e)}
             time.sleep(1)
