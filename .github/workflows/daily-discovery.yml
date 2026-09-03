@@ -18,6 +18,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python scripts/discover.py --days 3
       - run: python scripts/validate_embodied_diagnostics.py
+      - run: python scripts/audit_candidates.py
       - run: python scripts/build_digest.py
       - name: Build current homepage artifact
         run: python scripts/build_site.py
@@ -34,3 +35,5 @@ jobs:
             data/inbox.jsonl
             data/daily-summary.md
             data/search_audit.json
+            data/audited_candidates.csv
+            docs/CANDIDATE_EVIDENCE_AUDIT.md

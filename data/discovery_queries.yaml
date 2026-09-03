@@ -27,3 +27,23 @@ queries:
     focus: Adaptive clinical measurement and active examination
     arxiv: '(all:"adaptive examination" OR all:"active examination" OR all:"closed-loop diagnosis") AND (all:medical OR all:clinical)'
     scholarly: '("adaptive examination" OR "active examination" OR "closed-loop diagnosis") AND (medical OR clinical)'
+  - id: capsule-and-luminal-robots
+    focus: Capsule endoscopy and luminal diagnostic robots
+    arxiv: '(all:"capsule endoscopy" OR all:"capsule robot" OR all:"luminal robot") AND (all:autonomous OR all:navigation OR all:diagnostic)'
+    scholarly: '("capsule endoscopy" OR "capsule robot" OR "luminal robot") AND (autonomous OR navigation OR diagnostic)'
+  - id: ophthalmic-examination
+    focus: Robotic ophthalmic examination and acquisition
+    arxiv: '(all:robotic OR all:autonomous) AND (all:ophthalmic OR all:retinal OR all:"slit lamp") AND (all:examination OR all:imaging)'
+    scholarly: '(robotic OR autonomous) AND (ophthalmic OR retinal OR "slit lamp") AND (examination OR imaging)'
+  - id: dental-examination
+    focus: Robotic dental examination and diagnostic acquisition
+    arxiv: '(all:robotic OR all:autonomous) AND (all:dental OR all:intraoral) AND (all:examination OR all:diagnostic OR all:imaging)'
+    scholarly: '(robotic OR autonomous) AND (dental OR intraoral) AND (examination OR diagnostic OR imaging)'
+  - id: diagnostic-laboratory-loops
+    focus: Closed-loop robotic diagnostic laboratories
+    arxiv: '(all:"closed-loop" OR all:adaptive OR all:autonomous) AND (all:"diagnostic laboratory" OR all:"clinical laboratory" OR all:"laboratory diagnostics") AND all:robotic'
+    scholarly: '("closed-loop" OR adaptive OR autonomous) AND ("diagnostic laboratory" OR "clinical laboratory" OR "laboratory diagnostics") AND robotic'
+  - id: multimodal-physical-examination
+    focus: Multimodal robotic physical examination
+    arxiv: '(all:robotic OR all:embodied) AND all:"physical examination" AND (all:multimodal OR all:diagnostic)'
+    scholarly: '(robotic OR embodied) AND "physical examination" AND (multimodal OR diagnostic)'
