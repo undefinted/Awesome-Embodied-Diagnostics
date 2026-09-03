@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import html
 import json
+import csv
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -32,11 +33,18 @@ def esc(value: object) -> str:
 
 
 items = load_candidates()
+audited = []
+audited_path = ROOT / "data" / "audited_candidates.csv"
+if audited_path.exists():
+    with audited_path.open(encoding="utf-8-sig", newline="") as handle:
+        audited = list(csv.DictReader(handle))
+    items = [{"title": item["title"], "url": item["url"], "source": item["source"], "year": item["reported_year"], "relevance_score": item["scope_status"], "query_focus": item["scope_reason"]} for item in audited if item.get("identifier_verified") == "True" and item.get("scope_status") in {"core_candidate", "adjacent"}]
 query_data = yaml.safe_load((ROOT / "data" / "discovery_queries.yaml").read_text(encoding="utf-8")) or {}
 queries = query_data.get("queries", [])
 source_counts = Counter(item.get("source", "Unknown") for item in items)
 latest_year = max((str(item.get("year")) for item in items if item.get("year")), default="--")
 generated = datetime.now(timezone.utc)
+audit_counts = Counter(item.get("scope_status", "") for item in audited)
 
 query_cards = "".join(
     f'''<article class="domain-card">
@@ -99,10 +107,9 @@ page = f'''<!doctype html>
     </section>
 
     <section class="metrics" aria-label="Atlas metrics">
-      <div><strong>{len(items)}</strong><span>Discovery candidates</span></div>
+      <div><strong>{len(items)}</strong><span>Verified scope candidates</span></div>
       <div><strong>{len(source_counts) or 4}</strong><span>Scholarly source families</span></div>
-      <div><strong>{len(queries)}</strong><span>Retrieval directions</span></div>
-      <div><strong>{latest_year}</strong><span>Latest indexed year</span></div>
+      <div><strong>{audit_counts.get("core_candidate", 0)}</strong><span>Core candidates</span></div>
     </section>
 
     <section id="landscape" class="section">

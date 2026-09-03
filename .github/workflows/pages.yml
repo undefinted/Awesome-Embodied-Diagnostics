@@ -21,6 +21,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Refresh public candidate snapshot
         run: python scripts/discover.py --days 14
+      - name: Verify and scope-screen candidates
+        run: python scripts/audit_candidates.py
       - run: python scripts/build_site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

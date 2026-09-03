@@ -13,6 +13,8 @@ A curated, reproducible research repository for **embodied intelligence in medic
 - [Search and screening data](data/README.md)
 - [Reproducible code](scripts/)
 - [Daily Paper Radar](docs/DAILY_PAPER_RADAR.md)
+- [Candidate evidence audit](docs/CANDIDATE_EVIDENCE_AUDIT.md)
+- [Coverage and source protocol](docs/SEARCH_COVERAGE_PROTOCOL.md)
 - [Generated results and figures](outputs/)
 - [Review/manuscript research package](archive/imported_packages/)
 - [Releases and provenance](provenance/)
