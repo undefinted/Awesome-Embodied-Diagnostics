@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import unquote
 import requests
 
-ROOT=Path(__file__).resolve().parents[1]; TODAY=date(2026,9,3)
+ROOT=Path(__file__).resolve().parents[1]; TODAY=date.today()
 CORE_PATTERNS=[r"robotic ultrasound",r"autonomous ultrasound",r"ultrasound robot",r"robotic palpation",r"robotic auscultation",r"robotic (?:needle )?biopsy",r"autonomous biopsy",r"robotic phlebotomy",r"robotic endoscop",r"autonomous endoscop",r"endoscopic robotic system",r"active sensing.*(?:medical|clinical|diagnos)",r"(?:medical|clinical|diagnos).*active sensing"]
 DIAGNOSTIC=("diagnos","screen","examin","imaging","ultrasound","endoscop","palpat","auscultat","biopsy","phlebotomy","sampling","lesion","evidence")
 PHYSICAL=("robot","embodied","autonomous","probe","needle","navigation","palpat","contact force","scan trajectory","physical interaction")
@@ -19,13 +19,17 @@ def norm_doi(raw):
 def verify(item):
     doi=norm_doi(item.get("doi"))
     if doi:
-        try:
-            r=requests.get("https://api.crossref.org/works/"+doi,timeout=25)
-            if r.status_code==200:
-                msg=r.json()["message"]; title=" ".join(msg.get("title",[])).strip()
-                return True,"Crossref DOI",title
-            return False,f"Crossref HTTP {r.status_code}",""
-        except Exception as exc:return False,"Crossref error: "+str(exc),""
+        for attempt in range(3):
+            try:
+                r=requests.get("https://api.crossref.org/works/"+doi,timeout=25)
+                if r.status_code==200:
+                    msg=r.json()["message"]; title=" ".join(msg.get("title",[])).strip()
+                    return True,"Crossref DOI",title
+                if r.status_code==404:return False,"Crossref HTTP 404",""
+            except requests.RequestException:
+                pass
+            if attempt < 2:time.sleep(1+attempt)
+        return False,"Crossref request failed after 3 attempts",""
     url=item.get("url","")
     if "arxiv.org/" in url:
         try:
