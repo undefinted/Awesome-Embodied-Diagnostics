@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-09-03T10:08:46.276738+00:00",
+  "since": "2026-08-31T10:08:46.273549+00:00",
+  "queries": [
+    {
+      "id": "robotic-ultrasound",
+      "focus": "Robotic ultrasound and adaptive imaging",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 50
+        }
+      }
+    },
+    {
+      "id": "embodied-endoscopy",
+      "focus": "Embodied endoscopy and diagnostic navigation",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 50
+        }
+      }
+    },
+    {
+      "id": "tactile-examination",
+      "focus": "Palpation, tactile examination, and auscultation",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 50
+        }
+      }
+    },
+    {
+      "id": "diagnostic-sampling",
+      "focus": "Diagnostic sampling and biopsy",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 50
+        }
+      }
+    },
+    {
+      "id": "active-diagnostic-agents",
+      "focus": "Active sensing and embodied diagnostic agents",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 5
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "medical-vla",
+      "focus": "Healthcare VLA and language-conditioned diagnostic acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 19
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "adaptive-clinical-measurement",
+      "focus": "Adaptive clinical measurement and active examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    }
+  ],
+  "summary": {
+    "retrieved": 580,
+    "passed_filter": 52,
+    "unique_inbox": 34
+  }
+}
