@@ -19,6 +19,8 @@ jobs:
       - run: python scripts/discover.py --days 3
       - run: python scripts/validate_embodied_diagnostics.py
       - run: python scripts/build_digest.py
+      - name: Build current homepage artifact
+        run: python scripts/build_site.py
       - uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
