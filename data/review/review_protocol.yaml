@@ -1,0 +1,58 @@
+review_type: structured_narrative_evidence_map
+status: prospective_protocol_for_next_revision
+last_updated: 2026-09-10
+unit_of_analysis:
+  primary: study_report
+  secondary: embodied_system
+  warning: Multiple papers about one system must not be counted as independent systems.
+scope:
+  population: Human participants, clinically relevant specimens, anatomical models, or diagnostic environments
+  concept: Observation-conditioned physical acquisition, interaction, sampling, verification, routing, or stopping for a diagnostic objective
+  contexts:
+    - clinical_detection_and_intervention
+    - laboratory_diagnostics_and_assay_development
+    - everyday_monitoring_and_adaptive_support
+inclusion_requires:
+  - diagnostic_objective
+  - physical_patient_specimen_instrument_or_environment_interaction
+  - current_observation_changes_a_subsequent_diagnostic_action
+exclusion_examples:
+  - static_interpretation_of_a_completed_dataset
+  - fixed_trajectory_or_script_without_observation_conditioned_change
+  - therapeutic_control_without_diagnostic_information_acquisition
+  - general_robotic_surgery_without_diagnostic_acquisition
+evidence_roles:
+  - core_integrated_loop
+  - core_human_mediated_loop
+  - enabling_component
+  - adjacent_precedent
+  - excluded
+evidence_stages:
+  - simulation
+  - bench_or_phantom
+  - ex_vivo
+  - animal
+  - healthy_volunteer_feasibility
+  - patient_feasibility
+  - prospective_comparative
+  - randomized_trial
+  - monitored_deployment
+analysis_rules:
+  - Report a denominator and screening stage for every count.
+  - Separate papers, studies, systems, participants, specimens, and procedures.
+  - Do not pool task-success rates across heterogeneous diagnostic actions.
+  - Do not infer missing sample sizes, identifiers, outcomes, or autonomy levels.
+  - Keep multi-label directions but use one prespecified primary direction for plots.
+  - Treat automated relevance labels as screening aids, never inclusion decisions.
+  - Separate within-action feedback from authority to repeat an invasive action.
+  - Report missingness and not-reported values explicitly.
+required_for_systematic_review_claim:
+  - validated_database_specific_searches
+  - subscription_database_exports_where_available
+  - duplicate_independent_title_abstract_screening
+  - duplicate_independent_full_text_screening
+  - full_text_exclusion_reasons
+  - backward_and_forward_citation_chasing
+  - risk_of_bias_or_quality_assessment
+  - prisma_flow
+

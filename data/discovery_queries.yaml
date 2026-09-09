@@ -47,3 +47,59 @@ queries:
     focus: Multimodal robotic physical examination
     arxiv: '(all:robotic OR all:embodied) AND all:"physical examination" AND (all:multimodal OR all:diagnostic)'
     scholarly: '(robotic OR embodied) AND "physical examination" AND (multimodal OR diagnostic)'
+  - id: robotic-oct-and-ophthalmic-acquisition
+    focus: Robotic OCT and adaptive ophthalmic acquisition
+    arxiv: '(all:"robotic OCT" OR all:"robotic optical coherence tomography" OR all:"autonomous retinal imaging" OR all:"robotic slit lamp")'
+    scholarly: '"robotic OCT" OR "robotic optical coherence tomography" OR "autonomous retinal imaging" OR "robotic slit lamp"'
+  - id: stimulation-response-mapping
+    focus: Closed-loop stimulation and response mapping
+    arxiv: '(all:"closed-loop TMS" OR all:"active learning" OR all:adaptive) AND (all:"motor mapping" OR all:"cortical mapping" OR all:TMS)'
+    scholarly: '("closed-loop TMS" OR "active learning" OR adaptive) AND ("motor mapping" OR "cortical mapping" OR TMS)'
+  - id: robotic-functional-examination
+    focus: Robotic laxity, spasticity, and functional examination
+    arxiv: '(all:robotic OR all:automated) AND (all:laxity OR all:spasticity OR all:"joint examination" OR all:"physical assessment")'
+    scholarly: '(robotic OR automated) AND (laxity OR spasticity OR "joint examination" OR "physical assessment")'
+  - id: robotic-swabbing-and-blood-collection
+    focus: Robotic swabbing, venipuncture, and blood collection
+    arxiv: '(all:robotic OR all:autonomous OR all:automated) AND (all:swab OR all:venipuncture OR all:"blood collection")'
+    scholarly: '(robotic OR autonomous OR automated) AND (swab OR venipuncture OR "blood collection")'
+  - id: adaptive-microfluidic-diagnostics
+    focus: Feedback-controlled microfluidic diagnostic operations
+    arxiv: '(all:"feedback control" OR all:adaptive OR all:programmable) AND (all:microfluidic OR all:droplet) AND (all:diagnostic OR all:assay OR all:testing)'
+    scholarly: '("feedback control" OR adaptive OR programmable) AND (microfluidic OR droplet) AND (diagnostic OR assay OR testing)'
+  - id: autonomous-assay-development
+    focus: Closed-loop autonomous assay and biotechnology development
+    arxiv: '(all:"self-driving laboratory" OR all:"autonomous laboratory" OR all:"closed-loop experimentation") AND (all:biotechnology OR all:protein OR all:assay OR all:diagnostic)'
+    scholarly: '("self-driving laboratory" OR "autonomous laboratory" OR "closed-loop experimentation") AND (biotechnology OR protein OR assay OR diagnostic)'
+  - id: wearable-triggered-testing
+    focus: Wearable monitoring that triggers confirmatory testing
+    arxiv: '(all:wearable OR all:smartwatch) AND (all:"at-home testing" OR all:"confirmatory testing" OR all:"triggered testing" OR all:presymptomatic)'
+    scholarly: '(wearable OR smartwatch) AND ("at-home testing" OR "confirmatory testing" OR "triggered testing" OR presymptomatic)'
+  - id: ambient-adaptive-monitoring
+    focus: Ambient sensing linked to diagnostic reacquisition or escalation
+    arxiv: '(all:"ambient intelligence" OR all:"contactless sensing" OR all:"smart toilet") AND (all:diagnostic OR all:detection OR all:monitoring)'
+    scholarly: '("ambient intelligence" OR "contactless sensing" OR "smart toilet") AND (diagnostic OR detection OR monitoring)'
+  - id: capsule-quality-feedback
+    focus: Capsule gastroscopy quality and blind-spot feedback
+    arxiv: '(all:"magnetically controlled capsule gastroscopy" OR all:"capsule gastroscopy") AND (all:"quality control" OR all:blind-spot OR all:feedback)'
+    scholarly: '("magnetically controlled capsule gastroscopy" OR "capsule gastroscopy") AND ("quality control" OR blind-spot OR feedback)'
+  - id: focused-tms-mapping
+    focus: Adaptive TMS hotspot and motor-cortex mapping
+    arxiv: 'all:TMS AND (all:"hotspot-hunting" OR all:"hotspot hunting" OR all:"motor cortex mapping" OR all:"active learning")'
+    scholarly: 'TMS AND ("hotspot-hunting" OR "hotspot hunting" OR "motor cortex mapping" OR "active learning")'
+  - id: focused-robotic-blood-and-swab
+    focus: Robotic blood collection and swab systems
+    arxiv: 'all:robot AND (all:"blood collection" OR all:venipuncture OR all:"swab robot" OR all:"robotic swab")'
+    scholarly: 'robot AND ("blood collection" OR venipuncture OR "swab robot" OR "robotic swab")'
+  - id: focused-robotic-bronchoscopy
+    focus: Robotic bronchoscopy navigation and diagnostic sampling
+    arxiv: '(all:"robotic bronchoscopy" OR all:"robotic-assisted bronchoscopy") AND (all:diagnostic OR all:sampling OR all:biopsy OR all:yield)'
+    scholarly: '("robotic bronchoscopy" OR "robotic-assisted bronchoscopy") AND (diagnostic OR sampling OR biopsy OR yield)'
+  - id: focused-feedback-microfluidics
+    focus: Real-time feedback control in diagnostic microfluidics
+    arxiv: '(all:"real-time feedback" OR all:"feedback control") AND (all:droplet OR all:microfluidic OR all:EWOD)'
+    scholarly: '("real-time feedback" OR "feedback control") AND (droplet OR microfluidic OR EWOD)'
+  - id: focused-robotic-assessment-devices
+    focus: Robotic and automated physical-assessment devices
+    arxiv: '(all:"spasticity testing" OR all:"knee laxity testing" OR all:"robotic assessment") AND (all:device OR all:robotic OR all:automated)'
+    scholarly: '("spasticity testing" OR "knee laxity testing" OR "robotic assessment") AND (device OR robotic OR automated)'

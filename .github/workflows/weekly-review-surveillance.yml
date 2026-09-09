@@ -1,0 +1,39 @@
+name: Weekly review surveillance
+on:
+  schedule:
+    - cron: "41 3 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run a dated 45-day public-source search
+        shell: bash
+        run: |
+          RUN_ID="$(date -u +%F)-weekly"
+          SINCE="$(date -u -d '45 days ago' +%F)"
+          python scripts/retrospective_search.py --since "$SINCE" --until "$(date -u +%F)" --max-results 100 --run-id "$RUN_ID"
+          python scripts/analyze_search_run.py --run-id "$RUN_ID"
+      - name: Open a reviewable surveillance pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "research: weekly embodied diagnostics surveillance"
+          branch: radar/weekly-review-surveillance
+          delete-branch: true
+          title: "Research: weekly embodied diagnostics surveillance"
+          body: |
+            Public-source screening candidates from the latest 45-day window.
+            Automated signals prioritize human screening and never constitute inclusion.
+            Review `SEARCH_QUALITY.md` for source failures and capped queries.
+          add-paths: |
+            data/review/search_runs/*-weekly/**

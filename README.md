@@ -15,6 +15,8 @@ A curated, reproducible research repository for **embodied intelligence in medic
 - [Daily Paper Radar](docs/DAILY_PAPER_RADAR.md)
 - [Candidate evidence audit](docs/CANDIDATE_EVIDENCE_AUDIT.md)
 - [Coverage and source protocol](docs/SEARCH_COVERAGE_PROTOCOL.md)
+- [Review research and data plan](docs/REVIEW_RESEARCH_AND_DATA_PLAN.md)
+- [Frozen public-source search quality](data/review/search_runs/2026-09-10/SEARCH_QUALITY.md)
 - [Generated results and figures](outputs/)
 - [Review/manuscript research package](archive/imported_packages/)
 - [Releases and provenance](provenance/)
@@ -40,6 +42,8 @@ python scripts/validate_repository.py
 ```
 
 Existing analysis scripts and exact data snapshots are preserved. Networked retrieval will change as bibliographic indexes update; freeze the query date and retain raw responses when refreshing results.
+
+The 10 September 2026 public-source retrospective run retrieved 7,529 source-query records and produced 6,218 deduplicated **screening candidates**. These are workload denominators, not included studies or an estimate of the size of the field. See the quality report for result caps, source-query failures and known-item sensitivity.
 
 ## Contributing
 

@@ -1,0 +1,108 @@
+﻿citekey,citation_occurrences,title,year,doi,url,metadata_status,provenance
+acosta2022multimodal,2,Multimodal biomedical AI,2022,10.1038/s41591-022-01981-2,https://www.nature.com/articles/s41591-022-01981-2,verified_crossref,archived_library
+AdansDester2020PrecisionRehabilitation,1,Enabling precision rehabilitation interventions using wearable sensors and machine learning to track motor recovery,2020,10.1038/s41746-020-00328-w,https://doi.org/10.1038/s41746-020-00328-w,verified_crossref,archived_library
+ahn2012roboticpalpation,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+angello2022optimization,2,Closed-loop optimization of general reaction conditions for heteroaryl Suzuki–Miyaura coupling,2022,10.1126/science.adc8743,https://www.science.org/doi/10.1126/science.adc8743,verified_crossref,archived_library
+Araci2014ImplantableIOP,1,An implantable microfluidic device for self-monitoring of intraocular pressure,2014,10.1038/nm.3621,https://doi.org/10.1038/nm.3621,verified_crossref,archived_library
+bi2024swabrobot,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+bietz2016personalhealth,1,Opportunities and challenges in the use of personal health data for health research,2016,10.1093/jamia/ocv118,https://academic.oup.com/jamia/article/23/e1/e42/2379811,verified_crossref,archived_library
+brown2019closedloop,2,"Six-month randomized, multicenter trial of closed-loop control in type 1 diabetes",2019,10.1056/nejmoa1907863,https://www.nejm.org/doi/full/10.1056/NEJMoa1907863,verified_crossref,archived_library
+brown2023labautomation,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+burger2020chemist,2,A mobile robotic chemist,2020,10.1038/s41586-020-2442-2,https://www.nature.com/articles/s41586-020-2442-2,verified_crossref,archived_library
+chen2012ipop,1,Personal omics profiling reveals dynamic molecular and medical phenotypes,2012,10.1016/j.cell.2012.02.009,https://www.cell.com/fulltext/S0092-8674\%2812\%2900166-3,verified_crossref,archived_library
+chen2023fairness,1,Algorithm fairness in artificial intelligence for medicine and healthcare,2023,10.1038/s41551-023-01056-8,https://www.nature.com/articles/s41551-023-01056-8,verified_crossref,archived_library
+chen2023swabrobot,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+chen2024workload,1,Impact of human and artificial intelligence collaboration on workload reduction in medical image interpretation,2024,10.1038/s41746-024-01328-w,https://www.nature.com/articles/s41746-024-01328-w,verified_crossref,archived_library
+chen2025ultrabot,3,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+chi2023diffusion,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+cohen2020remote,1,Ethical and legal implications of remote monitoring of medical devices,2020,10.1111/1468-0009.12481,https://onlinelibrary.wiley.com/doi/full/10.1111/1468-0009.12481,verified_crossref,archived_library
+cruzrivera2020spiritai,1,Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI extension,2020,10.1038/s41591-020-1037-7,https://www.nature.com/articles/s41591-020-1037-7,verified_crossref,archived_library
+dehond2023validation,1,Perspectives on validation of clinical predictive algorithms,2023,10.1038/s41746-023-00832-9,https://www.nature.com/articles/s41746-023-00832-9,verified_crossref,archived_library
+driess2023palme,1,{PaLM-E}: An Embodied Multimodal Language Model,2023,,https://arxiv.org/abs/2303.03378,primary_arxiv_record,targeted_architectural_precedent
+dunn2021wearable,2,Wearable sensors enable personalized predictions of clinical laboratory measurements,2021,10.1038/s41591-021-01339-0,https://www.nature.com/articles/s41591-021-01339-0,verified_crossref,archived_library
+fda2023pclc,1,Technical Considerations for Medical Devices with Physiologic Closed-Loop Control Technology,2023,,https://www.fda.gov/regulatory-information/search-fda-guidance-documents/technical-considerations-medical-devices-physiologic-closed-loop-control-technology,manual_non_doi_source,archived_library
+fda2025pccp,2,Marketing Submission Recommendations for a Predetermined Change Control Plan for Artificial Intelligence-Enabled Device Software Functions,2025,,https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence,manual_non_doi_source,archived_library
+fda2026cybersecurity,1,Cybersecurity in Medical Devices: Quality Management System Considerations and Content of Premarket Submissions,2026,,https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-management-system-considerations-and-content-premarket,manual_non_doi_source,archived_library
+fda2026humanfactors,3,Applying Human Factors and Usability Engineering to Medical Devices,2026,,https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applying-human-factors-and-usability-engineering-medical-devices,official_fda_guidance,targeted_architectural_precedent
+Ferber2025OncologyAgent,2,Development and validation of an autonomous artificial intelligence agent for clinical decision-making in oncology,2025,10.1038/s43018-025-00991-6,https://doi.org/10.1038/s43018-025-00991-6,verified_crossref,archived_library
+fernandezbussy2025target,2,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+fushimi2025autonomouslab,2,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+Ge2023SmartToilets,1,Passive monitoring by smart toilets for precision health,2023,10.1126/scitranslmed.abk3489,https://doi.org/10.1126/scitranslmed.abk3489,verified_crossref,archived_library
+gerke2020home,1,"Regulatory, safety, and privacy concerns of home monitoring technologies during COVID-19",2020,10.1038/s41591-020-0994-1,https://www.nature.com/articles/s41591-020-0994-1,verified_crossref,archived_library
+ghafur2019wannacry,1,A retrospective impact analysis of the WannaCry cyberattack on the NHS,2019,10.1038/s41746-019-0161-6,https://www.nature.com/articles/s41746-019-0161-6,verified_crossref,archived_library
+ghtf2012ivd,2,Clinical Evidence for IVD Medical Devices—Scientific Validity Determination and Performance Evaluation,2012,,https://www.imdrf.org/sites/default/files/docs/ghtf/final/sg5/technical-docs/ghtf-sg5-n7-2012-scientific-validity-determination-evaluation-121102.pdf,manual_non_doi_source,archived_library
+hafner2025worldmodels,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+Han2025MLPointOfCare,1,Machine learning in point-of-care testing: innovations challenges and opportunities,2025,10.1038/s41467-025-58527-6,https://doi.org/10.1038/s41467-025-58527-6,verified_crossref,archived_library
+harquel2017closedlooptms,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+hase2019sdl,2,Next-generation experimentation with self-driving laboratories,2019,10.1016/j.trechm.2019.02.007,https://www.cell.com/trends/chemistry/abstract/S2589-5974\%2819\%2930019-X,verified_crossref,archived_library
+Hassan2017POCMicrofluidic,1,A point-of-care microfluidic biochip for quantification of CD64 expression from whole blood for sepsis stratification,2017,10.1038/ncomms15949,https://doi.org/10.1038/ncomms15949,verified_crossref,archived_library
+ibrahim2021datapoverty,1,Health data poverty: an assailable barrier to equitable digital health care,2021,10.1016/s2589-7500(20)30317-4,https://www.thelancet.com/journals/landig/article/PIIS2589-7500\%2820\%2930317-4/fulltext,verified_crossref,archived_library
+imdrf2017samd,1,Software as a Medical Device (SaMD): Clinical Evaluation,2017,,https://www.imdrf.org/documents/software-medical-device-samd-clinical-evaluation,manual_non_doi_source,archived_library
+imdrf2025gmlp,2,Good machine learning practice for medical device development: Guiding principles,2025,,https://www.imdrf.org/documents/good-machine-learning-practice-medical-device-development-guiding-principles,manual_non_doi_source,archived_library
+iso14971,1,ISO 14971:2019 Medical devices—Application of risk management to medical devices,2019,,https://www.iso.org/standard/72704.html,manual_non_doi_source,archived_library
+jiang2025medagentbench,3,MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents,2025,10.1056/aidbp2500144,https://ai.nejm.org/doi/full/10.1056/AIdbp2500144,verified_crossref,archived_library
+KalantarZadeh2018IngestibleGas,1,A human pilot trial of ingestible electronic capsules capable of sensing different gases in the gut,2018,10.1038/s41928-017-0004-x,https://doi.org/10.1038/s41928-017-0004-x,verified_crossref,archived_library
+katsoulakis2024twins,1,Digital twins for health: a scoping review,2024,10.1038/s41746-024-01073-0,https://www.nature.com/articles/s41746-024-01073-0,verified_crossref,archived_library
+koch2024shift,1,Distribution shift detection for the postmarket surveillance of medical AI algorithms: a retrospective simulation study,2024,10.1038/s41746-024-01085-w,https://www.nature.com/articles/s41746-024-01085-w,verified_crossref,archived_library
+konstantinova2017palpation,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+leipheimer2018endtoendblood,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+Leipheimer2019AutomatedVenipuncture,1,First-in-human evaluation of a hand-held automated venipuncture device for rapid venous blood draws,2019,10.1142/s2339547819500067,https://doi.org/10.1142/S2339547819500067,verified_crossref,archived_library
+lekadir2025futureai,1,FUTURE-AI: international consensus guideline for trustworthy and deployable artificial intelligence in healthcare,2025,10.1136/bmj-2024-081554,https://www.bmj.com/content/388/bmj-2024-081554,verified_crossref,archived_library
+li2025sequentialpalpation,3,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+lin2022ferrobotic,2,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+lin2025autoruss,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+liu2020consortai,1,Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension,2020,10.1038/s41591-020-1034-x,https://www.nature.com/articles/s41591-020-1034-x,verified_crossref,archived_library
+liu2022audit,1,The medical algorithmic audit,2022,10.1016/s2589-7500(22)00003-6,https://www.thelancet.com/journals/landig/article/PIIS2589-7500\%2822\%2900003-6/fulltext,verified_crossref,archived_library
+macleod2020sdl,2,Self-driving laboratory for accelerated discovery of thin-film materials,2020,10.1126/sciadv.aaz8867,https://www.science.org/doi/10.1126/sciadv.aaz8867,verified_crossref,archived_library
+Malic2025SepsisMicrofluidics,1,A machine learning and centrifugal microfluidics platform for bedside prediction of sepsis,2025,10.1038/s41467-025-59227-x,https://doi.org/10.1038/s41467-025-59227-x,verified_crossref,archived_library
+marcus2024ideal,3,"The IDEAL framework for surgical robotics: development, comparative evaluation and long-term monitoring",2024,10.1038/s41591-023-02732-7,https://www.nature.com/articles/s41591-023-02732-7,verified_crossref,archived_library
+martinezmartin2021ambient,2,Ethical issues in using ambient intelligence in health-care settings,2021,10.1016/s2589-7500(20)30275-2,https://www.thelancet.com/journals/landig/article/PIIS2589-7500\%2820\%2930275-2/fulltext,verified_crossref,archived_library
+mcdonald2024lhs,1,Data to knowledge to improvement: creating the learning health system,2024,10.1136/bmj-2023-076175,https://www.bmj.com/content/384/bmj-2023-076175,verified_crossref,archived_library
+Mehrholz2018RobotArmTraining,1,Electromechanical and robot-assisted arm training for improving activities of daily living arm function and arm muscle strength after stroke,2018,10.1002/14651858.cd006876.pub5,https://doi.org/10.1002/14651858.CD006876.pub5,verified_crossref,archived_library
+mincu2022benchmarks,1,Developing robust benchmarks for driving forward AI innovation in healthcare,2022,10.1038/s42256-022-00559-4,https://www.nature.com/articles/s42256-022-00559-4,verified_crossref,archived_library
+mishra2020presymptomatic,2,Pre-symptomatic detection of COVID-19 from smartwatch data,2020,10.1038/s41551-020-00640-6,https://www.nature.com/articles/s41551-020-00640-6,verified_crossref,archived_library
+Mlakar2025SocialRobotPilot,1,A randomized pilot study evaluating socially assistive robot effects on patient engagement and care quality,2025,10.1038/s41746-025-02117-9,https://doi.org/10.1038/s41746-025-02117-9,verified_crossref,archived_library
+mol2026adopt,3,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+Narang2021GuidedEchoAcquisition,1,Utility of a deep-learning algorithm to guide novices to acquire echocardiograms for limited diagnostic use,2021,10.1001/jamacardio.2021.0185,https://doi.org/10.1001/jamacardio.2021.0185,verified_crossref,archived_library
+Nordin2024PreanalyticalErrors,2,Preanalytical errors in clinical laboratory testing at a glance: source and control measures,2024,10.7759/cureus.57243,https://doi.org/10.7759/cureus.57243,verified_crossref,archived_library
+obermeyer2019bias,1,Dissecting racial bias in an algorithm used to manage the health of populations,2019,10.1126/science.aax2342,https://www.science.org/doi/10.1126/science.aax2342,verified_crossref,archived_library
+Park2020SmartToilet,1,A mountable toilet system for personalized health monitoring via the analysis of excreta,2020,10.1038/s41551-020-0534-9,https://doi.org/10.1038/s41551-020-0534-9,verified_crossref,archived_library
+Plebani2010DetectionPrevention,3,The detection and prevention of errors in laboratory medicine,2010,10.1258/acb.2009.009222,https://doi.org/10.1258/acb.2009.009222,verified_crossref,archived_library
+Pu2019SocialRobots,1,The effectiveness of social robots for older adults: a systematic review and meta-analysis of randomized controlled studies,2019,10.1093/geront/gny046,https://doi.org/10.1093/geront/gny046,verified_crossref,archived_library
+qian2026capsuleqc,2,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+quer2024detectahead,2,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+Rapp2024SelfDrivingProtein,1,Self-driving laboratories to autonomously navigate the protein fitness landscape,2024,10.1038/s44286-023-00002-4,https://doi.org/10.1038/s44286-023-00002-4,verified_crossref,archived_library
+ren2008dropletfeedback,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+rose2019precision,1,A longitudinal big data approach for precision health,2019,10.1038/s41591-019-0414-6,https://www.nature.com/articles/s41591-019-0414-6,verified_crossref,archived_library
+scangos2021closedloop,2,Closed-loop neuromodulation in an individual with treatment-resistant depression,2021,10.1038/s41591-021-01480-w,https://www.nature.com/articles/s41591-021-01480-w,verified_crossref,archived_library
+Schutz2022DigitalExhaust,1,A systems approach towards remote health-monitoring in older adults: introducing a zero-interaction digital exhaust,2022,10.1038/s41746-022-00657-y,https://doi.org/10.1038/s41746-022-00657-y,verified_crossref,archived_library
+shih2014autoverification,2,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+sjoding2020oximetry,1,Racial bias in pulse oximetry measurement,2020,10.1056/nejmc2029240,https://www.nejm.org/doi/full/10.1056/NEJMc2029240,verified_crossref,archived_library
+Slade2022RealWorldExoskeleton,1,Personalizing exoskeleton assistance while walking in the real world,2022,10.1038/s41586-022-05191-1,https://doi.org/10.1038/s41586-022-05191-1,verified_crossref,archived_library
+son2020biopsyendoscope,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+sounderajah2025stardai,1,The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence,2025,10.1038/s41591-025-03953-8,https://www.nature.com/articles/s41591-025-03953-8,verified_crossref,archived_library
+Su2024AutonomousThyroidUltrasound,2,A fully autonomous robotic ultrasound system for thyroid scanning,2024,10.1038/s41467-024-48421-y,https://doi.org/10.1038/s41467-024-48421-y,verified_crossref,archived_library
+swanson2021roboticoct,2,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+Traverso2023IngestibleVitals,1,First-in-human trial of an ingestible vitals-monitoring pill,2023,10.1016/j.device.2023.100125,https://doi.org/10.1016/j.device.2023.100125,verified_crossref,archived_library
+tu2025amie,3,Towards conversational diagnostic artificial intelligence,2025,10.1038/s41586-025-08866-7,https://www.nature.com/articles/s41586-025-08866-7,verified_crossref,archived_library
+turkmen2021autoverification,2,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+vandesande2026oversight,1,Meaningful oversight of medical AI beyond human in the loop,2026,10.1038/s41746-026-02971-1,https://www.nature.com/articles/s41746-026-02971-1,verified_crossref,archived_library
+vardakastani2024palpation,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+vasey2022decideai,1,Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI,2022,10.1038/s41591-022-01772-9,https://www.nature.com/articles/s41591-022-01772-9,verified_crossref,archived_library
+veinot2018inequality,1,Good intentions are not enough: how informatics interventions can worsen inequality,2018,10.1093/jamia/ocy052,https://academic.oup.com/jamia/article/25/8/1080/4996916,verified_crossref,archived_library
+Wang2022WearableBiosensor,1,A wearable electrochemical biosensor for monitoring metabolites and nutrients,2022,10.1038/s41551-022-00916-z,https://doi.org/10.1038/s41551-022-00916-z,verified_crossref,archived_library
+wang2023bloodrobot,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+wang2023roboticocted,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+weise2021activetms,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+who2021ethics,1,Ethics and governance of artificial intelligence for health,2021,,https://www.who.int/publications/i/item/9789240029200,manual_non_doi_source,archived_library
+who2021evidence,1,"Generating Evidence for Artificial Intelligence-Based Medical Devices: A Framework for Training, Validation and Evaluation",2021,,https://www.who.int/publications/i/item/9789240038462,manual_non_doi_source,archived_library
+yang2017medicalrobotics,4,"Medical robotics—Regulatory, ethical, and legal considerations for increasing levels of autonomy",2017,10.1126/scirobotics.aam8638,https://www.science.org/doi/10.1126/scirobotics.aam8638,verified_crossref,archived_library
+Yang2022ParkinsonBreathing,1,Artificial intelligence-enabled detection and assessment of Parkinson's disease using nocturnal breathing signals,2022,10.1038/s41591-022-01932-x,https://doi.org/10.1038/s41591-022-01932-x,verified_crossref,archived_library
+you2025deployment,1,Clinical trials informed framework for real-world clinical implementation and deployment of artificial intelligence applications,2025,10.1038/s41746-025-01506-4,https://www.nature.com/articles/s41746-025-01506-4,verified_crossref,archived_library
+Yu2022DementiaSocialRobots,1,Socially assistive robots for people with dementia: systematic review and meta-analysis of feasibility acceptability and the effect on cognition neuropsychiatric symptoms and quality of life,2022,10.1016/j.arr.2022.101633,https://doi.org/10.1016/j.arr.2022.101633,verified_crossref,archived_library
+Zargartalebi2024ActiveReset,1,Active-reset protein sensors enable continuous in vivo monitoring of inflammation,2024,10.1126/science.adn2600,https://doi.org/10.1126/science.adn2600,verified_crossref,archived_library
+Zhang2017ExoskeletonOptimization,1,Human-in-the-loop optimization of exoskeleton assistance during walking,2017,10.1126/science.aal5054,https://doi.org/10.1126/science.aal5054,verified_crossref,archived_library
+zhang2021autonomouscolonoscopy,2,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+zheng2026aorta,1,,,,,verified_doi_content_negotiation,targeted_primary_evidence
+zhou2019multiomics,1,Longitudinal multi-omics of host–microbe dynamics in prediabetes,2019,10.1038/s41586-019-1236-x,https://www.nature.com/articles/s41586-019-1236-x,verified_crossref,archived_library
+zitkovich2023rt2,1,{RT-2}: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control,2023,,https://proceedings.mlr.press/v229/zitkovich23a.html,official_pmlr_record,targeted_architectural_precedent
