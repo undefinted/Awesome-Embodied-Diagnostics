@@ -4,6 +4,7 @@ from __future__ import annotations
 import html
 import json
 import csv
+from collections import defaultdict
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -39,6 +40,34 @@ if audited_path.exists():
     with audited_path.open(encoding="utf-8-sig", newline="") as handle:
         audited = list(csv.DictReader(handle))
     items = [{"title": item["title"], "url": item["url"], "source": item["source"], "year": item["reported_year"], "relevance_score": item["scope_status"], "query_focus": item["scope_reason"]} for item in audited if item.get("identifier_verified") == "True" and item.get("scope_status") in {"core_candidate", "adjacent"}]
+
+# Preserve the larger historical screening snapshots as a separate, explicitly
+# labelled evidence map. These records are not silently upgraded to audited.
+historical = []
+for catalog in (ROOT / "data" / "bibliometrics_v2_arxiv" / "included.csv", ROOT / "data" / "active_extension_v5" / "included_auto_screened.csv"):
+    if catalog.exists():
+        with catalog.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                if (
+                    str(row.get("included", "")).lower() != "true"
+                    or row.get("evidence_tier") != "Core (title-explicit)"
+                    or not row.get("title")
+                    or not (row.get("url") or row.get("doi"))
+                ):
+                    continue
+                historical.append(row)
+seen = set(); historical_unique = []
+for row in historical:
+    key = (row.get("doi") or row.get("title", "")).strip().lower()
+    if key and key not in seen:
+        seen.add(key); historical_unique.append(row)
+historical = historical_unique
+history_groups = defaultdict(list)
+for row in historical:
+    date_value = row.get("publication_date") or f"{row.get('year','Unknown')}-01-01"
+    year, month = date_value[:4], date_value[5:7] if len(date_value) >= 7 else "01"
+    direction = row.get("task_en") or row.get("primary_task") or "Unclassified"
+    history_groups[(direction, year, month)].append(row)
 query_data = yaml.safe_load((ROOT / "data" / "discovery_queries.yaml").read_text(encoding="utf-8")) or {}
 queries = query_data.get("queries", [])
 source_counts = Counter(item.get("source", "Unknown") for item in items)
@@ -79,7 +108,7 @@ page = f'''<!doctype html>
 <body>
   <header class="topbar">
     <a class="brand" href="#top" aria-label="Awesome Embodied Diagnostics home"><span class="brand-mark">ED</span><span>Awesome-Embodied-Diagnostics</span></a>
-    <nav><a href="#landscape">Landscape</a><a href="#papers">Paper radar</a><a href="https://github.com/undefinted/Awesome-Embodied-Diagnostics">GitHub</a></nav>
+    <nav><a href="#landscape">Landscape</a><a href="#papers">Paper radar</a><a href="#evidence-map">Evidence map</a><a href="https://github.com/undefinted/Awesome-Embodied-Diagnostics">GitHub</a></nav>
   </header>
 
   <main id="top">
@@ -128,9 +157,14 @@ page = f'''<!doctype html>
       {empty_message}
       <div class="table-wrap" {'hidden' if not items else ''}><table><thead><tr><th>Paper and retrieval focus</th><th>Source</th><th>Year</th><th>Signal</th></tr></thead><tbody id="paper-body">{rows}</tbody></table></div>
     </section>
+
+    <section id="evidence-map" class="section">
+      <div class="section-heading"><div><p class="eyebrow">Historical evidence map</p><h2>Research direction → year → month → paper</h2></div><p>{len(historical)} deduplicated title-explicit records from repository screening snapshots. This is a historical screening layer, not an independently full-text-verified systematic-review corpus.</p></div>
+      <div class="history-map">{''.join(f'<details open><summary><b>{esc(direction)}</b><span>{sum(len(v) for (d,y,m),v in history_groups.items() if d==direction)} papers</span></summary>'+''.join(f'<details><summary>{year}-{month} <span>{len(group)} papers</span></summary><ul>'+''.join(f'<li><a href="{esc(r.get("url") or r.get("doi"))}" target="_blank" rel="noreferrer">{esc(r.get("title"))}</a><small>{esc(r.get("venue"))} · {esc(r.get("evidence_tier") or "historical screened")}</small></li>' for r in group)+'</ul></details>' for (d,year,month),group in sorted(history_groups.items()) if d==direction)+'</details>' for direction in sorted({d for d,_,_ in history_groups}))}</div>
+    </section>
   </main>
 
-  <footer><div><span class="brand-mark small">ED</span><b>Awesome-Embodied-Diagnostics</b></div><p>Generated {generated:%B %d, %Y at %H:%M UTC}. Open data, explicit boundaries, living review.</p><a href="https://github.com/undefinted/Awesome-Embodied-Diagnostics">View repository &#8599;</a></footer>
+  <footer><div><span class="brand-mark small">ED</span><b>Awesome-Embodied-Diagnostics</b></div><p>Generated {generated:%B %d, %Y at %H:%M UTC}. Open data, explicit boundaries, living review.</p><a href="https://undefinted.github.io/Awesome-Embodied-Diagnostics/">Open GitHub Pages &#8599;</a></footer>
   <script src="app.js"></script>
 </body>
 </html>'''
@@ -140,6 +174,17 @@ css = r''':root{--ink:#172026;--muted:#617079;--paper:#f6f7f5;--white:#fff;--lin
 js = r'''const search=document.querySelector('#search');const source=document.querySelector('#source');const rows=[...document.querySelectorAll('#paper-body tr')];const count=document.querySelector('#visible-count');function filter(){const q=(search?.value||'').trim().toLowerCase();const s=source?.value||'';let visible=0;rows.forEach(row=>{const show=(!q||row.dataset.search.includes(q))&&(!s||row.dataset.source===s);row.hidden=!show;if(show)visible++});if(count)count.textContent=visible}search?.addEventListener('input',filter);source?.addEventListener('change',filter);'''
 
 (SITE / "index.html").write_text(page, encoding="utf-8")
-(SITE / "styles.css").write_text(css, encoding="utf-8")
+(SITE / "styles.css").write_text(css + r'''
+.history-map{border-top:1px solid var(--line)}
+.history-map details{background:var(--white);border:1px solid var(--line);border-top:0}
+.history-map summary{cursor:pointer;display:flex;justify-content:space-between;gap:20px;padding:16px 20px;color:var(--navy)}
+.history-map summary b{font-size:16px}.history-map summary span{font-size:12px;color:var(--muted);white-space:nowrap}
+.history-map details details{margin:0 18px;border-top:1px solid var(--line);border-left:0;border-right:0}
+.history-map details details summary{padding:12px 2px;font-size:13px}
+.history-map ul{margin:0;padding:0 18px 14px;list-style:none}
+.history-map li{padding:10px 0;border-top:1px solid #eef1ef}
+.history-map li a{display:block;color:var(--ink);font-size:14px;font-weight:650;line-height:1.4;text-decoration:none}
+.history-map li a:hover{color:var(--teal)}.history-map small{display:block;margin-top:4px;color:var(--muted);font-size:11px}
+''', encoding="utf-8")
 (SITE / "app.js").write_text(js, encoding="utf-8")
 print(f"site generated: {len(items)} candidates, {len(queries)} directions")
