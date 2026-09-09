@@ -74,6 +74,9 @@ source_counts = Counter(item.get("source", "Unknown") for item in items)
 latest_year = max((str(item.get("year")) for item in items if item.get("year")), default="--")
 generated = datetime.now(timezone.utc)
 audit_counts = Counter(item.get("scope_status", "") for item in audited)
+review_runs = sorted((ROOT / "data" / "review" / "search_runs").glob("*/summary.json")) if (ROOT / "data" / "review" / "search_runs").exists() else []
+review_summary = json.loads(review_runs[-1].read_text(encoding="utf-8")) if review_runs else {}
+review_candidates = int(review_summary.get("deduplicated_candidates", 0))
 
 query_cards = "".join(
     f'''<article class="domain-card">
@@ -139,6 +142,7 @@ page = f'''<!doctype html>
       <div><strong>{len(items)}</strong><span>Verified scope candidates</span></div>
       <div><strong>{len(source_counts) or 4}</strong><span>Scholarly source families</span></div>
       <div><strong>{audit_counts.get("core_candidate", 0)}</strong><span>Core candidates</span></div>
+      <div><strong>{review_candidates:,}</strong><span>Retrospective candidates, unreviewed</span></div>
     </section>
 
     <section id="landscape" class="section">
@@ -159,7 +163,7 @@ page = f'''<!doctype html>
     </section>
 
     <section id="evidence-map" class="section">
-      <div class="section-heading"><div><p class="eyebrow">Historical evidence map</p><h2>Research direction → year → month → paper</h2></div><p>{len(historical)} deduplicated title-explicit records from repository screening snapshots. This is a historical screening layer, not an independently full-text-verified systematic-review corpus.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">Historical evidence map</p><h2>Research direction → year → month → paper</h2></div><p>{len(historical)} deduplicated title-explicit records from repository screening snapshots. The frozen public-source search additionally contains {review_candidates:,} unreviewed candidates. Neither number is an independently full-text-verified systematic-review corpus.</p></div>
       <div class="history-map">{''.join(f'<details open><summary><b>{esc(direction)}</b><span>{sum(len(v) for (d,y,m),v in history_groups.items() if d==direction)} papers</span></summary>'+''.join(f'<details><summary>{year}-{month} <span>{len(group)} papers</span></summary><ul>'+''.join(f'<li><a href="{esc(r.get("url") or r.get("doi"))}" target="_blank" rel="noreferrer">{esc(r.get("title"))}</a><small>{esc(r.get("venue"))} · {esc(r.get("evidence_tier") or "historical screened")}</small></li>' for r in group)+'</ul></details>' for (d,year,month),group in sorted(history_groups.items()) if d==direction)+'</details>' for direction in sorted({d for d,_,_ in history_groups}))}</div>
     </section>
   </main>

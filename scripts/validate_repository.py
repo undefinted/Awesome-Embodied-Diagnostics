@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,17 +23,32 @@ def main() -> int:
         ROOT / "data" / "standalone_snapshots" / "2026-08-12" / "literature_multisource_deduplicated.csv",
         ROOT / "data" / "standalone_snapshots" / "2026-08-12" / "literature_task_assignments_all_snapshots.csv",
         ROOT / "data" / "standalone_snapshots" / "2026-08-12" / "query_log.csv",
+        ROOT / "data" / "review" / "review_protocol.yaml",
+        ROOT / "data" / "review" / "evidence_extraction_template.csv",
+        ROOT / "data" / "review" / "manuscript_evidence_seed.csv",
+        ROOT / "data" / "review" / "search_runs" / "2026-09-10" / "candidates.csv",
+        ROOT / "data" / "review" / "search_runs" / "2026-09-10" / "summary.json",
     ]
     missing = [str(path.relative_to(ROOT)) for path in required if not path.exists()]
     if missing:
         print("Missing required files:", ", ".join(missing))
         return 1
 
-    for path in required[1:]:
+    for path in required[1:4]:
         rows, columns = count_csv(path)
         print(f"{path.name}: {rows} rows, {columns} columns")
         if not rows or not columns:
             return 1
+
+    run = ROOT / "data" / "review" / "search_runs" / "2026-09-10"
+    candidate_rows, _ = count_csv(run / "candidates.csv")
+    summary = json.loads((run / "summary.json").read_text(encoding="utf-8"))
+    if candidate_rows != summary.get("deduplicated_candidates"):
+        print("Frozen search row count does not match summary")
+        return 1
+    seed_rows, _ = count_csv(ROOT / "data" / "review" / "manuscript_evidence_seed.csv")
+    print(f"review evidence seed: {seed_rows} study reports")
+    print(f"frozen retrospective candidates: {candidate_rows} awaiting human screening")
 
     tracked_pdfs = list(ROOT.rglob("*.pdf"))
     tracked_pdfs = [p for p in tracked_pdfs if "local_only" not in p.parts]
