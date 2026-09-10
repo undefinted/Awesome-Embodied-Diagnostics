@@ -1,6 +1,16 @@
 review_type: structured_narrative_evidence_map
 status: prospective_protocol_for_next_revision
 last_updated: 2026-09-10
+protocol_version: 2026-09-10.2
+registration:
+  status: not_registered
+  rule: Registration must occur before definitive screening; a later registration must be labelled retrospective.
+review_question:
+  primary: Which medical detection systems use current observations to change subsequent physical acquisition, interaction, sampling, verification, routing, or stopping, and what evidence supports their clinical translation?
+  secondary:
+    - Which systems close strategic, execution, verification, or human-mediated loops?
+    - How do action consequence and execution authority constrain permissible adaptation?
+    - Which technical, diagnostic, safety, workflow, human-factor, and patient-benefit outcomes have been evaluated?
 unit_of_analysis:
   primary: study_report
   secondary: embodied_system
@@ -12,6 +22,10 @@ scope:
     - clinical_detection_and_intervention
     - laboratory_diagnostics_and_assay_development
     - everyday_monitoring_and_adaptive_support
+  definitive_search_dates: database_inception_to_final_search_date
+  current_public_snapshot_dates: 2000-01-01_to_2026-09-10
+  language: no_language_restriction_at_search; translation feasibility recorded during screening
+  publication_status: peer-reviewed reports and preprints retrieved; versions linked and analysed without double counting
 inclusion_requires:
   - diagnostic_objective
   - physical_patient_specimen_instrument_or_environment_interaction
@@ -46,6 +60,38 @@ analysis_rules:
   - Treat automated relevance labels as screening aids, never inclusion decisions.
   - Separate within-action feedback from authority to repeat an invasive action.
   - Report missingness and not-reported values explicitly.
+  - Machine labels may order work but may not remove records from human screening without a prespecified validated automation study.
+  - Preserve exact source locations for every extracted numerical or categorical claim.
+  - Keep the representative evidence seed separate from the final included-study corpus.
+screening_process:
+  title_abstract: two independent named reviewers followed by adjudication of disagreements
+  full_text: two independent named reviewers with one prespecified exclusion reason per excluded report
+  machine_assistance: prioritization_only
+  reviewer_independence: reviewer identifiers must differ
+data_extraction:
+  process: piloted form followed by duplicate extraction or independent verification
+  identity_levels:
+    - report_id
+    - study_id
+    - system_id
+  provenance_required:
+    - source_url_or_local_document_id
+    - page_table_figure_or_section
+    - exact_supporting_text_or_structured_value
+    - extractor_id
+    - verifier_id
+    - verification_date
+synthesis_plan:
+  default: structured qualitative synthesis with explicit grouping by diagnostic direction and evidence stage
+  descriptive_counts: report study and system denominators separately
+  meta_analysis: only after clinical and statistical compatibility is established prospectively
+  heterogeneous_outcomes: follow a synthesis-without-meta-analysis reporting structure
+  certainty: assess only for clearly defined outcome-level bodies of evidence
+amendments:
+  - date: 2026-09-10
+    version: 2026-09-10.2
+    change: Added all-record human screening, explicit reviewer independence, report-study-system linkage, source-location provenance, and publication-readiness gates.
+    timing: prospective for the next definitive review cycle; retrospective relative to the existing representative seed
 required_for_systematic_review_claim:
   - validated_database_specific_searches
   - subscription_database_exports_where_available
@@ -55,4 +101,3 @@ required_for_systematic_review_claim:
   - backward_and_forward_citation_chasing
   - risk_of_bias_or_quality_assessment
   - prisma_flow
-

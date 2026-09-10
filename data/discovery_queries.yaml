@@ -103,3 +103,11 @@ queries:
     focus: Robotic and automated physical-assessment devices
     arxiv: '(all:"spasticity testing" OR all:"knee laxity testing" OR all:"robotic assessment") AND (all:device OR all:robotic OR all:automated)'
     scholarly: '("spasticity testing" OR "knee laxity testing" OR "robotic assessment") AND (device OR robotic OR automated)'
+  - id: wearable-alert-confirmatory-testing
+    focus: Wearable alerts linked to confirmatory ECG or diagnostic testing
+    arxiv: '(all:wearable OR all:smartwatch OR all:"smart watch") AND (all:notification OR all:alert OR all:prompt) AND (all:"ambulatory ECG" OR all:"ECG patch" OR all:confirmatory OR all:testing)'
+    scholarly: '(wearable OR smartwatch OR "smart watch") AND (notification OR alert OR prompt) AND ("ambulatory ECG" OR "ECG patch" OR confirmatory OR testing)'
+  - id: ferrobotic-molecular-testing
+    focus: Ferrobotic and magnetic digital microfluidic molecular testing
+    arxiv: '(all:ferrobotic OR all:"magnetic digital microfluidics") AND (all:testing OR all:diagnostic OR all:assay)'
+    scholarly: '(ferrobotic OR "magnetic digital microfluidics") AND (testing OR diagnostic OR assay)'

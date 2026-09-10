@@ -75,12 +75,20 @@ def classify(row: dict[str, str], rules: dict) -> dict[str, str]:
         "matched_exclusion_terms": ";".join(
             sorted(context_hits + [term for values in publication_hits.values() for term in values])
         ),
+        "human_screening_required": "yes",
+        "machine_decision_is_final": "no",
+        "reviewer_1_id": "",
         "reviewer_1_decision": "",
         "reviewer_1_reason": "",
+        "reviewer_1_date": "",
+        "reviewer_2_id": "",
         "reviewer_2_decision": "",
         "reviewer_2_reason": "",
+        "reviewer_2_date": "",
         "adjudicated_decision": "",
         "adjudicated_reason": "",
+        "adjudicator_id": "",
+        "adjudication_date": "",
     }
 
 
@@ -121,11 +129,33 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(screened)
 
+    queue_fields = [
+        "record_id", "machine_screening_suggestion", "machine_screening_reason",
+        "human_screening_required", "machine_decision_is_final", "direction", "year",
+        "title", "abstract", "doi", "pmid", "pmcid", "arxiv_id", "url",
+        "retrieval_provenance", "reviewer_1_id", "reviewer_1_decision",
+        "reviewer_1_reason", "reviewer_1_date", "reviewer_2_id",
+        "reviewer_2_decision", "reviewer_2_reason", "reviewer_2_date",
+        "adjudicated_decision", "adjudicated_reason", "adjudicator_id",
+        "adjudication_date",
+    ]
+    human_queue = [
+        row for row in screened
+        if row.get("future_year_flag", "").strip().lower() != "true"
+    ]
+    queue = run / "title_abstract_screening_queue.csv"
+    with queue.open("w", newline="", encoding="utf-8-sig") as handle:
+        writer = csv.DictWriter(handle, fieldnames=queue_fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(human_queue)
+
     counts = Counter(row["machine_screening_suggestion"] for row in screened)
     summary = {
         "run_id": args.run_id,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "records": len(screened),
+        "human_screening_queue_records": len(human_queue),
+        "machine_excluded_without_human_review": 0,
         "rules_version": rules["version"],
         "rules_sha256": hashlib.sha256(rules_bytes).hexdigest(),
         "suggestion_counts": dict(sorted(counts.items())),
@@ -139,4 +169,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

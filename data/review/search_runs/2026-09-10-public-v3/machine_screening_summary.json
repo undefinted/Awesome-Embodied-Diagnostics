@@ -1,0 +1,18 @@
+{
+  "run_id": "2026-09-10-public-v3",
+  "generated_at": "2026-09-10T12:16:55.394680+00:00",
+  "records": 6358,
+  "human_screening_queue_records": 6354,
+  "machine_excluded_without_human_review": 0,
+  "rules_version": "2026-09-10.1",
+  "rules_sha256": "86f999c61dbbe0ba667979c579c90af4067f4200023dd3822e5899e86ae37a54",
+  "suggestion_counts": {
+    "exclude_non_primary": 488,
+    "exclude_nonmedical_context": 160,
+    "low_priority_screen": 1673,
+    "manual_scope_screen": 3495,
+    "priority_core_screen": 87,
+    "priority_enabling_screen": 455
+  },
+  "claim_boundary": "Rules never make final inclusion decisions."
+}

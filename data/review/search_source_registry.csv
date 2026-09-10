@@ -1,0 +1,9 @@
+source,coverage_role,access_status,definitive_search_status,query_translation_status,raw_export_status,limitation
+PubMed/MEDLINE,biomedical journals,public,public-v3 complete for 28 registered query families with zero truncation,explicit Title/Abstract translation implemented; information-specialist peer review pending,raw JSONL and candidates retained,No single database is complete
+Europe PMC,biomedical and repository discovery,public,public-v3 complete for 28 registered query families with zero truncation,explicit TITLE_ABS translation implemented; information-specialist peer review pending,raw JSONL and candidates retained,Overlaps PubMed and includes additional repository content
+OpenAlex,cross-disciplinary discovery,public,supplementary only; excluded from definitive public-v3 count,broad search parameter failed equivalence check,capped legacy candidate snapshot retained,Discovery index rather than a substitute for bibliographic databases
+arXiv,engineering and AI preprints,public,public-v3 complete for 28 registered query families with zero truncation,registered platform-specific syntax implemented; information-specialist peer review pending,raw JSONL and candidates retained,Preprints must be linked to journal versions
+IEEE Xplore,engineering conferences and journals,institutional access required,not run,not started,not available,Access and export required
+Scopus,cross-disciplinary citation index,institutional access required,not run,not started,not available,Access and export required
+Web of Science,cross-disciplinary citation index,institutional access required,not run,not started,not available,Access and export required
+Embase,biomedical and device literature,institutional access required,not run,not started,not available,Access and export required

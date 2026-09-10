@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from synthesize_review_evidence import denominator_summary  # noqa: E402
+from synthesize_review_evidence import denominator_summary, is_missing  # noqa: E402
 
 
 class EvidenceTableTest(unittest.TestCase):
@@ -27,6 +27,12 @@ class EvidenceTableTest(unittest.TestCase):
             "development_data": "",
         }
         self.assertEqual(denominator_summary(row), "NR")
+
+    def test_explicit_nr_is_counted_as_missing(self) -> None:
+        self.assertTrue(is_missing("NR"))
+        self.assertTrue(is_missing("not_reported"))
+        self.assertTrue(is_missing(""))
+        self.assertFalse(is_missing("0"))
 
 
 if __name__ == "__main__":

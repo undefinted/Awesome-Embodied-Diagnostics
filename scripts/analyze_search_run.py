@@ -6,6 +6,7 @@ import csv
 import json
 import re
 from collections import Counter
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +22,7 @@ def write_counts(path: Path, label: str, counts: Counter[str]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--run-id", required=True)
+    parser.add_argument("--manuscript-dir", type=Path)
     args = parser.parse_args()
     run = ROOT / "data" / "review" / "search_runs" / args.run_id
     with (run / "candidates.csv").open(encoding="utf-8-sig", newline="") as handle:
@@ -43,7 +45,7 @@ def main() -> None:
     priority = {"high": 0, "possible": 1}
     queue.sort(key=lambda r: (priority[r["automated_signal"]], 0 if r.get("doi") or r.get("pmid") or r.get("arxiv_id") else 1, -(int(r["year"]) if r.get("year", "").isdigit() else 0), r["title"]))
     queue_fields = ["record_id", "automated_signal", "direction", "year", "title", "doi", "pmid", "pmcid", "arxiv_id", "url", "retrieval_provenance", "screening_status"]
-    with (run / "title_abstract_screening_queue.csv").open("w", newline="", encoding="utf-8-sig") as handle:
+    with (run / "automated_priority_subset.csv").open("w", newline="", encoding="utf-8-sig") as handle:
         writer = csv.DictWriter(handle, fieldnames=queue_fields, extrasaction="ignore"); writer.writeheader(); writer.writerows(queue)
     quarantine = [r for r in rows if r.get("future_year_flag", "").lower() == "true"]
     with (run / "metadata_quarantine.csv").open("w", newline="", encoding="utf-8-sig") as handle:
@@ -52,6 +54,8 @@ def main() -> None:
     multi_source = sum(len(set(part.split(":", 1)[0] for part in r["retrieval_provenance"].split(";") if part)) > 1 for r in rows)
     overlap_available = multi_source > 0 or summary["retrieved_source_query_records"] == len(rows)
     known_retrieved = sum(r.get("retrieved", "").lower() == "true" for r in seed_rows)
+    core_seed_rows = [r for r in seed_rows if r.get("core_search_expected", "").lower() == "true"]
+    core_known_retrieved = sum(r.get("retrieved", "").lower() == "true" for r in core_seed_rows)
     saturated = sum(r.get("truncated_at_limit", "").lower() == "true" for r in log)
     title_counts = Counter(re.sub(r"[^a-z0-9]+", "", r["title"].lower()) for r in rows if r["title"])
     duplicate_title_clusters = sum(count > 1 for count in title_counts.values())
@@ -84,19 +88,45 @@ def main() -> None:
         "These checks detect internal metadata problems; DOI/title agreement and full-text relevance still require verification.", "",
         "## Known-item sensitivity check", "",
         f"The strategy retrieved {known_retrieved}/{len(seed_rows)} manuscript evidence seeds ({known_retrieved / len(seed_rows):.1%})" if seed_rows else "Known-item testing has not been run.",
+        (f"Among seed reports coded as direct, bounded, human-mediated or assisted-sampling evidence, it retrieved {core_known_retrieved}/{len(core_seed_rows)} ({core_known_retrieved / len(core_seed_rows):.1%})." if core_seed_rows else "Role-stratified known-item testing has not been run."),
         "This is sensitivity against a small convenience set, not recall against an unknown universe. Missing known items require query refinement or documented citation chasing.", "",
         "## Can these data support review figures?", "",
-        "Not yet for publication-volume or prevalence claims. Capped queries, heterogeneous index coverage and pending human screening make raw retrieval counts unsuitable as estimates of the field. The data are suitable for managing screening workload, finding terminology gaps and documenting source coverage.", "",
+        (("Not yet for publication-volume or prevalence claims. Result caps, heterogeneous index coverage and pending human screening make raw retrieval counts unsuitable as estimates of the field." if saturated else "Not yet for publication-volume or prevalence claims. Although this run has no configured result-cap truncation, heterogeneous index coverage, known-item gaps and pending human screening make raw retrieval counts unsuitable as estimates of the field.")),
+        "The data are suitable for managing screening workload, finding terminology gaps and documenting source coverage.", "",
+        "The high/possible subset is an ordering aid only. Every non-quarantined candidate remains eligible for human title-and-abstract screening; automated low-priority or exclusion suggestions are never final decisions.",
         "After duplicate human screening, final included records can support descriptive counts by direction, year, evidence stage, loop execution and safety-reporting status. Task-success percentages should remain study-level unless a separate meta-analysis establishes compatible designs and outcomes.", "",
         "## Required next steps", "",
-        "1. Split every capped query by year or narrower concept until no stratum is truncated.",
+        ("1. Split every capped query by year or narrower concept until no stratum is truncated." if saturated else "1. Preserve the zero-truncation audit and rerun any source-query pair whose returned count no longer matches its reported total."),
         "2. Resolve any recorded source-query failures and preserve them explicitly when a source remains unavailable.",
         "3. Import IEEE Xplore, Embase, Scopus and Web of Science exports where institutional access permits.",
-        "4. Screen the high/possible queue independently in duplicate, then retrieve full text.",
+        "4. Screen every non-quarantined candidate independently in duplicate; machine signals only determine order.",
         "5. Perform backward and forward citation chasing and deduplicate at both report and system level.",
         "6. Populate the extraction schema and conduct study-design-appropriate quality assessment.", "",
     ]
     (run / "SEARCH_QUALITY.md").write_text("\n".join(report), encoding="utf-8")
+    human_queue = len(rows) - future_years
+    until_date = date.fromisoformat(summary["until"])
+    until_label = f"{until_date.day} {until_date.strftime('%B %Y')}"
+    generated_summary = (
+        f"The frozen definitive public-source search covered 1 January 2000 to {until_label} "
+        f"across PubMed, Europe PMC and arXiv. It retrieved {summary['retrieved_source_query_records']:,} "
+        f"source--query records and produced {len(rows):,} identifier- or title-deduplicated candidates; "
+        f"{human_queue:,} non-quarantined records entered the human title-and-abstract screening ledger, "
+        f"with {sum(r['automated_signal'] in {'high', 'possible'} for r in rows):,} high- or possible-signal "
+        "records used only to order screening. All "
+        f"{summary.get('configured_source_query_pairs', len(log))} configured source--query pairs completed, "
+        f"no result-cap truncation remained, and returned counts matched source-reported totals. "
+        "OpenAlex remains a supplementary discovery source rather than part of this definitive count because "
+        "its broad search parameter has not been validated as an equivalent Boolean bibliographic search. "
+        f"The strategy retrieved {known_retrieved}/{len(seed_rows)} representative manuscript seeds"
+        + (f" and {core_known_retrieved}/{len(core_seed_rows)} seeds coded as direct, bounded, human-mediated or assisted-sampling evidence" if core_seed_rows else "")
+        + ". These are retrieval and workload denominators, not included-study counts or estimates of field size. "
+        "Duplicate independent screening, full-text exclusion records, report--study--system linkage, citation "
+        "chasing and design-specific risk-of-bias assessment remain required before any systematic-review claim.\n"
+    )
+    (run / "manuscript_search_summary.tex").write_text(generated_summary, encoding="utf-8")
+    if args.manuscript_dir:
+        (args.manuscript_dir / "generated_search_summary.tex").write_text(generated_summary, encoding="utf-8")
     print(f"screening_queue={len(queue)} multi_source={multi_source} saturated_queries={saturated}")
 
 

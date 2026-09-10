@@ -26,6 +26,8 @@ class ScreeningRulesTest(unittest.TestCase):
         result = classify(row, self.rules)
         self.assertEqual(result["machine_screening_suggestion"], "priority_core_screen")
         self.assertEqual(result["adjudicated_decision"], "")
+        self.assertEqual(result["human_screening_required"], "yes")
+        self.assertEqual(result["machine_decision_is_final"], "no")
 
     def test_review_is_not_treated_as_primary_evidence(self) -> None:
         row = {

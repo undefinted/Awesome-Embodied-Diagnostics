@@ -1,0 +1,2 @@
+﻿run_id,query_id,focus,source,query_text,since,until,configured_result_limit,validation_status,query_registry_sha256
+2026-09-10-openalex-access-check,robotic-ultrasound,Robotic ultrasound and adaptive imaging,openalex,"search=""robotic ultrasound"" OR ""autonomous ultrasound"" OR ""ultrasound robot""; filter=from_publication_date:2000-01-01,to_publication_date:2026-09-10",2000-01-01,2026-09-10,1,programmatic platform translation; information-specialist peer review pending,a60b5db0f02c896fb6f0d54f2971f6b89227f3327c67c713b6356cf2ccb56048

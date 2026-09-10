@@ -50,6 +50,10 @@ def concise(value: str) -> str:
     return value.replace("_", " ").strip()
 
 
+def is_missing(value: str) -> bool:
+    return value.strip().lower() in {"", "nr", "not reported", "not_reported"}
+
+
 def denominator_summary(row: dict[str, str]) -> str:
     fields = (
         ("participants", row["participant_n"]),
@@ -57,7 +61,7 @@ def denominator_summary(row: dict[str, str]) -> str:
         ("procedures", row["procedure_n"]),
         ("development data", row["development_data"]),
     )
-    reported = [f"{label}: {value}" for label, value in fields if value and value != "NR"]
+    reported = [f"{label}: {value}" for label, value in fields if not is_missing(value)]
     return "; ".join(reported) if reported else "NR"
 
 
@@ -167,6 +171,17 @@ def main() -> None:
     citations = keyed(read_csv(REVIEW / "main_table_citations.csv"), "study", "citations")
     if any(set(seeds) != set(dataset) for dataset in (codes, verified, claim_audit, characteristics, outcome_categories)):
         raise SystemExit("All reviewer-coded, verification and claim-audit study sets must match the seed exactly")
+    coded_for_table = {
+        study for study in seeds
+        if codes[study]["main_table"] == "yes" and characteristics[study]["main_table"] == "yes"
+    }
+    if coded_for_table != set(citations):
+        missing_citations = sorted(coded_for_table - set(citations))
+        uncoded_citations = sorted(set(citations) - coded_for_table)
+        raise SystemExit(
+            "Main-table coding and citation selections must match exactly; "
+            f"missing citations={missing_citations}; citations without dual yes coding={uncoded_citations}"
+        )
 
     ledger: list[dict[str, str]] = []
     for index, study in enumerate(seeds, start=1):
@@ -225,7 +240,20 @@ def main() -> None:
         for value in row["outcome_categories"].split(";")
         if value.strip()
     )
-    missingness = [{"field": field, "missing_reports": sum(not row.get(field, "").strip() for row in ledger), "denominator": len(ledger)} for field in ledger[0]]
+    missingness = []
+    for field in ledger[0]:
+        blank = sum(not row.get(field, "").strip() for row in ledger)
+        explicit_nr = sum(
+            row.get(field, "").strip().lower() in {"nr", "not reported", "not_reported"}
+            for row in ledger
+        )
+        missingness.append({
+            "field": field,
+            "blank_reports": blank,
+            "explicit_not_reported": explicit_nr,
+            "missing_reports": blank + explicit_nr,
+            "denominator": len(ledger),
+        })
     write_rows(OUT / "missingness.csv", missingness)
 
     table = build_table(selected)
