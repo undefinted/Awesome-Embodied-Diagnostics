@@ -17,6 +17,16 @@ action_risk,0,24
 execution_authority,0,24
 main_table,0,24
 rationale,0,24
+display_label,0,24
+population_or_material,0,24
+participant_n,0,24
+specimen_or_measurement_n,1,24
+procedure_n,0,24
+development_data,23,24
+comparator,0,24
+outcome_domains,0,24
+translation_stage,0,24
+outcome_categories,0,24
 resolved_title,0,24
 resolved_identifier,0,24
 metadata_status,0,24

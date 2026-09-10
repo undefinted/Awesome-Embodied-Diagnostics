@@ -1,0 +1,25 @@
+study,outcome_categories
+A fully autonomous robotic ultrasound system for thyroid scanning,technical_acquisition;diagnostic_performance;workflow_efficiency
+Towards expert-level autonomous carotid ultrasonography with large-scale learning-based robotic system,technical_acquisition
+Contactless optical coherence tomography of the eyes of freestanding individuals with a robotic scanner,technical_acquisition
+Robotic optical coherence tomography retinal imaging for emergency department patients,technical_acquisition;diagnostic_performance
+Impact of a real-time automatic quality control system for magnetically controlled capsule gastroscopy,technical_acquisition;diagnostic_performance;workflow_efficiency
+Bimodal tactile tomography with Bayesian sequential palpation,technical_acquisition
+A minimally invasive robotic tissue palpation device,technical_acquisition
+Automated TMS hotspot-hunting using a closed loop threshold-based algorithm,technical_acquisition
+Efficient TMS-Based Motor Cortex Mapping Using Gaussian Process Active Learning,technical_acquisition
+Robotic knee laxity testing reliability and normative data,technical_acquisition
+Development of a Hand Spasticity Testing Device,technical_acquisition;diagnostic_performance
+TARGET robotic-assisted bronchoscopy study,diagnostic_performance;safety;analytical_validity
+ADOPT multicentre trial,technical_acquisition;analytical_validity;safety;human_factors
+Clinical application of a fully automated blood collection robot,technical_acquisition;analytical_validity;human_factors
+Comparison of swab robot versus manual collection,technical_acquisition;analytical_validity;safety;workflow_efficiency;human_factors
+Autonomous swab robot for naso- and oropharyngeal screening,technical_acquisition;analytical_validity
+A robotic biopsy endoscope with magnetic 5-DOF locomotion and retractable biopsy punch,technical_acquisition;analytical_validity
+Ferrobotic swarms enable accessible and adaptable automated viral testing,technical_acquisition;analytical_validity;workflow_efficiency
+All-electronic droplet generation with real-time feedback control,technical_acquisition
+SAMPLE autonomous protein engineering,technical_acquisition;workflow_efficiency
+Apple Heart Study,diagnostic_performance;workflow_efficiency
+AI-enabled detection using nocturnal breathing,diagnostic_performance
+DETECT-AHEAD,diagnostic_performance;safety;workflow_efficiency;human_factors
+Pre-symptomatic detection from smartwatch data,diagnostic_performance

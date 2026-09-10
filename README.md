@@ -19,6 +19,7 @@ A curated, reproducible research repository for **embodied intelligence in medic
 - [Frozen public-source search quality](data/review/search_runs/2026-09-10/SEARCH_QUALITY.md)
 - [Evidence-synthesis readiness and claim boundaries](data/review/evidence_synthesis/EVIDENCE_SYNTHESIS_READINESS.md)
 - [Evidence synthesis codebook](docs/EVIDENCE_SYNTHESIS_CODEBOOK.md)
+- [Nature BME table-design benchmark](docs/NBE_TABLE_DESIGN_BENCHMARK.md)
 - [Generated results and figures](outputs/)
 - [Review/manuscript research package](archive/imported_packages/)
 - [Releases and provenance](provenance/)
@@ -44,6 +45,7 @@ python scripts/validate_repository.py
 python scripts/screen_review_candidates.py --run-id 2026-09-10
 python scripts/verify_evidence_sources.py
 python scripts/audit_seed_claims.py
+python scripts/benchmark_nbe_review_tables.py
 python scripts/synthesize_review_evidence.py --manuscript-dir /path/to/overleaf-manuscript
 ```
 

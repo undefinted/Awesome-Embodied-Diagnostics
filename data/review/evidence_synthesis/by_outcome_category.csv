@@ -1,0 +1,8 @@
+﻿outcome_categories,reports_with_domain,report_denominator,analysis_population
+analytical_validity,7,24,representative evidence-seed reports; domains are multi-label
+clinical_utility_patient_outcomes,0,24,representative evidence-seed reports; domains are multi-label
+diagnostic_performance,9,24,representative evidence-seed reports; domains are multi-label
+human_factors,4,24,representative evidence-seed reports; domains are multi-label
+safety,4,24,representative evidence-seed reports; domains are multi-label
+technical_acquisition,19,24,representative evidence-seed reports; domains are multi-label
+workflow_efficiency,7,24,representative evidence-seed reports; domains are multi-label

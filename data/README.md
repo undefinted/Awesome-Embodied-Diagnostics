@@ -7,7 +7,10 @@
 | `bibliometrics/` | 早期版本，部分可用 | 元数据、任务定义、查询日志和完整 `included.jsonl` |
 | `incomplete_workspace_files/` | 不可分析 | 截断 CSV/JSONL 和无法解析的 API 缓存 |
 | `review/search_runs/2026-09-10/` | 冻结检索快照 | 公共数据库检索、查询日志、候选队列、机器辅助筛选和质量审计 |
-| `review/evidence_synthesis/` | 代表性证据锚点 | 标识符复核、响应哈希、数值字符串审计、编码账本、分层统计和正文表格源文件 |
+| `review/evidence_characteristics.csv` | 人工编码输入 | 人群/材料、分母类型、设计、比较项、结局和转化阶段；尚待双人重复提取 |
+| `review/outcome_category_coding.csv` | 人工编码输入 | 代表性证据种子的多标签结局域编码；不是全领域发生率 |
+| `review/evidence_synthesis/` | 代表性证据锚点 | 标识符复核、响应哈希、数值字符串审计、编码账本、分层统计、证据缺口矩阵和正文表格源文件 |
+| `review/nbe_table_benchmark/` | 表格设计基准 | 选定 Nature Biomedical Engineering 综述的表题/表头模式、来源 URL、时间戳与响应哈希；不是期刊普查 |
 
 计数单位是跨数据库去重后的文献记录，不是机器人数量、实验数量或临床试验数量。预印本和期刊版本的合并逻辑见检索脚本。
 
