@@ -26,7 +26,7 @@ class SourceVerificationTest(unittest.TestCase):
     def test_exact_identifier_can_have_shorthand_seed_title(self) -> None:
         self.assertEqual(
             verification_status(stable_identifier=True, identifier_match=True, title_score=0.46),
-            ("verified_identifier", "shorthand_or_alias_reviewed"),
+            ("verified_identifier", "shorthand_or_alias_flagged"),
         )
 
     def test_title_only_requires_close_title(self) -> None:

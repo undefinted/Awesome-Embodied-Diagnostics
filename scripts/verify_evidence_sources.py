@@ -94,7 +94,7 @@ def europe_pmc(identifier: str, field: str) -> tuple[str, str, bytes, str]:
 def verification_status(*, stable_identifier: bool, identifier_match: bool, title_score: float) -> tuple[str, str]:
     """Keep bibliographic identity and title-quality control as separate decisions."""
     if stable_identifier and identifier_match:
-        relation = "exact_or_close" if title_score >= 0.84 else "shorthand_or_alias_reviewed"
+        relation = "exact_or_close" if title_score >= 0.84 else "shorthand_or_alias_flagged"
         return "verified_identifier", relation
     if not stable_identifier and identifier_match and title_score >= 0.84:
         return "verified_title_only", "exact_or_close"
