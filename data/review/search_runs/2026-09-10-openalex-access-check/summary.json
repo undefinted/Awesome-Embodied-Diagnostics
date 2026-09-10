@@ -1,0 +1,24 @@
+{
+  "run_id": "2026-09-10-openalex-access-check",
+  "generated_at": "2026-09-10T12:06:46.353869+00:00",
+  "since": "2000-01-01",
+  "until": "2026-09-10",
+  "sources": [
+    "openalex"
+  ],
+  "query_families": 1,
+  "retrieved_source_query_records": 1,
+  "deduplicated_candidates": 1,
+  "automated_signal_counts": {
+    "high": 1,
+    "possible": 0,
+    "low": 0
+  },
+  "successful_source_queries": 1,
+  "failed_source_queries": 0,
+  "configured_source_query_pairs": 1,
+  "unrun_source_queries": 0,
+  "source_queries_truncated_at_limit": 1,
+  "query_registry_sha256": "a60b5db0f02c896fb6f0d54f2971f6b89227f3327c67c713b6356cf2ccb56048",
+  "claim_boundary": "Candidate retrieval counts only; no record is included without human screening."
+}

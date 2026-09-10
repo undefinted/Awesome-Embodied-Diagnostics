@@ -13,6 +13,17 @@ The repository is a living evidence map, not yet a completed systematic review. 
 | OpenAlex | Cross-disciplinary journal and conference discovery | Search relevance can introduce keyword collisions |
 | Crossref | DOI and publisher metadata discovery/verification | Metadata search is not a substitute for bibliographic database screening |
 
+## Definitive public-v3 snapshot
+
+The 10 September 2026 public-v3 run uses explicit PubMed Title/Abstract and
+Europe PMC TITLE_ABS fields plus the registered arXiv syntax. Across 28 query
+families, all 84 source-query pairs completed, returned records matched the
+source-reported totals, and no configured result cap remained. OpenAlex is kept
+as supplementary discovery because its broad `search` parameter did not behave
+as an equivalent Boolean bibliographic query. These engineering checks improve
+retrieval integrity but do not establish completeness across subscription
+indexes or replace information-specialist peer review.
+
 ## Retrieval families
 
 The active registry in `data/discovery_queries.yaml` covers robotic ultrasound, endoscopy, capsule and luminal robots, palpation/tactile examination, auscultation, biopsy and phlebotomy, ophthalmic and dental examination, medical VLA, active diagnostic sensing, multimodal physical examination, adaptive examination, and closed-loop diagnostic laboratories.

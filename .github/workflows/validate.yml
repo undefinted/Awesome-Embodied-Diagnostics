@@ -12,4 +12,5 @@ jobs:
           python-version: "3.11"
       - run: pip install feedparser requests pyyaml
       - run: python scripts/validate_repository.py
+      - run: python scripts/validate_review_workflow.py --run-id 2026-09-10-public-v3
       - run: python -m unittest discover -s tests

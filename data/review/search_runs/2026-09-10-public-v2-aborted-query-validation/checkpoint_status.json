@@ -1,0 +1,7 @@
+{
+  "completed_source_query_pairs": 14,
+  "failed_source_query_pairs": 2,
+  "raw_records_checkpointed": 3205,
+  "last_pair": "medical-vla:pubmed",
+  "updated_at": "2026-09-10T11:39:01.685618+00:00"
+}

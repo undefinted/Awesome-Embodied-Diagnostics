@@ -1,0 +1,9 @@
+{
+  "records": 6358,
+  "blank_titles": 0,
+  "duplicate_normalized_title_clusters": 0,
+  "malformed_dois": 0,
+  "future_year_records": 4,
+  "records_without_doi_pmid_pmcid_or_arxiv": 51,
+  "note": "Identifier syntax and internal consistency checks do not prove article-level relevance."
+}

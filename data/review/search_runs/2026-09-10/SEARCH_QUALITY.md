@@ -32,6 +32,7 @@ This is sensitivity against a small convenience set, not recall against an unkno
 
 Not yet for publication-volume or prevalence claims. Capped queries, heterogeneous index coverage and pending human screening make raw retrieval counts unsuitable as estimates of the field. The data are suitable for managing screening workload, finding terminology gaps and documenting source coverage.
 
+The high/possible subset is an ordering aid only. Every non-quarantined candidate remains eligible for human title-and-abstract screening; automated low-priority or exclusion suggestions are never final decisions.
 After duplicate human screening, final included records can support descriptive counts by direction, year, evidence stage, loop execution and safety-reporting status. Task-success percentages should remain study-level unless a separate meta-analysis establishes compatible designs and outcomes.
 
 ## Required next steps

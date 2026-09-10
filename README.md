@@ -16,10 +16,11 @@ A curated, reproducible research repository for **embodied intelligence in medic
 - [Candidate evidence audit](docs/CANDIDATE_EVIDENCE_AUDIT.md)
 - [Coverage and source protocol](docs/SEARCH_COVERAGE_PROTOCOL.md)
 - [Review research and data plan](docs/REVIEW_RESEARCH_AND_DATA_PLAN.md)
-- [Frozen public-source search quality](data/review/search_runs/2026-09-10/SEARCH_QUALITY.md)
+- [Definitive public-source v3 search quality](data/review/search_runs/2026-09-10-public-v3/SEARCH_QUALITY.md)
 - [Evidence-synthesis readiness and claim boundaries](data/review/evidence_synthesis/EVIDENCE_SYNTHESIS_READINESS.md)
 - [Evidence synthesis codebook](docs/EVIDENCE_SYNTHESIS_CODEBOOK.md)
 - [Nature BME table-design benchmark](docs/NBE_TABLE_DESIGN_BENCHMARK.md)
+- [Next-round methods status and remaining human gates](docs/NEXT_ROUND_METHODS_STATUS.md)
 - [Generated results and figures](outputs/)
 - [Review/manuscript research package](archive/imported_packages/)
 - [Releases and provenance](provenance/)
@@ -42,7 +43,8 @@ python -m venv .venv
 # Linux/macOS: source .venv/bin/activate
 pip install -r requirements.txt
 python scripts/validate_repository.py
-python scripts/screen_review_candidates.py --run-id 2026-09-10
+python scripts/screen_review_candidates.py --run-id 2026-09-10-public-v3
+python scripts/validate_review_workflow.py --run-id 2026-09-10-public-v3
 python scripts/verify_evidence_sources.py
 python scripts/audit_seed_claims.py
 python scripts/benchmark_nbe_review_tables.py
@@ -51,9 +53,9 @@ python scripts/synthesize_review_evidence.py --manuscript-dir /path/to/overleaf-
 
 Existing analysis scripts and exact data snapshots are preserved. Networked retrieval will change as bibliographic indexes update; freeze the query date and retain raw responses when refreshing results.
 
-The 10 September 2026 public-source retrospective run retrieved 7,529 source-query records and produced 6,218 deduplicated **screening candidates**. These are workload denominators, not included studies or an estimate of the size of the field. See the quality report for result caps, source-query failures and known-item sensitivity.
+The 10 September 2026 public-v3 retrospective run retrieved 11,933 source-query records and produced 6,358 deduplicated **screening candidates** across PubMed, Europe PMC and arXiv. All 84 registered source-query pairs completed with returned counts matching source-reported totals and no configured result-cap truncation. These remain workload denominators, not included studies or an estimate of field size.
 
-The manuscript evidence seed currently contains 24 representative reports with 24/24 bibliographic identities re-resolved through stable identifiers. The generated manuscript table uses 14 selected evidence anchors and deliberately omits incompletely duplicated numerical outcome checks. It is not the final included-study corpus; duplicate screening of the 1,895-record queue and full-text adjudication remain open human-review tasks.
+The manuscript evidence seed currently contains 24 representative reports with 24/24 bibliographic identities re-resolved through stable identifiers. Public-v3 retrieved 21/24 of this convenience set and 17/17 seeds coded as direct, bounded, human-mediated or assisted-sampling evidence. The generated manuscript table uses 14 selected evidence anchors. It is not the final included-study corpus. All 6,354 non-quarantined candidates are present in the human title/abstract screening ledger; the 1,747 high/possible-signal subset is an ordering aid only. Duplicate screening and full-text adjudication remain open human-review tasks.
 
 ## Contributing
 

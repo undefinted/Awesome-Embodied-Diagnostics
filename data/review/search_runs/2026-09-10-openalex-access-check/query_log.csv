@@ -1,0 +1,2 @@
+﻿query_id,source,status,retrieved,total_hits,retrieval_complete,truncated_at_limit,error,started_at,completed_at
+robotic-ultrasound,openalex,ok,1,1902,True,True,,2026-09-10T12:06:42.999318+00:00,2026-09-10T12:06:45.944680+00:00

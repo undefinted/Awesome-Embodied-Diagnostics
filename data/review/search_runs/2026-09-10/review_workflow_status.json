@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-09-10",
+  "generated_at": "2026-09-10T11:08:28.052567+00:00",
+  "candidate_records": 6218,
+  "quarantined_records": 11,
+  "human_screening_queue_records": 6207,
+  "reviewer_1_completed": 0,
+  "reviewer_2_completed": 0,
+  "adjudicated_records": 0,
+  "full_text_rows": 0,
+  "extraction_rows": 0,
+  "risk_of_bias_rows": 0,
+  "study_system_linkage_rows": 0,
+  "citation_chasing_rows": 0,
+  "publication_ready": false,
+  "publication_blockers": [
+    "duplicate title/abstract screening incomplete",
+    "duplicate full-text screening not started",
+    "final included-study extraction not started",
+    "report-study-system linkage not started",
+    "design-specific risk-of-bias assessment not started",
+    "backward/forward citation chasing not recorded"
+  ],
+  "claim_boundary": "Structural validation does not replace independent human screening or extraction."
+}

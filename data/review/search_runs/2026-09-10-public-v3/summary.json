@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-09-10-public-v3",
+  "generated_at": "2026-09-10T12:11:58.078428+00:00",
+  "since": "2000-01-01",
+  "until": "2026-09-10",
+  "sources": [
+    "arxiv",
+    "europepmc",
+    "pubmed"
+  ],
+  "query_families": 28,
+  "retrieved_source_query_records": 11933,
+  "deduplicated_candidates": 6358,
+  "automated_signal_counts": {
+    "high": 225,
+    "possible": 1522,
+    "low": 4611
+  },
+  "successful_source_queries": 84,
+  "failed_source_queries": 0,
+  "configured_source_query_pairs": 84,
+  "unrun_source_queries": 0,
+  "source_queries_truncated_at_limit": 0,
+  "query_registry_sha256": "964cd7b22935c1b27ebd62269d46b7f8f78e583ee5d18700cbe06f56b4290157",
+  "claim_boundary": "Candidate retrieval counts only; no record is included without human screening."
+}
