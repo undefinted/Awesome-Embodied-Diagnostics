@@ -1,0 +1,19 @@
+﻿evidence_stage,report_count,denominator,analysis_population
+assay_platform,1,24,representative evidence-seed reports
+controlled_clinical,1,24,representative evidence-seed reports
+engineering_platform,1,24,representative evidence-seed reports
+healthy_volunteer,1,24,representative evidence-seed reports
+human_feasibility,2,24,representative evidence-seed reports
+human_validation,3,24,representative evidence-seed reports
+multicentre_clinical,1,24,representative evidence-seed reports
+observational_clinical,1,24,representative evidence-seed reports
+paired_clinical,1,24,representative evidence-seed reports
+phantom,1,24,representative evidence-seed reports
+pilot_clinical,1,24,representative evidence-seed reports
+pragmatic_clinical,1,24,representative evidence-seed reports
+preclinical,2,24,representative evidence-seed reports
+prospective_multicentre,1,24,representative evidence-seed reports
+randomized_clinical,2,24,representative evidence-seed reports
+retrospective_method,1,24,representative evidence-seed reports
+retrospective_validation,2,24,representative evidence-seed reports
+self_driving_laboratory,1,24,representative evidence-seed reports

@@ -1,0 +1,157 @@
+version: 2026-09-10.1
+purpose: Machine-assisted prioritization for human title-and-abstract screening
+claim_boundary: Rules never make final inclusion decisions.
+
+publication_type_exclusions:
+  review_or_commentary:
+    - review
+    - systematic review
+    - meta-analysis
+    - perspective
+    - editorial
+    - commentary
+    - letter to the editor
+  non_primary_or_incomplete:
+    - protocol
+    - correction
+    - erratum
+    - retraction
+    - conference abstract
+
+nonmedical_context_exclusions:
+  - agriculture
+  - crop
+  - plant disease
+  - structural health
+  - bolt looseness
+  - corrosion
+  - bridge damage
+  - battery
+  - plume
+  - honey bee
+  - object recognition
+  - industrial inspection
+  - nondestructive testing
+  - non-destructive testing
+
+diagnostic_objective_terms:
+  - diagnos
+  - screen
+  - detect
+  - examination
+  - assessment
+  - mapping
+  - localization
+  - image quality
+  - specimen adequacy
+  - diagnostic yield
+  - autoverification
+  - confirmatory test
+
+observation_conditioned_terms:
+  - closed-loop
+  - closed loop
+  - feedback control
+  - real-time feedback
+  - active learning
+  - adaptive
+  - sequential
+  - next view
+  - next best
+  - quality control
+  - visual servo
+  - force control
+  - force-controlled
+  - contact force
+  - path planning
+  - scan planning
+  - autonomous searching
+  - autonomous navigation
+  - target tracking
+  - uncertainty
+  - adequacy
+  - reroute
+  - reflex test
+
+physical_interaction_terms:
+  - robot
+  - robotic
+  - autonomous
+  - probe
+  - scan
+  - palpation
+  - auscultation
+  - stimulation
+  - tms
+  - swab
+  - phlebotomy
+  - venipuncture
+  - blood collection
+  - biopsy
+  - capsule
+  - endoscopy
+  - endoscope
+  - microfluidic
+  - droplet
+  - specimen
+  - laboratory automation
+  - wearable
+  - ambient
+  - smart toilet
+
+task_families:
+  robotic_ultrasound:
+    - robotic ultrasound
+    - autonomous ultrasound
+    - ultrasound robot
+    - robot-assisted ultrasound
+  robotic_optical_imaging:
+    - robotic oct
+    - robotic optical coherence tomography
+    - autonomous retinal imaging
+    - robotic slit lamp
+  endoscopy_and_capsules:
+    - robotic endoscopy
+    - autonomous endoscopy
+    - robotic colonoscopy
+    - capsule robot
+    - capsule gastroscopy
+    - magnetically controlled capsule
+  palpation_and_auscultation:
+    - robotic palpation
+    - autonomous palpation
+    - robotic auscultation
+    - tactile diagnosis
+    - tissue stiffness
+  stimulation_and_functional_mapping:
+    - motor cortex mapping
+    - hotspot hunting
+    - hotspot-hunting
+    - tms mapping
+    - robotic laxity
+    - spasticity testing
+  diagnostic_sampling:
+    - robotic phlebotomy
+    - automated venipuncture
+    - blood collection robot
+    - robotic blood collection
+    - swab robot
+    - robotic swab
+    - robotic biopsy
+    - autonomous biopsy
+    - robotic-assisted bronchoscopy
+    - robotic bronchoscopy
+  laboratory_loops:
+    - autoverification
+    - laboratory automation
+    - feedback microfluidic
+    - feedback-controlled microfluidic
+    - self-driving laboratory
+    - autonomous laboratory
+    - closed-loop experimentation
+  monitoring_triggered_testing:
+    - triggered testing
+    - confirmatory testing
+    - at-home testing
+    - adaptive monitoring
+
