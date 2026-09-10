@@ -1,0 +1,13 @@
+version: 2026-09-10.1
+final_scientific_signoff:
+  status: pending
+  signed_by: null
+  signed_at: null
+  confirms:
+    final_manuscript_reviewed: false
+    manuscript_used_key_evidence_verified: false
+    clinical_and_safety_claims_within_evidence: false
+    authorship_and_contributions_approved: false
+    competing_interests_and_funding_approved: false
+    ai_use_disclosure_approved: false
+notes: Do not commit personal signatures or identifying details in a double-anonymized submission snapshot.

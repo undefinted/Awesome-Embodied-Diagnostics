@@ -1,10 +1,10 @@
-review_type: structured_narrative_evidence_map
+review_type: ai_assisted_structured_narrative_review_and_living_evidence_map
 status: prospective_protocol_for_next_revision
 last_updated: 2026-09-10
-protocol_version: 2026-09-10.2
+protocol_version: 2026-09-10.3
 registration:
   status: not_registered
-  rule: Registration must occur before definitive screening; a later registration must be labelled retrospective.
+  rule: Registration is a transparency enhancement for the current narrative evidence map; any later registration must be labelled retrospective.
 review_question:
   primary: Which medical detection systems use current observations to change subsequent physical acquisition, interaction, sampling, verification, routing, or stopping, and what evidence supports their clinical translation?
   secondary:
@@ -64,12 +64,14 @@ analysis_rules:
   - Preserve exact source locations for every extracted numerical or categorical claim.
   - Keep the representative evidence seed separate from the final included-study corpus.
 screening_process:
-  title_abstract: two independent named reviewers followed by adjudication of disagreements
-  full_text: two independent named reviewers with one prespecified exclusion reason per excluded report
-  machine_assistance: prioritization_only
-  reviewer_independence: reviewer identifiers must differ
+  title_abstract: two independently prompted AI assessments with preserved model prompt input and output provenance followed by conflict resolution
+  full_text: AI-assisted assessment from legally accessible full text with one explicit exclusion reason and source location
+  machine_assistance: eligibility_assessment_and_evidence_pre_extraction
+  accountable_author_confirmation: required for the final eligibility boundary, unresolved cases, and evidence used in manuscript claims
+  reviewer_independence: AI assessments must not be represented as independent human reviewers
+  systematic_review_upgrade: two real independent reviewers are required when the manuscript claims compliance with a framework that requires duplicate human screening
 data_extraction:
-  process: piloted form followed by duplicate extraction or independent verification
+  process: structured AI pre-extraction with exact source locations followed by accountable-author verification of manuscript-used key fields
   identity_levels:
     - report_id
     - study_id
@@ -89,6 +91,10 @@ synthesis_plan:
   certainty: assess only for clearly defined outcome-level bodies of evidence
 amendments:
   - date: 2026-09-10
+    version: 2026-09-10.3
+    change: Declared the current work as an AI-assisted structured narrative review and living evidence map; duplicate human screening is now an explicit upgrade requirement rather than a claim made for the current workflow.
+    timing: prospective because definitive eligibility screening has not started
+  - date: 2026-09-10
     version: 2026-09-10.2
     change: Added all-record human screening, explicit reviewer independence, report-study-system linkage, source-location provenance, and publication-readiness gates.
     timing: prospective for the next definitive review cycle; retrospective relative to the existing representative seed
@@ -101,3 +107,9 @@ required_for_systematic_review_claim:
   - backward_and_forward_citation_chasing
   - risk_of_bias_or_quality_assessment
   - prisma_flow
+required_for_current_narrative_evidence_map:
+  - transparent_ai_method_and_model_provenance
+  - source_linked_eligibility_assessments
+  - source_linked_pre_extraction
+  - accountable_author_confirmation_of_manuscript_used_evidence
+  - explicit_coverage_and_uncertainty_limits
