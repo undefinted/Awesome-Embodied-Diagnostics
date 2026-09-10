@@ -21,6 +21,7 @@ A curated, reproducible research repository for **embodied intelligence in medic
 - [Evidence synthesis codebook](docs/EVIDENCE_SYNTHESIS_CODEBOOK.md)
 - [Nature BME table-design benchmark](docs/NBE_TABLE_DESIGN_BENCHMARK.md)
 - [Next-round methods status and remaining human gates](docs/NEXT_ROUND_METHODS_STATUS.md)
+- [Minimum human actions and AI-work boundary](docs/MINIMUM_HUMAN_ACTIONS.md)
 - [Generated results and figures](outputs/)
 - [Review/manuscript research package](archive/imported_packages/)
 - [Releases and provenance](provenance/)
@@ -55,7 +56,7 @@ Existing analysis scripts and exact data snapshots are preserved. Networked retr
 
 The 10 September 2026 public-v3 retrospective run retrieved 11,933 source-query records and produced 6,358 deduplicated **screening candidates** across PubMed, Europe PMC and arXiv. All 84 registered source-query pairs completed with returned counts matching source-reported totals and no configured result-cap truncation. These remain workload denominators, not included studies or an estimate of field size.
 
-The manuscript evidence seed currently contains 24 representative reports with 24/24 bibliographic identities re-resolved through stable identifiers. Public-v3 retrieved 21/24 of this convenience set and 17/17 seeds coded as direct, bounded, human-mediated or assisted-sampling evidence. The generated manuscript table uses 14 selected evidence anchors. It is not the final included-study corpus. All 6,354 non-quarantined candidates are present in the human title/abstract screening ledger; the 1,747 high/possible-signal subset is an ordering aid only. Duplicate screening and full-text adjudication remain open human-review tasks.
+The manuscript evidence seed currently contains 24 representative reports with 24/24 bibliographic identities re-resolved through stable identifiers. Public-v3 retrieved 21/24 of this convenience set and 17/17 seeds coded as direct, bounded, human-mediated or assisted-sampling evidence. The generated manuscript table uses 14 selected evidence anchors. It is not the final included-study corpus. All 6,354 non-quarantined candidates are present in the title/abstract eligibility ledger; the 1,747 high/possible-signal subset is an ordering aid only. Provenance-preserving AI assessment, source-linked full-text review and accountable-author confirmation remain incomplete.
 
 ## Contributing
 

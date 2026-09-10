@@ -93,7 +93,7 @@ def main() -> None:
         "## Can these data support review figures?", "",
         (("Not yet for publication-volume or prevalence claims. Result caps, heterogeneous index coverage and pending human screening make raw retrieval counts unsuitable as estimates of the field." if saturated else "Not yet for publication-volume or prevalence claims. Although this run has no configured result-cap truncation, heterogeneous index coverage, known-item gaps and pending human screening make raw retrieval counts unsuitable as estimates of the field.")),
         "The data are suitable for managing screening workload, finding terminology gaps and documenting source coverage.", "",
-        "The high/possible subset is an ordering aid only. Every non-quarantined candidate remains eligible for human title-and-abstract screening; automated low-priority or exclusion suggestions are never final decisions.",
+        "The high/possible subset is an ordering aid only. Every non-quarantined candidate remains in the title-and-abstract eligibility ledger; existing rule-based low-priority or exclusion suggestions are never final decisions.",
         "After duplicate human screening, final included records can support descriptive counts by direction, year, evidence stage, loop execution and safety-reporting status. Task-success percentages should remain study-level unless a separate meta-analysis establishes compatible designs and outcomes.", "",
         "## Required next steps", "",
         ("1. Split every capped query by year or narrower concept until no stratum is truncated." if saturated else "1. Preserve the zero-truncation audit and rerun any source-query pair whose returned count no longer matches its reported total."),
@@ -111,7 +111,7 @@ def main() -> None:
         f"The frozen definitive public-source search covered 1 January 2000 to {until_label} "
         f"across PubMed, Europe PMC and arXiv. It retrieved {summary['retrieved_source_query_records']:,} "
         f"source--query records and produced {len(rows):,} identifier- or title-deduplicated candidates; "
-        f"{human_queue:,} non-quarantined records entered the human title-and-abstract screening ledger, "
+        f"{human_queue:,} non-quarantined records entered the title-and-abstract eligibility ledger, "
         f"with {sum(r['automated_signal'] in {'high', 'possible'} for r in rows):,} high- or possible-signal "
         "records used only to order screening. All "
         f"{summary.get('configured_source_query_pairs', len(log))} configured source--query pairs completed, "

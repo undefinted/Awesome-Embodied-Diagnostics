@@ -18,6 +18,10 @@ def read_csv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def read_optional_csv(path: Path) -> list[dict[str, str]]:
+    return read_csv(path) if path.exists() else []
+
+
 def require_unique(rows: list[dict[str, str]], field: str, label: str) -> set[str]:
     values = [row.get(field, "").strip() for row in rows]
     if any(not value for value in values):
@@ -85,18 +89,33 @@ def main() -> None:
     citation_chasing = read_csv(REVIEW / "citation_chasing.csv")
     source_registry = read_csv(REVIEW / "search_source_registry.csv")
     protocol = yaml.safe_load((REVIEW / "review_protocol.yaml").read_text(encoding="utf-8"))
+    ai_profile = str(protocol.get("review_type", "")).startswith("ai_assisted_")
+    ai_screening = read_optional_csv(REVIEW / "ai_assisted_screening.csv")
+    ai_completed = sum(
+        bool(row.get("final_ai_decision", "").strip()) for row in ai_screening
+    )
+    signoff_path = REVIEW / "author_signoff.yaml"
+    signoff = yaml.safe_load(signoff_path.read_text(encoding="utf-8")) if signoff_path.exists() else {}
 
-    blockers = []
+    systematic_upgrade_requirements = []
     if protocol.get("registration", {}).get("status") != "registered":
-        blockers.append("definitive protocol registration incomplete")
+        systematic_upgrade_requirements.append("prospective protocol registration incomplete")
     if any("pending" in row.get("query_translation_status", "").lower() for row in source_registry):
-        blockers.append("information-specialist peer review of search translations incomplete")
+        systematic_upgrade_requirements.append("information-specialist peer review of search translations incomplete")
     if any(row.get("definitive_search_status") == "not run" for row in source_registry):
-        blockers.append("subscription-database searches not run or documented as unavailable at submission")
+        systematic_upgrade_requirements.append("subscription-database searches not run or documented as unavailable")
     if r1 != len(queue) or r2 != len(queue):
-        blockers.append("duplicate title/abstract screening incomplete")
+        systematic_upgrade_requirements.append("duplicate human title/abstract screening incomplete")
     if not full_text:
-        blockers.append("duplicate full-text screening not started")
+        systematic_upgrade_requirements.append("duplicate human full-text screening not started")
+    if ai_profile:
+        blockers = []
+        if ai_completed != len(queue):
+            blockers.append("all-record provenance-preserving AI eligibility assessment incomplete")
+        if not full_text:
+            blockers.append("source-linked full-text assessment not started")
+    else:
+        blockers = list(systematic_upgrade_requirements)
     if not extracted:
         blockers.append("final included-study extraction not started")
     if not linkage:
@@ -105,16 +124,19 @@ def main() -> None:
         blockers.append("design-specific risk-of-bias assessment not started")
     if not citation_chasing:
         blockers.append("backward/forward citation chasing not recorded")
+    if ai_profile and signoff.get("final_scientific_signoff", {}).get("status") != "approved":
+        blockers.append("accountable-author final scientific sign-off incomplete")
 
     status = {
         "run_id": args.run_id,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "candidate_records": len(candidates),
         "quarantined_records": len(quarantined),
-        "human_screening_queue_records": len(queue),
+        "eligibility_queue_records": len(queue),
         "reviewer_1_completed": r1,
         "reviewer_2_completed": r2,
         "adjudicated_records": adjudicated,
+        "ai_assessed_records": ai_completed,
         "full_text_rows": len(full_text),
         "extraction_rows": len(extracted),
         "risk_of_bias_rows": len(risk),
@@ -122,7 +144,12 @@ def main() -> None:
         "citation_chasing_rows": len(citation_chasing),
         "publication_ready": not blockers,
         "publication_blockers": blockers,
-        "claim_boundary": "Structural validation does not replace independent human screening or extraction.",
+        "systematic_review_upgrade_requirements": systematic_upgrade_requirements,
+        "claim_boundary": (
+            "AI assessments are reported as AI-assisted evidence mapping and do not constitute duplicate independent human review."
+            if ai_profile else
+            "Structural validation does not replace independent human screening or extraction."
+        ),
     }
     (run / "review_workflow_status.json").write_text(
         json.dumps(status, indent=2) + "\n", encoding="utf-8"

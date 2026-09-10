@@ -66,7 +66,7 @@ def main() -> int:
         return 1
     seed_rows, _ = count_csv(ROOT / "data" / "review" / "manuscript_evidence_seed.csv")
     print(f"review evidence seed: {seed_rows} study reports")
-    print(f"frozen retrospective candidates: {candidate_rows} awaiting human screening")
+    print(f"frozen retrospective candidates: {candidate_rows} awaiting AI-assisted eligibility assessment")
 
     tracked_pdfs = list(ROOT.rglob("*.pdf"))
     tracked_pdfs = [p for p in tracked_pdfs if "local_only" not in p.parts]

@@ -19,19 +19,22 @@
   assisted-sampling evidence. This is not an estimate of unknown-universe
   recall.
 - Put every one of the 6,354 non-quarantined public-v3 candidates into the
-  human screening ledger. Machine labels order work and finalize zero records.
+  eligibility-assessment ledger. Existing rule labels order work and finalize
+  zero records; a provenance-preserving AI assessment pass is the next step.
 - Added auditable forms for full-text decisions, report-study-system linkage,
   citation chasing, expanded extraction and design-specific risk of bias.
 
 ## Deliberately not represented as complete
 
-- Protocol registration for the definitive review cycle.
-- Information-specialist peer review of each platform-specific search.
+- Optional protocol registration for a future systematic/scoping upgrade.
+- Optional information-specialist peer review of each platform-specific search.
 - IEEE Xplore, Embase, Scopus and Web of Science exports, which require access.
-- Two independent human title/abstract and full-text reviewers.
-- Full-text exclusion reasons, duplicate extraction, study/system linkage,
+- AI title/abstract assessment and source-linked full-text assessment.
+- Full-text exclusion reasons, verified extraction, study/system linkage,
   citation chasing, risk-of-bias assessment and outcome-level certainty.
 
-The workflow validator reports these as publication blockers. A single Codex
-run cannot truthfully substitute for two independent human reviewers or obtain
-subscription records without authorized database access.
+The current target is an AI-assisted structured narrative Review and living
+evidence map, not a completed systematic review. AI assessments will be labelled
+as AI outputs and cannot be described as two independent human reviewers.
+Restricted database records still require authorized access, and an accountable
+author must approve the final evidence and submission claims.
