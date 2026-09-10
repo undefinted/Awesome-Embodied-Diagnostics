@@ -6,6 +6,7 @@
   "direct_or_bounded_or_human_mediated_reports": 16,
   "technical_precedent_or_nonadaptive_comparator_reports": 7,
   "assisted_sampling_reports": 1,
+  "T4_patient_benefit_reports": 0,
   "claim_boundary": "Descriptive counts characterize the 24-report representative seed, not field prevalence or a final systematic-review corpus.",
-  "generated_at": "2026-09-10T09:13:22.288387+00:00"
+  "generated_at": "2026-09-10T09:55:19.650069+00:00"
 }

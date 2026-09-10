@@ -1,0 +1,5 @@
+pmid,pmcid,doi,benchmark_purpose
+41238769,PMC12639493,10.1038/s41551-025-01520-7,representative_translation_table
+37380750,PMC10632090,10.1038/s41551-023-01056-8,dataset_characteristics_and_explicit_missingness
+36550303,PMC11536595,10.1038/s41551-022-00984-1,clinical_trial_evidence_table
+39304761,PMC11922799,10.1038/s41551-024-01250-2,quantitative_evidence_synthesis

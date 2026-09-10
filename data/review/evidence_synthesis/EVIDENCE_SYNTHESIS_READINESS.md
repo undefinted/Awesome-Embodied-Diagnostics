@@ -9,7 +9,17 @@
 
 ## Permitted use
 
-The ledger supports a bounded, qualitative comparison of application direction, evidence stage, loop architecture, action consequence and human authority. Table 3 is explicitly labelled as a selected set of evidence anchors. It must not be described as all included studies or used to estimate publication prevalence.
+The ledger supports a bounded, qualitative comparison of application direction, evidence stage, loop architecture, action consequence, human authority and reported outcome domains. Table 3 is explicitly labelled as a selected set of evidence anchors. It uses concise platform labels, separately labelled denominator types, explicit NR values and a translational stage that describes what was evaluated rather than study quality. Adaptive functions, outcome domains and stages are reviewer-coded and have not yet undergone duplicate extraction. The table must not be described as all included studies or used to estimate publication prevalence.
+
+## Current evidence gaps in the representative seed
+
+- Reports reaching T4 demonstrated patient benefit: **0/24**.
+- Reports coding technical or acquisition outcomes: **19/24**.
+- Reports coding diagnostic-performance outcomes: **9/24**.
+- Reports coding safety outcomes: **4/24**.
+- Reports coding human-factors outcomes: **4/24**.
+
+Outcome domains are multi-label, so these rows are not mutually exclusive and must not be summed. They describe the representative seed only.
 
 ## Remaining publication gates
 

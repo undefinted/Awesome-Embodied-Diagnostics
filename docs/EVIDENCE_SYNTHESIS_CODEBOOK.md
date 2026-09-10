@@ -8,6 +8,16 @@
 4. **What is the consequence of acting?** Separate repeatable reversible sensing from stimulation, specimen-only operations and invasive single-authorized actions.
 5. **Does the evidence support translation?** Extract operating domain, comparator, diagnostic outcome, safety, failure, abort, override, handover, workflow and patient-relevant outcomes without converting missingness to zero.
 
+## Translational evidence stages
+
+- `T0`: transferable technical precedent outside direct diagnostic validation.
+- `T1`: bench, phantom, ex vivo, animal or retrospective method validation.
+- `T2`: human feasibility or technical validation without prospective clinical-performance evidence.
+- `T3`: prospective comparative, randomized-feasibility or clinical-performance evaluation.
+- `T4`: demonstrated patient benefit or clinical utility in the intended pathway.
+
+The stage records what was evaluated. It is not a quality score and does not replace design-specific risk-of-bias assessment.
+
 These questions map directly to the manuscript's conceptual definition, application taxonomy, risk-gated loop, simulation-to-clinic pathway and evaluation sections.
 
 ## Units of analysis
@@ -16,6 +26,7 @@ These questions map directly to the manuscript's conceptual definition, applicat
 - `study_id`: one empirical study, which may have multiple reports.
 - `system_id`: one platform or system, which may have multiple studies.
 - participant, specimen and procedure denominators remain separate.
+- development-data volume remains separate from clinical denominators.
 
 The current representative seed has report identifiers only. Study and system linking must be completed during full-text extraction before publication counts can be interpreted as independent systems or evaluations.
 
@@ -47,6 +58,8 @@ The generated selected-anchor table requires a stable-identifier match, explicit
 - `claim_string_audit.csv`: source hash, numeric tokens and missing-token status.
 - `verified_evidence_ledger.csv`: joined seed, reviewer coding and provenance.
 - `by_*.csv`: report-level descriptive counts with the denominator repeated in every row.
+- `evidence_gap_matrix.csv`: direction by T0--T4 report counts for the representative seed.
+- `by_outcome_category.csv`: multi-label reporting coverage for technical acquisition, diagnostic performance, analytical validity, safety, workflow, human factors and patient outcomes.
 - `manuscript_table3.tex`: generated selected-anchor table with an explicit non-exhaustive boundary.
 
 No generated output should be described as a complete systematic-review result until the remaining human review gates are satisfied.
