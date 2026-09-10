@@ -1,0 +1,7 @@
+﻿evidence_role,report_count,denominator,analysis_population
+assisted_sampling_evidence,1,24,representative evidence-seed reports
+bounded_embodied_acquisition,7,24,representative evidence-seed reports
+direct_embodied_diagnostic,6,24,representative evidence-seed reports
+human_mediated_embodied_diagnostic,3,24,representative evidence-seed reports
+nonadaptive_comparator,4,24,representative evidence-seed reports
+technical_precedent,3,24,representative evidence-seed reports

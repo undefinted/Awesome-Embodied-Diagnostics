@@ -1,0 +1,7 @@
+﻿action_risk,report_count,denominator,analysis_population
+invasive_single_authorized,6,24,representative evidence-seed reports
+minimally_invasive,1,24,representative evidence-seed reports
+none,2,24,representative evidence-seed reports
+reversible,10,24,representative evidence-seed reports
+reversible_stimulation,2,24,representative evidence-seed reports
+specimen_only,3,24,representative evidence-seed reports

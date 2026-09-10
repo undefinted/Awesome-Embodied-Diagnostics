@@ -1,0 +1,11 @@
+{
+  "analysis_population": "representative evidence-seed reports",
+  "reports": 24,
+  "identifier_verified_reports": 24,
+  "main_table_selected_reports": 14,
+  "direct_or_bounded_or_human_mediated_reports": 16,
+  "technical_precedent_or_nonadaptive_comparator_reports": 7,
+  "assisted_sampling_reports": 1,
+  "claim_boundary": "Descriptive counts characterize the 24-report representative seed, not field prevalence or a final systematic-review corpus.",
+  "generated_at": "2026-09-10T08:57:32.010765+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "reports": 24,
+  "source_text_retrieved": 19,
+  "sample_all_numeric_strings_found": 9,
+  "sample_unresolved_or_partial": 7,
+  "result_all_numeric_strings_found": 10,
+  "result_unresolved_or_partial": 6,
+  "claim_boundary": "Automated string QC does not replace independent human verification of context, denominators or interpretation."
+}

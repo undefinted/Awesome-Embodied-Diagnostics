@@ -1,0 +1,16 @@
+{
+  "run_id": "2026-09-10",
+  "generated_at": "2026-09-10T08:07:40.876898+00:00",
+  "records": 6218,
+  "rules_version": "2026-09-10.1",
+  "rules_sha256": "86f999c61dbbe0ba667979c579c90af4067f4200023dd3822e5899e86ae37a54",
+  "suggestion_counts": {
+    "exclude_non_primary": 675,
+    "exclude_nonmedical_context": 195,
+    "low_priority_screen": 2885,
+    "manual_scope_screen": 1921,
+    "priority_core_screen": 104,
+    "priority_enabling_screen": 438
+  },
+  "claim_boundary": "Rules never make final inclusion decisions."
+}
