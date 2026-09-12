@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-03T10:08:46.276738+00:00",
-  "since": "2026-08-31T10:08:46.273549+00:00",
+  "generated_at": "2026-09-12T07:09:52.284213+00:00",
+  "since": "2026-09-09T07:09:52.266860+00:00",
   "queries": [
     {
       "id": "robotic-ultrasound",
       "focus": "Robotic ultrasound and adaptive imaging",
       "sources": {
         "arxiv": {
-          "records": 0
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3A%22robotic+ultrasound%22+OR+all%3A%22autonomous+ultrasound%22+OR+all%3A%22ultrasound+robot%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
         },
         "openalex": {
-          "records": 2
+          "records": 1
         },
         "crossref": {
           "records": 50
@@ -25,10 +25,10 @@
       "focus": "Embodied endoscopy and diagnostic navigation",
       "sources": {
         "arxiv": {
-          "records": 0
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3A%22robotic+endoscopy%22+OR+all%3A%22autonomous+endoscopy%22+OR+all%3A%22endoscopic+navigation%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
         },
         "openalex": {
-          "records": 2
+          "records": 1
         },
         "crossref": {
           "records": 50
@@ -43,10 +43,10 @@
       "focus": "Palpation, tactile examination, and auscultation",
       "sources": {
         "arxiv": {
-          "records": 0
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3A%22robotic+palpation%22+OR+all%3A%22tactile+diagnosis%22+OR+all%3A%22robotic+auscultation%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
         },
         "openalex": {
-          "records": 1
+          "records": 0
         },
         "crossref": {
           "records": 50
@@ -61,7 +61,7 @@
       "focus": "Diagnostic sampling and biopsy",
       "sources": {
         "arxiv": {
-          "records": 0
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3A%22robotic+biopsy%22+OR+all%3A%22autonomous+biopsy%22+OR+all%3A%22robotic+phlebotomy%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
         },
         "openalex": {
           "records": 0
@@ -79,10 +79,10 @@
       "focus": "Active sensing and embodied diagnostic agents",
       "sources": {
         "arxiv": {
-          "records": 0
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3A%22active+sensing%22+AND+%28all%3Amedical+OR+all%3Aclinical+OR+all%3Adiagnostic%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
         },
         "openalex": {
-          "records": 5
+          "records": 4
         },
         "crossref": {
           "records": 50
@@ -97,10 +97,28 @@
       "focus": "Healthcare VLA and language-conditioned diagnostic acquisition",
       "sources": {
         "arxiv": {
-          "records": 0
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22vision-language-action%22+OR+all%3AVLA+OR+all%3A%22embodied+agent%22%29+AND+%28all%3Amedical+OR+all%3Aclinical+OR+all%3Ahealthcare%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
         },
         "openalex": {
-          "records": 19
+          "records": 5
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 2
+        }
+      }
+    },
+    {
+      "id": "adaptive-clinical-measurement",
+      "focus": "Adaptive clinical measurement and active examination",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22adaptive+examination%22+OR+all%3A%22active+examination%22+OR+all%3A%22closed-loop+diagnosis%22%29+AND+%28all%3Amedical+OR+all%3Aclinical%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 0
         },
         "crossref": {
           "records": 50
@@ -111,11 +129,191 @@
       }
     },
     {
-      "id": "adaptive-clinical-measurement",
-      "focus": "Adaptive clinical measurement and active examination",
+      "id": "capsule-and-luminal-robots",
+      "focus": "Capsule endoscopy and luminal diagnostic robots",
+      "sources": {
+        "arxiv": {
+          "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=40)"
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "ophthalmic-examination",
+      "focus": "Robotic ophthalmic examination and acquisition",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3Arobotic+OR+all%3Aautonomous%29+AND+%28all%3Aophthalmic+OR+all%3Aretinal+OR+all%3A%22slit+lamp%22%29+AND+%28all%3Aexamination+OR+all%3Aimaging%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 6
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 2
+        }
+      }
+    },
+    {
+      "id": "dental-examination",
+      "focus": "Robotic dental examination and diagnostic acquisition",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3Arobotic+OR+all%3Aautonomous%29+AND+%28all%3Adental+OR+all%3Aintraoral%29+AND+%28all%3Aexamination+OR+all%3Adiagnostic+OR+all%3Aimaging%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 3
+        }
+      }
+    },
+    {
+      "id": "diagnostic-laboratory-loops",
+      "focus": "Closed-loop robotic diagnostic laboratories",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22closed-loop%22+OR+all%3Aadaptive+OR+all%3Aautonomous%29+AND+%28all%3A%22diagnostic+laboratory%22+OR+all%3A%22clinical+laboratory%22+OR+all%3A%22laboratory+diagnostics%22%29+AND+all%3Arobotic&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "multimodal-physical-examination",
+      "focus": "Multimodal robotic physical examination",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3Arobotic+OR+all%3Aembodied%29+AND+all%3A%22physical+examination%22+AND+%28all%3Amultimodal+OR+all%3Adiagnostic%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "robotic-oct-and-ophthalmic-acquisition",
+      "focus": "Robotic OCT and adaptive ophthalmic acquisition",
       "sources": {
         "arxiv": {
           "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 50
+        }
+      }
+    },
+    {
+      "id": "stimulation-response-mapping",
+      "focus": "Closed-loop stimulation and response mapping",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 24
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "robotic-functional-examination",
+      "focus": "Robotic laxity, spasticity, and functional examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 11
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "robotic-swabbing-and-blood-collection",
+      "focus": "Robotic swabbing, venipuncture, and blood collection",
+      "sources": {
+        "arxiv": {
+          "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=40)"
+        },
+        "openalex": {
+          "records": 22
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 6
+        }
+      }
+    },
+    {
+      "id": "adaptive-microfluidic-diagnostics",
+      "focus": "Feedback-controlled microfluidic diagnostic operations",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 50
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 2
+        }
+      }
+    },
+    {
+      "id": "autonomous-assay-development",
+      "focus": "Closed-loop autonomous assay and biotechnology development",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22self-driving+laboratory%22+OR+all%3A%22autonomous+laboratory%22+OR+all%3A%22closed-loop+experimentation%22%29+AND+%28all%3Abiotechnology+OR+all%3Aprotein+OR+all%3Aassay+OR+all%3Adiagnostic%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
         },
         "openalex": {
           "records": 1
@@ -127,11 +325,191 @@
           "records": 0
         }
       }
+    },
+    {
+      "id": "wearable-triggered-testing",
+      "focus": "Wearable monitoring that triggers confirmatory testing",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3Awearable+OR+all%3Asmartwatch%29+AND+%28all%3A%22at-home+testing%22+OR+all%3A%22confirmatory+testing%22+OR+all%3A%22triggered+testing%22+OR+all%3Apresymptomatic%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 5
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "ambient-adaptive-monitoring",
+      "focus": "Ambient sensing linked to diagnostic reacquisition or escalation",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22ambient+intelligence%22+OR+all%3A%22contactless+sensing%22+OR+all%3A%22smart+toilet%22%29+AND+%28all%3Adiagnostic+OR+all%3Adetection+OR+all%3Amonitoring%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 9
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "capsule-quality-feedback",
+      "focus": "Capsule gastroscopy quality and blind-spot feedback",
+      "sources": {
+        "arxiv": {
+          "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=40)"
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-tms-mapping",
+      "focus": "Adaptive TMS hotspot and motor-cortex mapping",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3ATMS+AND+%28all%3A%22hotspot-hunting%22+OR+all%3A%22hotspot+hunting%22+OR+all%3A%22motor+cortex+mapping%22+OR+all%3A%22active+learning%22%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 3
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-blood-and-swab",
+      "focus": "Robotic blood collection and swab systems",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3Arobot+AND+%28all%3A%22blood+collection%22+OR+all%3Avenipuncture+OR+all%3A%22swab+robot%22+OR+all%3A%22robotic+swab%22%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-bronchoscopy",
+      "focus": "Robotic bronchoscopy navigation and diagnostic sampling",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22robotic+bronchoscopy%22+OR+all%3A%22robotic-assisted+bronchoscopy%22%29+AND+%28all%3Adiagnostic+OR+all%3Asampling+OR+all%3Abiopsy+OR+all%3Ayield%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 3
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-feedback-microfluidics",
+      "focus": "Real-time feedback control in diagnostic microfluidics",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22real-time+feedback%22+OR+all%3A%22feedback+control%22%29+AND+%28all%3Adroplet+OR+all%3Amicrofluidic+OR+all%3AEWOD%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 3
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-assessment-devices",
+      "focus": "Robotic and automated physical-assessment devices",
+      "sources": {
+        "arxiv": {
+          "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22spasticity+testing%22+OR+all%3A%22knee+laxity+testing%22+OR+all%3A%22robotic+assessment%22%29+AND+%28all%3Adevice+OR+all%3Arobotic+OR+all%3Aautomated%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+        },
+        "openalex": {
+          "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "wearable-alert-confirmatory-testing",
+      "focus": "Wearable alerts linked to confirmatory ECG or diagnostic testing",
+      "sources": {
+        "arxiv": {
+          "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=40)"
+        },
+        "openalex": {
+          "records": 50
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "ferrobotic-molecular-testing",
+      "focus": "Ferrobotic and magnetic digital microfluidic molecular testing",
+      "sources": {
+        "arxiv": {
+          "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=40)"
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
     }
   ],
   "summary": {
-    "retrieved": 580,
-    "passed_filter": 52,
-    "unique_inbox": 34
+    "retrieved": 1875,
+    "passed_filter": 137,
+    "unique_inbox": 84
   }
 }
