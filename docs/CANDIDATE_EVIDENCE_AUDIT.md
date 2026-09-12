@@ -1,19 +1,19 @@
 # Candidate Evidence Audit
 
-Audit date: 2026-09-03
+Audit date: 2026-09-12
 
 > These counts describe the current automated candidate inbox, not the complete literature and not clinically validated systems.
 
 ## Reconciled counts
 
-- Raw candidate records: 34
-- Unique candidate works: 33
-- Identifier-verified works: 31
-- Core candidates: 2
-- Adjacent/borderline: 6
-- Excluded after scope screening: 23
+- Raw candidate records: 84
+- Unique candidate works: 83
+- Identifier-verified works: 81
+- Core candidates: 4
+- Adjacent/borderline: 15
+- Excluded after scope screening: 62
 - Unverified identifiers: 2
-- Future-year metadata flags: 4
+- Future-year metadata flags: 6
 
 ## Rules
 
