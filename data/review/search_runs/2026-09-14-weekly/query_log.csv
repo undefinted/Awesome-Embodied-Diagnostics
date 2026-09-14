@@ -1,0 +1,113 @@
+﻿query_id,source,status,retrieved,total_hits,retrieval_complete,truncated_at_limit,error,started_at,completed_at
+robotic-ultrasound,pubmed,ok,9,9,True,False,,2026-09-14T09:15:18.058315+00:00,2026-09-14T09:15:18.702684+00:00
+robotic-ultrasound,europepmc,ok,5,5,True,False,,2026-09-14T09:15:19.103683+00:00,2026-09-14T09:15:20.280295+00:00
+robotic-ultrasound,openalex,ok,46,46,True,False,,2026-09-14T09:15:20.681195+00:00,2026-09-14T09:15:21.524427+00:00
+robotic-ultrasound,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:15:21.925786+00:00,2026-09-14T09:17:55.950290+00:00
+embodied-endoscopy,pubmed,ok,8,8,True,False,,2026-09-14T09:17:56.351045+00:00,2026-09-14T09:17:56.999262+00:00
+embodied-endoscopy,europepmc,ok,3,3,True,False,,2026-09-14T09:17:57.400251+00:00,2026-09-14T09:17:58.326650+00:00
+embodied-endoscopy,openalex,ok,22,22,True,False,,2026-09-14T09:17:58.727364+00:00,2026-09-14T09:17:59.111599+00:00
+embodied-endoscopy,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:17:59.512651+00:00,2026-09-14T09:18:31.171255+00:00
+tactile-examination,pubmed,ok,2,2,True,False,,2026-09-14T09:18:31.572045+00:00,2026-09-14T09:18:32.185406+00:00
+tactile-examination,europepmc,ok,3,3,True,False,,2026-09-14T09:18:32.586329+00:00,2026-09-14T09:18:33.485403+00:00
+tactile-examination,openalex,ok,11,11,True,False,,2026-09-14T09:18:33.886260+00:00,2026-09-14T09:18:34.214215+00:00
+tactile-examination,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:18:34.615190+00:00,2026-09-14T09:20:53.884221+00:00
+diagnostic-sampling,pubmed,ok,2,2,True,False,,2026-09-14T09:20:54.285053+00:00,2026-09-14T09:20:54.883771+00:00
+diagnostic-sampling,europepmc,ok,1,1,True,False,,2026-09-14T09:20:55.284549+00:00,2026-09-14T09:20:56.473606+00:00
+diagnostic-sampling,openalex,ok,4,4,True,False,,2026-09-14T09:20:56.874325+00:00,2026-09-14T09:20:57.157604+00:00
+diagnostic-sampling,arxiv,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://export.arxiv.org/api/query?search_query=all%3A%22robotic+biopsy%22+OR+all%3A%22autonomous+biopsy%22+OR+all%3A%22robotic+phlebotomy%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending,2026-09-14T09:20:57.558456+00:00,2026-09-14T09:23:01.387827+00:00
+active-diagnostic-agents,pubmed,ok,1,1,True,False,,2026-09-14T09:23:01.788928+00:00,2026-09-14T09:23:02.428283+00:00
+active-diagnostic-agents,europepmc,ok,2,2,True,False,,2026-09-14T09:23:02.829211+00:00,2026-09-14T09:23:03.454070+00:00
+active-diagnostic-agents,openalex,ok,100,156,True,True,,2026-09-14T09:23:03.854795+00:00,2026-09-14T09:23:04.927967+00:00
+active-diagnostic-agents,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:23:05.329868+00:00,2026-09-14T09:24:38.333114+00:00
+medical-vla,pubmed,ok,3,3,True,False,,2026-09-14T09:24:38.733997+00:00,2026-09-14T09:24:39.360308+00:00
+medical-vla,europepmc,ok,4,4,True,False,,2026-09-14T09:24:39.761197+00:00,2026-09-14T09:24:40.562445+00:00
+medical-vla,openalex,ok,100,375,True,True,,2026-09-14T09:24:40.963264+00:00,2026-09-14T09:24:42.404539+00:00
+medical-vla,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:24:42.806427+00:00,2026-09-14T09:26:15.667565+00:00
+adaptive-clinical-measurement,pubmed,ok,0,0,True,False,,2026-09-14T09:26:16.068393+00:00,2026-09-14T09:26:16.206852+00:00
+adaptive-clinical-measurement,europepmc,ok,0,0,True,False,,2026-09-14T09:26:16.607557+00:00,2026-09-14T09:26:17.374194+00:00
+adaptive-clinical-measurement,openalex,ok,18,18,True,False,,2026-09-14T09:26:17.774957+00:00,2026-09-14T09:26:18.239052+00:00
+adaptive-clinical-measurement,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:26:18.640002+00:00,2026-09-14T09:28:07.691243+00:00
+capsule-and-luminal-robots,pubmed,ok,16,16,True,False,,2026-09-14T09:28:08.092079+00:00,2026-09-14T09:28:08.779978+00:00
+capsule-and-luminal-robots,europepmc,ok,8,8,True,False,,2026-09-14T09:28:09.181183+00:00,2026-09-14T09:28:10.384878+00:00
+capsule-and-luminal-robots,openalex,ok,100,128,True,True,,2026-09-14T09:28:10.785912+00:00,2026-09-14T09:28:11.884839+00:00
+capsule-and-luminal-robots,arxiv,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22capsule+endoscopy%22+OR+all%3A%22capsule+robot%22+OR+all%3A%22luminal+robot%22%29+AND+%28all%3Aautonomous+OR+all%3Anavigation+OR+all%3Adiagnostic%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending,2026-09-14T09:28:12.286869+00:00,2026-09-14T09:30:46.668754+00:00
+ophthalmic-examination,pubmed,ok,6,6,True,False,,2026-09-14T09:30:47.069889+00:00,2026-09-14T09:30:47.713951+00:00
+ophthalmic-examination,europepmc,ok,7,7,True,False,,2026-09-14T09:30:48.114914+00:00,2026-09-14T09:30:49.191369+00:00
+ophthalmic-examination,openalex,ok,100,532,True,True,,2026-09-14T09:30:49.592240+00:00,2026-09-14T09:30:50.968808+00:00
+ophthalmic-examination,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:30:51.371075+00:00,2026-09-14T09:32:55.274518+00:00
+dental-examination,pubmed,ok,10,10,True,False,,2026-09-14T09:32:55.675443+00:00,2026-09-14T09:32:56.354788+00:00
+dental-examination,europepmc,ok,7,7,True,False,,2026-09-14T09:32:56.755919+00:00,2026-09-14T09:32:57.766960+00:00
+dental-examination,openalex,ok,100,493,True,True,,2026-09-14T09:32:58.168019+00:00,2026-09-14T09:33:00.610667+00:00
+dental-examination,arxiv,ok,0,0,True,False,,2026-09-14T09:33:01.012755+00:00,2026-09-14T09:34:20.001797+00:00
+diagnostic-laboratory-loops,pubmed,ok,0,0,True,False,,2026-09-14T09:34:20.402671+00:00,2026-09-14T09:34:20.538614+00:00
+diagnostic-laboratory-loops,europepmc,ok,0,0,True,False,,2026-09-14T09:34:20.939574+00:00,2026-09-14T09:34:21.673024+00:00
+diagnostic-laboratory-loops,openalex,ok,49,49,True,False,,2026-09-14T09:34:22.074020+00:00,2026-09-14T09:34:22.589916+00:00
+diagnostic-laboratory-loops,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:34:22.991362+00:00,2026-09-14T09:36:41.943214+00:00
+multimodal-physical-examination,pubmed,ok,0,0,True,False,,2026-09-14T09:36:42.344635+00:00,2026-09-14T09:36:42.477640+00:00
+multimodal-physical-examination,europepmc,ok,0,0,True,False,,2026-09-14T09:36:42.878605+00:00,2026-09-14T09:36:43.765614+00:00
+multimodal-physical-examination,openalex,ok,100,123,True,True,,2026-09-14T09:36:44.166606+00:00,2026-09-14T09:36:45.207157+00:00
+multimodal-physical-examination,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:36:45.609203+00:00,2026-09-14T09:38:34.206103+00:00
+robotic-oct-and-ophthalmic-acquisition,pubmed,ok,0,0,True,False,,2026-09-14T09:38:34.607478+00:00,2026-09-14T09:38:34.817112+00:00
+robotic-oct-and-ophthalmic-acquisition,europepmc,ok,1,1,True,False,,2026-09-14T09:38:35.218152+00:00,2026-09-14T09:38:36.201218+00:00
+robotic-oct-and-ophthalmic-acquisition,openalex,ok,5,5,True,False,,2026-09-14T09:38:36.602293+00:00,2026-09-14T09:38:36.951234+00:00
+robotic-oct-and-ophthalmic-acquisition,arxiv,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22robotic+OCT%22+OR+all%3A%22robotic+optical+coherence+tomography%22+OR+all%3A%22autonomous+retinal+imaging%22+OR+all%3A%22robotic+slit+lamp%22%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending,2026-09-14T09:38:37.352404+00:00,2026-09-14T09:40:20.720001+00:00
+stimulation-response-mapping,pubmed,ok,7,7,True,False,,2026-09-14T09:40:21.121307+00:00,2026-09-14T09:40:21.779250+00:00
+stimulation-response-mapping,europepmc,ok,6,6,True,False,,2026-09-14T09:40:22.180375+00:00,2026-09-14T09:40:23.262063+00:00
+stimulation-response-mapping,openalex,ok,100,656,True,True,,2026-09-14T09:40:23.663060+00:00,2026-09-14T09:40:25.226143+00:00
+stimulation-response-mapping,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:40:25.628302+00:00,2026-09-14T09:42:13.776398+00:00
+robotic-functional-examination,pubmed,ok,19,19,True,False,,2026-09-14T09:42:14.177503+00:00,2026-09-14T09:42:14.956836+00:00
+robotic-functional-examination,europepmc,ok,14,14,True,False,,2026-09-14T09:42:15.358188+00:00,2026-09-14T09:42:16.904424+00:00
+robotic-functional-examination,openalex,ok,100,391,True,True,,2026-09-14T09:42:17.305705+00:00,2026-09-14T09:42:18.583246+00:00
+robotic-functional-examination,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:42:18.985452+00:00,2026-09-14T09:43:21.790183+00:00
+robotic-swabbing-and-blood-collection,pubmed,ok,13,13,True,False,,2026-09-14T09:43:22.191095+00:00,2026-09-14T09:43:22.820943+00:00
+robotic-swabbing-and-blood-collection,europepmc,ok,10,10,True,False,,2026-09-14T09:43:23.222125+00:00,2026-09-14T09:43:24.643668+00:00
+robotic-swabbing-and-blood-collection,openalex,ok,100,957,True,True,,2026-09-14T09:43:25.044898+00:00,2026-09-14T09:43:26.676291+00:00
+robotic-swabbing-and-blood-collection,arxiv,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://export.arxiv.org/api/query?search_query=%28all%3Arobotic+OR+all%3Aautonomous+OR+all%3Aautomated%29+AND+%28all%3Aswab+OR+all%3Avenipuncture+OR+all%3A%22blood+collection%22%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending,2026-09-14T09:43:27.078592+00:00,2026-09-14T09:45:15.052670+00:00
+adaptive-microfluidic-diagnostics,pubmed,ok,14,14,True,False,,2026-09-14T09:45:15.454064+00:00,2026-09-14T09:45:16.160870+00:00
+adaptive-microfluidic-diagnostics,europepmc,ok,10,10,True,False,,2026-09-14T09:45:16.562310+00:00,2026-09-14T09:45:19.461527+00:00
+adaptive-microfluidic-diagnostics,openalex,ok,100,4964,True,True,,2026-09-14T09:45:19.862612+00:00,2026-09-14T09:45:21.566855+00:00
+adaptive-microfluidic-diagnostics,arxiv,error,0,,False,False,"RuntimeError: request failed after retries: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=90)",2026-09-14T09:45:21.969005+00:00,2026-09-14T09:49:11.405230+00:00
+autonomous-assay-development,pubmed,ok,0,0,True,False,,2026-09-14T09:49:11.806740+00:00,2026-09-14T09:49:11.952798+00:00
+autonomous-assay-development,europepmc,ok,0,0,True,False,,2026-09-14T09:49:12.353947+00:00,2026-09-14T09:49:14.618262+00:00
+autonomous-assay-development,openalex,ok,100,116,True,True,,2026-09-14T09:49:15.019298+00:00,2026-09-14T09:49:16.054748+00:00
+autonomous-assay-development,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:49:16.457025+00:00,2026-09-14T09:50:18.754638+00:00
+wearable-triggered-testing,pubmed,ok,0,0,True,False,,2026-09-14T09:50:19.155810+00:00,2026-09-14T09:50:19.281535+00:00
+wearable-triggered-testing,europepmc,ok,0,0,True,False,,2026-09-14T09:50:19.682672+00:00,2026-09-14T09:50:20.753147+00:00
+wearable-triggered-testing,openalex,ok,91,91,True,False,,2026-09-14T09:50:21.154198+00:00,2026-09-14T09:50:22.115950+00:00
+wearable-triggered-testing,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:50:22.518352+00:00,2026-09-14T09:52:25.941885+00:00
+ambient-adaptive-monitoring,pubmed,ok,2,2,True,False,,2026-09-14T09:52:26.343500+00:00,2026-09-14T09:52:26.987073+00:00
+ambient-adaptive-monitoring,europepmc,ok,1,1,True,False,,2026-09-14T09:52:27.388423+00:00,2026-09-14T09:52:29.174837+00:00
+ambient-adaptive-monitoring,openalex,ok,100,297,True,True,,2026-09-14T09:52:29.576092+00:00,2026-09-14T09:52:30.895743+00:00
+ambient-adaptive-monitoring,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T09:52:31.297906+00:00,2026-09-14T09:55:36.652699+00:00
+capsule-quality-feedback,pubmed,ok,0,0,True,False,,2026-09-14T09:55:37.053772+00:00,2026-09-14T09:55:37.181356+00:00
+capsule-quality-feedback,europepmc,ok,0,0,True,False,,2026-09-14T09:55:37.582329+00:00,2026-09-14T09:55:39.297252+00:00
+capsule-quality-feedback,openalex,ok,1,1,True,False,,2026-09-14T09:55:39.698360+00:00,2026-09-14T09:55:40.093908+00:00
+capsule-quality-feedback,arxiv,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22magnetically+controlled+capsule+gastroscopy%22+OR+all%3A%22capsule+gastroscopy%22%29+AND+%28all%3A%22quality+control%22+OR+all%3Ablind-spot+OR+all%3Afeedback%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending,2026-09-14T09:55:40.495157+00:00,2026-09-14T09:58:15.055156+00:00
+focused-tms-mapping,pubmed,ok,0,0,True,False,,2026-09-14T09:58:15.456413+00:00,2026-09-14T09:58:15.600682+00:00
+focused-tms-mapping,europepmc,ok,0,0,True,False,,2026-09-14T09:58:16.001852+00:00,2026-09-14T09:58:33.787921+00:00
+focused-tms-mapping,openalex,ok,14,14,True,False,,2026-09-14T09:58:34.188986+00:00,2026-09-14T09:58:34.602162+00:00
+focused-tms-mapping,arxiv,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://export.arxiv.org/api/query?search_query=all%3ATMS+AND+%28all%3A%22hotspot-hunting%22+OR+all%3A%22hotspot+hunting%22+OR+all%3A%22motor+cortex+mapping%22+OR+all%3A%22active+learning%22%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending,2026-09-14T09:58:35.003377+00:00,2026-09-14T10:01:03.452699+00:00
+focused-robotic-blood-and-swab,pubmed,ok,0,0,True,False,,2026-09-14T10:01:03.854218+00:00,2026-09-14T10:01:03.982457+00:00
+focused-robotic-blood-and-swab,europepmc,ok,0,0,True,False,,2026-09-14T10:01:04.383653+00:00,2026-09-14T10:01:08.228098+00:00
+focused-robotic-blood-and-swab,openalex,ok,25,25,True,False,,2026-09-14T10:01:08.629345+00:00,2026-09-14T10:01:09.253289+00:00
+focused-robotic-blood-and-swab,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T10:01:09.654706+00:00,2026-09-14T10:02:12.059157+00:00
+focused-robotic-bronchoscopy,pubmed,ok,16,16,True,False,,2026-09-14T10:02:12.460566+00:00,2026-09-14T10:02:13.195266+00:00
+focused-robotic-bronchoscopy,europepmc,ok,8,8,True,False,,2026-09-14T10:02:13.596876+00:00,2026-09-14T10:02:14.708118+00:00
+focused-robotic-bronchoscopy,openalex,ok,30,30,True,False,,2026-09-14T10:02:15.109402+00:00,2026-09-14T10:02:15.751404+00:00
+focused-robotic-bronchoscopy,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T10:02:16.152940+00:00,2026-09-14T10:03:03.196729+00:00
+focused-feedback-microfluidics,pubmed,ok,1,1,True,False,,2026-09-14T10:03:03.598378+00:00,2026-09-14T10:03:04.325718+00:00
+focused-feedback-microfluidics,europepmc,ok,1,1,True,False,,2026-09-14T10:03:04.727091+00:00,2026-09-14T10:03:05.174637+00:00
+focused-feedback-microfluidics,openalex,ok,100,187,True,True,,2026-09-14T10:03:05.575904+00:00,2026-09-14T10:03:06.849283+00:00
+focused-feedback-microfluidics,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T10:03:07.251791+00:00,2026-09-14T10:05:11.075743+00:00
+focused-robotic-assessment-devices,pubmed,ok,0,0,True,False,,2026-09-14T10:05:11.477052+00:00,2026-09-14T10:05:11.634528+00:00
+focused-robotic-assessment-devices,europepmc,ok,0,0,True,False,,2026-09-14T10:05:12.035902+00:00,2026-09-14T10:05:13.100671+00:00
+focused-robotic-assessment-devices,openalex,ok,18,18,True,False,,2026-09-14T10:05:13.501974+00:00,2026-09-14T10:05:13.913324+00:00
+focused-robotic-assessment-devices,arxiv,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22spasticity+testing%22+OR+all%3A%22knee+laxity+testing%22+OR+all%3A%22robotic+assessment%22%29+AND+%28all%3Adevice+OR+all%3Arobotic+OR+all%3Aautomated%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending,2026-09-14T10:05:14.314843+00:00,2026-09-14T10:08:50.949597+00:00
+wearable-alert-confirmatory-testing,pubmed,ok,3,3,True,False,,2026-09-14T10:08:51.351291+00:00,2026-09-14T10:08:51.945770+00:00
+wearable-alert-confirmatory-testing,europepmc,ok,4,4,True,False,,2026-09-14T10:08:52.347194+00:00,2026-09-14T10:08:53.459705+00:00
+wearable-alert-confirmatory-testing,openalex,ok,100,2982,True,True,,2026-09-14T10:08:53.860950+00:00,2026-09-14T10:08:55.841809+00:00
+wearable-alert-confirmatory-testing,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T10:08:56.244435+00:00,2026-09-14T10:12:16.338706+00:00
+ferrobotic-molecular-testing,pubmed,ok,0,0,True,False,,2026-09-14T10:12:16.739980+00:00,2026-09-14T10:12:16.861894+00:00
+ferrobotic-molecular-testing,europepmc,ok,0,0,True,False,,2026-09-14T10:12:17.263155+00:00,2026-09-14T10:12:18.006233+00:00
+ferrobotic-molecular-testing,openalex,ok,4,4,True,False,,2026-09-14T10:12:18.407609+00:00,2026-09-14T10:12:18.774956+00:00
+ferrobotic-molecular-testing,arxiv,error,0,,False,False,RuntimeError: request failed after retries: HTTP 429,2026-09-14T10:12:19.176373+00:00,2026-09-14T10:13:36.903016+00:00
