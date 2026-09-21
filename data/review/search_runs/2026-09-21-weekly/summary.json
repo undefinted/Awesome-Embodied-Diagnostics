@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-09-21-weekly",
+  "generated_at": "2026-09-21T09:20:05.205844+00:00",
+  "since": "2026-08-07",
+  "until": "2026-09-21",
+  "sources": [
+    "arxiv",
+    "europepmc",
+    "openalex",
+    "pubmed"
+  ],
+  "query_families": 28,
+  "retrieved_source_query_records": 1936,
+  "deduplicated_candidates": 1633,
+  "automated_signal_counts": {
+    "high": 15,
+    "possible": 284,
+    "low": 1334
+  },
+  "successful_source_queries": 112,
+  "failed_source_queries": 0,
+  "configured_source_query_pairs": 112,
+  "unrun_source_queries": 0,
+  "source_queries_truncated_at_limit": 14,
+  "query_registry_sha256": "964cd7b22935c1b27ebd62269d46b7f8f78e583ee5d18700cbe06f56b4290157",
+  "claim_boundary": "Candidate retrieval counts only; no record is included without human screening."
+}
