@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T10:08:46.276738+00:00",
-  "since": "2026-08-31T10:08:46.273549+00:00",
+  "generated_at": "2026-09-26T07:41:38.044979+00:00",
+  "since": "2026-09-23T07:41:38.032729+00:00",
   "queries": [
     {
       "id": "robotic-ultrasound",
@@ -10,7 +10,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 2
+          "records": 5
         },
         "crossref": {
           "records": 50
@@ -46,7 +46,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 1
+          "records": 0
         },
         "crossref": {
           "records": 50
@@ -82,7 +82,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 5
+          "records": 3
         },
         "crossref": {
           "records": 50
@@ -100,13 +100,13 @@
           "records": 0
         },
         "openalex": {
-          "records": 19
+          "records": 12
         },
         "crossref": {
           "records": 50
         },
         "europepmc": {
-          "records": 0
+          "records": 3
         }
       }
     },
@@ -127,11 +127,389 @@
           "records": 0
         }
       }
+    },
+    {
+      "id": "capsule-and-luminal-robots",
+      "focus": "Capsule endoscopy and luminal diagnostic robots",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 4
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "ophthalmic-examination",
+      "focus": "Robotic ophthalmic examination and acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 9
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "dental-examination",
+      "focus": "Robotic dental examination and diagnostic acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 5
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 2
+        }
+      }
+    },
+    {
+      "id": "diagnostic-laboratory-loops",
+      "focus": "Closed-loop robotic diagnostic laboratories",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "multimodal-physical-examination",
+      "focus": "Multimodal robotic physical examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "robotic-oct-and-ophthalmic-acquisition",
+      "focus": "Robotic OCT and adaptive ophthalmic acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 50
+        }
+      }
+    },
+    {
+      "id": "stimulation-response-mapping",
+      "focus": "Closed-loop stimulation and response mapping",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 15
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 4
+        }
+      }
+    },
+    {
+      "id": "robotic-functional-examination",
+      "focus": "Robotic laxity, spasticity, and functional examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 10
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "robotic-swabbing-and-blood-collection",
+      "focus": "Robotic swabbing, venipuncture, and blood collection",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 23
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 7
+        }
+      }
+    },
+    {
+      "id": "adaptive-microfluidic-diagnostics",
+      "focus": "Feedback-controlled microfluidic diagnostic operations",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 50
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 2
+        }
+      }
+    },
+    {
+      "id": "autonomous-assay-development",
+      "focus": "Closed-loop autonomous assay and biotechnology development",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 6
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "wearable-triggered-testing",
+      "focus": "Wearable monitoring that triggers confirmatory testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "ambient-adaptive-monitoring",
+      "focus": "Ambient sensing linked to diagnostic reacquisition or escalation",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 8
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "capsule-quality-feedback",
+      "focus": "Capsule gastroscopy quality and blind-spot feedback",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-tms-mapping",
+      "focus": "Adaptive TMS hotspot and motor-cortex mapping",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-blood-and-swab",
+      "focus": "Robotic blood collection and swab systems",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-bronchoscopy",
+      "focus": "Robotic bronchoscopy navigation and diagnostic sampling",
+      "sources": {
+        "arxiv": {
+          "records": 1
+        },
+        "openalex": {
+          "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-feedback-microfluidics",
+      "focus": "Real-time feedback control in diagnostic microfluidics",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-assessment-devices",
+      "focus": "Robotic and automated physical-assessment devices",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "wearable-alert-confirmatory-testing",
+      "focus": "Wearable alerts linked to confirmatory ECG or diagnostic testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 5
+        }
+      }
+    },
+    {
+      "id": "ferrobotic-molecular-testing",
+      "focus": "Ferrobotic and magnetic digital microfluidic molecular testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
     }
   ],
   "summary": {
-    "retrieved": 580,
-    "passed_filter": 52,
-    "unique_inbox": 34
+    "retrieved": 1838,
+    "passed_filter": 143,
+    "unique_inbox": 96
   }
 }
