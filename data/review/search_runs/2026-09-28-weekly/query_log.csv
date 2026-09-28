@@ -1,0 +1,113 @@
+﻿query_id,source,status,retrieved,total_hits,retrieval_complete,truncated_at_limit,error,started_at,completed_at
+robotic-ultrasound,pubmed,ok,5,5,True,False,,2026-09-28T10:09:26.632139+00:00,2026-09-28T10:09:27.273731+00:00
+robotic-ultrasound,europepmc,ok,3,3,True,False,,2026-09-28T10:09:27.674640+00:00,2026-09-28T10:09:28.455726+00:00
+robotic-ultrasound,openalex,ok,45,45,True,False,,2026-09-28T10:09:28.856474+00:00,2026-09-28T10:09:34.793280+00:00
+robotic-ultrasound,arxiv,ok,2,2,True,False,,2026-09-28T10:09:35.194632+00:00,2026-09-28T10:09:36.167028+00:00
+embodied-endoscopy,pubmed,ok,7,7,True,False,,2026-09-28T10:09:36.567934+00:00,2026-09-28T10:09:37.231749+00:00
+embodied-endoscopy,europepmc,ok,3,3,True,False,,2026-09-28T10:09:37.632999+00:00,2026-09-28T10:09:38.482491+00:00
+embodied-endoscopy,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%22robotic+endoscopy%22+OR+%22autonomous+endoscopy%22+OR+%22endoscopic+navigation%22&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:09:38.883641+00:00,2026-09-28T10:09:54.212267+00:00
+embodied-endoscopy,arxiv,ok,1,1,True,False,,2026-09-28T10:09:54.613440+00:00,2026-09-28T10:09:55.009341+00:00
+tactile-examination,pubmed,ok,2,2,True,False,,2026-09-28T10:09:55.410423+00:00,2026-09-28T10:09:56.029738+00:00
+tactile-examination,europepmc,ok,2,2,True,False,,2026-09-28T10:09:56.431838+00:00,2026-09-28T10:09:57.279954+00:00
+tactile-examination,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%22robotic+palpation%22+OR+%22tactile+diagnosis%22+OR+%22robotic+auscultation%22&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:09:57.681177+00:00,2026-09-28T10:10:13.015640+00:00
+tactile-examination,arxiv,ok,0,0,True,False,,2026-09-28T10:10:13.416863+00:00,2026-09-28T10:10:13.686500+00:00
+diagnostic-sampling,pubmed,ok,3,3,True,False,,2026-09-28T10:10:14.087543+00:00,2026-09-28T10:10:14.711168+00:00
+diagnostic-sampling,europepmc,ok,1,1,True,False,,2026-09-28T10:10:15.112451+00:00,2026-09-28T10:10:15.659467+00:00
+diagnostic-sampling,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%22robotic+biopsy%22+OR+%22autonomous+biopsy%22+OR+%22robotic+phlebotomy%22&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:10:16.060472+00:00,2026-09-28T10:10:31.388105+00:00
+diagnostic-sampling,arxiv,ok,0,0,True,False,,2026-09-28T10:10:31.789295+00:00,2026-09-28T10:10:32.054422+00:00
+active-diagnostic-agents,pubmed,ok,2,2,True,False,,2026-09-28T10:10:32.455535+00:00,2026-09-28T10:10:33.063043+00:00
+active-diagnostic-agents,europepmc,ok,1,1,True,False,,2026-09-28T10:10:33.464220+00:00,2026-09-28T10:10:35.967413+00:00
+active-diagnostic-agents,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%22active+sensing%22+AND+%28medical+OR+clinical+OR+diagnostic%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:10:36.368458+00:00,2026-09-28T10:10:51.652509+00:00
+active-diagnostic-agents,arxiv,ok,0,0,True,False,,2026-09-28T10:10:52.053642+00:00,2026-09-28T10:10:52.423400+00:00
+medical-vla,pubmed,ok,3,3,True,False,,2026-09-28T10:10:52.824306+00:00,2026-09-28T10:10:53.429191+00:00
+medical-vla,europepmc,ok,2,2,True,False,,2026-09-28T10:10:53.830389+00:00,2026-09-28T10:10:57.092408+00:00
+medical-vla,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22vision-language-action%22+OR+VLA+OR+%22embodied+agent%22%29+AND+%28medical+OR+clinical+OR+healthcare%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:10:57.493442+00:00,2026-09-28T10:11:12.826802+00:00
+medical-vla,arxiv,ok,7,7,True,False,,2026-09-28T10:11:13.228121+00:00,2026-09-28T10:11:20.560941+00:00
+adaptive-clinical-measurement,pubmed,ok,0,0,True,False,,2026-09-28T10:11:20.962003+00:00,2026-09-28T10:11:21.100138+00:00
+adaptive-clinical-measurement,europepmc,ok,0,0,True,False,,2026-09-28T10:11:21.504782+00:00,2026-09-28T10:11:27.448173+00:00
+adaptive-clinical-measurement,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22adaptive+examination%22+OR+%22active+examination%22+OR+%22closed-loop+diagnosis%22%29+AND+%28medical+OR+clinical%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:11:27.849451+00:00,2026-09-28T10:11:43.189506+00:00
+adaptive-clinical-measurement,arxiv,ok,0,0,True,False,,2026-09-28T10:11:43.590772+00:00,2026-09-28T10:11:43.833460+00:00
+capsule-and-luminal-robots,pubmed,ok,15,15,True,False,,2026-09-28T10:11:44.234469+00:00,2026-09-28T10:11:44.939052+00:00
+capsule-and-luminal-robots,europepmc,ok,12,12,True,False,,2026-09-28T10:11:45.340768+00:00,2026-09-28T10:11:49.046067+00:00
+capsule-and-luminal-robots,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22capsule+endoscopy%22+OR+%22capsule+robot%22+OR+%22luminal+robot%22%29+AND+%28autonomous+OR+navigation+OR+diagnostic%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:11:49.447254+00:00,2026-09-28T10:12:04.714300+00:00
+capsule-and-luminal-robots,arxiv,ok,2,2,True,False,,2026-09-28T10:12:05.115329+00:00,2026-09-28T10:12:06.279568+00:00
+ophthalmic-examination,pubmed,ok,6,6,True,False,,2026-09-28T10:12:06.680623+00:00,2026-09-28T10:12:07.320307+00:00
+ophthalmic-examination,europepmc,ok,5,5,True,False,,2026-09-28T10:12:07.721513+00:00,2026-09-28T10:12:09.905131+00:00
+ophthalmic-examination,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28robotic+OR+autonomous%29+AND+%28ophthalmic+OR+retinal+OR+%22slit+lamp%22%29+AND+%28examination+OR+imaging%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:12:10.306293+00:00,2026-09-28T10:12:25.633781+00:00
+ophthalmic-examination,arxiv,ok,0,0,True,False,,2026-09-28T10:12:26.035029+00:00,2026-09-28T10:12:26.624241+00:00
+dental-examination,pubmed,ok,7,7,True,False,,2026-09-28T10:12:27.025253+00:00,2026-09-28T10:12:27.672963+00:00
+dental-examination,europepmc,ok,7,7,True,False,,2026-09-28T10:12:28.074487+00:00,2026-09-28T10:12:28.832198+00:00
+dental-examination,openalex,ok,100,514,True,True,,2026-09-28T10:12:29.233382+00:00,2026-09-28T10:12:32.077093+00:00
+dental-examination,arxiv,ok,0,0,True,False,,2026-09-28T10:12:32.479588+00:00,2026-09-28T10:12:32.765462+00:00
+diagnostic-laboratory-loops,pubmed,ok,0,0,True,False,,2026-09-28T10:12:33.166489+00:00,2026-09-28T10:12:34.427643+00:00
+diagnostic-laboratory-loops,europepmc,ok,0,0,True,False,,2026-09-28T10:12:34.828685+00:00,2026-09-28T10:12:35.618814+00:00
+diagnostic-laboratory-loops,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22closed-loop%22+OR+adaptive+OR+autonomous%29+AND+%28%22diagnostic+laboratory%22+OR+%22clinical+laboratory%22+OR+%22laboratory+diagnostics%22%29+AND+robotic&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:12:36.020063+00:00,2026-09-28T10:12:51.367225+00:00
+diagnostic-laboratory-loops,arxiv,ok,0,0,True,False,,2026-09-28T10:12:51.768521+00:00,2026-09-28T10:12:52.195385+00:00
+multimodal-physical-examination,pubmed,ok,0,0,True,False,,2026-09-28T10:12:52.596605+00:00,2026-09-28T10:12:52.726755+00:00
+multimodal-physical-examination,europepmc,ok,0,0,True,False,,2026-09-28T10:12:53.129085+00:00,2026-09-28T10:12:56.264891+00:00
+multimodal-physical-examination,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28robotic+OR+embodied%29+AND+%22physical+examination%22+AND+%28multimodal+OR+diagnostic%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:12:56.666156+00:00,2026-09-28T10:13:11.920448+00:00
+multimodal-physical-examination,arxiv,ok,0,0,True,False,,2026-09-28T10:13:12.321730+00:00,2026-09-28T10:13:12.567252+00:00
+robotic-oct-and-ophthalmic-acquisition,pubmed,ok,0,0,True,False,,2026-09-28T10:13:12.968471+00:00,2026-09-28T10:13:13.132905+00:00
+robotic-oct-and-ophthalmic-acquisition,europepmc,ok,0,0,True,False,,2026-09-28T10:13:13.534191+00:00,2026-09-28T10:13:15.037226+00:00
+robotic-oct-and-ophthalmic-acquisition,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%22robotic+OCT%22+OR+%22robotic+optical+coherence+tomography%22+OR+%22autonomous+retinal+imaging%22+OR+%22robotic+slit+lamp%22&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:13:15.438554+00:00,2026-09-28T10:13:30.715826+00:00
+robotic-oct-and-ophthalmic-acquisition,arxiv,ok,0,0,True,False,,2026-09-28T10:13:31.117130+00:00,2026-09-28T10:13:31.450516+00:00
+stimulation-response-mapping,pubmed,ok,9,9,True,False,,2026-09-28T10:13:31.851677+00:00,2026-09-28T10:13:32.522658+00:00
+stimulation-response-mapping,europepmc,ok,9,9,True,False,,2026-09-28T10:13:32.924165+00:00,2026-09-28T10:13:41.401285+00:00
+stimulation-response-mapping,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22closed-loop+TMS%22+OR+%22active+learning%22+OR+adaptive%29+AND+%28%22motor+mapping%22+OR+%22cortical+mapping%22+OR+TMS%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:13:41.802650+00:00,2026-09-28T10:13:57.088509+00:00
+stimulation-response-mapping,arxiv,ok,3,3,True,False,,2026-09-28T10:13:57.490131+00:00,2026-09-28T10:14:02.059262+00:00
+robotic-functional-examination,pubmed,ok,14,14,True,False,,2026-09-28T10:14:02.460933+00:00,2026-09-28T10:14:03.157882+00:00
+robotic-functional-examination,europepmc,ok,12,12,True,False,,2026-09-28T10:14:03.559500+00:00,2026-09-28T10:14:06.756902+00:00
+robotic-functional-examination,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28robotic+OR+automated%29+AND+%28laxity+OR+spasticity+OR+%22joint+examination%22+OR+%22physical+assessment%22%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:14:07.158376+00:00,2026-09-28T10:14:22.450132+00:00
+robotic-functional-examination,arxiv,ok,0,0,True,False,,2026-09-28T10:14:22.851450+00:00,2026-09-28T10:14:23.188491+00:00
+robotic-swabbing-and-blood-collection,pubmed,ok,12,12,True,False,,2026-09-28T10:14:23.589824+00:00,2026-09-28T10:14:24.338788+00:00
+robotic-swabbing-and-blood-collection,europepmc,ok,9,9,True,False,,2026-09-28T10:14:24.740480+00:00,2026-09-28T10:14:28.745200+00:00
+robotic-swabbing-and-blood-collection,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28robotic+OR+autonomous+OR+automated%29+AND+%28swab+OR+venipuncture+OR+%22blood+collection%22%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:14:29.146519+00:00,2026-09-28T10:14:44.563950+00:00
+robotic-swabbing-and-blood-collection,arxiv,ok,0,0,True,False,,2026-09-28T10:14:44.965380+00:00,2026-09-28T10:14:45.379703+00:00
+adaptive-microfluidic-diagnostics,pubmed,ok,10,10,True,False,,2026-09-28T10:14:45.781072+00:00,2026-09-28T10:14:46.466232+00:00
+adaptive-microfluidic-diagnostics,europepmc,ok,5,5,True,False,,2026-09-28T10:14:46.867856+00:00,2026-09-28T10:14:50.073586+00:00
+adaptive-microfluidic-diagnostics,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22feedback+control%22+OR+adaptive+OR+programmable%29+AND+%28microfluidic+OR+droplet%29+AND+%28diagnostic+OR+assay+OR+testing%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:14:50.475399+00:00,2026-09-28T10:15:05.801885+00:00
+adaptive-microfluidic-diagnostics,arxiv,ok,0,0,True,False,,2026-09-28T10:15:06.203398+00:00,2026-09-28T10:15:06.820190+00:00
+autonomous-assay-development,pubmed,ok,0,0,True,False,,2026-09-28T10:15:07.221457+00:00,2026-09-28T10:15:07.355317+00:00
+autonomous-assay-development,europepmc,ok,0,0,True,False,,2026-09-28T10:15:07.756565+00:00,2026-09-28T10:15:11.025162+00:00
+autonomous-assay-development,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22self-driving+laboratory%22+OR+%22autonomous+laboratory%22+OR+%22closed-loop+experimentation%22%29+AND+%28biotechnology+OR+protein+OR+assay+OR+diagnostic%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:15:11.426646+00:00,2026-09-28T10:15:26.757969+00:00
+autonomous-assay-development,arxiv,ok,1,1,True,False,,2026-09-28T10:15:27.159557+00:00,2026-09-28T10:15:27.567862+00:00
+wearable-triggered-testing,pubmed,ok,2,2,True,False,,2026-09-28T10:15:27.969473+00:00,2026-09-28T10:15:28.606192+00:00
+wearable-triggered-testing,europepmc,ok,1,1,True,False,,2026-09-28T10:15:29.007903+00:00,2026-09-28T10:15:33.041943+00:00
+wearable-triggered-testing,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28wearable+OR+smartwatch%29+AND+%28%22at-home+testing%22+OR+%22confirmatory+testing%22+OR+%22triggered+testing%22+OR+presymptomatic%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:15:33.443327+00:00,2026-09-28T10:15:48.761336+00:00
+wearable-triggered-testing,arxiv,ok,0,0,True,False,,2026-09-28T10:15:49.162687+00:00,2026-09-28T10:15:49.408402+00:00
+ambient-adaptive-monitoring,pubmed,ok,2,2,True,False,,2026-09-28T10:15:49.809731+00:00,2026-09-28T10:15:50.413416+00:00
+ambient-adaptive-monitoring,europepmc,ok,1,1,True,False,,2026-09-28T10:15:50.814973+00:00,2026-09-28T10:15:52.248413+00:00
+ambient-adaptive-monitoring,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22ambient+intelligence%22+OR+%22contactless+sensing%22+OR+%22smart+toilet%22%29+AND+%28diagnostic+OR+detection+OR+monitoring%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:15:52.649846+00:00,2026-09-28T10:16:37.947604+00:00
+ambient-adaptive-monitoring,arxiv,ok,1,1,True,False,,2026-09-28T10:16:38.349065+00:00,2026-09-28T10:16:39.050725+00:00
+capsule-quality-feedback,pubmed,ok,0,0,True,False,,2026-09-28T10:16:39.452081+00:00,2026-09-28T10:16:39.586696+00:00
+capsule-quality-feedback,europepmc,ok,0,0,True,False,,2026-09-28T10:16:39.988020+00:00,2026-09-28T10:16:45.697951+00:00
+capsule-quality-feedback,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22magnetically+controlled+capsule+gastroscopy%22+OR+%22capsule+gastroscopy%22%29+AND+%28%22quality+control%22+OR+blind-spot+OR+feedback%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:16:46.099258+00:00,2026-09-28T10:17:58.462742+00:00
+capsule-quality-feedback,arxiv,ok,0,0,True,False,,2026-09-28T10:17:58.864341+00:00,2026-09-28T10:17:59.156358+00:00
+focused-tms-mapping,pubmed,ok,0,0,True,False,,2026-09-28T10:17:59.557764+00:00,2026-09-28T10:17:59.782601+00:00
+focused-tms-mapping,europepmc,ok,0,0,True,False,,2026-09-28T10:18:00.184088+00:00,2026-09-28T10:18:13.101269+00:00
+focused-tms-mapping,openalex,ok,19,19,True,False,,2026-09-28T10:18:13.502868+00:00,2026-09-28T10:18:24.309717+00:00
+focused-tms-mapping,arxiv,ok,0,0,True,False,,2026-09-28T10:18:24.711315+00:00,2026-09-28T10:18:24.974797+00:00
+focused-robotic-blood-and-swab,pubmed,ok,0,0,True,False,,2026-09-28T10:18:25.376296+00:00,2026-09-28T10:18:25.508678+00:00
+focused-robotic-blood-and-swab,europepmc,ok,0,0,True,False,,2026-09-28T10:18:25.910004+00:00,2026-09-28T10:18:29.561566+00:00
+focused-robotic-blood-and-swab,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=robot+AND+%28%22blood+collection%22+OR+venipuncture+OR+%22swab+robot%22+OR+%22robotic+swab%22%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:18:29.963271+00:00,2026-09-28T10:18:45.249287+00:00
+focused-robotic-blood-and-swab,arxiv,ok,0,0,True,False,,2026-09-28T10:18:45.650868+00:00,2026-09-28T10:18:45.896048+00:00
+focused-robotic-bronchoscopy,pubmed,ok,15,15,True,False,,2026-09-28T10:18:46.297454+00:00,2026-09-28T10:18:46.988722+00:00
+focused-robotic-bronchoscopy,europepmc,ok,11,11,True,False,,2026-09-28T10:18:47.391530+00:00,2026-09-28T10:18:55.346781+00:00
+focused-robotic-bronchoscopy,openalex,ok,29,29,True,False,,2026-09-28T10:18:55.748353+00:00,2026-09-28T10:19:03.875169+00:00
+focused-robotic-bronchoscopy,arxiv,ok,1,1,True,False,,2026-09-28T10:19:04.276839+00:00,2026-09-28T10:19:04.665797+00:00
+focused-feedback-microfluidics,pubmed,ok,1,1,True,False,,2026-09-28T10:19:05.067438+00:00,2026-09-28T10:19:05.756733+00:00
+focused-feedback-microfluidics,europepmc,ok,1,1,True,False,,2026-09-28T10:19:06.158293+00:00,2026-09-28T10:19:08.871658+00:00
+focused-feedback-microfluidics,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22real-time+feedback%22+OR+%22feedback+control%22%29+AND+%28droplet+OR+microfluidic+OR+EWOD%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:19:09.273331+00:00,2026-09-28T10:19:24.580671+00:00
+focused-feedback-microfluidics,arxiv,ok,0,0,True,False,,2026-09-28T10:19:24.982383+00:00,2026-09-28T10:19:25.385925+00:00
+focused-robotic-assessment-devices,pubmed,ok,0,0,True,False,,2026-09-28T10:19:25.787561+00:00,2026-09-28T10:19:25.915104+00:00
+focused-robotic-assessment-devices,europepmc,ok,0,0,True,False,,2026-09-28T10:19:26.316748+00:00,2026-09-28T10:19:27.465865+00:00
+focused-robotic-assessment-devices,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28%22spasticity+testing%22+OR+%22knee+laxity+testing%22+OR+%22robotic+assessment%22%29+AND+%28device+OR+robotic+OR+automated%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:19:27.867634+00:00,2026-09-28T10:19:43.221745+00:00
+focused-robotic-assessment-devices,arxiv,ok,0,0,True,False,,2026-09-28T10:19:43.623473+00:00,2026-09-28T10:19:43.967033+00:00
+wearable-alert-confirmatory-testing,pubmed,ok,3,3,True,False,,2026-09-28T10:19:44.368700+00:00,2026-09-28T10:19:44.993136+00:00
+wearable-alert-confirmatory-testing,europepmc,ok,4,4,True,False,,2026-09-28T10:19:45.395145+00:00,2026-09-28T10:19:49.783209+00:00
+wearable-alert-confirmatory-testing,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28wearable+OR+smartwatch+OR+%22smart+watch%22%29+AND+%28notification+OR+alert+OR+prompt%29+AND+%28%22ambulatory+ECG%22+OR+%22ECG+patch%22+OR+confirmatory+OR+testing%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:19:50.184748+00:00,2026-09-28T10:20:05.502557+00:00
+wearable-alert-confirmatory-testing,arxiv,ok,0,0,True,False,,2026-09-28T10:20:05.904020+00:00,2026-09-28T10:20:06.454349+00:00
+ferrobotic-molecular-testing,pubmed,ok,0,0,True,False,,2026-09-28T10:20:06.855733+00:00,2026-09-28T10:20:07.007715+00:00
+ferrobotic-molecular-testing,europepmc,ok,0,0,True,False,,2026-09-28T10:20:07.409258+00:00,2026-09-28T10:20:10.110796+00:00
+ferrobotic-molecular-testing,openalex,error,0,,False,False,RuntimeError: request failed after retries: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=%28ferrobotic+OR+%22magnetic+digital+microfluidics%22%29+AND+%28testing+OR+diagnostic+OR+assay%29&filter=from_publication_date%3A2026-08-14%2Cto_publication_date%3A2026-09-28&per-page=200&cursor=%2A,2026-09-28T10:20:10.512311+00:00,2026-09-28T10:20:25.833667+00:00
+ferrobotic-molecular-testing,arxiv,ok,0,0,True,False,,2026-09-28T10:20:26.235459+00:00,2026-09-28T10:20:26.417948+00:00
