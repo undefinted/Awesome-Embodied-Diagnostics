@@ -1,0 +1,7 @@
+{
+  "completed_source_query_pairs": 88,
+  "failed_source_query_pairs": 24,
+  "raw_records_checkpointed": 418,
+  "last_pair": "complete",
+  "updated_at": "2026-09-28T10:20:26.837234+00:00"
+}
