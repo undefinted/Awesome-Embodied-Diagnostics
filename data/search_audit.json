@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T10:08:46.276738+00:00",
-  "since": "2026-08-31T10:08:46.273549+00:00",
+  "generated_at": "2026-10-24T07:17:44.405816+00:00",
+  "since": "2026-10-21T07:17:44.399730+00:00",
   "queries": [
     {
       "id": "robotic-ultrasound",
@@ -10,7 +10,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 2
+          "records": 1
         },
         "crossref": {
           "records": 50
@@ -25,10 +25,10 @@
       "focus": "Embodied endoscopy and diagnostic navigation",
       "sources": {
         "arxiv": {
-          "records": 0
+          "records": 1
         },
         "openalex": {
-          "records": 2
+          "records": 0
         },
         "crossref": {
           "records": 50
@@ -46,13 +46,13 @@
           "records": 0
         },
         "openalex": {
-          "records": 1
+          "records": 0
         },
         "crossref": {
           "records": 50
         },
         "europepmc": {
-          "records": 50
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22robotic+palpation%22+OR+%22tactile+diagnosis%22+OR+%22robotic+auscultation%22+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
         }
       }
     },
@@ -70,7 +70,7 @@
           "records": 50
         },
         "europepmc": {
-          "records": 50
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22robotic+biopsy%22+OR+%22autonomous+biopsy%22+OR+%22robotic+phlebotomy%22+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
         }
       }
     },
@@ -82,13 +82,13 @@
           "records": 0
         },
         "openalex": {
-          "records": 5
+          "records": 1
         },
         "crossref": {
           "records": 50
         },
         "europepmc": {
-          "records": 0
+          "records": 1
         }
       }
     },
@@ -100,13 +100,13 @@
           "records": 0
         },
         "openalex": {
-          "records": 19
+          "records": 8
         },
         "crossref": {
           "records": 50
         },
         "europepmc": {
-          "records": 0
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22vision-language-action%22+OR+VLA+OR+%22embodied+agent%22%29+AND+%28medical+OR+clinical+OR+healthcare%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
         }
       }
     },
@@ -118,20 +118,398 @@
           "records": 0
         },
         "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22adaptive+examination%22+OR+%22active+examination%22+OR+%22closed-loop+diagnosis%22%29+AND+%28medical+OR+clinical%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "capsule-and-luminal-robots",
+      "focus": "Capsule endoscopy and luminal diagnostic robots",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 4
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22capsule+endoscopy%22+OR+%22capsule+robot%22+OR+%22luminal+robot%22%29+AND+%28autonomous+OR+navigation+OR+diagnostic%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "ophthalmic-examination",
+      "focus": "Robotic ophthalmic examination and acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 14
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28robotic+OR+autonomous%29+AND+%28ophthalmic+OR+retinal+OR+%22slit+lamp%22%29+AND+%28examination+OR+imaging%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "dental-examination",
+      "focus": "Robotic dental examination and diagnostic acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 12
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28robotic+OR+autonomous%29+AND+%28dental+OR+intraoral%29+AND+%28examination+OR+diagnostic+OR+imaging%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "diagnostic-laboratory-loops",
+      "focus": "Closed-loop robotic diagnostic laboratories",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22closed-loop%22+OR+adaptive+OR+autonomous%29+AND+%28%22diagnostic+laboratory%22+OR+%22clinical+laboratory%22+OR+%22laboratory+diagnostics%22%29+AND+robotic+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "multimodal-physical-examination",
+      "focus": "Multimodal robotic physical examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 3
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28robotic+OR+embodied%29+AND+%22physical+examination%22+AND+%28multimodal+OR+diagnostic%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "robotic-oct-and-ophthalmic-acquisition",
+      "focus": "Robotic OCT and adaptive ophthalmic acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 50
+        }
+      }
+    },
+    {
+      "id": "stimulation-response-mapping",
+      "focus": "Closed-loop stimulation and response mapping",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 14
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22closed-loop+TMS%22+OR+%22active+learning%22+OR+adaptive%29+AND+%28%22motor+mapping%22+OR+%22cortical+mapping%22+OR+TMS%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "robotic-functional-examination",
+      "focus": "Robotic laxity, spasticity, and functional examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 10
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28robotic+OR+automated%29+AND+%28laxity+OR+spasticity+OR+%22joint+examination%22+OR+%22physical+assessment%22%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "robotic-swabbing-and-blood-collection",
+      "focus": "Robotic swabbing, venipuncture, and blood collection",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 22
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28robotic+OR+autonomous+OR+automated%29+AND+%28swab+OR+venipuncture+OR+%22blood+collection%22%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "adaptive-microfluidic-diagnostics",
+      "focus": "Feedback-controlled microfluidic diagnostic operations",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 50
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22feedback+control%22+OR+adaptive+OR+programmable%29+AND+%28microfluidic+OR+droplet%29+AND+%28diagnostic+OR+assay+OR+testing%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "autonomous-assay-development",
+      "focus": "Closed-loop autonomous assay and biotechnology development",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 3
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22self-driving+laboratory%22+OR+%22autonomous+laboratory%22+OR+%22closed-loop+experimentation%22%29+AND+%28biotechnology+OR+protein+OR+assay+OR+diagnostic%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "wearable-triggered-testing",
+      "focus": "Wearable monitoring that triggers confirmatory testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 3
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28wearable+OR+smartwatch%29+AND+%28%22at-home+testing%22+OR+%22confirmatory+testing%22+OR+%22triggered+testing%22+OR+presymptomatic%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "ambient-adaptive-monitoring",
+      "focus": "Ambient sensing linked to diagnostic reacquisition or escalation",
+      "sources": {
+        "arxiv": {
+          "records": 1
+        },
+        "openalex": {
+          "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22ambient+intelligence%22+OR+%22contactless+sensing%22+OR+%22smart+toilet%22%29+AND+%28diagnostic+OR+detection+OR+monitoring%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "capsule-quality-feedback",
+      "focus": "Capsule gastroscopy quality and blind-spot feedback",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22magnetically+controlled+capsule+gastroscopy%22+OR+%22capsule+gastroscopy%22%29+AND+%28%22quality+control%22+OR+blind-spot+OR+feedback%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "focused-tms-mapping",
+      "focus": "Adaptive TMS hotspot and motor-cortex mapping",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TMS+AND+%28%22hotspot-hunting%22+OR+%22hotspot+hunting%22+OR+%22motor+cortex+mapping%22+OR+%22active+learning%22%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-blood-and-swab",
+      "focus": "Robotic blood collection and swab systems",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
           "records": 1
         },
         "crossref": {
           "records": 50
         },
         "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=robot+AND+%28%22blood+collection%22+OR+venipuncture+OR+%22swab+robot%22+OR+%22robotic+swab%22%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-bronchoscopy",
+      "focus": "Robotic bronchoscopy navigation and diagnostic sampling",
+      "sources": {
+        "arxiv": {
           "records": 0
+        },
+        "openalex": {
+          "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22robotic+bronchoscopy%22+OR+%22robotic-assisted+bronchoscopy%22%29+AND+%28diagnostic+OR+sampling+OR+biopsy+OR+yield%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "focused-feedback-microfluidics",
+      "focus": "Real-time feedback control in diagnostic microfluidics",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 5
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22real-time+feedback%22+OR+%22feedback+control%22%29+AND+%28droplet+OR+microfluidic+OR+EWOD%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-assessment-devices",
+      "focus": "Robotic and automated physical-assessment devices",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22spasticity+testing%22+OR+%22knee+laxity+testing%22+OR+%22robotic+assessment%22%29+AND+%28device+OR+robotic+OR+automated%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "wearable-alert-confirmatory-testing",
+      "focus": "Wearable alerts linked to confirmatory ECG or diagnostic testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 50
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28wearable+OR+smartwatch+OR+%22smart+watch%22%29+AND+%28notification+OR+alert+OR+prompt%29+AND+%28%22ambulatory+ECG%22+OR+%22ECG+patch%22+OR+confirmatory+OR+testing%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
+        }
+      }
+    },
+    {
+      "id": "ferrobotic-molecular-testing",
+      "focus": "Ferrobotic and magnetic digital microfluidic molecular testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "error": "503 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28ferrobotic+OR+%22magnetic+digital+microfluidics%22%29+AND+%28testing+OR+diagnostic+OR+assay%29+FIRST_PDATE%3A%5B2026-10-21+TO+9999-12-31%5D&format=json&pageSize=50&resultType=core"
         }
       }
     }
   ],
   "summary": {
-    "retrieved": 580,
-    "passed_filter": 52,
-    "unique_inbox": 34
+    "retrieved": 1759,
+    "passed_filter": 147,
+    "unique_inbox": 86
   }
 }
