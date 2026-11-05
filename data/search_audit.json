@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T10:08:46.276738+00:00",
-  "since": "2026-08-31T10:08:46.273549+00:00",
+  "generated_at": "2026-11-05T09:29:34.606523+00:00",
+  "since": "2026-11-02T09:29:34.594343+00:00",
   "queries": [
     {
       "id": "robotic-ultrasound",
@@ -10,7 +10,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 2
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%22robotic+ultrasound%22+OR+%22autonomous+ultrasound%22+OR+%22ultrasound+robot%22&filter=from_publication_date%3A2026-11-02&per-page=50"
         },
         "crossref": {
           "records": 50
@@ -28,7 +28,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 2
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%22robotic+endoscopy%22+OR+%22autonomous+endoscopy%22+OR+%22endoscopic+navigation%22&filter=from_publication_date%3A2026-11-02&per-page=50"
         },
         "crossref": {
           "records": 50
@@ -46,7 +46,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 1
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%22robotic+palpation%22+OR+%22tactile+diagnosis%22+OR+%22robotic+auscultation%22&filter=from_publication_date%3A2026-11-02&per-page=50"
         },
         "crossref": {
           "records": 50
@@ -64,7 +64,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 0
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%22robotic+biopsy%22+OR+%22autonomous+biopsy%22+OR+%22robotic+phlebotomy%22&filter=from_publication_date%3A2026-11-02&per-page=50"
         },
         "crossref": {
           "records": 50
@@ -82,13 +82,13 @@
           "records": 0
         },
         "openalex": {
-          "records": 5
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%22active+sensing%22+AND+%28medical+OR+clinical+OR+diagnostic%29&filter=from_publication_date%3A2026-11-02&per-page=50"
         },
         "crossref": {
           "records": 50
         },
         "europepmc": {
-          "records": 0
+          "records": 1
         }
       }
     },
@@ -100,13 +100,13 @@
           "records": 0
         },
         "openalex": {
-          "records": 19
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28%22vision-language-action%22+OR+VLA+OR+%22embodied+agent%22%29+AND+%28medical+OR+clinical+OR+healthcare%29&filter=from_publication_date%3A2026-11-02&per-page=50"
         },
         "crossref": {
           "records": 50
         },
         "europepmc": {
-          "records": 0
+          "records": 3
         }
       }
     },
@@ -118,7 +118,385 @@
           "records": 0
         },
         "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28%22adaptive+examination%22+OR+%22active+examination%22+OR+%22closed-loop+diagnosis%22%29+AND+%28medical+OR+clinical%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "capsule-and-luminal-robots",
+      "focus": "Capsule endoscopy and luminal diagnostic robots",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28%22capsule+endoscopy%22+OR+%22capsule+robot%22+OR+%22luminal+robot%22%29+AND+%28autonomous+OR+navigation+OR+diagnostic%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 6
+        }
+      }
+    },
+    {
+      "id": "ophthalmic-examination",
+      "focus": "Robotic ophthalmic examination and acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28robotic+OR+autonomous%29+AND+%28ophthalmic+OR+retinal+OR+%22slit+lamp%22%29+AND+%28examination+OR+imaging%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 2
+        }
+      }
+    },
+    {
+      "id": "dental-examination",
+      "focus": "Robotic dental examination and diagnostic acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28robotic+OR+autonomous%29+AND+%28dental+OR+intraoral%29+AND+%28examination+OR+diagnostic+OR+imaging%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 5
+        }
+      }
+    },
+    {
+      "id": "diagnostic-laboratory-loops",
+      "focus": "Closed-loop robotic diagnostic laboratories",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
           "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "multimodal-physical-examination",
+      "focus": "Multimodal robotic physical examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28robotic+OR+embodied%29+AND+%22physical+examination%22+AND+%28multimodal+OR+diagnostic%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "robotic-oct-and-ophthalmic-acquisition",
+      "focus": "Robotic OCT and adaptive ophthalmic acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%22robotic+OCT%22+OR+%22robotic+optical+coherence+tomography%22+OR+%22autonomous+retinal+imaging%22+OR+%22robotic+slit+lamp%22&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 50
+        }
+      }
+    },
+    {
+      "id": "stimulation-response-mapping",
+      "focus": "Closed-loop stimulation and response mapping",
+      "sources": {
+        "arxiv": {
+          "records": 1
+        },
+        "openalex": {
+          "records": 20
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 2
+        }
+      }
+    },
+    {
+      "id": "robotic-functional-examination",
+      "focus": "Robotic laxity, spasticity, and functional examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28robotic+OR+automated%29+AND+%28laxity+OR+spasticity+OR+%22joint+examination%22+OR+%22physical+assessment%22%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 2
+        }
+      }
+    },
+    {
+      "id": "robotic-swabbing-and-blood-collection",
+      "focus": "Robotic swabbing, venipuncture, and blood collection",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28robotic+OR+autonomous+OR+automated%29+AND+%28swab+OR+venipuncture+OR+%22blood+collection%22%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 7
+        }
+      }
+    },
+    {
+      "id": "adaptive-microfluidic-diagnostics",
+      "focus": "Feedback-controlled microfluidic diagnostic operations",
+      "sources": {
+        "arxiv": {
+          "records": 1
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28%22feedback+control%22+OR+adaptive+OR+programmable%29+AND+%28microfluidic+OR+droplet%29+AND+%28diagnostic+OR+assay+OR+testing%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 16
+        }
+      }
+    },
+    {
+      "id": "autonomous-assay-development",
+      "focus": "Closed-loop autonomous assay and biotechnology development",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "wearable-triggered-testing",
+      "focus": "Wearable monitoring that triggers confirmatory testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28wearable+OR+smartwatch%29+AND+%28%22at-home+testing%22+OR+%22confirmatory+testing%22+OR+%22triggered+testing%22+OR+presymptomatic%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "ambient-adaptive-monitoring",
+      "focus": "Ambient sensing linked to diagnostic reacquisition or escalation",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28%22ambient+intelligence%22+OR+%22contactless+sensing%22+OR+%22smart+toilet%22%29+AND+%28diagnostic+OR+detection+OR+monitoring%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "capsule-quality-feedback",
+      "focus": "Capsule gastroscopy quality and blind-spot feedback",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28%22magnetically+controlled+capsule+gastroscopy%22+OR+%22capsule+gastroscopy%22%29+AND+%28%22quality+control%22+OR+blind-spot+OR+feedback%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-tms-mapping",
+      "focus": "Adaptive TMS hotspot and motor-cortex mapping",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=TMS+AND+%28%22hotspot-hunting%22+OR+%22hotspot+hunting%22+OR+%22motor+cortex+mapping%22+OR+%22active+learning%22%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-blood-and-swab",
+      "focus": "Robotic blood collection and swab systems",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 1
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-bronchoscopy",
+      "focus": "Robotic bronchoscopy navigation and diagnostic sampling",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "focused-feedback-microfluidics",
+      "focus": "Real-time feedback control in diagnostic microfluidics",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-assessment-devices",
+      "focus": "Robotic and automated physical-assessment devices",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 0
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "wearable-alert-confirmatory-testing",
+      "focus": "Wearable alerts linked to confirmatory ECG or diagnostic testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28wearable+OR+smartwatch+OR+%22smart+watch%22%29+AND+%28notification+OR+alert+OR+prompt%29+AND+%28%22ambulatory+ECG%22+OR+%22ECG+patch%22+OR+confirmatory+OR+testing%29&filter=from_publication_date%3A2026-11-02&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 4
+        }
+      }
+    },
+    {
+      "id": "ferrobotic-molecular-testing",
+      "focus": "Ferrobotic and magnetic digital microfluidic molecular testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28ferrobotic+OR+%22magnetic+digital+microfluidics%22%29+AND+%28testing+OR+diagnostic+OR+assay%29&filter=from_publication_date%3A2026-11-02&per-page=50"
         },
         "crossref": {
           "records": 50
@@ -130,8 +508,8 @@
     }
   ],
   "summary": {
-    "retrieved": 580,
-    "passed_filter": 52,
-    "unique_inbox": 34
+    "retrieved": 1731,
+    "passed_filter": 133,
+    "unique_inbox": 86
   }
 }
