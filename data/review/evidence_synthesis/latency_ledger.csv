@@ -1,0 +1,18 @@
+observation_id,domain,system_or_interface,latency_value_s,latency_interval,latency_context,plotted,source
+L01,Clinical imaging,FARUSS manual examination,147,,examination duration,yes,https://www.nature.com/articles/s41746-026-03260-7
+L02,Clinical imaging,FARUSS autonomous examination,202,,examination duration,yes,https://www.nature.com/articles/s41746-026-03260-7
+L03,Clinical imaging,AI-guided echocardiography,,1800,median scan duration (30 min),yes,https://doi.org/10.1001/jamacardio.2021.0185
+L04,Clinical imaging,Capsule gastroscopy manual control,1656,,median examination time (27.6 min),yes,https://pmc.ncbi.nlm.nih.gov/articles/PMC13312741/
+L05,Clinical imaging,Capsule gastroscopy quality-control support,1716,,median examination time (28.6 min),yes,https://pmc.ncbi.nlm.nih.gov/articles/PMC13312741/
+L06,Clinical intervention,RELIANT electromagnetic navigation,1920,,procedure duration (32 min),yes,https://doi.org/10.1164/rccm.202409-1846OC
+L07,Clinical intervention,RELIANT robotic navigation,2220,,procedure duration (37 min),yes,https://doi.org/10.1164/rccm.202409-1846OC
+L08,Clinical sampling,Automated venipuncture,93,,mean procedure time,yes,https://doi.org/10.1142/S2339547819500067
+L09,Laboratory diagnostics,Ferrobotic viral testing,105,,hands-on time (1.75 min); reported separately from response latency,no,https://pmc.ncbi.nlm.nih.gov/articles/PMC9645323/
+L10,Laboratory diagnostics,Ferrobotic viral testing,1800,,amplification time (30 min),yes,https://pmc.ncbi.nlm.nih.gov/articles/PMC9645323/
+L11,Clinical imaging,5G robotic teleultrasound network,0.025,0.02-0.03,reported communication delay (20-30 ms),yes,https://doi.org/10.1016/j.jcmg.2022.07.018
+L12,Clinical imaging,Robot-assisted live ultrasound perception-action loop,0.085,,mean loop latency (85 ms),yes,https://doi.org/10.3390/electronics14183709
+L13,Clinical imaging,Teleoperated echocardiography network,,>0.2,latency threshold that impaired teleoperation; not an observed latency,no,https://doi.org/10.1016/j.compbiomed.2025.110450
+L14,Clinical imaging,Remote telerobotic sonography,2,,probe-command to image delay,yes,https://research-groups.usask.ca/remote-presence/documents/Telerobotic_Sonography_for_Remote_Diagnostic_Imaging.pdf
+L15,Everyday monitoring,Apple Heart Study alert-to-patch pathway,1123200,,approximately 13-day delay to returned patch,yes,https://doi.org/10.1056/NEJMoa1901183
+L16,Interface standard,ROS 2 control loop,,<0.01,sub-10-ms regime; interval-only statement,no,https://doi.org/10.1126/scirobotics.abm6074
+L17,Laboratory interface,SiLA command execution,,0.5-1200,device-dependent asynchronous execution; interval-only statement,no,https://sila-standard.com/standards/
