@@ -52,7 +52,7 @@ Source-linked breakdowns are available in [search quality](data/review/search_ru
 
 ## Manuscript crosswalk
 
-- **Main evidence table:** 14 selected anchors from the 24-report seed; report-level, reviewer-coded, and not a final systematic-review corpus.
+- **Main evidence table:** 31 report-level rows, including 14 selected anchors from the 24-report seed plus identifier-verified clinical, laboratory and response-based rows; it is reviewer-coded and not a final systematic-review corpus.
 - **Outcome summary:** 19/24 technical or acquisition, 9/24 diagnostic performance, 7/24 analytical validity, 7/24 workflow or efficiency, 4/24 safety, 4/24 human factors, and 0/24 patient-benefit outcomes.
 - **Latency histogram / Supplementary Fig. 3:** the current manuscript plots 13 source-linked observations from 10 reports; interval-only interface statements and non-response handling times are excluded. The auditable row-level data are in the [latency ledger](data/review/evidence_synthesis/latency_ledger.csv). The distribution is descriptive and does not pool heterogeneous endpoints.
 - **Figure 4 resource panel:** 12 representative platforms and interaction datasets are shown from a 44-entry named resource/version audit; the panel is illustrative rather than an exhaustive inventory.
