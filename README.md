@@ -4,6 +4,8 @@ A curated, reproducible research repository for **embodied intelligence in medic
 
 **Live homepage:** [undefinted.github.io/Awesome-Embodied-Diagnostics](https://undefinted.github.io/Awesome-Embodied-Diagnostics/)
 
+[![Validation](https://github.com/undefinted/Awesome-Embodied-Diagnostics/actions/workflows/validate.yml/badge.svg)](https://github.com/undefinted/Awesome-Embodied-Diagnostics/actions/workflows/validate.yml) [![Pages](https://github.com/undefinted/Awesome-Embodied-Diagnostics/actions/workflows/pages.yml/badge.svg)](https://github.com/undefinted/Awesome-Embodied-Diagnostics/actions/workflows/pages.yml)
+
 > **Status:** working evidence-mapping repository. The literature map and quantitative results remain under active validation. Counts are research-workflow outputs, not claims of global coverage or clinical maturity.
 
 > **Frozen evidence snapshot (public-v3, 10 September 2026):** 11,933 source-query records; 6,358 deduplicated screening candidates; 24/24 identifier-verified representative seed reports; 14 selected evidence anchors. These are workflow denominators, not a final included-study corpus, prevalence estimate, or clinical-readiness claim.
@@ -52,7 +54,9 @@ Source-linked breakdowns are available in [search quality](data/review/search_ru
 
 - **Main evidence table:** 14 selected anchors from the 24-report seed; report-level, reviewer-coded, and not a final systematic-review corpus.
 - **Outcome summary:** 19/24 technical or acquisition, 9/24 diagnostic performance, 7/24 analytical validity, 7/24 workflow or efficiency, 4/24 safety, 4/24 human factors, and 0/24 patient-benefit outcomes.
-- **Latency histogram / Supplementary Fig. 3:** do not use unlinked preview counts as a publication statistic. A study-level source ledger is required before reporting a numeric latency distribution.
+- **Latency histogram / Supplementary Fig. 3:** the current manuscript plots 13 source-linked observations from 10 reports; interval-only interface statements and non-response handling times are excluded. The auditable row-level data are in the [latency ledger](data/review/evidence_synthesis/latency_ledger.csv). The distribution is descriptive and does not pool heterogeneous endpoints.
+- **Figure 4 resource panel:** 12 representative platforms and interaction datasets are shown from a 44-entry named resource/version audit; the panel is illustrative rather than an exhaustive inventory.
+- **Denominator boundary:** the manuscript's historical 41-report catalogue and this public-v3 24-report verified seed are separate denominators and must not be added together.
 
 ## Working taxonomy
 
@@ -88,6 +92,10 @@ Existing analysis scripts and exact data snapshots are preserved. Networked retr
 The 10 September 2026 public-v3 retrospective run retrieved 11,933 source-query records and produced 6,358 deduplicated **screening candidates** across PubMed, Europe PMC and arXiv. All 84 registered source-query pairs completed with returned counts matching source-reported totals and no configured result-cap truncation. These remain workload denominators, not included studies or an estimate of field size.
 
 The manuscript evidence seed currently contains 24 representative reports with 24/24 bibliographic identities re-resolved through stable identifiers. Public-v3 retrieved 21/24 of this convenience set and 17/17 seeds coded as direct, bounded, human-mediated or assisted-sampling evidence. The generated manuscript table uses 14 selected evidence anchors. It is not the final included-study corpus. All 6,354 non-quarantined candidates are present in the title/abstract eligibility ledger; the 1,747 high/possible-signal subset is an ordering aid only. Provenance-preserving AI assessment, source-linked full-text review and accountable-author confirmation remain incomplete.
+
+## Cite this repository
+
+For reproducibility, cite the repository URL together with the frozen run identifier (`public-v3`, 10 September 2026) and the exact evidence artifact used. Preserve the run date and source ledger when reusing the quantitative summaries.
 
 ## Contributing
 
