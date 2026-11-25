@@ -9,11 +9,13 @@ A curated, reproducible research repository for **embodied intelligence in medic
 > **Frozen evidence snapshot (public-v3, 10 September 2026):** 11,933 source-query records; 6,358 deduplicated screening candidates; 24/24 identifier-verified representative seed reports; 14 selected evidence anchors. These are workflow denominators, not a final included-study corpus, prevalence estimate, or clinical-readiness claim.
 >
 > **Refresh note:** the repository snapshot is frozen by run ID for reproducibility. Discovery feeds can change as bibliographic indexes update; always cite the run date and preserve raw responses when refreshing.
+>
+> A separate weekly surveillance update is pending in [PR #16](https://github.com/undefinted/Awesome-Embodied-Diagnostics/pull/16). Its retrieval counts are workload denominators and are intentionally not mixed with the frozen public-v3 evidence snapshot above.
 
 ## Contents
 
 - [Scope and inclusion boundary](docs/SCOPE.md)
-- [Curated literature](literature/README.md)
+- [Verified evidence ledger](data/review/evidence_synthesis/verified_evidence_ledger.csv)
 - [Search and screening data](data/README.md)
 - [Reproducible code](scripts/)
 - [Daily Paper Radar](docs/DAILY_PAPER_RADAR.md)
