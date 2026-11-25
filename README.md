@@ -6,6 +6,10 @@ A curated, reproducible research repository for **embodied intelligence in medic
 
 > **Status:** working evidence-mapping repository. The literature map and quantitative results remain under active validation. Counts are research-workflow outputs, not claims of global coverage or clinical maturity.
 
+> **Frozen evidence snapshot (public-v3, 10 September 2026):** 11,933 source-query records; 6,358 deduplicated screening candidates; 24/24 identifier-verified representative seed reports; 14 selected evidence anchors. These are workflow denominators, not a final included-study corpus, prevalence estimate, or clinical-readiness claim.
+>
+> **Refresh note:** the repository snapshot is frozen by run ID for reproducibility. Discovery feeds can change as bibliographic indexes update; always cite the run date and preserve raw responses when refreshing.
+
 ## Contents
 
 - [Scope and inclusion boundary](docs/SCOPE.md)
@@ -25,6 +29,28 @@ A curated, reproducible research repository for **embodied intelligence in medic
 - [Generated results and figures](outputs/)
 - [Review/manuscript research package](archive/imported_packages/)
 - [Releases and provenance](provenance/)
+
+## Evidence snapshot
+
+The current evidence synthesis is intentionally bounded and report-level. The analysis population is a 24-report representative seed with stable-identifier checks for all 24 records; 14 reports are selected as manuscript evidence anchors. Outcome domains are multi-label, so their counts should not be added together.
+
+| Evidence view | Count | What it supports |
+|---|---:|---|
+| Source-query records | 11,933 | Retrieval workload in the frozen public-v3 run |
+| Deduplicated screening candidates | 6,358 | Title/abstract screening workload; not included studies |
+| Representative seed reports | 24 | Bounded descriptive evidence synthesis |
+| Selected manuscript anchors | 14 | Explicitly selected comparison rows |
+| Technical/acquisition outcomes | 19/24 | Most commonly coded outcome domain in the seed |
+| Diagnostic-performance outcomes | 9/24 | Diagnostic endpoint reporting in the seed |
+| Patient-benefit stage (T4) | 0/24 | No seed report demonstrated patient benefit |
+
+Source-linked breakdowns are available in [search quality](data/review/search_runs/2026-09-10-public-v3/SEARCH_QUALITY.md), [seed summary](outputs/review_evidence/summary.json), [evidence synthesis readiness](data/review/evidence_synthesis/EVIDENCE_SYNTHESIS_READINESS.md), [outcome categories](data/review/evidence_synthesis/by_outcome_category.csv), [translation stages](data/review/evidence_synthesis/by_translation_stage.csv), and the [selected-anchor table](data/review/evidence_synthesis/manuscript_table3.tex).
+
+## Manuscript crosswalk
+
+- **Main evidence table:** 14 selected anchors from the 24-report seed; report-level, reviewer-coded, and not a final systematic-review corpus.
+- **Outcome summary:** 19/24 technical or acquisition, 9/24 diagnostic performance, 7/24 analytical validity, 7/24 workflow or efficiency, 4/24 safety, 4/24 human factors, and 0/24 patient-benefit outcomes.
+- **Latency histogram / Supplementary Fig. 3:** do not use unlinked preview counts as a publication statistic. A study-level source ledger is required before reporting a numeric latency distribution.
 
 ## Working taxonomy
 
@@ -50,6 +76,9 @@ python scripts/verify_evidence_sources.py
 python scripts/audit_seed_claims.py
 python scripts/benchmark_nbe_review_tables.py
 python scripts/synthesize_review_evidence.py --manuscript-dir /path/to/overleaf-manuscript
+
+# Windows PowerShell example:
+python scripts/synthesize_review_evidence.py --manuscript-dir C:\\path\\to\\overleaf-manuscript
 ```
 
 Existing analysis scripts and exact data snapshots are preserved. Networked retrieval will change as bibliographic indexes update; freeze the query date and retain raw responses when refreshing results.
