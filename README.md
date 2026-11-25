@@ -19,6 +19,7 @@ A curated, reproducible research repository for **embodied intelligence in medic
 - [Scope and inclusion boundary](docs/SCOPE.md)
 - [Verified evidence ledger](data/review/evidence_synthesis/verified_evidence_ledger.csv)
 - [Row-level performance-table audit](data/review/evidence_synthesis/table_reported_performance_audit.csv)
+- [Manuscript denominator map](data/review/evidence_synthesis/manuscript_denominator_map.csv)
 - [Search and screening data](data/README.md)
 - [Reproducible code](scripts/)
 - [Daily Paper Radar](docs/DAILY_PAPER_RADAR.md)
@@ -57,7 +58,7 @@ Source-linked breakdowns are available in [search quality](data/review/search_ru
 - **Outcome summary:** 19/24 technical or acquisition, 9/24 diagnostic performance, 7/24 analytical validity, 7/24 workflow or efficiency, 4/24 safety, 4/24 human factors, and 0/24 patient-benefit outcomes.
 - **Latency histogram / Supplementary Fig. 3:** the current manuscript plots 13 source-linked observations from 10 reports; interval-only interface statements and non-response handling times are excluded. The auditable row-level data are in the [latency ledger](data/review/evidence_synthesis/latency_ledger.csv). The distribution is descriptive and does not pool heterogeneous endpoints.
 - **Figure 4 resource panel:** 12 representative platforms and interaction datasets are shown from a 44-entry named resource/version audit; the panel is illustrative rather than an exhaustive inventory.
-- **Denominator boundary:** the manuscript's historical 41-report catalogue and this public-v3 24-report verified seed are separate denominators and must not be added together.
+- **Denominator boundary:** the manuscript's historical 41-report catalogue and this public-v3 24-report verified seed are separate denominators and must not be added together. The [denominator map](data/review/evidence_synthesis/manuscript_denominator_map.csv) records the relationship among all five quantitative evidence products.
 
 ## Working taxonomy
 
