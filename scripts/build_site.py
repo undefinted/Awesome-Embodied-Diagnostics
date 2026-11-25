@@ -4,6 +4,7 @@ from __future__ import annotations
 import html
 import json
 import csv
+import os
 from collections import defaultdict
 from collections import Counter
 from datetime import datetime, timezone
@@ -72,7 +73,8 @@ query_data = yaml.safe_load((ROOT / "data" / "discovery_queries.yaml").read_text
 queries = query_data.get("queries", [])
 source_counts = Counter(item.get("source", "Unknown") for item in items)
 latest_year = max((str(item.get("year")) for item in items if item.get("year")), default="--")
-generated = datetime.now(timezone.utc)
+source_epoch = os.environ.get("SOURCE_DATE_EPOCH")
+generated = datetime.fromtimestamp(int(source_epoch), tz=timezone.utc) if source_epoch else datetime.now(timezone.utc)
 audit_counts = Counter(item.get("scope_status", "") for item in audited)
 review_runs = sorted((ROOT / "data" / "review" / "search_runs").glob("*/summary.json")) if (ROOT / "data" / "review" / "search_runs").exists() else []
 review_summary = json.loads(review_runs[-1].read_text(encoding="utf-8")) if review_runs else {}
