@@ -1,0 +1,6 @@
+evidence_product,population,use_and_boundary
+Historical catalogue,41 reports,"Original purposive search and coding snapshot; not a prevalence estimate."
+Public verified seed,24 reports (14 selected anchors),"Identifier-verified crosswalk used for multi-label outcome and translation-stage summaries."
+Expanded performance table,31 report-level rows,"Combines original comparison rows with later identifier-verified rows; rows are not independent cohorts."
+Resource audit,44 named resource/version entries,"Reusable platforms and datasets; distinct from study-report denominators."
+Latency audit,13 plotted observations from 10 reports,"Descriptive source-linked observations; interval-only statements and non-response handling times excluded."
