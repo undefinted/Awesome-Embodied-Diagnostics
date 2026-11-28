@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T10:08:46.276738+00:00",
-  "since": "2026-08-31T10:08:46.273549+00:00",
+  "generated_at": "2026-11-28T10:27:26.865725+00:00",
+  "since": "2026-11-25T10:27:26.860002+00:00",
   "queries": [
     {
       "id": "robotic-ultrasound",
@@ -10,7 +10,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 2
+          "records": 1
         },
         "crossref": {
           "records": 50
@@ -28,7 +28,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 2
+          "records": 0
         },
         "crossref": {
           "records": 50
@@ -43,10 +43,10 @@
       "focus": "Palpation, tactile examination, and auscultation",
       "sources": {
         "arxiv": {
-          "records": 0
+          "records": 1
         },
         "openalex": {
-          "records": 1
+          "records": 2
         },
         "crossref": {
           "records": 50
@@ -64,7 +64,7 @@
           "records": 0
         },
         "openalex": {
-          "records": 0
+          "records": 1
         },
         "crossref": {
           "records": 50
@@ -82,13 +82,13 @@
           "records": 0
         },
         "openalex": {
-          "records": 5
+          "records": 7
         },
         "crossref": {
           "records": 50
         },
         "europepmc": {
-          "records": 0
+          "records": 1
         }
       }
     },
@@ -100,7 +100,25 @@
           "records": 0
         },
         "openalex": {
-          "records": 19
+          "records": 12
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 2
+        }
+      }
+    },
+    {
+      "id": "adaptive-clinical-measurement",
+      "focus": "Adaptive clinical measurement and active examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 2
         },
         "crossref": {
           "records": 50
@@ -111,8 +129,296 @@
       }
     },
     {
-      "id": "adaptive-clinical-measurement",
-      "focus": "Adaptive clinical measurement and active examination",
+      "id": "capsule-and-luminal-robots",
+      "focus": "Capsule endoscopy and luminal diagnostic robots",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "ophthalmic-examination",
+      "focus": "Robotic ophthalmic examination and acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 20
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 5
+        }
+      }
+    },
+    {
+      "id": "dental-examination",
+      "focus": "Robotic dental examination and diagnostic acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 5
+        }
+      }
+    },
+    {
+      "id": "diagnostic-laboratory-loops",
+      "focus": "Closed-loop robotic diagnostic laboratories",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 3
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "multimodal-physical-examination",
+      "focus": "Multimodal robotic physical examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 10
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "robotic-oct-and-ophthalmic-acquisition",
+      "focus": "Robotic OCT and adaptive ophthalmic acquisition",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%22robotic+OCT%22+OR+%22robotic+optical+coherence+tomography%22+OR+%22autonomous+retinal+imaging%22+OR+%22robotic+slit+lamp%22&filter=from_publication_date%3A2026-11-25&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 50
+        }
+      }
+    },
+    {
+      "id": "stimulation-response-mapping",
+      "focus": "Closed-loop stimulation and response mapping",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 34
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 3
+        }
+      }
+    },
+    {
+      "id": "robotic-functional-examination",
+      "focus": "Robotic laxity, spasticity, and functional examination",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 24
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 7
+        }
+      }
+    },
+    {
+      "id": "robotic-swabbing-and-blood-collection",
+      "focus": "Robotic swabbing, venipuncture, and blood collection",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 50
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 19
+        }
+      }
+    },
+    {
+      "id": "adaptive-microfluidic-diagnostics",
+      "focus": "Feedback-controlled microfluidic diagnostic operations",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 21
+        }
+      }
+    },
+    {
+      "id": "autonomous-assay-development",
+      "focus": "Closed-loop autonomous assay and biotechnology development",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 1
+        }
+      }
+    },
+    {
+      "id": "wearable-triggered-testing",
+      "focus": "Wearable monitoring that triggers confirmatory testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28wearable+OR+smartwatch%29+AND+%28%22at-home+testing%22+OR+%22confirmatory+testing%22+OR+%22triggered+testing%22+OR+presymptomatic%29&filter=from_publication_date%3A2026-11-25&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "ambient-adaptive-monitoring",
+      "focus": "Ambient sensing linked to diagnostic reacquisition or escalation",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 21
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "capsule-quality-feedback",
+      "focus": "Capsule gastroscopy quality and blind-spot feedback",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28%22magnetically+controlled+capsule+gastroscopy%22+OR+%22capsule+gastroscopy%22%29+AND+%28%22quality+control%22+OR+blind-spot+OR+feedback%29&filter=from_publication_date%3A2026-11-25&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-tms-mapping",
+      "focus": "Adaptive TMS hotspot and motor-cortex mapping",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=TMS+AND+%28%22hotspot-hunting%22+OR+%22hotspot+hunting%22+OR+%22motor+cortex+mapping%22+OR+%22active+learning%22%29&filter=from_publication_date%3A2026-11-25&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-blood-and-swab",
+      "focus": "Robotic blood collection and swab systems",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=robot+AND+%28%22blood+collection%22+OR+venipuncture+OR+%22swab+robot%22+OR+%22robotic+swab%22%29&filter=from_publication_date%3A2026-11-25&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-bronchoscopy",
+      "focus": "Robotic bronchoscopy navigation and diagnostic sampling",
       "sources": {
         "arxiv": {
           "records": 0
@@ -127,11 +433,83 @@
           "records": 0
         }
       }
+    },
+    {
+      "id": "focused-feedback-microfluidics",
+      "focus": "Real-time feedback control in diagnostic microfluidics",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 11
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "focused-robotic-assessment-devices",
+      "focus": "Robotic and automated physical-assessment devices",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "records": 2
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
+    },
+    {
+      "id": "wearable-alert-confirmatory-testing",
+      "focus": "Wearable alerts linked to confirmatory ECG or diagnostic testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 5
+        }
+      }
+    },
+    {
+      "id": "ferrobotic-molecular-testing",
+      "focus": "Ferrobotic and magnetic digital microfluidic molecular testing",
+      "sources": {
+        "arxiv": {
+          "records": 0
+        },
+        "openalex": {
+          "error": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%28ferrobotic+OR+%22magnetic+digital+microfluidics%22%29+AND+%28testing+OR+diagnostic+OR+assay%29&filter=from_publication_date%3A2026-11-25&per-page=50"
+        },
+        "crossref": {
+          "records": 50
+        },
+        "europepmc": {
+          "records": 0
+        }
+      }
     }
   ],
   "summary": {
-    "retrieved": 580,
-    "passed_filter": 52,
-    "unique_inbox": 34
+    "retrieved": 1922,
+    "passed_filter": 162,
+    "unique_inbox": 99
   }
 }
